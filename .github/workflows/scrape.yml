@@ -15,6 +15,7 @@ jobs:
     - name: Fetch latest data
       run: |-
         curl https://ssen-powertrack-api.opcld.com/gridiview/reporter/info | jq . > ssen.json
+        curl 'https://www.enwl.co.uk/power-outages/search?pageSize=1000&postcodeOrReferenceNumber=&pageNumber=1&includeCurrent=true&includeResolved=false&includeTodaysPlanned=false&includeFuturePlanned=false&includeCancelledPlanned=false' | jq . > enwl.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"

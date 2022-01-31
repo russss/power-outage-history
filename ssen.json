@@ -1092,50 +1092,6 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-01-31T18:35:00.000+0000",
-      "latitude": 50.62726442489153,
-      "estimatedRestoration": "2022-01-31T20:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK3889'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK3889",
-      "Areas": [
-        {
-          "py/object": "Area",
-          "Points": [
-            {
-              "py/object": "Point",
-              "latitude": 50.62659,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.25413
-            }
-          ],
-          "name": "PO38 3JS",
-          "py/class": "http://opengrid.com/givr/1.0#//Area"
-        }
-      ],
-      "reference": "JK3889",
-      "engineerOnSiteTime": "2022-01-31T17:45:00.000+0000",
-      "name": "PO38 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "PO38 3JS"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -1.2575253193955986,
-          50.62726442489153
-        ],
-        "type": "Point"
-      },
-      "UUID": "8fed508c-0b8b-465f-99a1-b098330551ab",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.2575253193955986,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
       "loggedAt": "2022-01-31T12:39:00.000+0000",
       "latitude": 51.59024097788743,
       "estimatedRestoration": "2022-02-01T00:30:00.000+0000",
@@ -1357,7 +1313,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0285",
       "reference": "JK0285",
-      "name": "AB33 & AB31 Areas",
+      "name": "AB31 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB31 4QR",
@@ -1543,7 +1499,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0325",
       "reference": "JK0325",
-      "name": "AB52 Area",
+      "name": "AB54 & AB52 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB32 6AD",
@@ -1881,7 +1837,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0353",
       "reference": "JK0353",
-      "name": "AB54 Area",
+      "name": "AB55 & AB54 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB54 4TY",
@@ -2236,7 +2192,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0415",
       "reference": "JK0415",
-      "name": "AB41 & AB53 Areas",
+      "name": "AB53 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB41 7HS",
@@ -2744,7 +2700,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0327",
       "reference": "JK0327",
-      "name": "AB54 & AB52 Areas",
+      "name": "AB52 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB51 7QS",
@@ -3135,7 +3091,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0380",
       "reference": "JK0380",
-      "name": "AB41 & AB53 Areas",
+      "name": "AB53 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB41 7PR",
@@ -3394,13 +3350,13 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-01-29T09:49:00.000+0000",
-      "latitude": 57.332486723461585,
+      "latitude": 57.3568352544927,
       "estimatedRestoration": "2022-02-01T23:59:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0689",
       "reference": "JK0689",
-      "name": "AB51 & AB41 Areas",
+      "name": "AB41 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB32 7BA",
@@ -3408,12 +3364,26 @@
         "AB32 7DE",
         "AB32 7DR",
         "AB41",
+        "AB41 7BA",
         "AB41 7BP",
+        "AB41 7BQ",
+        "AB41 7BR",
+        "AB41 7BS",
+        "AB41 7BT",
+        "AB41 7BU",
+        "AB41 7BY",
         "AB41 7BZ",
         "AB41 7DF",
         "AB41 7DG",
         "AB41 7DH",
+        "AB41 7DJ",
+        "AB41 7DL",
+        "AB41 7DN",
+        "AB41 7DP",
+        "AB41 7DQ",
+        "AB41 7DR",
         "AB41 7DS",
+        "AB41 7DT",
         "AB41 7DU",
         "AB41 7DX",
         "AB41 7DY",
@@ -3434,6 +3404,20 @@
         "AB41 7HB",
         "AB41 7HD",
         "AB41 7HE",
+        "AB41 7HN",
+        "AB41 7HP",
+        "AB41 7HQ",
+        "AB41 7HR",
+        "AB41 7HS",
+        "AB41 7HT",
+        "AB41 7HU",
+        "AB41 7JB",
+        "AB41 7JD",
+        "AB41 7JE",
+        "AB41 7JH",
+        "AB41 7JJ",
+        "AB41 7JS",
+        "AB41 7JT",
         "AB41 7NB",
         "AB41 7ND",
         "AB41 7NS",
@@ -3442,6 +3426,7 @@
         "AB41 7TJ",
         "AB41 7TL",
         "AB41 7TN",
+        "AB41 7TP",
         "AB41 7TR",
         "AB41 7TS",
         "AB41 7TT",
@@ -3510,6 +3495,8 @@
         "AB51 5RL",
         "AB51 5RR",
         "AB51 5TL",
+        "AB53 6TN",
+        "AB53 8NY",
         "AB53 8PP",
         "AB53 8PQ",
         "AB53 8PR",
@@ -3522,8 +3509,8 @@
       "location": {
         "__json": true,
         "coordinates": [
-          -2.29960185800523,
-          57.332486723461585
+          -2.285772679340175,
+          57.3568352544927
         ],
         "type": "Point"
       },
@@ -3537,7 +3524,7 @@
         "fcfb5080-b2b9-4da3-b36d-ea3a4b6bebf7",
         "17b2522a-8e04-48c7-ad73-8f1854445b9b"
       ],
-      "longitude": -2.29960185800523,
+      "longitude": -2.285772679340175,
       "resolved": false
     },
     {
@@ -4052,7 +4039,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0874",
       "reference": "JK0874",
-      "name": "AB34 & AB31 Areas",
+      "name": "AB51 & AB31 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB15 9TH",
@@ -4229,7 +4216,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0702",
       "reference": "JK0702",
-      "name": "AB41 & AB42 Areas",
+      "name": "AB42 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB24 4LZ",
@@ -4505,7 +4492,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1028",
       "reference": "JK1028",
-      "name": "AB34 & AB31 Areas",
+      "name": "AB31 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB31 4BN",
@@ -4906,7 +4893,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1119",
       "reference": "JK1119",
-      "name": "AB15 Area",
+      "name": "AB13 & AB15 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB13 0EJ",
@@ -4952,7 +4939,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1121",
       "reference": "JK1121",
-      "name": "AB22 Area",
+      "name": "AB21 & AB22 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB21 0HW",
@@ -5219,7 +5206,7 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-01-29T11:26:00.000+0000",
-      "latitude": 57.205229061868245,
+      "latitude": 57.20644689000501,
       "estimatedRestoration": "2022-02-01T23:59:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "HV",
@@ -5228,21 +5215,14 @@
       "name": "AB21 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "AB21 0BP",
-        "AB21 0BU",
-        "AB21 0PS",
         "AB21 0RY",
-        "AB21 0RZ",
-        "AB21 0SQ",
-        "AB21 0SX",
-        "AB21 0XN",
-        "AB21 0ZR"
+        "AB21 0RZ"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -2.294596932115277,
-          57.205229061868245
+          -2.300019423123151,
+          57.20644689000501
         ],
         "type": "Point"
       },
@@ -5253,7 +5233,7 @@
         "8a9c3a48-c6d6-4959-a282-8169ec85bf83",
         "cb38458d-d2cf-4742-bc27-83c2dccc0398"
       ],
-      "longitude": -2.294596932115277,
+      "longitude": -2.300019423123151,
       "resolved": false
     },
     {
@@ -5520,7 +5500,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1192",
       "reference": "JK1192",
-      "name": "AB54 Area",
+      "name": "AB53 & AB54 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB53 4BD",
@@ -6099,7 +6079,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1520",
       "reference": "JK1520",
-      "name": "AB51 & AB21 Areas",
+      "name": "AB41 & AB51 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB21 0QL",
@@ -6347,7 +6327,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1866",
       "reference": "JK1866",
-      "name": "AB51 Area",
+      "name": "AB32 & AB51 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB32 7EB",
@@ -6684,7 +6664,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1975",
       "reference": "JK1975",
-      "name": "AB51 Area",
+      "name": "AB33 & AB51 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB33 8DN",
@@ -6890,7 +6870,7 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-01-30T12:00:00.000+0000",
-      "latitude": 57.399541601489496,
+      "latitude": 57.419115280365126,
       "estimatedRestoration": "2022-01-31T23:59:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "HV",
@@ -6899,28 +6879,15 @@
       "name": "AB42 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "AB15 9PA",
-        "AB42 0LW",
-        "AB42 0LZ",
-        "AB42 0NF",
-        "AB42 0NL",
         "AB42 0NN",
-        "AB42 0PE",
-        "AB42 0PF",
-        "AB42 0QF",
-        "AB42 0QG",
-        "AB42 0QW",
-        "AB42 0QZ",
-        "AB42 0RF",
-        "AB42 0RP",
-        "AB42 0SL",
-        "AB42 0SN"
+        "AB42 0NQ",
+        "AB42 0RF"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -1.8851373887829004,
-          57.399541601489496
+          -1.8590711110296798,
+          57.419115280365126
         ],
         "type": "Point"
       },
@@ -6932,7 +6899,7 @@
         "adf9e242-43aa-42e3-a624-ed98760503c1",
         "2bc8e25b-b2d4-4a3f-bc6b-24e40fd21640"
       ],
-      "longitude": -1.8851373887829004,
+      "longitude": -1.8590711110296798,
       "resolved": false
     },
     {
@@ -7175,7 +7142,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2228",
       "reference": "JK2228",
-      "name": "PH24 & PH26 Areas",
+      "name": "PH26 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "PH21 1NE",
@@ -7498,7 +7465,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2513",
       "reference": "JK2513",
-      "name": "AB51 Area",
+      "name": "AB41 & AB51 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB41 7EB",
@@ -7882,7 +7849,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2700",
       "reference": "JK2700",
-      "name": "IV2 & IV8 Areas",
+      "name": "IV8 & IV1 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV1 1XF",
@@ -8472,39 +8439,6 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
-      "loggedAt": "2022-01-30T21:39:00.000+0000",
-      "latitude": 56.8052948233162,
-      "estimatedRestoration": "2022-02-01T23:59:00.000+0000",
-      "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2797",
-      "reference": "JK2797",
-      "name": "PH10 Area",
-      "networkId": "com.sse.ssepd.shepd",
-      "affectedAreas": [
-        "PH10 7QB",
-        "PH10 7QD",
-        "PH10 7QE",
-        "PH10 7QF",
-        "PH10 7QG"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -3.451491730379095,
-          56.8052948233162
-        ],
-        "type": "Point"
-      },
-      "UUID": "654f343f-15d8-4227-a32d-7354d6821d45",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.451491730379095,
-      "resolved": false
-    },
-    {
-      "customIncludeDefault": false,
-      "py/object": "Fault",
       "loggedAt": "2022-01-31T07:36:00.000+0000",
       "latitude": 57.37907884234895,
       "estimatedRestoration": "2022-02-01T23:59:00.000+0000",
@@ -8982,7 +8916,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2852",
       "reference": "JK2852",
-      "name": "DD10 Area",
+      "name": "AB39 & DD10 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB39 2TY",
@@ -9314,24 +9248,17 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-01-30T23:17:00.000+0000",
-      "latitude": 56.76839245869936,
+      "latitude": 56.76130500065394,
       "estimatedRestoration": "2022-01-31T23:59:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2870",
       "reference": "JK2870",
-      "name": "AB30 & DD9 Areas",
+      "name": "DD9 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "AB30 1QJ",
-        "AB30 1QN",
-        "AB30 1QP",
         "AB30 1QQ",
         "AB30 1QR",
-        "AB30 1QS",
-        "DD10 9JX",
-        "DD10 9JY",
-        "DD10 9LA",
         "DD10 9LP",
         "DD10 9LR",
         "DD9 7PH",
@@ -9345,8 +9272,8 @@
       "location": {
         "__json": true,
         "coordinates": [
-          -2.584427901204739,
-          56.76839245869936
+          -2.6031443956187603,
+          56.76130500065394
         ],
         "type": "Point"
       },
@@ -9354,7 +9281,7 @@
       "UUID": "6db7a62c-5776-4f10-b23c-1670f71680de",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.584427901204739,
+      "longitude": -2.6031443956187603,
       "resolved": false
     },
     {
@@ -9408,7 +9335,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2877",
       "reference": "JK2877",
-      "name": "DD9 & DD10 Areas",
+      "name": "AB30 & DD10 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB30",
@@ -10136,7 +10063,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2911",
       "reference": "JK2911",
-      "name": "AB30 Area",
+      "name": "AB39 & AB30 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB30 1LA",
@@ -11235,7 +11162,7 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-01-30T19:15:00.000+0000",
-      "latitude": 56.92468707191037,
+      "latitude": 56.91686999603168,
       "estimatedRestoration": "2022-02-01T23:59:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "HV",
@@ -11246,9 +11173,7 @@
       "affectedAreas": [
         "AB30 1LP",
         "AB30 1LQ",
-        "AB39 2ST",
         "AB39 2TE",
-        "AB39 2TJ",
         "AB39 2TL",
         "AB39 2TN",
         "AB39 2TP",
@@ -11264,32 +11189,27 @@
         "AB39 2UE",
         "AB39 2UH",
         "AB39 2UJ",
-        "AB39 2XN",
         "AB39 2XP",
-        "AB39 2XQ",
         "AB39 2XR",
         "AB39 2XS",
         "AB39 2XT",
         "AB39 2XU",
         "AB39 2XX",
         "AB39 2XY",
-        "AB39 3XH",
-        "AB39 3XQ",
-        "AB39 3XX",
         "DD10 0TQ"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -2.2478614190505466,
-          56.92468707191037
+          -2.2531146565212334,
+          56.91686999603168
         ],
         "type": "Point"
       },
       "UUID": "b6a32a18-4393-4a07-8cbc-612486d56cee",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.2478614190505466,
+      "longitude": -2.2531146565212334,
       "resolved": false
     },
     {
@@ -13317,7 +13237,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-01-31T08:25:00.000+0000",
       "latitude": 57.4502279938836,
-      "estimatedRestoration": "2022-01-31T18:30:00.000+0000",
+      "estimatedRestoration": "2022-02-01T23:59:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK3105",
@@ -13481,7 +13401,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2851",
       "reference": "JK2851",
-      "name": "AB30 & AB39 Areas",
+      "name": "AB39 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB30 1TX",
@@ -13536,7 +13456,7 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
-      "loggedAt": "2022-01-31T15:34:00.000+0000",
+      "loggedAt": "2022-01-31T15:24:00.000+0000",
       "latitude": 57.23385543341032,
       "estimatedRestoration": "2022-01-31T19:15:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
@@ -13600,9 +13520,9 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
-      "loggedAt": "2022-01-31T14:17:00.000+0000",
+      "loggedAt": "2022-01-29T10:58:00.000+0000",
       "latitude": 57.06099495222533,
-      "estimatedRestoration": "2022-01-31T19:15:00.000+0000",
+      "estimatedRestoration": "2022-02-01T23:59:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK3709",
@@ -13636,7 +13556,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-01-31T12:24:00.000+0000",
       "latitude": 57.10625336135945,
-      "estimatedRestoration": "2022-01-31T19:45:00.000+0000",
+      "estimatedRestoration": "2022-02-01T23:59:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK3484",
@@ -13757,7 +13677,7 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-01-31T17:35:00.000+0000",
-      "latitude": 57.27928753923771,
+      "latitude": 57.281762254916906,
       "estimatedRestoration": "2022-01-31T23:59:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "HV",
@@ -13795,23 +13715,20 @@
         "PH23 3BX",
         "PH23 3DA",
         "PH23 3NA",
-        "PH24 3BT",
-        "PH24 3BU",
-        "PH24 3BX",
-        "PH24 3BY"
+        "PH24 3BU"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -3.8110232844722796,
-          57.27928753923771
+          -3.8175983712130113,
+          57.281762254916906
         ],
         "type": "Point"
       },
       "UUID": "1dc0eded-5117-46e2-b7d2-ea8683b609c1",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.8110232844722796,
+      "longitude": -3.8175983712130113,
       "resolved": false
     },
     {
@@ -14461,6 +14378,165 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -3.067993187782255,
+      "resolved": false
+    },
+    {
+      "customIncludeDefault": false,
+      "py/object": "Fault",
+      "loggedAt": "2022-01-31T15:50:00.000+0000",
+      "latitude": 58.13325237232356,
+      "estimatedRestoration": "2022-01-31T22:20:00.000+0000",
+      "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK3888",
+      "reference": "JK3888",
+      "name": "HS2 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "HS2 9NP"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -6.429073519592254,
+          58.13325237232356
+        ],
+        "type": "Point"
+      },
+      "UUID": "06c44f5b-de30-4770-b4b2-4fc77677b67d",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -6.429073519592254,
+      "resolved": false
+    },
+    {
+      "customIncludeDefault": false,
+      "py/object": "Fault",
+      "loggedAt": "2022-01-30T23:43:00.000+0000",
+      "latitude": 56.9001951621416,
+      "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK4133",
+      "reference": "JK4133",
+      "name": "AB30 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "AB30 1LA",
+        "AB30 1LB",
+        "AB30 1LD",
+        "AB30 1LR",
+        "AB30 1LS",
+        "AB30 1NS",
+        "AB30 1NT",
+        "AB30 1NX",
+        "AB30 1PJ",
+        "AB30 1PL",
+        "AB30 1TL",
+        "AB30 1TN",
+        "AB30 1TP",
+        "AB30 1TQ",
+        "AB30 1TR",
+        "AB30 1TS",
+        "AB30 1TT",
+        "AB30 1TX",
+        "AB30 1UJ"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -2.409588856236225,
+          56.9001951621416
+        ],
+        "type": "Point"
+      },
+      "UUID": "5d4b99fc-d8fb-40ec-b368-36f7d603e1a9",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.409588856236225,
+      "resolved": false
+    },
+    {
+      "customIncludeDefault": false,
+      "py/object": "Fault",
+      "loggedAt": "2022-01-31T19:29:00.000+0000",
+      "latitude": 57.20746009408442,
+      "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK4134",
+      "reference": "JK4134",
+      "name": "AB33 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "AB31 4SA",
+        "AB31 4SB",
+        "AB31 4SD",
+        "AB33 8AA",
+        "AB33 8BH",
+        "AB33 8JU",
+        "AB33 8LA",
+        "AB33 8LB",
+        "AB33 8LD",
+        "AB33 8LE",
+        "AB33 8LH",
+        "AB33 8LJ",
+        "AB33 8LL",
+        "AB33 8LN",
+        "AB33 8LP",
+        "AB33 8LQ",
+        "AB33 8LR",
+        "AB33 8LS",
+        "AB33 8PH",
+        "AB33 8PJ",
+        "AB33 8PL",
+        "AB33 8QS",
+        "AB33 8QT",
+        "AB33 8QU",
+        "AB33 8QX",
+        "AB33 8QY",
+        "AB33 8RA",
+        "AB33 8RB",
+        "AB33 8RD",
+        "AB33 8RE",
+        "AB33 8RH",
+        "AB33 8RJ",
+        "AB33 8RL",
+        "AB33 8RP",
+        "AB33 8RQ",
+        "AB33 8RR",
+        "AB33 8RS",
+        "AB33 8RT",
+        "AB33 8RU",
+        "AB33 8RX",
+        "AB33 8RZ",
+        "AB33 8SA",
+        "AB33 8SB",
+        "AB33 8SE",
+        "AB33 8SH",
+        "AB33 8SJ",
+        "AB33 8SR",
+        "AB33 8SS",
+        "AB33 8ST",
+        "AB33 8SX",
+        "AB33 8SY",
+        "AB33 8TA",
+        "AB33 8TB",
+        "AB33 8TD",
+        "AB33 8TR",
+        "AB34 4TL",
+        "AB34 4TN"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -2.855119143599635,
+          57.20746009408442
+        ],
+        "type": "Point"
+      },
+      "UUID": "6bc4bfa3-e750-4b7b-8761-7e860d6e37d2",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.855119143599635,
       "resolved": false
     }
   ]

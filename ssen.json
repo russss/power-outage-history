@@ -3734,7 +3734,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0915",
       "reference": "JK0915",
-      "name": "AB41 & AB23 Areas",
+      "name": "AB23 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB21 0PW",
@@ -6337,7 +6337,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1701",
       "reference": "JK1701",
-      "name": "IV26 Area",
+      "name": "IV27 & IV26 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV14 9EB",
@@ -7086,7 +7086,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1975",
       "reference": "JK1975",
-      "name": "AB33 & AB51 Areas",
+      "name": "AB51 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB33 8DN",
@@ -7536,7 +7536,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2170",
       "reference": "JK2170",
-      "name": "AB21 Area",
+      "name": "AB51 & AB21 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB21 0SA",
@@ -7941,7 +7941,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2421",
       "reference": "JK2421",
-      "name": "IV49 & PA24 Areas",
+      "name": "PA24 & IV47 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV47 8SD",
@@ -8339,7 +8339,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2572",
       "reference": "JK2572",
-      "name": "IV14 Area",
+      "name": "IV15 & IV14 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV14 9AA",
@@ -8885,7 +8885,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2712",
       "reference": "JK2712",
-      "name": "IV17 & IV16 Areas",
+      "name": "IV16 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV16 9AD",
@@ -9070,7 +9070,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2700",
       "reference": "JK2700",
-      "name": "IV8 & IV1 Areas",
+      "name": "IV1 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV1 1XF",
@@ -9352,7 +9352,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2760",
       "reference": "JK2760",
-      "name": "PH26 & IV36 Areas",
+      "name": "IV36 & PH26 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV36",
@@ -9510,7 +9510,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2774",
       "reference": "JK2774",
-      "name": "AB33 & AB54 Areas",
+      "name": "AB54 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB31 4SA",
@@ -10161,7 +10161,7 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-01-30T21:53:00.000+0000",
-      "latitude": 57.63298991289426,
+      "latitude": 57.63212214897392,
       "estimatedRestoration": "2022-02-01T23:59:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "HV",
@@ -10170,11 +10170,7 @@
       "name": "IV32 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "IV30 5NZ",
-        "IV30 5PG",
-        "IV30 5PH",
         "IV30 5ST",
-        "IV30 8BW",
         "IV30 8LR",
         "IV32",
         "IV32 7AB",
@@ -10303,15 +10299,19 @@
       "location": {
         "__json": true,
         "coordinates": [
-          -3.1172824303462936,
-          57.63298991289426
+          -3.1117794086822976,
+          57.63212214897392
         ],
         "type": "Point"
       },
       "UUID": "43b03a26-149c-4d93-a887-75abb0f04ae7",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.1172824303462936,
+      "evChargersAffected": [
+        "23816258-84a8-4a9b-8f3b-96a2c1eb3c44",
+        "fd32b853-f52f-4850-b87e-512e2f7cc9b4"
+      ],
+      "longitude": -3.1117794086822976,
       "resolved": false
     },
     {
@@ -11321,7 +11321,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2870",
       "reference": "JK2870",
-      "name": "DD9 Area",
+      "name": "AB30 & DD9 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB30 1QJ",
@@ -11367,7 +11367,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2873",
       "reference": "JK2873",
-      "name": "PH13 & PH10 Areas",
+      "name": "PH10 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "PH10 6QP",
@@ -11575,7 +11575,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2877",
       "reference": "JK2877",
-      "name": "DD9 & DD10 Areas",
+      "name": "AB30 & DD10 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB30",
@@ -12250,7 +12250,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2800",
       "reference": "JK2800",
-      "name": "PH1 & PH10 Areas",
+      "name": "PH8 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "PH1 4LQ",
@@ -12311,7 +12311,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2901",
       "reference": "JK2901",
-      "name": "IV9 Area",
+      "name": "IV7 & IV8 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV1 3XD",
@@ -12469,7 +12469,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-01-30T21:15:00.000+0000",
       "latitude": 56.47927289393782,
-      "estimatedRestoration": "2022-01-31T07:00:00.000+0000",
+      "estimatedRestoration": "2022-01-31T10:00:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2775",
@@ -13029,7 +13029,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2916",
       "reference": "JK2916",
-      "name": "DD10 & AB39 Areas",
+      "name": "AB30 & AB39 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB",
@@ -14989,6 +14989,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-01-31T05:27:00.000+0000",
       "latitude": 58.5607471205644,
+      "estimatedRestoration": "2022-02-01T23:59:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK2983",

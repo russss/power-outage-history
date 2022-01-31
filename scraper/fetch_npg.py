@@ -1,5 +1,7 @@
 """ Fetch Northern Powergrid outage data """
 import requests
+import json
+import sys
 
 s = requests.session()
 s.headers.update({
@@ -20,4 +22,4 @@ res = s.post('https://www.northernpowergrid.com/powercutsgetallbyincno', data={
     'authenticityToken': at
 })
 res.raise_for_status()
-print(res.json())
+json.dump(json.loads(res.json()['data']), sys.stdout)

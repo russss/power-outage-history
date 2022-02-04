@@ -363,6 +363,100 @@
       "resolved": false
     },
     {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-03T23:38:00.000+0000",
+      "latitude": 51.35526346009167,
+      "estimatedRestoration": "2022-02-04T02:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK7399'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK7399",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.36329,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.92191
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36982,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.91455
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.35526346009167,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.9161336756563726
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.33188,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.9111
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36329,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.92191
+            }
+          ],
+          "subCodes": [
+            "RG27 0JW",
+            "RG27 0RJ",
+            "RG7 1UR"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JK7399",
+      "name": "RG7 & RG27 Areas",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG27 0JW",
+        "RG27 0RJ",
+        "RG7 1UR"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -0.92191,
+              51.36329
+            ],
+            [
+              -0.91455,
+              51.36982
+            ],
+            [
+              -0.9161336756563726,
+              51.35526346009167
+            ],
+            [
+              -0.9111,
+              51.33188
+            ],
+            [
+              -0.92191,
+              51.36329
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-02-04T00:05:00.000+0000",
+      "UUID": "09758f1f-118d-4d07-9667-7460157b568c",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.9161336756563726,
+      "resolved": false
+    },
+    {
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-01-29T07:49:00.000+0000",

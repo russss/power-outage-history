@@ -88,7 +88,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-02-05T12:58:00.000+0000",
       "latitude": 51.441224634552135,
-      "estimatedRestoration": "2022-02-05T22:00:00.000+0000",
+      "estimatedRestoration": "2022-02-05T23:59:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK8540'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK8540",
@@ -403,34 +403,136 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-05T11:13:00.000+0000",
-      "latitude": 58.28194674069971,
-      "estimatedRestoration": "2022-02-05T20:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK8333'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK8333",
-      "reference": "JK8333",
-      "name": "HS2 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "loggedAt": "2022-02-05T18:10:00.000+0000",
+      "latitude": 51.63312273625794,
+      "estimatedRestoration": "2022-02-05T23:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK8548'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK8548",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.63338,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.74962
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63415,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.7495
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63574,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.74854
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63312273625794,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.738160033426483
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.6332,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.6906
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.62629,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.72069
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63329,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.74889
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63338,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.74962
+            }
+          ],
+          "subCodes": [
+            "HP10 8LY",
+            "HP13 6SR",
+            "HP13 6SX",
+            "HP13 6SZ",
+            "HP13 6TB",
+            "HP13 6TE",
+            "HP13 6TF",
+            "HP13 7TJ"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JK8548",
+      "engineerOnSiteTime": "2022-02-05T19:15:00.000+0000",
+      "name": "HP13 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "HS2 9AG",
-        "HS2 9AP",
-        "HS2 9AW",
-        "HS2 9AX"
+        "HP10 8LY",
+        "HP13 6SR",
+        "HP13 6SX",
+        "HP13 6SZ",
+        "HP13 6TB",
+        "HP13 6TE",
+        "HP13 6TF",
+        "HP13 7TJ"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -6.774109103839804,
-          58.28194674069971
+          [
+            [
+              -0.74962,
+              51.63338
+            ],
+            [
+              -0.7495,
+              51.63415
+            ],
+            [
+              -0.74854,
+              51.63574
+            ],
+            [
+              -0.738160033426483,
+              51.63312273625794
+            ],
+            [
+              -0.6906,
+              51.6332
+            ],
+            [
+              -0.72069,
+              51.62629
+            ],
+            [
+              -0.74889,
+              51.63329
+            ],
+            [
+              -0.74962,
+              51.63338
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
-      "estimatedArrivalOnSiteTime": "2022-02-05T11:30:00.000+0000",
-      "UUID": "c7866f53-9eeb-452a-a0e2-db125216e77d",
+      "UUID": "4d00f4f3-9d0f-457d-872f-54cb9547c31b",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -6.774109103839804,
+      "longitude": -0.738160033426483,
       "resolved": false
     },
     {

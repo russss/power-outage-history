@@ -94,7 +94,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/205646",
       "reference": "205646",
-      "name": "BH21 & DT11 Areas",
+      "name": "DT11 & BH21 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH21 3QZ",
@@ -227,49 +227,6 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.8087316358276926,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
-      "loggedAt": "2022-02-07T12:30:00.000+0000",
-      "latitude": 51.10957935487731,
-      "estimatedRestoration": "2022-02-07T16:30:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '205190'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "type": "PSI",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/205190",
-      "Areas": [
-        {
-          "py/object": "Area",
-          "Points": [
-            {
-              "py/object": "Point",
-              "latitude": 51.11176,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -2.24403
-            }
-          ],
-          "name": "BA12 6AT",
-          "py/class": "http://opengrid.com/givr/1.0#//Area"
-        }
-      ],
-      "reference": "205190",
-      "name": "BA12 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "BA12 6AT"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -2.2485707737544645,
-          51.10957935487731
-        ],
-        "type": "Point"
-      },
-      "UUID": "d15f73ec-4ea2-4b1b-ab3f-1ddbe30343af",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.2485707737544645,
       "resolved": false
     },
     {
@@ -512,50 +469,6 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-07T14:11:00.000+0000",
-      "latitude": 51.07834868205489,
-      "estimatedRestoration": "2022-02-07T16:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9330'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9330",
-      "Areas": [
-        {
-          "py/object": "Area",
-          "Points": [
-            {
-              "py/object": "Point",
-              "latitude": 51.07834,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.81926
-            }
-          ],
-          "name": "SP2 9BN",
-          "py/class": "http://opengrid.com/givr/1.0#//Area"
-        }
-      ],
-      "reference": "JK9330",
-      "name": "SP2 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "SP2 9BN"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -1.8192589073944414,
-          51.07834868205489
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2022-02-07T10:00:00.000+0000",
-      "UUID": "6b6bbe77-4cdf-41e1-bdfc-13e76a3b4878",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.8192589073944414,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
       "loggedAt": "2022-02-07T15:50:00.000+0000",
       "latitude": 50.7315236226819,
       "estimatedRestoration": "2022-02-07T19:00:00.000+0000",
@@ -689,6 +602,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-02-07T17:15:00.000+0000",
       "UUID": "faa2c3e1-bec9-4bf5-9c81-d74e235ae8b4",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -697,120 +611,1367 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-06T09:22:00.000+0000",
-      "latitude": 50.84339001059418,
-      "estimatedRestoration": "2022-02-07T19:15:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK8822'",
+      "loggedAt": "2022-02-07T09:40:00.000+0000",
+      "latitude": 51.40494491919706,
+      "estimatedRestoration": "2022-02-07T21:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9416'",
       "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK8822",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9416",
       "Areas": [
         {
           "py/object": "Area",
           "Points": [
             {
               "py/object": "Point",
-              "latitude": 50.84165,
+              "latitude": 51.40398,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.93114
+              "longitude": -1.0753
             },
             {
               "py/object": "Point",
-              "latitude": 50.84373,
+              "latitude": 51.40638,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.93082
+              "longitude": -1.07169
             },
             {
               "py/object": "Point",
-              "latitude": 50.84545,
+              "latitude": 51.40449,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.93036
+              "longitude": -1.0666
             },
             {
               "py/object": "Point",
-              "latitude": 50.84625,
+              "latitude": 51.40398,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.92949
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.84057,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.92921
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.84165,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.93114
+              "longitude": -1.0753
             }
           ],
           "subCodes": [
-            "PO10 8AU",
-            "PO10 8BA",
-            "PO10 8BD",
-            "PO10 8BP",
-            "PO10 8BS",
-            "PO10 8BT",
-            "PO10 8BU",
-            "PO10 8BW",
-            "PO10 8BZ",
-            "PO10 8XD"
+            "RG7 4ED",
+            "RG7 4EE",
+            "RG7 4EF"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
         }
       ],
-      "reference": "JK8822",
-      "engineerOnSiteTime": "2022-02-07T12:00:00.000+0000",
-      "name": "PO10 Area",
+      "reference": "JK9416",
+      "engineerOnSiteTime": "2022-02-07T10:30:00.000+0000",
+      "name": "RG7 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "PO10 8AU",
-        "PO10 8BA",
-        "PO10 8BD",
-        "PO10 8BP",
-        "PO10 8BS",
-        "PO10 8BT",
-        "PO10 8BU",
-        "PO10 8BW",
-        "PO10 8BZ",
-        "PO10 8XD"
+        "RG7 4ED",
+        "RG7 4EE",
+        "RG7 4EF"
       ],
       "location": {
         "__json": true,
         "coordinates": [
           [
             [
-              -0.93114,
-              50.84165
+              -1.0753,
+              51.40398
             ],
             [
-              -0.93082,
-              50.84373
+              -1.07169,
+              51.40638
             ],
             [
-              -0.93036,
-              50.84545
+              -1.0666,
+              51.40449
             ],
             [
-              -0.92949,
-              50.84625
-            ],
-            [
-              -0.92921,
-              50.84057
-            ],
-            [
-              -0.93114,
-              50.84165
+              -1.0753,
+              51.40398
             ]
           ]
         ],
         "type": "Polygon"
       },
-      "UUID": "51045b09-5646-41d4-83be-6f482f9f8303",
+      "UUID": "fc4a961f-9e7a-46c5-8e93-1e2003c0179d",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.9300090488878496,
+      "longitude": -1.071206450439623,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-07T16:44:00.000+0000",
+      "latitude": 51.3541050568267,
+      "estimatedRestoration": "2022-02-07T20:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9754'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9754",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.46093,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.11524
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36312,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.06238
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.3636,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.05338
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36911,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.03428
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36566,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.02048
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36612,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.00583
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36798,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.99645
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.34906,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.99262
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.34208,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.00388
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.34239,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.01012
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.34424,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.02556
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.33741,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.04318
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.33424,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.04476
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.33068,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.04651
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.32799,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.04853
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29329,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.01553
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.28893,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.0049
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.28666,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.00387
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.28432,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.05218
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.32798,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.05293
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.32995,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.05306
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.34148,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.0489
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.35306,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.04756
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.3571,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.06744
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.35848,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.06733
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.46093,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.11524
+            }
+          ],
+          "subCodes": [
+            "SN10 1BF",
+            "SN10 1NW",
+            "SN10 1PG",
+            "SN10 1PH",
+            "SN10 1PJ",
+            "SN10 1PL",
+            "SN10 1PN",
+            "SN10 1PP",
+            "SN10 1PQ",
+            "SN10 1PR",
+            "SN10 1PS",
+            "SN10 1PT",
+            "SN10 1PW",
+            "SN10 1PY",
+            "SN10 1PZ",
+            "SN10 1QA",
+            "SN10 1QB",
+            "SN10 1QD",
+            "SN10 1QE",
+            "SN10 1QF",
+            "SN10 1QG",
+            "SN10 1QH",
+            "SN10 1QJ",
+            "SN10 1QQ",
+            "SN10 1QR",
+            "SN10 1QS",
+            "SN10 1QT",
+            "SN10 1QW",
+            "SN10 1RA",
+            "SN10 1RB",
+            "SN10 1RD",
+            "SN10 1RE",
+            "SN10 1RF",
+            "SN10 1RG",
+            "SN10 1RJ",
+            "SN10 1RL",
+            "SN10 1RP",
+            "SN10 1RQ",
+            "SN10 1RR",
+            "SN10 1RS",
+            "SN10 1RT",
+            "SN10 1RU",
+            "SN10 1RW",
+            "SN10 1RX",
+            "SN10 1RY",
+            "SN10 1RZ",
+            "SN10 1SA",
+            "SN10 1SB",
+            "SN10 1SD",
+            "SN10 1SS",
+            "SN10 1ST",
+            "SN10 1SY",
+            "SN10 1SZ",
+            "SN10 1TA",
+            "SN10 1TD",
+            "SN10 1UB",
+            "SN10 1XA",
+            "SN10 2AH",
+            "SN10 2AN",
+            "SN10 2AP",
+            "SN10 2AR",
+            "SN10 2AT",
+            "SN10 2AU",
+            "SN10 2AY",
+            "SN10 2BA",
+            "SN10 2BB",
+            "SN10 2BD",
+            "SN10 2BF",
+            "SN10 2BG",
+            "SN10 2BQ",
+            "SN10 2GX",
+            "SN10 2JD",
+            "SN10 2JE",
+            "SN10 2JF",
+            "SN10 2LU",
+            "SN10 2LX",
+            "SN10 2LY",
+            "SN10 2LZ",
+            "SN10 2NA",
+            "SN10 2NB",
+            "SN10 2ND",
+            "SN10 2NE",
+            "SN10 2NF",
+            "SN10 2NG",
+            "SN10 2NH",
+            "SN10 2NJ",
+            "SN10 2NN",
+            "SN10 2NP",
+            "SN10 2NQ",
+            "SN10 2NR",
+            "SN10 2NS",
+            "SN10 2NT",
+            "SN10 2NU",
+            "SN10 2NW",
+            "SN10 2NX",
+            "SN10 2NY",
+            "SN10 2NZ",
+            "SN10 2PA",
+            "SN10 2PB",
+            "SN10 2PD",
+            "SN10 2PE",
+            "SN10 2PF",
+            "SN10 2PG",
+            "SN10 2PH",
+            "SN10 2PJ",
+            "SN10 2PL",
+            "SN10 2PN",
+            "SN10 2PP",
+            "SN10 2PQ",
+            "SN10 2PR",
+            "SN10 2PS",
+            "SN10 2PT",
+            "SN10 2PU",
+            "SN10 2PW",
+            "SN10 2PX",
+            "SN10 2PY",
+            "SN10 2PZ",
+            "SN10 2QA",
+            "SN10 2QB",
+            "SN10 2QD",
+            "SN10 2QE",
+            "SN10 2QF",
+            "SN10 2QG",
+            "SN10 2QH",
+            "SN10 2QL",
+            "SN10 2QN",
+            "SN10 2QP",
+            "SN10 2QQ",
+            "SN10 2QR",
+            "SN10 2QT",
+            "SN10 2QW",
+            "SN10 4EN",
+            "SN10 4ES",
+            "SN10 5HA",
+            "SN10 5HD",
+            "SN10 5HE",
+            "SN10 5HS",
+            "SN10 5JP",
+            "SN10 5JR",
+            "SN10 5JS",
+            "SN10 5JW",
+            "SN10 5TB",
+            "SN10 5TF",
+            "SN10 5TX",
+            "SN10 5XP",
+            "SN12 6RR",
+            "SN12 6RS",
+            "SN15 9YD"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JK9754",
+      "name": "SN10 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SN10 1BF",
+        "SN10 1HB",
+        "SN10 1NW",
+        "SN10 1PG",
+        "SN10 1PH",
+        "SN10 1PJ",
+        "SN10 1PL",
+        "SN10 1PN",
+        "SN10 1PP",
+        "SN10 1PQ",
+        "SN10 1PR",
+        "SN10 1PS",
+        "SN10 1PT",
+        "SN10 1PW",
+        "SN10 1PY",
+        "SN10 1PZ",
+        "SN10 1QA",
+        "SN10 1QB",
+        "SN10 1QD",
+        "SN10 1QE",
+        "SN10 1QF",
+        "SN10 1QG",
+        "SN10 1QH",
+        "SN10 1QJ",
+        "SN10 1QQ",
+        "SN10 1QR",
+        "SN10 1QS",
+        "SN10 1QT",
+        "SN10 1QW",
+        "SN10 1RA",
+        "SN10 1RB",
+        "SN10 1RD",
+        "SN10 1RE",
+        "SN10 1RF",
+        "SN10 1RG",
+        "SN10 1RJ",
+        "SN10 1RL",
+        "SN10 1RP",
+        "SN10 1RQ",
+        "SN10 1RR",
+        "SN10 1RS",
+        "SN10 1RT",
+        "SN10 1RU",
+        "SN10 1RW",
+        "SN10 1RX",
+        "SN10 1RY",
+        "SN10 1RZ",
+        "SN10 1SA",
+        "SN10 1SB",
+        "SN10 1SD",
+        "SN10 1SS",
+        "SN10 1ST",
+        "SN10 1SY",
+        "SN10 1SZ",
+        "SN10 1TA",
+        "SN10 1TD",
+        "SN10 1UB",
+        "SN10 1XA",
+        "SN10 2AH",
+        "SN10 2AN",
+        "SN10 2AP",
+        "SN10 2AR",
+        "SN10 2AT",
+        "SN10 2AU",
+        "SN10 2AX",
+        "SN10 2AY",
+        "SN10 2BA",
+        "SN10 2BB",
+        "SN10 2BD",
+        "SN10 2BF",
+        "SN10 2BG",
+        "SN10 2BQ",
+        "SN10 2GX",
+        "SN10 2JD",
+        "SN10 2JE",
+        "SN10 2JF",
+        "SN10 2LU",
+        "SN10 2LX",
+        "SN10 2LY",
+        "SN10 2LZ",
+        "SN10 2NA",
+        "SN10 2NB",
+        "SN10 2ND",
+        "SN10 2NE",
+        "SN10 2NF",
+        "SN10 2NG",
+        "SN10 2NH",
+        "SN10 2NJ",
+        "SN10 2NL",
+        "SN10 2NN",
+        "SN10 2NP",
+        "SN10 2NQ",
+        "SN10 2NR",
+        "SN10 2NS",
+        "SN10 2NT",
+        "SN10 2NU",
+        "SN10 2NW",
+        "SN10 2NX",
+        "SN10 2NY",
+        "SN10 2NZ",
+        "SN10 2PA",
+        "SN10 2PB",
+        "SN10 2PD",
+        "SN10 2PE",
+        "SN10 2PF",
+        "SN10 2PG",
+        "SN10 2PH",
+        "SN10 2PJ",
+        "SN10 2PL",
+        "SN10 2PN",
+        "SN10 2PP",
+        "SN10 2PQ",
+        "SN10 2PR",
+        "SN10 2PS",
+        "SN10 2PT",
+        "SN10 2PU",
+        "SN10 2PW",
+        "SN10 2PX",
+        "SN10 2PY",
+        "SN10 2PZ",
+        "SN10 2QA",
+        "SN10 2QB",
+        "SN10 2QD",
+        "SN10 2QE",
+        "SN10 2QF",
+        "SN10 2QG",
+        "SN10 2QH",
+        "SN10 2QL",
+        "SN10 2QN",
+        "SN10 2QP",
+        "SN10 2QQ",
+        "SN10 2QR",
+        "SN10 2QT",
+        "SN10 2QW",
+        "SN10 4EN",
+        "SN10 4ES",
+        "SN10 5HA",
+        "SN10 5HD",
+        "SN10 5HE",
+        "SN10 5HS",
+        "SN10 5JP",
+        "SN10 5JR",
+        "SN10 5JS",
+        "SN10 5JW",
+        "SN10 5TB",
+        "SN10 5TF",
+        "SN10 5TX",
+        "SN10 5XP",
+        "SN12 6RR",
+        "SN12 6RS",
+        "SN15 9YD"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -2.11524,
+              51.46093
+            ],
+            [
+              -2.06238,
+              51.36312
+            ],
+            [
+              -2.05338,
+              51.3636
+            ],
+            [
+              -2.03428,
+              51.36911
+            ],
+            [
+              -2.02048,
+              51.36566
+            ],
+            [
+              -2.00583,
+              51.36612
+            ],
+            [
+              -1.99645,
+              51.36798
+            ],
+            [
+              -1.99262,
+              51.34906
+            ],
+            [
+              -2.00388,
+              51.34208
+            ],
+            [
+              -2.01012,
+              51.34239
+            ],
+            [
+              -2.02556,
+              51.34424
+            ],
+            [
+              -2.04318,
+              51.33741
+            ],
+            [
+              -2.04476,
+              51.33424
+            ],
+            [
+              -2.04651,
+              51.33068
+            ],
+            [
+              -2.04853,
+              51.32799
+            ],
+            [
+              -2.01553,
+              51.29329
+            ],
+            [
+              -2.0049,
+              51.28893
+            ],
+            [
+              -2.00387,
+              51.28666
+            ],
+            [
+              -2.05218,
+              51.28432
+            ],
+            [
+              -2.05293,
+              51.32798
+            ],
+            [
+              -2.05306,
+              51.32995
+            ],
+            [
+              -2.0489,
+              51.34148
+            ],
+            [
+              -2.04756,
+              51.35306
+            ],
+            [
+              -2.06744,
+              51.3571
+            ],
+            [
+              -2.06733,
+              51.35848
+            ],
+            [
+              -2.11524,
+              51.46093
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-02-07T17:15:00.000+0000",
+      "UUID": "b6f3f5c9-5477-4b1e-b503-e0d4edfdb8f3",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "fd95226d-6eb3-4373-8fbb-721645d69316"
+      ],
+      "longitude": -2.0264458527528553,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-07T16:46:00.000+0000",
+      "latitude": 51.3541050568267,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9758'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9758",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.46093,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.11524
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36312,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.06238
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.3636,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.05338
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36911,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.03428
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36566,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.02048
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36612,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.00583
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.36798,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.99645
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.34906,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.99262
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.34208,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.00388
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.34239,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.01012
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.34424,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.02556
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.33741,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.04318
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.33424,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.04476
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.33068,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.04651
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.32799,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.04853
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29329,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.01553
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.28893,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.0049
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.28666,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.00387
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.28432,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.05218
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.32798,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.05293
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.32995,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.05306
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.34148,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.0489
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.35306,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.04756
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.3571,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.06744
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.35848,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.06733
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.46093,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -2.11524
+            }
+          ],
+          "subCodes": [
+            "SN10 1BF",
+            "SN10 1NW",
+            "SN10 1PG",
+            "SN10 1PH",
+            "SN10 1PJ",
+            "SN10 1PL",
+            "SN10 1PN",
+            "SN10 1PP",
+            "SN10 1PQ",
+            "SN10 1PR",
+            "SN10 1PS",
+            "SN10 1PT",
+            "SN10 1PW",
+            "SN10 1PY",
+            "SN10 1PZ",
+            "SN10 1QA",
+            "SN10 1QB",
+            "SN10 1QD",
+            "SN10 1QE",
+            "SN10 1QF",
+            "SN10 1QG",
+            "SN10 1QH",
+            "SN10 1QJ",
+            "SN10 1QQ",
+            "SN10 1QR",
+            "SN10 1QS",
+            "SN10 1QT",
+            "SN10 1QW",
+            "SN10 1RA",
+            "SN10 1RB",
+            "SN10 1RD",
+            "SN10 1RE",
+            "SN10 1RF",
+            "SN10 1RG",
+            "SN10 1RJ",
+            "SN10 1RL",
+            "SN10 1RP",
+            "SN10 1RQ",
+            "SN10 1RR",
+            "SN10 1RS",
+            "SN10 1RT",
+            "SN10 1RU",
+            "SN10 1RW",
+            "SN10 1RX",
+            "SN10 1RY",
+            "SN10 1RZ",
+            "SN10 1SA",
+            "SN10 1SB",
+            "SN10 1SD",
+            "SN10 1SS",
+            "SN10 1ST",
+            "SN10 1SY",
+            "SN10 1SZ",
+            "SN10 1TA",
+            "SN10 1TD",
+            "SN10 1UB",
+            "SN10 1XA",
+            "SN10 2AH",
+            "SN10 2AN",
+            "SN10 2AP",
+            "SN10 2AR",
+            "SN10 2AT",
+            "SN10 2AU",
+            "SN10 2AY",
+            "SN10 2BA",
+            "SN10 2BB",
+            "SN10 2BD",
+            "SN10 2BF",
+            "SN10 2BG",
+            "SN10 2BQ",
+            "SN10 2GX",
+            "SN10 2JD",
+            "SN10 2JE",
+            "SN10 2JF",
+            "SN10 2LU",
+            "SN10 2LX",
+            "SN10 2LY",
+            "SN10 2LZ",
+            "SN10 2NA",
+            "SN10 2NB",
+            "SN10 2ND",
+            "SN10 2NE",
+            "SN10 2NF",
+            "SN10 2NG",
+            "SN10 2NH",
+            "SN10 2NJ",
+            "SN10 2NN",
+            "SN10 2NP",
+            "SN10 2NQ",
+            "SN10 2NR",
+            "SN10 2NS",
+            "SN10 2NT",
+            "SN10 2NU",
+            "SN10 2NW",
+            "SN10 2NX",
+            "SN10 2NY",
+            "SN10 2NZ",
+            "SN10 2PA",
+            "SN10 2PB",
+            "SN10 2PD",
+            "SN10 2PE",
+            "SN10 2PF",
+            "SN10 2PG",
+            "SN10 2PH",
+            "SN10 2PJ",
+            "SN10 2PL",
+            "SN10 2PN",
+            "SN10 2PP",
+            "SN10 2PQ",
+            "SN10 2PR",
+            "SN10 2PS",
+            "SN10 2PT",
+            "SN10 2PU",
+            "SN10 2PW",
+            "SN10 2PX",
+            "SN10 2PY",
+            "SN10 2PZ",
+            "SN10 2QA",
+            "SN10 2QB",
+            "SN10 2QD",
+            "SN10 2QE",
+            "SN10 2QF",
+            "SN10 2QG",
+            "SN10 2QH",
+            "SN10 2QL",
+            "SN10 2QN",
+            "SN10 2QP",
+            "SN10 2QQ",
+            "SN10 2QR",
+            "SN10 2QT",
+            "SN10 2QW",
+            "SN10 4EN",
+            "SN10 4ES",
+            "SN10 5HA",
+            "SN10 5HD",
+            "SN10 5HE",
+            "SN10 5HS",
+            "SN10 5JP",
+            "SN10 5JR",
+            "SN10 5JS",
+            "SN10 5JW",
+            "SN10 5TB",
+            "SN10 5TF",
+            "SN10 5TX",
+            "SN10 5XP",
+            "SN12 6RR",
+            "SN12 6RS",
+            "SN15 9YD"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JK9758",
+      "name": "SN10 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SN10 1BF",
+        "SN10 1HB",
+        "SN10 1NW",
+        "SN10 1PG",
+        "SN10 1PH",
+        "SN10 1PJ",
+        "SN10 1PL",
+        "SN10 1PN",
+        "SN10 1PP",
+        "SN10 1PQ",
+        "SN10 1PR",
+        "SN10 1PS",
+        "SN10 1PT",
+        "SN10 1PW",
+        "SN10 1PY",
+        "SN10 1PZ",
+        "SN10 1QA",
+        "SN10 1QB",
+        "SN10 1QD",
+        "SN10 1QE",
+        "SN10 1QF",
+        "SN10 1QG",
+        "SN10 1QH",
+        "SN10 1QJ",
+        "SN10 1QQ",
+        "SN10 1QR",
+        "SN10 1QS",
+        "SN10 1QT",
+        "SN10 1QW",
+        "SN10 1RA",
+        "SN10 1RB",
+        "SN10 1RD",
+        "SN10 1RE",
+        "SN10 1RF",
+        "SN10 1RG",
+        "SN10 1RJ",
+        "SN10 1RL",
+        "SN10 1RP",
+        "SN10 1RQ",
+        "SN10 1RR",
+        "SN10 1RS",
+        "SN10 1RT",
+        "SN10 1RU",
+        "SN10 1RW",
+        "SN10 1RX",
+        "SN10 1RY",
+        "SN10 1RZ",
+        "SN10 1SA",
+        "SN10 1SB",
+        "SN10 1SD",
+        "SN10 1SS",
+        "SN10 1ST",
+        "SN10 1SY",
+        "SN10 1SZ",
+        "SN10 1TA",
+        "SN10 1TD",
+        "SN10 1UB",
+        "SN10 1XA",
+        "SN10 2AH",
+        "SN10 2AN",
+        "SN10 2AP",
+        "SN10 2AR",
+        "SN10 2AT",
+        "SN10 2AU",
+        "SN10 2AX",
+        "SN10 2AY",
+        "SN10 2BA",
+        "SN10 2BB",
+        "SN10 2BD",
+        "SN10 2BF",
+        "SN10 2BG",
+        "SN10 2BQ",
+        "SN10 2GX",
+        "SN10 2JD",
+        "SN10 2JE",
+        "SN10 2JF",
+        "SN10 2LU",
+        "SN10 2LX",
+        "SN10 2LY",
+        "SN10 2LZ",
+        "SN10 2NA",
+        "SN10 2NB",
+        "SN10 2ND",
+        "SN10 2NE",
+        "SN10 2NF",
+        "SN10 2NG",
+        "SN10 2NH",
+        "SN10 2NJ",
+        "SN10 2NL",
+        "SN10 2NN",
+        "SN10 2NP",
+        "SN10 2NQ",
+        "SN10 2NR",
+        "SN10 2NS",
+        "SN10 2NT",
+        "SN10 2NU",
+        "SN10 2NW",
+        "SN10 2NX",
+        "SN10 2NY",
+        "SN10 2NZ",
+        "SN10 2PA",
+        "SN10 2PB",
+        "SN10 2PD",
+        "SN10 2PE",
+        "SN10 2PF",
+        "SN10 2PG",
+        "SN10 2PH",
+        "SN10 2PJ",
+        "SN10 2PL",
+        "SN10 2PN",
+        "SN10 2PP",
+        "SN10 2PQ",
+        "SN10 2PR",
+        "SN10 2PS",
+        "SN10 2PT",
+        "SN10 2PU",
+        "SN10 2PW",
+        "SN10 2PX",
+        "SN10 2PY",
+        "SN10 2PZ",
+        "SN10 2QA",
+        "SN10 2QB",
+        "SN10 2QD",
+        "SN10 2QE",
+        "SN10 2QF",
+        "SN10 2QG",
+        "SN10 2QH",
+        "SN10 2QL",
+        "SN10 2QN",
+        "SN10 2QP",
+        "SN10 2QQ",
+        "SN10 2QR",
+        "SN10 2QT",
+        "SN10 2QW",
+        "SN10 4EN",
+        "SN10 4ES",
+        "SN10 5HA",
+        "SN10 5HD",
+        "SN10 5HE",
+        "SN10 5HS",
+        "SN10 5JP",
+        "SN10 5JR",
+        "SN10 5JS",
+        "SN10 5JW",
+        "SN10 5TB",
+        "SN10 5TF",
+        "SN10 5TX",
+        "SN10 5XP",
+        "SN12 6RR",
+        "SN12 6RS",
+        "SN15 9YD"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -2.11524,
+              51.46093
+            ],
+            [
+              -2.06238,
+              51.36312
+            ],
+            [
+              -2.05338,
+              51.3636
+            ],
+            [
+              -2.03428,
+              51.36911
+            ],
+            [
+              -2.02048,
+              51.36566
+            ],
+            [
+              -2.00583,
+              51.36612
+            ],
+            [
+              -1.99645,
+              51.36798
+            ],
+            [
+              -1.99262,
+              51.34906
+            ],
+            [
+              -2.00388,
+              51.34208
+            ],
+            [
+              -2.01012,
+              51.34239
+            ],
+            [
+              -2.02556,
+              51.34424
+            ],
+            [
+              -2.04318,
+              51.33741
+            ],
+            [
+              -2.04476,
+              51.33424
+            ],
+            [
+              -2.04651,
+              51.33068
+            ],
+            [
+              -2.04853,
+              51.32799
+            ],
+            [
+              -2.01553,
+              51.29329
+            ],
+            [
+              -2.0049,
+              51.28893
+            ],
+            [
+              -2.00387,
+              51.28666
+            ],
+            [
+              -2.05218,
+              51.28432
+            ],
+            [
+              -2.05293,
+              51.32798
+            ],
+            [
+              -2.05306,
+              51.32995
+            ],
+            [
+              -2.0489,
+              51.34148
+            ],
+            [
+              -2.04756,
+              51.35306
+            ],
+            [
+              -2.06744,
+              51.3571
+            ],
+            [
+              -2.06733,
+              51.35848
+            ],
+            [
+              -2.11524,
+              51.46093
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "3bdff32e-498c-47de-8c3c-3a16194eb130",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "fd95226d-6eb3-4373-8fbb-721645d69316"
+      ],
+      "longitude": -2.0264458527528553,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-07T16:36:00.000+0000",
+      "latitude": 51.42950448143514,
+      "estimatedRestoration": "2022-02-07T19:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9747'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9747",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.42944,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.47185
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.42955,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.47097
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.42951,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.47027
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.42944,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.47185
+            }
+          ],
+          "subCodes": [
+            "TW15 3QU",
+            "TW15 3QY",
+            "TW15 3RA"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JK9747",
+      "name": "TW15 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "TW15 3QU",
+        "TW15 3QY",
+        "TW15 3RA"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -0.47185,
+              51.42944
+            ],
+            [
+              -0.47097,
+              51.42955
+            ],
+            [
+              -0.47027,
+              51.42951
+            ],
+            [
+              -0.47185,
+              51.42944
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "4b7aed94-07e1-4a93-88ac-33b0a09c5700",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.4710527280181982,
       "resolved": false
     },
     {
@@ -845,31 +2006,100 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-07T15:43:00.000+0000",
-      "latitude": 58.933348613724064,
-      "estimatedRestoration": "2022-02-07T17:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9707'",
+      "loggedAt": "2022-02-07T16:35:00.000+0000",
+      "latitude": 57.83728370619553,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9744'",
       "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9707",
-      "reference": "JK9707",
-      "name": "KW17 Area",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9744",
+      "reference": "JK9744",
+      "name": "HS3 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "KW17 2RE",
-        "KW17 2RF"
+        "HS3 3HT",
+        "HS3 3HX"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -3.1981602324606553,
-          58.933348613724064
+          -7.017838863196545,
+          57.83728370619553
         ],
         "type": "Point"
       },
-      "UUID": "4c3a4cdd-e66e-4e7f-90df-02b2eca23361",
+      "UUID": "4822aca3-9f48-45df-8040-2bd657978049",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.1981602324606553,
+      "longitude": -7.017838863196545,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-07T16:44:00.000+0000",
+      "latitude": 56.56326544554637,
+      "estimatedRestoration": "2022-02-07T20:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9756'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9756",
+      "reference": "JK9756",
+      "name": "PA80 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "PA34",
+        "PA34 5UU",
+        "PA34 5XE",
+        "PA34 5XT",
+        "PA34 5XU",
+        "PA34 5XY",
+        "PA34 5XZ",
+        "PA80 5AB",
+        "PA80 5UU",
+        "PA80 5UY",
+        "PA80 5XT",
+        "PA80 5XU",
+        "PA80 5XY",
+        "PA80 5XZ"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -5.854716029829416,
+          56.56326544554637
+        ],
+        "type": "Point"
+      },
+      "UUID": "cf881c7f-2946-4b86-8c38-dc7f80a51c18",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.854716029829416,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-07T15:27:00.000+0000",
+      "latitude": 57.74270977741322,
+      "estimatedRestoration": "2022-02-07T18:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9699'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9699",
+      "reference": "JK9699",
+      "name": "IV19 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "IV19 1QN",
+        "IV19 1QW"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -3.9855331306183723,
+          57.74270977741322
+        ],
+        "type": "Point"
+      },
+      "UUID": "4d61dfd9-438e-4fa0-9404-4a049fc0e3f3",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.9855331306183723,
       "resolved": false
     }
   ]

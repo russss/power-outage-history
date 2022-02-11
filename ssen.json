@@ -272,6 +272,81 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -0.7581295484321285,
       "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-11T06:42:00.000+0000",
+      "latitude": 51.06160493940641,
+      "estimatedRestoration": "2022-02-11T10:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM1771'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM1771",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.06188,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.4221
+            }
+          ],
+          "name": "RH13 0RE",
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JM1771",
+      "name": "RH13 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RH13 0RE"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -0.42259517113121753,
+          51.06160493940641
+        ],
+        "type": "Point"
+      },
+      "UUID": "a814bb76-ba1a-4cec-a8ae-07144cb48c75",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.42259517113121753,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-11T07:02:00.000+0000",
+      "latitude": 56.20186315074261,
+      "estimatedRestoration": "2022-02-11T10:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM1779'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM1779",
+      "reference": "JM1779",
+      "name": "KY13 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "KY13 0NY",
+        "KY13 0PB",
+        "KY13 0PD",
+        "KY13 0QB",
+        "KY13 0UP"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -3.5666449366183834,
+          56.20186315074261
+        ],
+        "type": "Point"
+      },
+      "UUID": "daa07bea-0085-431f-9d3f-2137393237fd",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.5666449366183834,
+      "resolved": false
     }
   ]
 }

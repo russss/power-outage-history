@@ -242,11 +242,11 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-14T00:44:00.000+0000",
+      "loggedAt": "2022-02-14T00:41:00.000+0000",
       "latitude": 50.89953176497169,
       "estimatedRestoration": "2022-02-14T06:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM3347'",
-      "type": "HV",
+      "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM3347",
       "Areas": [
         {
@@ -534,6 +534,38 @@
         "1aed3db0-d69e-488e-88ad-8a1f16209859"
       ],
       "longitude": -3.836532195338491,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-14T03:33:00.000+0000",
+      "latitude": 56.46690685703978,
+      "estimatedRestoration": "2022-02-14T07:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM3388'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM3388",
+      "reference": "JM3388",
+      "name": "DD2 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "DD2 4AD",
+        "DD2 4AE",
+        "DD2 4AF",
+        "DD2 4AS"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -3.0469272333005355,
+          56.46690685703978
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-02-14T04:30:00.000+0000",
+      "UUID": "adef0eca-863e-4955-8c72-c2680020e3c4",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.0469272333005355,
       "resolved": false
     }
   ]

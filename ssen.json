@@ -567,6 +567,81 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-02-15T20:05:00.000+0000",
+      "latitude": 51.52001328796278,
+      "estimatedRestoration": "2022-02-15T23:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM4861'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM4861",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.52076,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.44074
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.52001328796278,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.44047935529357124
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.51925,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.44021
+            }
+          ],
+          "subCodes": [
+            "UB3 2TP",
+            "UB3 2TW"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JM4861",
+      "name": "UB3 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "UB3 2TP",
+        "UB3 2TW"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -0.44074,
+              51.52076
+            ],
+            [
+              -0.44047935529357124,
+              51.52001328796278
+            ],
+            [
+              -0.44021,
+              51.51925
+            ],
+            [
+              -0.44074,
+              51.52076
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "715d8638-290c-4e31-8aca-af3054f3d4df",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.44047935529357124,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-02-15T15:08:00.000+0000",
       "latitude": 60.4784429064958,
       "estimatedRestoration": "2022-02-15T22:00:00.000+0000",
@@ -598,7 +673,8 @@
       "py/object": "Fault",
       "loggedAt": "2022-02-15T19:24:00.000+0000",
       "latitude": 57.49425733304279,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM4855'",
+      "estimatedRestoration": "2022-02-15T22:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM4855'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM4855",
       "reference": "JM4855",
@@ -621,6 +697,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-02-15T20:30:00.000+0000",
       "UUID": "76414302-2b29-4829-9ad2-fd660a84767b",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",

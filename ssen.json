@@ -357,7 +357,7 @@
         }
       ],
       "reference": "JM5602",
-      "name": "OX13 Area",
+      "name": "OX2 & OX13 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "OX1 5PT",
@@ -444,52 +444,6 @@
         "df33f16a-c84e-43dd-993d-f415999aa728"
       ],
       "longitude": -1.3280884522810623,
-      "resolved": false
-    },
-    {
-      "customIncludeDefault": false,
-      "py/object": "Fault",
-      "loggedAt": "2022-02-16T16:17:00.000+0000",
-      "latitude": 51.64500012436278,
-      "estimatedRestoration": "2022-02-16T22:00:00.000+0000",
-      "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions that have impacted our network, and will continue to do so through to Friday, it may take longer than normal to restore power. We’re experiencing a busier than usual period and the conditions mean that even with additional teams we have mobilised, it’s much harder to repair faults due to the safety implications of working on our network in such conditions.<br/><br/>We will continue to update you with the latest information here on Power Track, so we’d recommend you register for updates on this fault or check back in later.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our team is on hand to help.<br/><br/>For updates on how we’re dealing with the weather, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM5519",
-      "Areas": [
-        {
-          "py/object": "Area",
-          "Points": [
-            {
-              "py/object": "Point",
-              "latitude": 51.64502,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -2.17174
-            }
-          ],
-          "name": "GL8 8XN",
-          "py/class": "http://opengrid.com/givr/1.0#//Area"
-        }
-      ],
-      "reference": "JM5519",
-      "engineerOnSiteTime": "2022-02-16T17:15:00.000+0000",
-      "name": "GL8 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "GL8 8XN"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -2.171729665226533,
-          51.64500012436278
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2022-02-16T17:30:00.000+0000",
-      "UUID": "bc100167-9167-40c2-8d81-6bac60f77136",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.171729665226533,
       "resolved": false
     },
     {
@@ -878,6 +832,7 @@
         }
       ],
       "reference": "JM5716",
+      "engineerOnSiteTime": "2022-02-16T20:25:00.000+0000",
       "name": "SN7 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -1155,7 +1110,7 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-02-16T20:24:00.000+0000",
-      "latitude": 50.99907756089816,
+      "latitude": 50.99729965147768,
       "estimatedRestoration": "2022-02-16T23:30:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions that have impacted our network, and will continue to do so through to Friday, it may take longer than normal to restore power. We’re experiencing a busier than usual period and the conditions mean that even with additional teams we have mobilised, it’s much harder to repair faults due to the safety implications of working on our network in such conditions.<br/><br/>We will continue to update you with the latest information here on Power Track, so we’d recommend you register for updates on this fault or check back in later.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our team is on hand to help.<br/><br/>For updates on how we’re dealing with the weather, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
       "type": "HV",
@@ -1178,9 +1133,9 @@
             },
             {
               "py/object": "Point",
-              "latitude": 50.99907756089816,
+              "latitude": 50.96883,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -2.686128040145069
+              "longitude": -2.67869
             },
             {
               "py/object": "Point",
@@ -1229,7 +1184,8 @@
             "BA22 8NX",
             "BA22 8NY",
             "BA22 8NZ",
-            "BA22 8PR"
+            "BA22 8PR",
+            "BA22 8RD"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
         }
@@ -1253,7 +1209,8 @@
         "BA22 8NX",
         "BA22 8NY",
         "BA22 8NZ",
-        "BA22 8PR"
+        "BA22 8PR",
+        "BA22 8RD"
       ],
       "location": {
         "__json": true,
@@ -1268,8 +1225,8 @@
               50.9893
             ],
             [
-              -2.686128040145069,
-              50.99907756089816
+              -2.67869,
+              50.96883
             ],
             [
               -2.672,
@@ -1299,7 +1256,7 @@
       "UUID": "d7f54388-a6c9-494a-b06d-9c3dcf7c52bf",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.686128040145069,
+      "longitude": -2.685688554675055,
       "resolved": false
     },
     {
@@ -1622,7 +1579,7 @@
         }
       ],
       "reference": "JM5856",
-      "name": "RG8 Area",
+      "name": "RG9 & RG8 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "OX10 6QR",
@@ -2019,6 +1976,322 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
+      "loggedAt": "2022-02-16T22:10:00.000+0000",
+      "latitude": 51.29438656602108,
+      "estimatedRestoration": "2022-02-17T01:30:00.000+0000",
+      "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions that have impacted our network, and will continue to do so through to Friday, it may take longer than normal to restore power. We’re experiencing a busier than usual period and the conditions mean that even with additional teams we have mobilised, it’s much harder to repair faults due to the safety implications of working on our network in such conditions.<br/><br/>We will continue to update you with the latest information here on Power Track, so we’d recommend you register for updates on this fault or check back in later.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our team is on hand to help.<br/><br/>For updates on how we’re dealing with the weather, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM5909",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.26124,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.84981
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29139,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.84875
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29176,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.84869
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29262,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.84763
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29685,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.82845
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29749,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.82594
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29805,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.82254
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29715,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.82004
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29454,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.81572
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29291,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.79506
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29158,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.79689
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29214,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.81984
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29182,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.82357
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29161,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.82582
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29215,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.83074
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.26124,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.84981
+            }
+          ],
+          "subCodes": [
+            "GU14 0NZ",
+            "GU14 0QS",
+            "GU51 1HH",
+            "GU51 1JJ",
+            "GU51 1JQ",
+            "GU51 2QA",
+            "GU51 2RL",
+            "GU51 2RN",
+            "GU51 2RP",
+            "GU51 2RR",
+            "GU51 2RS",
+            "GU51 2RY",
+            "GU51 2TA",
+            "GU51 2TB",
+            "GU51 2TD",
+            "GU51 2TE",
+            "GU51 2TF",
+            "GU51 2TG",
+            "GU51 2TH",
+            "GU51 2TJ",
+            "GU51 2TL",
+            "GU51 2TN",
+            "GU51 2TP",
+            "GU51 2TQ",
+            "GU51 2TR",
+            "GU51 2TS",
+            "GU51 2TT",
+            "GU51 2TU",
+            "GU51 2TW",
+            "GU51 2TX",
+            "GU51 2TY",
+            "GU51 2TZ",
+            "GU51 2UA",
+            "GU51 2UB",
+            "GU51 2UD",
+            "GU51 2UE",
+            "GU51 2UF",
+            "GU51 2UJ",
+            "GU51 2UL",
+            "GU51 2UN",
+            "GU51 2UP",
+            "GU51 2UQ",
+            "GU51 2UR",
+            "GU51 2US",
+            "GU51 2UU",
+            "GU51 2UW",
+            "GU51 2UX",
+            "GU51 2XA",
+            "GU51 2XB",
+            "GU51 2XE",
+            "GU51 2XF",
+            "GU51 2XH",
+            "GU51 2XJ",
+            "GU51 2XY",
+            "GU52 0XU"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JM5909",
+      "name": "GU51 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "GU14 0NZ",
+        "GU14 0QS",
+        "GU51 1HH",
+        "GU51 1JJ",
+        "GU51 1JQ",
+        "GU51 2QA",
+        "GU51 2QQ",
+        "GU51 2QW",
+        "GU51 2RL",
+        "GU51 2RN",
+        "GU51 2RP",
+        "GU51 2RR",
+        "GU51 2RS",
+        "GU51 2RY",
+        "GU51 2TA",
+        "GU51 2TB",
+        "GU51 2TD",
+        "GU51 2TE",
+        "GU51 2TF",
+        "GU51 2TG",
+        "GU51 2TH",
+        "GU51 2TJ",
+        "GU51 2TL",
+        "GU51 2TN",
+        "GU51 2TP",
+        "GU51 2TQ",
+        "GU51 2TR",
+        "GU51 2TS",
+        "GU51 2TT",
+        "GU51 2TU",
+        "GU51 2TW",
+        "GU51 2TX",
+        "GU51 2TY",
+        "GU51 2TZ",
+        "GU51 2UA",
+        "GU51 2UB",
+        "GU51 2UD",
+        "GU51 2UE",
+        "GU51 2UF",
+        "GU51 2UJ",
+        "GU51 2UL",
+        "GU51 2UN",
+        "GU51 2UP",
+        "GU51 2UQ",
+        "GU51 2UR",
+        "GU51 2US",
+        "GU51 2UU",
+        "GU51 2UW",
+        "GU51 2UX",
+        "GU51 2XA",
+        "GU51 2XB",
+        "GU51 2XE",
+        "GU51 2XF",
+        "GU51 2XH",
+        "GU51 2XJ",
+        "GU51 2XY",
+        "GU52 0XU",
+        "RG27 8AE"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -0.84981,
+              51.26124
+            ],
+            [
+              -0.84875,
+              51.29139
+            ],
+            [
+              -0.84869,
+              51.29176
+            ],
+            [
+              -0.84763,
+              51.29262
+            ],
+            [
+              -0.82845,
+              51.29685
+            ],
+            [
+              -0.82594,
+              51.29749
+            ],
+            [
+              -0.82254,
+              51.29805
+            ],
+            [
+              -0.82004,
+              51.29715
+            ],
+            [
+              -0.81572,
+              51.29454
+            ],
+            [
+              -0.79506,
+              51.29291
+            ],
+            [
+              -0.79689,
+              51.29158
+            ],
+            [
+              -0.81984,
+              51.29214
+            ],
+            [
+              -0.82357,
+              51.29182
+            ],
+            [
+              -0.82582,
+              51.29161
+            ],
+            [
+              -0.83074,
+              51.29215
+            ],
+            [
+              -0.84981,
+              51.26124
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "c090e7d1-c14c-47d0-b54a-6956f9352b05",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "896b16af-c920-4375-8026-ff1ed7fe3877",
+        "928bf3d2-a8d1-4c7d-ab53-6695cd71b042",
+        "e263d239-a7e4-48a8-896f-ee3e27086ba7"
+      ],
+      "longitude": -0.8265224444024141,
+      "resolved": false
+    },
+    {
+      "customIncludeDefault": false,
+      "py/object": "Fault",
       "loggedAt": "2022-02-16T16:10:00.000+0000",
       "latitude": 56.20153334028922,
       "estimatedRestoration": "2022-02-16T23:00:00.000+0000",
@@ -2084,13 +2357,13 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-02-16T17:26:00.000+0000",
-      "latitude": 55.75384694240072,
+      "latitude": 55.7638170264172,
       "estimatedRestoration": "2022-02-16T23:00:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions that have impacted our network, and will continue to do so through to Friday, it may take longer than normal to restore power. We’re experiencing a busier than usual period and the conditions mean that even with additional teams we have mobilised, it’s much harder to repair faults due to the safety implications of working on our network in such conditions.<br/><br/>We will continue to update you with the latest information here on Power Track, so we’d recommend you register for updates on this fault or check back in later.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our team is on hand to help.<br/><br/>For updates on how we’re dealing with the weather, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM5631",
       "reference": "JM5631",
-      "name": "PA48 & PA43 Areas",
+      "name": "PA48 & PA44 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "KA27 8SD",
@@ -2201,14 +2474,18 @@
         "PA49 7UX",
         "PA49 7UY",
         "PA60 7XG",
+        "PA60 7XH",
+        "PA60 7XJ",
+        "PA60 7XL",
         "PA60 7XQ",
+        "PA60 7XW",
         "PA60 7XZ"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -6.308001933044425,
-          55.75384694240072
+          -6.288109221146211,
+          55.7638170264172
         ],
         "type": "Point"
       },
@@ -2219,7 +2496,7 @@
       "evChargersAffected": [
         "add1fa6a-8f04-4585-bf1b-c42545c5c357"
       ],
-      "longitude": -6.308001933044425,
+      "longitude": -6.288109221146211,
       "resolved": false
     },
     {

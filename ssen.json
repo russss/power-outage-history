@@ -1623,7 +1623,7 @@
         }
       ],
       "reference": "JM7113",
-      "name": "DT2 & BH20 Areas",
+      "name": "BH20 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH20",
@@ -3056,7 +3056,7 @@
         }
       ],
       "reference": "JM7109",
-      "name": "DT3 Area",
+      "name": "DT2 & DT3 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH20",
@@ -6568,7 +6568,7 @@
         }
       ],
       "reference": "JM7268",
-      "name": "SP8 Area",
+      "name": "SP7 & SP8 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SP7",
@@ -7717,7 +7717,7 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-02-18T10:19:00.000+0000",
-      "latitude": 51.234356273214004,
+      "latitude": 51.22007683386703,
       "estimatedRestoration": "2022-02-19T23:00:00.000+0000",
       "message": "Storm Eunice is currently and continues to cause significant impact to the electricity network and our customer’s supplies. Due to this we currently cannot guarantee electricity supplies will be restored soon. Our workforce, which was enhanced in preparation for the storm, has been mobilised and we’re working hard to restore customer supplies as quickly and safely as possible. The first priority will be to get the power restored to as many homes as possible by altering our network around the damage - this may mean your power is restored sooner than stated on this fault. Updates for this job will be provided when accurate information is received from colleagues in the field.<br/><br/>For updates on what we’re doing to restore power and how we’re responding to the storm, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
       "type": "HV",
@@ -7726,6 +7726,12 @@
         {
           "py/object": "Area",
           "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.24136,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.37068
+            },
             {
               "py/object": "Point",
               "latitude": 51.23066,
@@ -7746,27 +7752,93 @@
             },
             {
               "py/object": "Point",
-              "latitude": 51.23059,
+              "latitude": 51.22355,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.30121
+              "longitude": -1.30073
             },
             {
               "py/object": "Point",
-              "latitude": 51.23092,
+              "latitude": 51.20954,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.29944
+              "longitude": -1.29816
             },
             {
               "py/object": "Point",
-              "latitude": 51.23542,
+              "latitude": 51.21776,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.28963
+              "longitude": -1.28644
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.22007683386703,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.2746081959666768
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.21349,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.2613
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.21286,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.2452
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.21209,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.23061
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.29085,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.06969
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.22062,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.22455
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.21808,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.2444
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.21832,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.25811
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.23158,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.26065
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.23288,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.26076
             },
             {
               "py/object": "Point",
               "latitude": 51.24467,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
               "longitude": -1.27687
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.23542,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.28963
             },
             {
               "py/object": "Point",
@@ -7782,13 +7854,24 @@
             },
             {
               "py/object": "Point",
-              "latitude": 51.23066,
+              "latitude": 51.24136,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.32742
+              "longitude": -1.37068
             }
           ],
           "subCodes": [
+            "RG24 8QZ",
+            "RG25 3BJ",
+            "RG25 3BL",
+            "RG25 3BN",
+            "RG25 3BP",
+            "RG25 3BW",
+            "RG25 3BY",
+            "RG25 3DN",
             "RG25 3DQ",
+            "RG25 3DR",
+            "RG25 3DS",
+            "RG25 3DW",
             "RG28 7FA",
             "RG28 7NE",
             "RG28 7NG",
@@ -7803,19 +7886,35 @@
             "RG28 7NY",
             "RG28 7NZ",
             "RG28 7PA",
+            "RG28 7PD",
+            "RG28 7PE",
+            "RG28 7PF",
+            "RG28 7PG",
             "RG28 7PH",
             "RG28 7PQ",
             "RG28 7QU",
+            "RG28 7RU",
             "RG28 7SN"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
         }
       ],
       "reference": "JM7300",
-      "name": "RG28 Area",
+      "name": "RG25 & RG28 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
+        "RG24 8QZ",
+        "RG25 3BJ",
+        "RG25 3BL",
+        "RG25 3BN",
+        "RG25 3BP",
+        "RG25 3BW",
+        "RG25 3BY",
+        "RG25 3DN",
         "RG25 3DQ",
+        "RG25 3DR",
+        "RG25 3DS",
+        "RG25 3DW",
         "RG28 7FA",
         "RG28 7NE",
         "RG28 7NG",
@@ -7832,15 +7931,34 @@
         "RG28 7NZ",
         "RG28 7PA",
         "RG28 7PB",
+        "RG28 7PD",
+        "RG28 7PE",
+        "RG28 7PF",
+        "RG28 7PG",
         "RG28 7PH",
         "RG28 7PQ",
         "RG28 7QU",
-        "RG28 7SN"
+        "RG28 7RU",
+        "RG28 7SN",
+        "SO21 3AN",
+        "SO21 3AP",
+        "SO21 3AR",
+        "SO21 3BA",
+        "SO21 3BB",
+        "SO21 3BD",
+        "SO21 3BE",
+        "SO21 3BG",
+        "SO21 3BW",
+        "SO21 3SP"
       ],
       "location": {
         "__json": true,
         "coordinates": [
           [
+            [
+              -1.37068,
+              51.24136
+            ],
             [
               -1.32742,
               51.23066
@@ -7854,20 +7972,64 @@
               51.23396
             ],
             [
-              -1.30121,
-              51.23059
+              -1.30073,
+              51.22355
             ],
             [
-              -1.29944,
-              51.23092
+              -1.29816,
+              51.20954
             ],
             [
-              -1.28963,
-              51.23542
+              -1.28644,
+              51.21776
+            ],
+            [
+              -1.2746081959666768,
+              51.22007683386703
+            ],
+            [
+              -1.2613,
+              51.21349
+            ],
+            [
+              -1.2452,
+              51.21286
+            ],
+            [
+              -1.23061,
+              51.21209
+            ],
+            [
+              -1.06969,
+              51.29085
+            ],
+            [
+              -1.22455,
+              51.22062
+            ],
+            [
+              -1.2444,
+              51.21808
+            ],
+            [
+              -1.25811,
+              51.21832
+            ],
+            [
+              -1.26065,
+              51.23158
+            ],
+            [
+              -1.26076,
+              51.23288
             ],
             [
               -1.27687,
               51.24467
+            ],
+            [
+              -1.28963,
+              51.23542
             ],
             [
               -1.29861,
@@ -7878,8 +8040,8 @@
               51.2405
             ],
             [
-              -1.32742,
-              51.23066
+              -1.37068,
+              51.24136
             ]
           ]
         ],
@@ -7888,7 +8050,7 @@
       "UUID": "2bf49e73-43da-460d-ac0c-cfc2f619950e",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.3042477997453088,
+      "longitude": -1.2746081959666768,
       "resolved": false
     },
     {
@@ -10568,7 +10730,7 @@
         }
       ],
       "reference": "JM7393",
-      "name": "SP5 Area",
+      "name": "RG17 & BH21 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH21 5RY",
@@ -15841,7 +16003,7 @@
         }
       ],
       "reference": "JM7448",
-      "name": "GU34 & SO24 Areas",
+      "name": "SO24 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU34 3NJ",
@@ -20635,7 +20797,7 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-02-18T11:59:00.000+0000",
-      "latitude": 51.71689040642864,
+      "latitude": 51.72085437157608,
       "estimatedRestoration": "2022-02-19T23:00:00.000+0000",
       "message": "Storm Eunice is currently and continues to cause significant impact to the electricity network and our customer’s supplies. Due to this we currently cannot guarantee electricity supplies will be restored soon. Our workforce, which was enhanced in preparation for the storm, has been mobilised and we’re working hard to restore customer supplies as quickly and safely as possible. The first priority will be to get the power restored to as many homes as possible by altering our network around the damage - this may mean your power is restored sooner than stated on this fault. Updates for this job will be provided when accurate information is received from colleagues in the field.<br/><br/>For updates on what we’re doing to restore power and how we’re responding to the storm, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
       "type": "HV",
@@ -20688,48 +20850,6 @@
             },
             {
               "py/object": "Point",
-              "latitude": 51.72198,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.92086
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.72455,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.91443
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.71329,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.90992
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.71711,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.89086
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.70112,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.90045
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.70456,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.91901
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.69569,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.92212
-            },
-            {
-              "py/object": "Point",
               "latitude": 51.70593,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
               "longitude": -1.93591
@@ -20751,25 +20871,15 @@
             "GL7 1RZ",
             "GL7 5DS",
             "GL7 5DT",
-            "GL7 5DX",
             "GL7 5EZ",
             "GL7 5FB",
             "GL7 5HA",
             "GL7 5HB",
             "GL7 5HF",
-            "GL7 5PN",
             "GL7 5PP",
             "GL7 5PR",
-            "GL7 5PS",
-            "GL7 5PU",
             "GL7 5RH",
             "GL7 5RJ",
-            "GL7 5RN",
-            "GL7 5RP",
-            "GL7 5RR",
-            "GL7 5RW",
-            "GL7 5RX",
-            "GL7 5SG",
             "GL7 5XA"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
@@ -20782,25 +20892,15 @@
         "GL7 1RZ",
         "GL7 5DS",
         "GL7 5DT",
-        "GL7 5DX",
         "GL7 5EZ",
         "GL7 5FB",
         "GL7 5HA",
         "GL7 5HB",
         "GL7 5HF",
-        "GL7 5PN",
         "GL7 5PP",
         "GL7 5PR",
-        "GL7 5PS",
-        "GL7 5PU",
         "GL7 5RH",
         "GL7 5RJ",
-        "GL7 5RN",
-        "GL7 5RP",
-        "GL7 5RR",
-        "GL7 5RW",
-        "GL7 5RX",
-        "GL7 5SG",
         "GL7 5XA"
       ],
       "location": {
@@ -20836,34 +20936,6 @@
               51.72273
             ],
             [
-              -1.92086,
-              51.72198
-            ],
-            [
-              -1.91443,
-              51.72455
-            ],
-            [
-              -1.90992,
-              51.71329
-            ],
-            [
-              -1.89086,
-              51.71711
-            ],
-            [
-              -1.90045,
-              51.70112
-            ],
-            [
-              -1.91901,
-              51.70456
-            ],
-            [
-              -1.92212,
-              51.69569
-            ],
-            [
               -1.93591,
               51.70593
             ],
@@ -20887,7 +20959,7 @@
         "cf4fec4b-de50-44f3-bb94-afdca35b129e",
         "f695ee4b-0093-441d-b138-49633d25aea0"
       ],
-      "longitude": -1.929676753852772,
+      "longitude": -1.944378482594382,
       "resolved": false
     },
     {
@@ -22024,7 +22096,7 @@
         }
       ],
       "reference": "JM7688",
-      "name": "SP11 & RG28 Areas",
+      "name": "RG28 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG28",
@@ -25109,7 +25181,7 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
-      "loggedAt": "2022-02-18T11:43:00.000+0000",
+      "loggedAt": "2022-02-18T11:35:00.000+0000",
       "latitude": 51.66748638752074,
       "estimatedRestoration": "2022-02-19T23:00:00.000+0000",
       "message": "Storm Eunice is currently and continues to cause significant impact to the electricity network and our customer’s supplies. Due to this we currently cannot guarantee electricity supplies will be restored soon. Our workforce, which was enhanced in preparation for the storm, has been mobilised and we’re working hard to restore customer supplies as quickly and safely as possible. The first priority will be to get the power restored to as many homes as possible by altering our network around the damage - this may mean your power is restored sooner than stated on this fault. Updates for this job will be provided when accurate information is received from colleagues in the field.<br/><br/>For updates on what we’re doing to restore power and how we’re responding to the storm, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
@@ -25737,7 +25809,7 @@
         }
       ],
       "reference": "JM7835",
-      "name": "GU28 Area",
+      "name": "RH20 & GU28 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH21 3DY",
@@ -30061,7 +30133,7 @@
         }
       ],
       "reference": "JM7911",
-      "name": "GU20 & GU24 Areas",
+      "name": "GU24 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU18 5SH",
@@ -31139,7 +31211,7 @@
         }
       ],
       "reference": "JM7943",
-      "name": "DT9 & DT10 Areas",
+      "name": "DT10 & DT9 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "DT10 2BB",
@@ -31370,7 +31442,7 @@
         }
       ],
       "reference": "JM7672",
-      "name": "SL0 & UB9 Areas",
+      "name": "UB9 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SL0 0PG",
@@ -31418,161 +31490,6 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -0.510122195589193,
-      "resolved": false
-    },
-    {
-      "customIncludeDefault": false,
-      "py/object": "Fault",
-      "loggedAt": "2022-02-18T11:25:00.000+0000",
-      "latitude": 51.51638751661851,
-      "estimatedRestoration": "2022-02-19T23:00:00.000+0000",
-      "message": "Storm Eunice is currently and continues to cause significant impact to the electricity network and our customer’s supplies. Due to this we currently cannot guarantee electricity supplies will be restored soon. Our workforce, which was enhanced in preparation for the storm, has been mobilised and we’re working hard to restore customer supplies as quickly and safely as possible. The first priority will be to get the power restored to as many homes as possible by altering our network around the damage - this may mean your power is restored sooner than stated on this fault. Updates for this job will be provided when accurate information is received from colleagues in the field.<br/><br/>For updates on what we’re doing to restore power and how we’re responding to the storm, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM7521",
-      "Areas": [
-        {
-          "py/object": "Area",
-          "Points": [
-            {
-              "py/object": "Point",
-              "latitude": 51.51112,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.0226
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.51662,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.00774
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.51872,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.00392
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.51887,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.0036
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.51694,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.00244
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.51661,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.00236
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.51616,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.00314
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.51579,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.00384
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.51112,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.0226
-            }
-          ],
-          "subCodes": [
-            "RG4 9BP",
-            "RG4 9BT",
-            "RG4 9BU",
-            "RG4 9BX",
-            "RG4 9DE",
-            "RG4 9DJ",
-            "RG4 9DL",
-            "RG4 9DN",
-            "RG4 9DP",
-            "RG4 9DS",
-            "RG4 9DT",
-            "RG4 9HR"
-          ],
-          "py/class": "http://opengrid.com/givr/1.0#//Area"
-        }
-      ],
-      "reference": "JM7521",
-      "engineerOnSiteTime": "2022-02-18T13:00:00.000+0000",
-      "name": "RG4 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "RG4 9B",
-        "RG4 9BP",
-        "RG4 9BT",
-        "RG4 9BU",
-        "RG4 9BX",
-        "RG4 9DE",
-        "RG4 9DJ",
-        "RG4 9DL",
-        "RG4 9DN",
-        "RG4 9DP",
-        "RG4 9DS",
-        "RG4 9DT",
-        "RG4 9HR"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          [
-            [
-              -1.0226,
-              51.51112
-            ],
-            [
-              -1.00774,
-              51.51662
-            ],
-            [
-              -1.00392,
-              51.51872
-            ],
-            [
-              -1.0036,
-              51.51887
-            ],
-            [
-              -1.00244,
-              51.51694
-            ],
-            [
-              -1.00236,
-              51.51661
-            ],
-            [
-              -1.00314,
-              51.51616
-            ],
-            [
-              -1.00384,
-              51.51579
-            ],
-            [
-              -1.0226,
-              51.51112
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2022-02-18T12:00:00.000+0000",
-      "UUID": "4c58de10-7e43-4b8c-b5a5-bb5900919c86",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.0062653017656085,
       "resolved": false
     },
     {
@@ -31670,7 +31587,7 @@
         }
       ],
       "reference": "JM7993",
-      "name": "SO32 & SO21 Areas",
+      "name": "SO51 & SO21 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO21 2JE",
@@ -38179,7 +38096,7 @@
         }
       ],
       "reference": "JM8192",
-      "name": "OX10 & OX49 Areas",
+      "name": "OX49 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "HP14 3YE",
@@ -43176,7 +43093,7 @@
         }
       ],
       "reference": "JM8358",
-      "name": "SO51 & SP5 Areas",
+      "name": "SP5 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO51 6ES",
@@ -45363,7 +45280,7 @@
         }
       ],
       "reference": "JM8404",
-      "name": "SO20 & SP11 Areas",
+      "name": "SP11 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO20 6DP",
@@ -48208,108 +48125,6 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
-      "loggedAt": "2022-02-18T10:54:00.000+0000",
-      "latitude": 50.75188035008234,
-      "estimatedRestoration": "2022-02-19T23:00:00.000+0000",
-      "message": "Storm Eunice is currently and continues to cause significant impact to the electricity network and our customer’s supplies. Due to this we currently cannot guarantee electricity supplies will be restored soon. Our workforce, which was enhanced in preparation for the storm, has been mobilised and we’re working hard to restore customer supplies as quickly and safely as possible. The first priority will be to get the power restored to as many homes as possible by altering our network around the damage - this may mean your power is restored sooner than stated on this fault. Updates for this job will be provided when accurate information is received from colleagues in the field.<br/><br/>For updates on what we’re doing to restore power and how we’re responding to the storm, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM7511",
-      "Areas": [
-        {
-          "py/object": "Area",
-          "Points": [
-            {
-              "py/object": "Point",
-              "latitude": 50.75235,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.67151
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.75287,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.66706
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.75118,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.66515
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.75093,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.66816
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.75235,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.67151
-            }
-          ],
-          "subCodes": [
-            "BH25 6FB",
-            "BH25 6RG",
-            "BH25 6RN",
-            "BH25 6RR",
-            "BH25 6RT",
-            "BH25 6SJ",
-            "BH25 6SU"
-          ],
-          "py/class": "http://opengrid.com/givr/1.0#//Area"
-        }
-      ],
-      "reference": "JM7511",
-      "name": "BH25 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "BH25 6FB",
-        "BH25 6RG",
-        "BH25 6RN",
-        "BH25 6RR",
-        "BH25 6RT",
-        "BH25 6SJ",
-        "BH25 6SU"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          [
-            [
-              -1.67151,
-              50.75235
-            ],
-            [
-              -1.66706,
-              50.75287
-            ],
-            [
-              -1.66515,
-              50.75118
-            ],
-            [
-              -1.66816,
-              50.75093
-            ],
-            [
-              -1.67151,
-              50.75235
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "UUID": "68df78c0-c57a-4167-9607-861e980dd6ae",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.6678630322901358,
-      "resolved": false
-    },
-    {
-      "customIncludeDefault": false,
-      "py/object": "Fault",
       "loggedAt": "2022-02-18T11:03:00.000+0000",
       "latitude": 50.68714601063296,
       "estimatedRestoration": "2022-02-19T23:00:00.000+0000",
@@ -49358,7 +49173,7 @@
         }
       ],
       "reference": "JM8608",
-      "name": "BA11 & BA12 Areas",
+      "name": "BA12 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BA11 2E",
@@ -50523,7 +50338,7 @@
         }
       ],
       "reference": "JM8663",
-      "name": "BH21 Area",
+      "name": "BH31 & BH21 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH21 5AR",
@@ -50747,7 +50562,7 @@
         }
       ],
       "reference": "JM8642",
-      "name": "PO38 Area",
+      "name": "PO30 & PO38 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "PO30 1HS",
@@ -50912,7 +50727,7 @@
         }
       ],
       "reference": "JM8649",
-      "name": "RG23 & RG25 Areas",
+      "name": "RG25 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG21 4YY",
@@ -51765,7 +51580,7 @@
         }
       ],
       "reference": "JM8707",
-      "name": "DT10 & DT11 Areas",
+      "name": "DT11 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "DT10 2DS",
@@ -54954,7 +54769,7 @@
         }
       ],
       "reference": "JM8724",
-      "name": "RG17 & SN8 Areas",
+      "name": "SN8 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG17 7TG",
@@ -58714,7 +58529,7 @@
         }
       ],
       "reference": "JM8785",
-      "name": "BA11 & BA12 Areas",
+      "name": "BA12 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BA11 5ER",
@@ -61794,7 +61609,7 @@
         }
       ],
       "reference": "JM8808",
-      "name": "RG28 & RG25 Areas",
+      "name": "RG26 & RG28 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG25 3DR",
@@ -63084,7 +62899,7 @@
         }
       ],
       "reference": "JM8834",
-      "name": "RG20 & RG26 Areas",
+      "name": "RG26 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG19 8LR",
@@ -63950,7 +63765,7 @@
         }
       ],
       "reference": "JM8848",
-      "name": "UB9 & UB8 Areas",
+      "name": "UB10 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "UB10",
@@ -64990,7 +64805,7 @@
         }
       ],
       "reference": "JM8882",
-      "name": "RG20 Area",
+      "name": "RG18 & RG20 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG14",
@@ -66924,7 +66739,7 @@
         }
       ],
       "reference": "JM8948",
-      "name": "SO21 & SO22 Areas",
+      "name": "SO22 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "PO9 3QW",
@@ -72452,7 +72267,7 @@
         }
       ],
       "reference": "JM9007",
-      "name": "SO42 & SO45 Areas",
+      "name": "SO45 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG9 4NX",
@@ -74183,7 +73998,7 @@
         }
       ],
       "reference": "JM9154",
-      "name": "GU34 Area",
+      "name": "GU33 & GU34 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU33 6BP",
@@ -75583,7 +75398,7 @@
         }
       ],
       "reference": "JM9181",
-      "name": "SP5 & SP3 Areas",
+      "name": "SP3 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SP2 7TP",
@@ -76019,7 +75834,7 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
-      "loggedAt": "2022-02-18T15:26:00.000+0000",
+      "loggedAt": "2022-02-18T13:14:00.000+0000",
       "latitude": 51.607886803586865,
       "estimatedRestoration": "2022-02-19T23:00:00.000+0000",
       "message": "Storm Eunice is currently and continues to cause significant impact to the electricity network and our customer’s supplies. Due to this we currently cannot guarantee electricity supplies will be restored soon. Our workforce, which was enhanced in preparation for the storm, has been mobilised and we’re working hard to restore customer supplies as quickly and safely as possible. The first priority will be to get the power restored to as many homes as possible by altering our network around the damage - this may mean your power is restored sooner than stated on this fault. Updates for this job will be provided when accurate information is received from colleagues in the field.<br/><br/>For updates on what we’re doing to restore power and how we’re responding to the storm, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
@@ -76391,7 +76206,7 @@
         }
       ],
       "reference": "JM8995",
-      "name": "SO32 Area",
+      "name": "SO30 & SO32 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO30 2HD",
@@ -77109,7 +76924,7 @@
       ],
       "reference": "JM8868",
       "engineerOnSiteTime": "2022-02-18T17:30:00.000+0000",
-      "name": "PO30 & PO33 Areas",
+      "name": "PO33 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "PO30 4JX",
@@ -77624,7 +77439,7 @@
         }
       ],
       "reference": "JM9244",
-      "name": "GU51 & RG27 Areas",
+      "name": "RG27 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU51 4JH",
@@ -79311,7 +79126,7 @@
         }
       ],
       "reference": "JM9319",
-      "name": "SL6 & GL54 Areas",
+      "name": "GL54 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GL54",
@@ -80990,7 +80805,7 @@
         }
       ],
       "reference": "JM9314",
-      "name": "SO24 Area",
+      "name": "SO21 & SO24 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO21 1JR",
@@ -81490,7 +81305,7 @@
         }
       ],
       "reference": "JM9301",
-      "name": "SN15 & SN11 Areas",
+      "name": "SN11 & SN15 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SN11 9PJ",
@@ -81808,7 +81623,7 @@
         }
       ],
       "reference": "JM9312",
-      "name": "SO51 & SP5 Areas",
+      "name": "SP5 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO51 0JR",
@@ -82349,7 +82164,7 @@
         }
       ],
       "reference": "JM9339",
-      "name": "OX13 Area",
+      "name": "OX1 & OX13 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "OX1 5JL",
@@ -83440,7 +83255,7 @@
         }
       ],
       "reference": "JM9335",
-      "name": "OX25 Area",
+      "name": "OX27 & OX26 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "HP18 0RF",
@@ -85221,7 +85036,7 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-02-18T14:51:00.000+0000",
-      "latitude": 51.72001975100734,
+      "latitude": 51.73343892827169,
       "estimatedRestoration": "2022-02-19T23:00:00.000+0000",
       "message": "Storm Eunice is currently and continues to cause significant impact to the electricity network and our customer’s supplies. Due to this we currently cannot guarantee electricity supplies will be restored soon. Our workforce, which was enhanced in preparation for the storm, has been mobilised and we’re working hard to restore customer supplies as quickly and safely as possible. The first priority will be to get the power restored to as many homes as possible by altering our network around the damage - this may mean your power is restored sooner than stated on this fault. Updates for this job will be provided when accurate information is received from colleagues in the field.<br/><br/>For updates on what we’re doing to restore power and how we’re responding to the storm, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
       "type": "HV",
@@ -85232,45 +85047,27 @@
           "Points": [
             {
               "py/object": "Point",
-              "latitude": 51.69112,
+              "latitude": 51.73278,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.36934
+              "longitude": -1.34196
             },
             {
               "py/object": "Point",
-              "latitude": 51.69801,
+              "latitude": 51.7328,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.34672
+              "longitude": -1.33847
             },
             {
               "py/object": "Point",
-              "latitude": 51.70498,
+              "latitude": 51.73497,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.3352
+              "longitude": -1.33553
             },
             {
               "py/object": "Point",
-              "latitude": 51.71899,
+              "latitude": 51.73343892827169,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.33255
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.7261,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.32562
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.71231,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.24561
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.71349,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.17322
+              "longitude": -1.3168286524316046
             },
             {
               "py/object": "Point",
@@ -85286,136 +85083,58 @@
             },
             {
               "py/object": "Point",
-              "latitude": 51.73947,
+              "latitude": 51.73646,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.34873
+              "longitude": -1.34072
             },
             {
               "py/object": "Point",
-              "latitude": 51.74534,
+              "latitude": 51.73278,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.36162
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.72914,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.36531
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.71238,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.36003
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.69112,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.36934
+              "longitude": -1.34196
             }
           ],
           "subCodes": [
-            "OX1 5PT",
-            "OX13 5DW",
-            "OX13 5JF",
-            "OX13 5JH",
-            "OX13 5JJ",
-            "OX13 5PR",
-            "OX13 5PS",
-            "OX13 5PT",
-            "OX13 5PU",
-            "OX13 5PX",
-            "OX13 5PY",
-            "OX13 5PZ",
-            "OX13 5QA",
-            "OX13 5QD",
-            "OX13 5QE",
-            "OX13 5QJ",
-            "OX2 9NX",
             "OX2 9PE",
             "OX2 9QD",
             "OX2 9QF",
-            "OX2 9QG",
             "OX2 9QH",
             "OX2 9QL",
-            "OX2 9QQ",
-            "OX2 9QU",
-            "OX2 9QX",
-            "OX2 9QY",
-            "OX2 9QZ",
-            "OX4 2WB",
-            "OX44 9BL"
+            "OX4 2WB"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
         }
       ],
       "reference": "JM9349",
-      "name": "OX2 & OX13 Areas",
+      "name": "OX4 & OX2 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "OX1 5PT",
-        "OX13 5DW",
-        "OX13 5JF",
-        "OX13 5JH",
-        "OX13 5JJ",
-        "OX13 5PR",
-        "OX13 5PS",
-        "OX13 5PT",
-        "OX13 5PU",
-        "OX13 5PX",
-        "OX13 5PY",
-        "OX13 5PZ",
-        "OX13 5QA",
-        "OX13 5QD",
-        "OX13 5QE",
-        "OX13 5QJ",
-        "OX2 9NX",
         "OX2 9PE",
         "OX2 9QD",
         "OX2 9QF",
-        "OX2 9QG",
         "OX2 9QH",
         "OX2 9QL",
-        "OX2 9QQ",
-        "OX2 9QU",
-        "OX2 9QX",
-        "OX2 9QY",
-        "OX2 9QZ",
-        "OX4 2WB",
-        "OX44 9BL"
+        "OX4 2WB"
       ],
       "location": {
         "__json": true,
         "coordinates": [
           [
             [
-              -1.36934,
-              51.69112
+              -1.34196,
+              51.73278
             ],
             [
-              -1.34672,
-              51.69801
+              -1.33847,
+              51.7328
             ],
             [
-              -1.3352,
-              51.70498
+              -1.33553,
+              51.73497
             ],
             [
-              -1.33255,
-              51.71899
-            ],
-            [
-              -1.32562,
-              51.7261
-            ],
-            [
-              -1.24561,
-              51.71231
-            ],
-            [
-              -1.17322,
-              51.71349
+              -1.3168286524316046,
+              51.73343892827169
             ],
             [
               -1.20706,
@@ -85426,24 +85145,12 @@
               51.73676
             ],
             [
-              -1.34873,
-              51.73947
+              -1.34072,
+              51.73646
             ],
             [
-              -1.36162,
-              51.74534
-            ],
-            [
-              -1.36531,
-              51.72914
-            ],
-            [
-              -1.36003,
-              51.71238
-            ],
-            [
-              -1.36934,
-              51.69112
+              -1.34196,
+              51.73278
             ]
           ]
         ],
@@ -85469,7 +85176,7 @@
         "750ac756-e7ae-4b84-996d-ae9a6f7dda82",
         "b6072c5a-587e-42b6-a76f-577874a9dc97"
       ],
-      "longitude": -1.3333165475695474,
+      "longitude": -1.3168286524316046,
       "resolved": false
     },
     {
@@ -85539,7 +85246,7 @@
         }
       ],
       "reference": "JM9362",
-      "name": "SN4 & SN6 Areas",
+      "name": "SN3 & SN4 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SN3 4RT",
@@ -92493,7 +92200,7 @@
         }
       ],
       "reference": "JM9493",
-      "name": "PO30 Area",
+      "name": "PO33 & PO30 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "PO30 3AD",
@@ -93561,7 +93268,7 @@
         }
       ],
       "reference": "JM9514",
-      "name": "GU28 & RH20 Areas",
+      "name": "RH14 & RH20 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU28 0HE",
@@ -100392,7 +100099,7 @@
         }
       ],
       "reference": "JM9636",
-      "name": "DT10 & BA8 Areas",
+      "name": "BA8 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BA8",
@@ -101815,7 +101522,7 @@
         }
       ],
       "reference": "JM9678",
-      "name": "GU26 & GU30 Areas",
+      "name": "GU30 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU26 6BT",
@@ -102170,7 +101877,7 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-02-18T10:25:00.000+0000",
-      "latitude": 51.18596566440592,
+      "latitude": 51.18233965401143,
       "estimatedRestoration": "2022-02-19T23:00:00.000+0000",
       "message": "Storm Eunice is currently and continues to cause significant impact to the electricity network and our customer’s supplies. Due to this we currently cannot guarantee electricity supplies will be restored soon. Our workforce, which was enhanced in preparation for the storm, has been mobilised and we’re working hard to restore customer supplies as quickly and safely as possible. The first priority will be to get the power restored to as many homes as possible by altering our network around the damage - this may mean your power is restored sooner than stated on this fault. Updates for this job will be provided when accurate information is received from colleagues in the field.<br/><br/>For updates on what we’re doing to restore power and how we’re responding to the storm, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
       "type": "HV",
@@ -102181,39 +101888,15 @@
           "Points": [
             {
               "py/object": "Point",
-              "latitude": 51.1896,
+              "latitude": 51.19339,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.73083
+              "longitude": -0.70611
             },
             {
               "py/object": "Point",
-              "latitude": 51.19745,
+              "latitude": 51.20519,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.72747
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.19184,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.71742
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.2032,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.70654
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.21694,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.71542
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.21135,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.70233
+              "longitude": -0.69224
             },
             {
               "py/object": "Point",
@@ -102295,34 +101978,19 @@
             },
             {
               "py/object": "Point",
-              "latitude": 51.18113,
+              "latitude": 51.18573,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.69502
+              "longitude": -0.70331
             },
             {
               "py/object": "Point",
-              "latitude": 51.18871,
+              "latitude": 51.19339,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.71347
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.1896,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.73083
+              "longitude": -0.70611
             }
           ],
           "name": "GU8 6BL",
           "subCodes": [
-            "GU10 1JB",
-            "GU10 1JE",
-            "GU10 1JF",
-            "GU10 1JH",
-            "GU10 1JJ",
-            "GU10 2AT",
-            "GU10 2AU",
-            "GU10 2BA",
-            "GU10 2BF",
             "GU3 1BE",
             "GU3 1BG",
             "GU8 5BG",
@@ -102363,8 +102031,6 @@
             "GU8 6JL",
             "GU8 6LA",
             "GU8 6LB",
-            "GU8 6LE",
-            "GU8 6LF",
             "GU8 6LG"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
@@ -102374,15 +102040,6 @@
       "name": "GU8 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "GU10 1JB",
-        "GU10 1JE",
-        "GU10 1JF",
-        "GU10 1JH",
-        "GU10 1JJ",
-        "GU10 2AT",
-        "GU10 2AU",
-        "GU10 2BA",
-        "GU10 2BF",
         "GU3 1BE",
         "GU3 1BG",
         "GU8 5BG",
@@ -102424,8 +102081,6 @@
         "GU8 6JL",
         "GU8 6LA",
         "GU8 6LB",
-        "GU8 6LE",
-        "GU8 6LF",
         "GU8 6LG"
       ],
       "location": {
@@ -102433,28 +102088,12 @@
         "coordinates": [
           [
             [
-              -0.73083,
-              51.1896
+              -0.70611,
+              51.19339
             ],
             [
-              -0.72747,
-              51.19745
-            ],
-            [
-              -0.71742,
-              51.19184
-            ],
-            [
-              -0.70654,
-              51.2032
-            ],
-            [
-              -0.71542,
-              51.21694
-            ],
-            [
-              -0.70233,
-              51.21135
+              -0.69224,
+              51.20519
             ],
             [
               -0.68396,
@@ -102509,16 +102148,12 @@
               51.17457
             ],
             [
-              -0.69502,
-              51.18113
+              -0.70331,
+              51.18573
             ],
             [
-              -0.71347,
-              51.18871
-            ],
-            [
-              -0.73083,
-              51.1896
+              -0.70611,
+              51.19339
             ]
           ]
         ],
@@ -102527,7 +102162,7 @@
       "UUID": "05615db6-2533-4fa0-802d-0fc829391ea8",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.6900103321813592,
+      "longitude": -0.6842183250362892,
       "resolved": false
     },
     {
@@ -105509,7 +105144,7 @@
         }
       ],
       "reference": "JM9697",
-      "name": "DT3 & DT2 Areas",
+      "name": "DT2 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH23 7DL",
@@ -107404,7 +107039,7 @@
         }
       ],
       "reference": "JM9710",
-      "name": "PO17 & SO32 Areas",
+      "name": "PO7 & SO32 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "PO16 7BQ",
@@ -108979,7 +108614,7 @@
         }
       ],
       "reference": "JM9754",
-      "name": "GU27 & GU28 Areas",
+      "name": "GU28 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU27",
@@ -109250,7 +108885,7 @@
         }
       ],
       "reference": "JM9750",
-      "name": "GU8 & RH14 Areas",
+      "name": "RH14 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU8 4PH",
@@ -111665,7 +111300,7 @@
         }
       ],
       "reference": "JM9801",
-      "name": "PO22 Area",
+      "name": "PO20 & PO22 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "PO20 3AG",
@@ -112049,7 +111684,7 @@
         }
       ],
       "reference": "JM9839",
-      "name": "GU31 & PO18 Areas",
+      "name": "PO18 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU31 5PJ",
@@ -113416,7 +113051,7 @@
         }
       ],
       "reference": "JM9900",
-      "name": "SO51 & SO40 Areas",
+      "name": "SO40 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO40 2HB",
@@ -114646,7 +114281,7 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-02-18T17:48:00.000+0000",
-      "latitude": 51.230430401128636,
+      "latitude": 51.229230994918495,
       "estimatedRestoration": "2022-02-19T23:00:00.000+0000",
       "message": "Storm Eunice is currently and continues to cause significant impact to the electricity network and our customer’s supplies. Due to this we currently cannot guarantee electricity supplies will be restored soon. Our workforce, which was enhanced in preparation for the storm, has been mobilised and we’re working hard to restore customer supplies as quickly and safely as possible. The first priority will be to get the power restored to as many homes as possible by altering our network around the damage - this may mean your power is restored sooner than stated on this fault. Updates for this job will be provided when accurate information is received from colleagues in the field.<br/><br/>For updates on what we’re doing to restore power and how we’re responding to the storm, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
       "type": "HV",
@@ -114759,21 +114394,9 @@
             },
             {
               "py/object": "Point",
-              "latitude": 51.22082,
+              "latitude": 51.229230994918495,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.94474
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.21901,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.94555
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.230430401128636,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.9622932609012549
+              "longitude": -0.9619048950053938
             },
             {
               "py/object": "Point",
@@ -114801,15 +114424,9 @@
             },
             {
               "py/object": "Point",
-              "latitude": 51.25661,
+              "latitude": 51.25576,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.96869
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.25688,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.97197
+              "longitude": -0.97265
             },
             {
               "py/object": "Point",
@@ -114864,13 +114481,10 @@
             "RG25 2SH",
             "RG25 2SL",
             "RG27 0RH",
-            "RG29 1BS",
             "RG29 1BW",
-            "RG29 1BY",
             "RG29 1BZ",
             "RG29 1DA",
             "RG29 1DB",
-            "RG29 1DD",
             "RG29 1DE",
             "RG29 1DF",
             "RG29 1DG",
@@ -114918,7 +114532,7 @@
         }
       ],
       "reference": "JM9982",
-      "name": "RG25 & RG29 Areas",
+      "name": "RG29 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU10 5HF",
@@ -114944,13 +114558,10 @@
         "RG25 2SH",
         "RG25 2SL",
         "RG27 0RH",
-        "RG29 1BS",
         "RG29 1BW",
-        "RG29 1BY",
         "RG29 1BZ",
         "RG29 1DA",
         "RG29 1DB",
-        "RG29 1DD",
         "RG29 1DE",
         "RG29 1DF",
         "RG29 1DG",
@@ -115067,16 +114678,8 @@
               51.22305
             ],
             [
-              -0.94474,
-              51.22082
-            ],
-            [
-              -0.94555,
-              51.21901
-            ],
-            [
-              -0.9622932609012549,
-              51.230430401128636
+              -0.9619048950053938,
+              51.229230994918495
             ],
             [
               -0.95576,
@@ -115095,12 +114698,8 @@
               51.35788
             ],
             [
-              -0.96869,
-              51.25661
-            ],
-            [
-              -0.97197,
-              51.25688
+              -0.97265,
+              51.25576
             ],
             [
               -0.98069,
@@ -115130,10 +114729,11 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "evChargersAffected": [
+        "b842e516-0870-462a-9962-c62fb46a5772",
         "3f967500-6160-4b63-adcb-6198687038e2",
         "907c1bc6-a420-4e40-8763-d9fe548d9f7c"
       ],
-      "longitude": -0.9622932609012549,
+      "longitude": -0.9619048950053938,
       "resolved": false
     },
     {
@@ -115856,7 +115456,7 @@
         }
       ],
       "reference": "JN0026",
-      "name": "GU29 & GU31 Areas",
+      "name": "GU31 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU29 0JN",
@@ -120240,7 +119840,7 @@
         }
       ],
       "reference": "JN0257",
-      "name": "OX10 & RG9 Areas",
+      "name": "OX49 & RG9 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "OX10 6ER",
@@ -120595,7 +120195,7 @@
         }
       ],
       "reference": "JN0263",
-      "name": "RG9 Area",
+      "name": "OX10 & RG9 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "OX10 6ER",
@@ -121626,7 +121226,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM8104",
       "reference": "JM8104",
-      "name": "AB31 Area",
+      "name": "AB39 & AB31 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB31 6AE",
@@ -121654,7 +121254,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-02-18T16:37:00.000+0000",
       "latitude": 57.65206838131156,
-      "estimatedRestoration": "2022-02-18T22:30:00.000+0000",
+      "estimatedRestoration": "2022-02-18T23:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM9138'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM9138",

@@ -74,7 +74,7 @@
       "region": "Lowerwithington, Macclesfield",
       "faultType": "Current Fault",
       "faultStatus": "Preparing to send team",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "Preparing to send team",
       "consumersOff": 174,
       "estimatedTimeOfRestoration": "2022-02-21T15:43:00",
       "estimatedTimeOfRestorationMajority": "2022-02-21T15:43:00",
@@ -114,9 +114,9 @@
       "date": "2022-02-21T12:34:59",
       "region": "Barnacre, Preston",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
-      "consumersOff": 395,
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
+      "consumersOff": 255,
       "estimatedTimeOfRestoration": "2022-02-21T15:34:00",
       "estimatedTimeOfRestorationMajority": "2022-02-21T15:34:00",
       "information": "",
@@ -155,8 +155,8 @@
       "date": "2022-02-21T12:32:04",
       "region": "Radcliffe, Manchester",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
       "consumersOff": 55,
       "estimatedTimeOfRestoration": "2022-02-21T15:32:00",
       "estimatedTimeOfRestorationMajority": "2022-02-21T15:32:00",
@@ -197,8 +197,8 @@
       "region": "Prestonpatrick, Milnthorpe",
       "faultType": "Current Fault",
       "faultStatus": "Team on their way",
-      "previousFaultStatus": "Preparing to send team",
-      "consumersOff": 149,
+      "previousFaultStatus": "Team on their way",
+      "consumersOff": 36,
       "estimatedTimeOfRestoration": "2022-02-21T15:27:00",
       "estimatedTimeOfRestorationMajority": "2022-02-21T15:27:00",
       "information": "",
@@ -238,7 +238,7 @@
       "region": "Alderleyedge",
       "faultType": "Current Fault",
       "faultStatus": "Preparing to send team",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "Preparing to send team",
       "consumersOff": 10,
       "estimatedTimeOfRestoration": "2022-02-21T16:17:00",
       "estimatedTimeOfRestorationMajority": "2022-02-21T16:17:00",
@@ -279,7 +279,7 @@
       "region": "Alderleyedge",
       "faultType": "Current Fault",
       "faultStatus": "Team on their way",
-      "previousFaultStatus": "Preparing to send team",
+      "previousFaultStatus": "Team on their way",
       "consumersOff": 511,
       "estimatedTimeOfRestoration": "2022-02-21T14:52:00",
       "estimatedTimeOfRestorationMajority": "2022-02-21T14:52:00",
@@ -423,6 +423,47 @@
       "Icon": "icon-warning",
       "ShowViewOnMapCTA": false,
       "UnderReview": false,
+      "AdditionalFaultInfo": "The power cut in your area has been caused by an unexpected incident with the overhead cable that provides electricity to your property.",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124080682",
+      "multipleFaultNumbers": null,
+      "date": "2022-02-21T09:24:58",
+      "region": "Kerridge, Macclesfield",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 15,
+      "estimatedTimeOfRestoration": "2022-02-22T18:00:00",
+      "estimatedTimeOfRestorationMajority": "2022-02-22T18:00:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.287078,
+        "lng": -2.098488
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " SK10 5AL, SK10 5AP, SK10 5AW",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "O/HM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
       "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
       "UpdateInfo": null,
       "CTAs": [
@@ -455,47 +496,6 @@
       },
       "outageLocations": null,
       "AffectedPostcodes": " SK22 4LH, SK22 4HJ, SK22 4HD, SK22 4DJ, SK22 4HN, SK22 4HL, SK22 4LP, SK22 4HQ, SK22 4DN, SK22 4JE, SK22 4JF, SK22 4HG, SK22 4LL, SK22 4HP, SK22 4LR, SK22 4LN, SK22 4JB, SK22 4HH, SK22 4LG, SK22 4HW, SK22 4LF, SK22 4GD, SK22 4LW, SK22 4GA, SK6 5RZ, SK22 4QR, SK22 1AU, SK22 1AY, SK6 5JQ, SK6 5PB, SK13 5RZ, SK6 5RY, SK22 1DY, SK6 5NP, SK22 1AX, SK6 5NS, SK13 5RT, SK22 1EF, SK22 1BB, SK6 5NT, SK22 4EW, SK22 1BA, SK6 5NE, SK22 1EB, SK22 1ED, SK6 5DZ, SK6 5NR, SK6 5RX, SK22 4QG, SK13 6ED, SK6 5LS, SK13 5RU, SK6 5NQ, SK13 6JZ, SK6 5NG, SK22 3GA, SK6 5LT, SK22 1EA, SK6 5PZ, SK22 1DX, SK22 4QQ, SK13 5SB, SK6 5NF, SK22 4EN, SK13 5SA, SK6 5LR, SK13 5DN, SK13 5RS, SK13 1AY, SK14 6RX, SK22 1AS, SK13 5SD, SK13 5HN",
-      "UnderReviewStatusTimeCheck": false,
-      "WebTMSFaultType": "HVFL"
-    },
-    {
-      "FaultLabel": "Live power cut",
-      "Type": "CurrentFault",
-      "Icon": "icon-warning",
-      "ShowViewOnMapCTA": false,
-      "UnderReview": false,
-      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
-      "UpdateInfo": null,
-      "CTAs": [
-        {
-          "Icon": "icon-arrow-right",
-          "Text": "What to do in a power cut",
-          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
-        },
-        {
-          "Icon": "icon-arrow-right",
-          "Text": "I'm involved in this power cut",
-          "Url": "/about-us/contact-us/report-a-power-cut-105/"
-        }
-      ],
-      "faultNumber": "INC 124080672",
-      "multipleFaultNumbers": null,
-      "date": "2022-02-21T09:09:30",
-      "region": "Claytonlemoors, Accrington",
-      "faultType": "Current Fault",
-      "faultStatus": "Team on their way",
-      "previousFaultStatus": "Team on their way",
-      "consumersOff": 15,
-      "estimatedTimeOfRestoration": "2022-02-22T12:09:00",
-      "estimatedTimeOfRestorationMajority": "2022-02-22T12:09:00",
-      "information": "",
-      "actualTimeOfRestoration": null,
-      "outageCentrePoint": {
-        "lat": 53.783452,
-        "lng": -2.36334
-      },
-      "outageLocations": null,
-      "AffectedPostcodes": " BB5 5OX, BB5 5UD, BB5 5UF, BB5 5UG, BB5 5UR, BB5 5TZ, BB5 5UA",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "HVFL"
     },
@@ -609,8 +609,8 @@
       "faultStatus": "Preparing to send team",
       "previousFaultStatus": "Preparing to send team",
       "consumersOff": 103,
-      "estimatedTimeOfRestoration": "2022-02-22T11:38:00",
-      "estimatedTimeOfRestorationMajority": "2022-02-22T11:38:00",
+      "estimatedTimeOfRestoration": "2022-02-21T16:00:00",
+      "estimatedTimeOfRestorationMajority": "2022-02-21T16:00:00",
       "information": "",
       "actualTimeOfRestoration": null,
       "outageCentrePoint": {
@@ -649,7 +649,7 @@
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
       "previousFaultStatus": "We're on site",
-      "consumersOff": 6,
+      "consumersOff": 7,
       "estimatedTimeOfRestoration": "2022-02-22T11:37:00",
       "estimatedTimeOfRestorationMajority": "2022-02-22T11:37:00",
       "information": "",
@@ -691,8 +691,8 @@
       "faultStatus": "Team on their way",
       "previousFaultStatus": "Team on their way",
       "consumersOff": 63,
-      "estimatedTimeOfRestoration": "2022-02-22T11:21:00",
-      "estimatedTimeOfRestorationMajority": "2022-02-22T11:21:00",
+      "estimatedTimeOfRestoration": "2022-02-21T16:00:00",
+      "estimatedTimeOfRestorationMajority": "2022-02-21T16:00:00",
       "information": "",
       "actualTimeOfRestoration": null,
       "outageCentrePoint": {
@@ -765,47 +765,6 @@
           "Url": "/about-us/contact-us/report-a-power-cut-105/"
         }
       ],
-      "faultNumber": "INC 124080602",
-      "multipleFaultNumbers": null,
-      "date": "2022-02-21T07:16:18",
-      "region": "Wreagreen, Preston",
-      "faultType": "Current Fault",
-      "faultStatus": "We're on site",
-      "previousFaultStatus": "Team on their way",
-      "consumersOff": 31,
-      "estimatedTimeOfRestoration": "2022-02-21T13:16:00",
-      "estimatedTimeOfRestorationMajority": "2022-02-21T13:16:00",
-      "information": "",
-      "actualTimeOfRestoration": null,
-      "outageCentrePoint": {
-        "lat": 53.777486,
-        "lng": -2.925224
-      },
-      "outageLocations": null,
-      "AffectedPostcodes": " PR4 2PE, PR4 2WP, PR4 3PJ, PR4 2WT",
-      "UnderReviewStatusTimeCheck": false,
-      "WebTMSFaultType": "HVFL"
-    },
-    {
-      "FaultLabel": "Live power cut",
-      "Type": "CurrentFault",
-      "Icon": "icon-warning",
-      "ShowViewOnMapCTA": false,
-      "UnderReview": false,
-      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
-      "UpdateInfo": null,
-      "CTAs": [
-        {
-          "Icon": "icon-arrow-right",
-          "Text": "What to do in a power cut",
-          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
-        },
-        {
-          "Icon": "icon-arrow-right",
-          "Text": "I'm involved in this power cut",
-          "Url": "/about-us/contact-us/report-a-power-cut-105/"
-        }
-      ],
       "faultNumber": "INC 124080589",
       "multipleFaultNumbers": null,
       "date": "2022-02-21T07:09:46",
@@ -814,8 +773,8 @@
       "faultStatus": "Team on their way",
       "previousFaultStatus": "Team on their way",
       "consumersOff": 69,
-      "estimatedTimeOfRestoration": "2022-02-21T22:00:00",
-      "estimatedTimeOfRestorationMajority": "2022-02-21T22:00:00",
+      "estimatedTimeOfRestoration": "2022-02-21T15:30:00",
+      "estimatedTimeOfRestorationMajority": "2022-02-21T15:30:00",
       "information": "",
       "actualTimeOfRestoration": null,
       "outageCentrePoint": {
@@ -854,7 +813,7 @@
       "faultType": "Current Fault",
       "faultStatus": "Team on their way",
       "previousFaultStatus": "Team on their way",
-      "consumersOff": 200,
+      "consumersOff": 35,
       "estimatedTimeOfRestoration": "2022-02-22T09:53:00",
       "estimatedTimeOfRestorationMajority": "2022-02-22T09:53:00",
       "information": "",
@@ -901,11 +860,11 @@
       "information": "",
       "actualTimeOfRestoration": null,
       "outageCentrePoint": {
-        "lat": 53.91335,
-        "lng": -2.889844
+        "lat": 53.913474,
+        "lng": -2.890308
       },
       "outageLocations": null,
-      "AffectedPostcodes": " FY6 0HE, PR3 6HE, FY6 0PD, FY6 0HH, PR3 6BN, PR3 6HB, PR3 6AL, PR3 6BU, PR3 6AE, PR3 0LB, PR3 6HJ, PR3 6HL, PR3 0LE, PR3 6AR, PR3 6SN, PR3 6HF, PR3 6AA, FY6 0HG, PR3 6BZ, FY6 0NU, PR3 6BY, PR3 6AS, PR3 6AY, PR3 6HH, PR3 6HN, PR3 6AB, PR3 6SQ, PR3 6BT, FY6 0NY, FY6 0JX, PR4 3PJ, PR3 6BX, PR3 6AX, FY6 0HB, PR3 6SR, PR3 6HD, PR3 6AQ, PR3 6SS, PR3 6AU, FY6 0PQ, FY6 0PB, PR3 6HQ, FY6 0HQ, PR3 0FU, PR3 0LH, FY6 0HL, PR3 6SJ, PR3 6BB, PR3 0LD, PR3 6HS, PR3 6BA, PR3 6HX, PR3 6HW, PR3 6AF, PR3 6SA, PR3 6DE, PR3 6HR, PR3 6AW, FY6 0PA, PR3 6HA, PR3 6HP, PR3 6HU, FY6 0HF, FY6 0EJ, PR3 6AH, PR3 6SU, PR3 6BP, FY6 0HJ, PR3 5JE, PR3 6AP, PR3 6SD, FY6 0NX, PR3 0LJ, PR3 6HG, PR3 1YE, PR3 6SH, PR3 6AG, FY6 0EU, PR3 0LT, PR3 6BH, FY6 0PE, PR3 6AJ, PR3 6BG, PR3 0LA, PR3 1UZ, PR3 6SB, PR3 2QJ, PR3 6SP, PR3 0RE, PR3 1NL, PR3 2ET, PR3 6AD",
+      "AffectedPostcodes": " FY6 0HE, PR3 6HE, FY6 0PD, FY6 0HH, PR3 6BN, PR3 6HB, PR3 6AL, PR3 6BU, PR3 6AE, PR3 0LB, PR3 6HJ, PR3 6HL, PR3 0LE, PR3 6AR, PR3 6SN, PR3 6HF, PR3 6AA, FY6 0HG, PR3 6BZ, FY6 0NU, PR3 6BY, PR3 6AS, PR3 6AY, PR3 6HH, PR3 6HN, PR3 6AB, PR3 6SQ, PR3 6BT, FY6 0NY, FY6 0JX, PR4 3PJ, PR3 6BX, PR3 6AX, FY6 0HB, PR3 6SR, PR3 6HD, PR3 6AQ, PR3 6SS, PR3 6AU, FY6 0PQ, FY6 0PB, PR3 6HQ, FY6 0HQ, PR3 0FU, PR3 0LH, FY6 0HL, PR3 6SJ, PR3 6BB, PR3 0LD, PR3 6HS, PR3 6BA, PR3 6HX, PR3 6HW, PR3 6AF, PR3 6SA, PR3 6DE, PR3 6HR, PR3 6AW, FY6 0PA, PR3 6HA, PR3 6HP, PR3 6HU, FY6 0HF, FY6 0EJ, PR3 6AH, PR3 6SU, PR3 6BP, FY6 0HJ, PR3 5JE, PR3 6AP, PR3 6SD, FY6 0NX, PR3 0LJ, PR3 6HG, PR3 1YE, PR3 6HT, PR3 6SH, PR3 6AG, FY6 0EU, PR3 0LT, PR3 6BH, FY6 0PE, PR3 6AJ, PR3 6BG, PR3 0LA, PR3 1UZ, PR3 6SB, PR3 2QJ, PR3 6SP, PR3 0RE, PR3 1NL, PR3 2ET, PR3 6AD",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "HVFL"
     },
@@ -935,7 +894,7 @@
       "region": "Newburgh, Wigan",
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
-      "previousFaultStatus": "Team on their way",
+      "previousFaultStatus": "We're on site",
       "consumersOff": 106,
       "estimatedTimeOfRestoration": "2022-02-21T17:00:00",
       "estimatedTimeOfRestorationMajority": "2022-02-21T17:00:00",
@@ -977,7 +936,7 @@
       "faultType": "Current Fault",
       "faultStatus": "Team on their way",
       "previousFaultStatus": "Team on their way",
-      "consumersOff": 111,
+      "consumersOff": 19,
       "estimatedTimeOfRestoration": "2022-02-22T09:17:00",
       "estimatedTimeOfRestorationMajority": "2022-02-22T09:17:00",
       "information": "",
@@ -1011,47 +970,6 @@
           "Url": "/about-us/contact-us/report-a-power-cut-105/"
         }
       ],
-      "faultNumber": "INC 124080562",
-      "multipleFaultNumbers": null,
-      "date": "2022-02-21T06:16:59",
-      "region": "Windermere",
-      "faultType": "Current Fault",
-      "faultStatus": "We're on site",
-      "previousFaultStatus": "We're on site",
-      "consumersOff": 11,
-      "estimatedTimeOfRestoration": "2022-02-23T07:16:00",
-      "estimatedTimeOfRestorationMajority": "2022-02-23T07:16:00",
-      "information": "",
-      "actualTimeOfRestoration": null,
-      "outageCentrePoint": {
-        "lat": 54.286971,
-        "lng": -2.904187
-      },
-      "outageLocations": null,
-      "AffectedPostcodes": " LA11 6NJ, LA8 8JL, LA11 6NE, LA11 6NU, LA23 3PA, LA8 8JQ, LA11 6NN, LA11 6NP, LA11 6NZ, LA23 3PF, LA11 6NS, LA23 3NX, LA11 6NL, LA11 6JG, LA11 6NF, LA23 3PB, LA23 3PE, LA11 6NX, LA11 6NT, LA11 6NH, LA11 6NW, LA8 8JJ, LA11 6NG, LA11 6NQ, LA23 3NY, LA23 3PD, LA8 8BX, LA11 6JQ, LA11 6NY, LA8 8JH, LA11 6NR, LA23 3NZ, LA11 7SG",
-      "UnderReviewStatusTimeCheck": false,
-      "WebTMSFaultType": "HVFL"
-    },
-    {
-      "FaultLabel": "Live power cut",
-      "Type": "CurrentFault",
-      "Icon": "icon-warning",
-      "ShowViewOnMapCTA": false,
-      "UnderReview": false,
-      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
-      "UpdateInfo": null,
-      "CTAs": [
-        {
-          "Icon": "icon-arrow-right",
-          "Text": "What to do in a power cut",
-          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
-        },
-        {
-          "Icon": "icon-arrow-right",
-          "Text": "I'm involved in this power cut",
-          "Url": "/about-us/contact-us/report-a-power-cut-105/"
-        }
-      ],
       "faultNumber": "INC 124080546",
       "multipleFaultNumbers": null,
       "date": "2022-02-21T05:42:45",
@@ -1059,7 +977,7 @@
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
       "previousFaultStatus": "We're on site",
-      "consumersOff": 362,
+      "consumersOff": 353,
       "estimatedTimeOfRestoration": "2022-02-23T18:00:00",
       "estimatedTimeOfRestorationMajority": "2022-02-23T18:00:00",
       "information": "",
@@ -1110,7 +1028,7 @@
         "lng": -2.91631
       },
       "outageLocations": null,
-      "AffectedPostcodes": " LA23 3JY, LA23 3AE, LA23 2OX, LA23 3HL, LA23 3NN, LA23 3EG, LA23 3EB, LA23 3GN, LA23 3DT, LA23 3AG, LA23 3NU, LA23 3JA, LA23 3NS, LA23 3LN, LA23 3AF, LA23 3BL, LA23 3EE, LA23 3FB, LA23 3AW, LA23 3GQ, LA23 3NE, LA23 3AD, LA23 3JP, LA23 3LB, LA23 3EW, LA23 3AQ, LA23 3NW, LA23 3HU, LA23 3BX, LA23 3LS, LA23 3BJ, LA23 3HP, LA23 3BT, LA23 3AL, LA23 3LY, LA23 3JD, LA23 3BS, LA23 3HX, LA23 3ES, LA23 3FJ, LA23 3EF, LA23 3LT, LA23 2JF, LA23 3ED, LA23 3ER, LA23 3EH, LA23 3EQ, LA23 3NL, LA23 3NT, LA23 3LU, LA23 3JB, LA23 3AB, LA23 3AY, LA23 3FS, LA23 3JU, LA23 3NR, LA23 3AH, LA23 3AT, LA23 3LX, LA23 3HT, LA23 3DB, LA23 3NP, LA23 3NH, LA23 3DU, LA23 3JT, LA23 3JR, LA23 3JX, LA23 3HY, LA23 3DY, LA23 3EN, LA23 3HZ, LA23 3DE, LA23 3EL, LA23 3EJ, LA23 3BU, LA23 3AJ, LA23 3DD, LA23 3NJ, LA23 3LA, LA23 3HR, LA23 3JZ, LA23 1AP, LA23 3LJ, LA9 3AR, LA23 2LN",
+      "AffectedPostcodes": " LA23 3JY, LA23 3AE, LA23 2OX, LA23 3HL, LA23 3NN, LA23 3EG, LA23 3EB, LA23 3GN, LA23 3DT, LA23 3AG, LA23 3NU, LA23 3JA, LA23 3NS, LA23 3LN, LA23 3AF, LA23 3BX, LA23 3BL, LA23 3EE, LA23 3FB, LA23 3AW, LA23 3GQ, LA23 3NE, LA23 3AD, LA23 3JP, LA23 3LB, LA23 3EW, LA23 3AQ, LA23 3NW, LA23 3HU, LA23 3LS, LA23 3BJ, LA23 3HP, LA23 3BT, LA23 3AL, LA23 3LY, LA23 3JD, LA23 3BS, LA23 3HX, LA23 3ES, LA23 3FJ, LA23 3EF, LA23 3LT, LA23 2JF, LA23 3ED, LA23 3ER, LA23 3EH, LA23 3EQ, LA23 3NL, LA23 3NT, LA23 3LU, LA23 3JB, LA23 3AB, LA23 3AY, LA23 3FS, LA23 3JU, LA23 3NR, LA23 3AH, LA23 3AT, LA23 3LX, LA23 3HT, LA23 3DB, LA23 3NP, LA23 3NH, LA23 3DU, LA23 3JT, LA23 3JR, LA23 3JX, LA23 3HY, LA23 3DY, LA23 3EN, LA23 3HZ, LA23 3DE, LA23 3EL, LA23 3EJ, LA23 3BU, LA23 3AJ, LA23 3DD, LA23 3NJ, LA23 3LA, LA23 3HR, LA23 3JZ, LA23 1AP, LA23 3LJ, LA9 3AR, LA23 2LN",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "HVFL"
     },
@@ -1510,7 +1428,7 @@
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
       "previousFaultStatus": "We're on site",
-      "consumersOff": 4,
+      "consumersOff": 6,
       "estimatedTimeOfRestoration": "2022-02-21T03:00:00",
       "estimatedTimeOfRestorationMajority": "2022-02-21T03:00:00",
       "information": "",
@@ -1531,6 +1449,6 @@
     "ResolvedFault",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 36,
+  "TotalResults": 34,
   "ShowPolygons": false
 }

@@ -761,7 +761,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN3410",
       "reference": "JN3410",
-      "name": "SO40 Area",
+      "name": "SO18 & SO40 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO18 1LU",
@@ -1562,7 +1562,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN5014",
       "reference": "JN5014",
-      "name": "RG24 & RG27 Areas",
+      "name": "RG27 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG24 7DT",
@@ -4034,6 +4034,34 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.3010845033585492,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-24T04:47:00.000+0000",
+      "latitude": 56.66762502031928,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JN8233'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN8233",
+      "reference": "JN8233",
+      "name": "PH49 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "PH49 4HT",
+        "PH49 4HZ"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -4.967928684421115,
+          56.66762502031928
+        ],
+        "type": "Point"
+      },
+      "UUID": "5109e350-1be9-468a-a918-e5611db66dba",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.967928684421115,
       "resolved": false
     }
   ]

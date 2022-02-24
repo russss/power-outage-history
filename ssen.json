@@ -868,7 +868,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN4500",
       "reference": "JN4500",
-      "name": "SP5 & SO51 Areas",
+      "name": "SO51 & SP5 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO51 6FQ",
@@ -1364,57 +1364,6 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
-      "loggedAt": "2022-02-24T15:29:00.000+0000",
-      "latitude": 50.835819718928775,
-      "estimatedRestoration": "2022-02-24T20:00:00.000+0000",
-      "message": "We’re very sorry for the power cut. As may have seen in the media, Storm Eunice delivered some of the most adverse conditions we've seen in many years, with wind speeds in parts of our region hitting record levels. The worst of the weather has passed and it's now safe for our teams to begin work on repairing and altering our network to get your power back on.<br/><br/>Our teams will be working day and night to try and get as many power supplies restored as possible, however, depending on the severity of the damage, this may take longer. If your power is not restored today, we'll be updating our website this evening with an expected time of restoration. We will do all we can to restore your power throughout the day, but some of these repairs are very complex and require significant effort to restore.<br/\\><br/\\>Once again, we’re very sorry about this, but we will continue to update you on progress here. We do have welfare units set up to provide hot food and drink to the worst affected customers, you can find the locations of these by <a href=\"http://news.ssen.co.uk/news/all-articles/2022/february/storm-eunice-ssen-moves-to-red-alert/\">clicking here</a>.",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN8970",
-      "reference": "JN8970",
-      "name": "PO20 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "PO20",
-        "PO20 2AB",
-        "PO20 2BP",
-        "PO20 2BX",
-        "PO20 2BY",
-        "PO20 2DA",
-        "PO20 2DD",
-        "PO20 2DE",
-        "PO20 2DG",
-        "PO20 2DH",
-        "PO20 2DJ",
-        "PO20 2DL",
-        "PO20 2DN",
-        "PO20 2DP",
-        "PO20 2DQ",
-        "PO20 2DW",
-        "PO20 2FH",
-        "PO20 2NN"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -0.7178156428720075,
-          50.835819718928775
-        ],
-        "type": "Point"
-      },
-      "UUID": "4654cd96-53dd-46be-aa51-3ef37dcfa97b",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "evChargersAffected": [
-        "a857c257-e900-468f-b695-da1744717f01",
-        "3d439601-ea0c-4019-afff-8a880fc004a0",
-        "d085806c-91e2-4a53-ac34-2be9e0317096"
-      ],
-      "longitude": -0.7178156428720075,
-      "resolved": false
-    },
-    {
-      "customIncludeDefault": false,
-      "py/object": "Fault",
       "loggedAt": "2022-02-23T07:18:00.000+0000",
       "latitude": 51.352111351256674,
       "estimatedRestoration": "2022-02-24T18:30:00.000+0000",
@@ -1485,7 +1434,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN9099",
       "reference": "JN9099",
-      "name": "BA11 & BA12 Areas",
+      "name": "BA12 & BA11 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BA11 5JL",
@@ -2221,6 +2170,44 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -4.185341356260252,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-24T19:06:00.000+0000",
+      "latitude": 55.44561992773052,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JN9252'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN9252",
+      "reference": "JN9252",
+      "name": "PA28 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "PA28 6JJ",
+        "PA28 6NL",
+        "PA28 6NN",
+        "PA28 6NT",
+        "PA28 6NW",
+        "PA28 6NX",
+        "PA28 6NY",
+        "PA28 6PD",
+        "PA28 6QB",
+        "PA28 6QD",
+        "PA28 6QP",
+        "PA28 6SY"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -5.628276997144665,
+          55.44561992773052
+        ],
+        "type": "Point"
+      },
+      "UUID": "8938a336-28d1-4ee3-8f85-032f84cfb26e",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.628276997144665,
       "resolved": false
     }
   ]

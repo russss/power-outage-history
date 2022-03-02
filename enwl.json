@@ -53,8 +53,8 @@
       "Type": "CurrentFault",
       "Icon": "icon-warning",
       "ShowViewOnMapCTA": false,
-      "UnderReview": true,
-      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cut’s, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
       "UpdateInfo": null,
       "CTAs": [
         {
@@ -68,26 +68,26 @@
           "Url": "/about-us/contact-us/report-a-power-cut-105/"
         }
       ],
-      "faultNumber": "INC 124083341",
+      "faultNumber": "INC 124083494",
       "multipleFaultNumbers": null,
-      "date": "2022-03-01T12:28:44",
-      "region": "Dukinfield",
+      "date": "2022-03-01T20:59:42",
+      "region": "Salterbeck, Workington",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
-      "consumersOff": 6,
-      "estimatedTimeOfRestoration": "2022-03-01T15:28:00",
-      "estimatedTimeOfRestorationMajority": "2022-03-01T15:28:00",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 43,
+      "estimatedTimeOfRestoration": "2022-03-02T02:59:00",
+      "estimatedTimeOfRestorationMajority": "2022-03-02T02:59:00",
       "information": "",
       "actualTimeOfRestoration": null,
       "outageCentrePoint": {
-        "lat": 53.472859,
-        "lng": -2.089889
+        "lat": 54.621482,
+        "lng": -3.556955
       },
       "outageLocations": null,
-      "AffectedPostcodes": " SK16 4RN, SK16 4TW, SK16 4BD, SK16 4BB, SK16 4BH, SK16 4BG, SK16 4BE, SK16 4TH, SK16 4BL, SK16 5AG, SK16 4UZ, SK16 4TT, SK16 4TU, SK16 4BQ, SK16 4TP, SK16 4, SK16 4BJ, SK16 4RU, SK16 4HF, SK16 4TY, SK16 4UA, SK16 4TL, SK16 4HN, SK16 4HP, SK16 4HU, SK16 4HH, SK16 4TZ, SK16 4TX",
-      "UnderReviewStatusTimeCheck": true,
-      "WebTMSFaultType": "HVFL"
+      "AffectedPostcodes": " CA14 5LF, CA14 5EA, CA14 5DZ, CA14 5LE, CA14 5DP",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "U/GM"
     },
     {
       "FaultLabel": "Live power cut",
@@ -135,6 +135,7 @@
   "AvailableItemTypes": [
     "CurrentFault",
     "ResolvedFault",
+    "TodaysPlannedWorks",
     "FuturePlannedWorks",
     "CancelledPlannedWork"
   ],

@@ -41,37 +41,31 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-03-03T04:06:00.000+0000",
-      "latitude": 50.81025124405905,
-      "estimatedRestoration": "2022-03-03T07:20:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP3853'",
+      "loggedAt": "2022-03-03T04:51:00.000+0000",
+      "latitude": 51.64465988065016,
+      "estimatedRestoration": "2022-03-03T09:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP3870'",
       "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP3853",
-      "reference": "JP3853",
-      "name": "PO3 Area",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP3870",
+      "reference": "JP3870",
+      "name": "HP15 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "PO3 6LZ",
-        "PO3 6NA",
-        "PO3 6ND",
-        "PO3 6NE",
-        "PO3 6NG",
-        "PO3 6NH",
-        "PO3 6NJ"
+        "HP15 7PH",
+        "HP15 7TF"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -1.0594009259012338,
-          50.81025124405905
+          -0.7035578268378104,
+          51.64465988065016
         ],
         "type": "Point"
       },
-      "estimatedArrivalOnSiteTime": "2022-03-03T05:00:00.000+0000",
-      "UUID": "9fc2f87a-1d1c-4ee7-9cb6-615b051e21ba",
+      "UUID": "9759637b-9476-426a-b5c3-5e1f85f74073",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.0594009259012338,
+      "longitude": -0.7035578268378104,
       "resolved": false
     },
     {
@@ -130,6 +124,57 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -3.1492881236587182,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-03T05:44:00.000+0000",
+      "latitude": 56.05391729061154,
+      "estimatedRestoration": "2022-03-03T09:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP3882'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP3882",
+      "reference": "JP3882",
+      "name": "G63 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "G63 0BG",
+        "G63 0JX",
+        "G63 0LN",
+        "G63 0XA",
+        "G63 0XB",
+        "G63 0XD",
+        "G63 0XE",
+        "G63 0XF",
+        "G63 0XG",
+        "G63 0XH",
+        "G63 0XJ",
+        "G63 0XL",
+        "G63 0XN",
+        "G63 0XQ",
+        "G63 0YA",
+        "G63 0YB",
+        "G63 0YD",
+        "G63 0YF",
+        "G63 0YH",
+        "G63 0YQ"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -4.248165385819064,
+          56.05391729061154
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-03-03T06:30:00.000+0000",
+      "UUID": "89e0fed5-f66b-4b31-85dd-0bce8b3be840",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "02cb3b07-3373-4fd3-95f5-ed9e7d9f20ee"
+      ],
+      "longitude": -4.248165385819064,
       "resolved": false
     }
   ]

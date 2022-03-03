@@ -75,35 +75,6 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-03-02T21:00:00.000+0000",
-      "latitude": 51.51166249947143,
-      "estimatedRestoration": "2022-03-03T03:00:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '206315'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "type": "PSI",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/206315",
-      "reference": "206315",
-      "name": "UB1 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "UB1 3HJ",
-        "UB1 3HP"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -0.3705825324039225,
-          51.51166249947143
-        ],
-        "type": "Point"
-      },
-      "UUID": "9b0e71bd-d5d4-49db-b9f7-821070c6f918",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.3705825324039225,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
       "loggedAt": "2022-03-02T21:30:00.000+0000",
       "latitude": 51.33268969520819,
       "estimatedRestoration": "2022-03-03T03:30:00.000+0000",
@@ -147,7 +118,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP1125",
       "reference": "JP1125",
       "engineerOnSiteTime": "2022-02-27T22:02:00.000+0000",
-      "name": "SO19 Area",
+      "name": "SO53 & SO19 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO19 9LB",
@@ -239,6 +210,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-03-03T03:30:00.000+0000",
       "UUID": "182705c5-0068-462c-9968-c459ba2f4870",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -271,6 +243,37 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -7.221784909692999,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-03T02:36:00.000+0000",
+      "latitude": 56.48172382200122,
+      "estimatedRestoration": "2022-03-03T05:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP3830'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP3830",
+      "reference": "JP3830",
+      "name": "DD4 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "DD4 8LG",
+        "DD4 8LR",
+        "DD4 8LS"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -2.9281238661084266,
+          56.48172382200122
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-03-03T03:30:00.000+0000",
+      "UUID": "4813aa24-7560-4ae5-9454-919af6e5a727",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.9281238661084266,
       "resolved": false
     }
   ]

@@ -3,7 +3,7 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-03-08T03:18:00.000+0000",
-      "latitude": 51.28898894186069,
+      "latitude": 51.29443998873175,
       "estimatedRestoration": "2022-03-08T10:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP6498'",
       "type": "HV",
@@ -12,14 +12,17 @@
       "name": "RG23 & RG26 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "RG23 8TH",
-        "RG26 5TB"
+        "RG23 8PF",
+        "RG26 5HJ",
+        "RG26 5RD",
+        "RG26 5RH",
+        "RG26 5TD"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -1.142510087394254,
-          51.28898894186069
+          -1.1538965773275407,
+          51.29443998873175
         ],
         "type": "Point"
       },
@@ -27,7 +30,41 @@
       "UUID": "e48044dd-365c-4547-b1f2-6792f65777a3",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.142510087394254,
+      "longitude": -1.1538965773275407,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-08T07:19:00.000+0000",
+      "latitude": 51.5044157937329,
+      "estimatedRestoration": "2022-03-08T10:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP6543'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP6543",
+      "reference": "JP6543",
+      "name": "SL1 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SL1 1RQ",
+        "SL1 2AY",
+        "SL1 2BB",
+        "SL1 2BD",
+        "SL1 2BQ",
+        "SL1 2BW",
+        "SL1 2BX"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -0.5899539076649813,
+          51.5044157937329
+        ],
+        "type": "Point"
+      },
+      "UUID": "92293492-f1b7-4ca0-befd-2481c017876f",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.5899539076649813,
       "resolved": false
     },
     {

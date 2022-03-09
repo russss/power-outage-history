@@ -54,6 +54,47 @@
       "Icon": "icon-warning",
       "ShowViewOnMapCTA": false,
       "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125026601",
+      "multipleFaultNumbers": null,
+      "date": "2022-03-09T16:12:09",
+      "region": "Stainton, Penrith",
+      "faultType": "Current Fault",
+      "faultStatus": "Preparing to send team",
+      "previousFaultStatus": null,
+      "consumersOff": 200,
+      "estimatedTimeOfRestoration": "2022-03-09T19:12:00",
+      "estimatedTimeOfRestorationMajority": "2022-03-09T19:12:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 54.642303,
+        "lng": -2.779261
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " CA11 0ES, CA11 0EZ, CA11 0EE, CA11 0FG, CA11 0EP, CA11 0EL, CA11 0EF, CA11 0EA, CA11 0ED, CA11 0DZ, CA11 0EW, CA10 3HD, CA11 0PD, CA11 0HA, CA10 1PN, CA11 0EY, CA11 0EN, CA10 1BL, CA11 0ET, CA11 0DU, CA10 2QR",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": true,
       "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cut’s, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
       "UpdateInfo": null,
       "CTAs": [
@@ -86,47 +127,6 @@
       },
       "outageLocations": null,
       "AffectedPostcodes": " BB11 3DJ, BB12 3DE, BB11 3DE, BB11 3DH, BB11 3DQ, BB11 3DG, BB11 3DD",
-      "UnderReviewStatusTimeCheck": false,
-      "WebTMSFaultType": "U/GM"
-    },
-    {
-      "FaultLabel": "Live power cut",
-      "Type": "CurrentFault",
-      "Icon": "icon-warning",
-      "ShowViewOnMapCTA": false,
-      "UnderReview": true,
-      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cut’s, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
-      "UpdateInfo": null,
-      "CTAs": [
-        {
-          "Icon": "icon-arrow-right",
-          "Text": "What to do in a power cut",
-          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
-        },
-        {
-          "Icon": "icon-arrow-right",
-          "Text": "I'm involved in this power cut",
-          "Url": "/about-us/contact-us/report-a-power-cut-105/"
-        }
-      ],
-      "faultNumber": "INC 125026431",
-      "multipleFaultNumbers": null,
-      "date": "2022-03-09T07:48:09",
-      "region": "Swinton, Manchester",
-      "faultType": "Current Fault",
-      "faultStatus": "We're on site",
-      "previousFaultStatus": "We're on site",
-      "consumersOff": 84,
-      "estimatedTimeOfRestoration": "2022-03-09T11:48:00",
-      "estimatedTimeOfRestorationMajority": "2022-03-09T11:48:00",
-      "information": "",
-      "actualTimeOfRestoration": null,
-      "outageCentrePoint": {
-        "lat": 53.503661,
-        "lng": -2.34242
-      },
-      "outageLocations": null,
-      "AffectedPostcodes": " M27 5QG, M27 5QQ, M27 5GH, M27 5QH, M27 5RR, M27 5GF, M27 5GL, M27 5GE",
       "UnderReviewStatusTimeCheck": true,
       "WebTMSFaultType": "U/GM"
     },
@@ -217,7 +217,6 @@
   "AvailableItemTypes": [
     "CurrentFault",
     "ResolvedFault",
-    "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
   "TotalResults": 4,

@@ -740,7 +740,8 @@
       "py/object": "Fault",
       "loggedAt": "2022-03-11T10:25:00.000+0000",
       "latitude": 58.162884334450595,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP8614'",
+      "estimatedRestoration": "2022-03-11T15:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP8614'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP8614",
       "reference": "JP8614",
@@ -761,6 +762,34 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -6.8902165065177865,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-11T10:33:00.000+0000",
+      "latitude": 56.830810033247744,
+      "estimatedRestoration": "2022-03-11T12:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP8620'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP8620",
+      "reference": "JP8620",
+      "name": "AB30 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "AB30 1JA"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -2.368092991164415,
+          56.830810033247744
+        ],
+        "type": "Point"
+      },
+      "UUID": "e341d6b1-7b0f-477b-812b-0bf016540e5e",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.368092991164415,
       "resolved": false
     }
   ]

@@ -75,7 +75,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/205769",
       "reference": "205769",
-      "name": "RH12 Area",
+      "name": "RH13 & RH12 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RH12 3PG",
@@ -463,7 +463,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP9362",
       "reference": "JP9362",
-      "name": "FK8 & G63 Areas",
+      "name": "G63 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "FK8 3RZ",
@@ -482,6 +482,57 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -4.350374155404227,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-12T13:36:00.000+0000",
+      "latitude": 57.467558902129255,
+      "estimatedRestoration": "2022-03-12T17:35:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP9431'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP9431",
+      "reference": "JP9431",
+      "name": "IV2 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "IV1 2BX",
+        "IV1 2EP",
+        "IV2 5AZ",
+        "IV2 5BB",
+        "IV2 5BD",
+        "IV2 5BE",
+        "IV2 5BF",
+        "IV2 5BG",
+        "IV2 5BN",
+        "IV2 5BP",
+        "IV2 5BS",
+        "IV2 5BU",
+        "IV2 5BX",
+        "IV2 5EA",
+        "IV2 5EB",
+        "IV2 5EF",
+        "IV2 5EQ",
+        "IV2 5ER",
+        "IV2 5EX",
+        "IV2 5GX",
+        "IV2 5JQ",
+        "IV2 6AA",
+        "IV2 6FS",
+        "IV2 6GY"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -4.135900038096166,
+          57.467558902129255
+        ],
+        "type": "Point"
+      },
+      "UUID": "c076b7eb-0257-45ed-9fe4-01e3c7962a89",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.135900038096166,
       "resolved": false
     }
   ]

@@ -174,7 +174,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP9402",
       "reference": "JP9402",
       "engineerOnSiteTime": "2022-03-12T13:00:00.000+0000",
-      "name": "HP13 Area",
+      "name": "HP11 & HP13 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "HP11 1NJ",
@@ -211,7 +211,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-03-12T09:03:00.000+0000",
       "latitude": 56.243680527571875,
-      "estimatedRestoration": "2022-03-12T15:00:00.000+0000",
+      "estimatedRestoration": "2022-03-12T17:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP9306'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP9306",
@@ -333,6 +333,42 @@
         "c2a645b8-48fd-4c20-943b-5397cb87f670"
       ],
       "longitude": -4.119137024733272,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-12T15:25:00.000+0000",
+      "latitude": 60.275534754771,
+      "estimatedRestoration": "2022-03-12T19:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP9473'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP9473",
+      "reference": "JP9473",
+      "name": "ZE2 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "ZE1 0HB",
+        "ZE2 9PH",
+        "ZE2 9PL",
+        "ZE2 9PW",
+        "ZE2 9QW"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.4847516552441817,
+          60.275534754771
+        ],
+        "type": "Point"
+      },
+      "UUID": "3ba35fd7-bd06-43a9-96ca-836a2dc32288",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "cfdf5af6-5d22-4c04-a7f1-853a70bd8f24",
+        "e41d1589-8f73-4031-aa41-8408d7caa5e4"
+      ],
+      "longitude": -1.4847516552441817,
       "resolved": false
     }
   ]

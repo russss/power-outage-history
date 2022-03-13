@@ -46,13 +46,56 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": true,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125027366",
+      "multipleFaultNumbers": null,
+      "date": "2022-03-13T18:21:42",
+      "region": "Shap, Penrith",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": null,
+      "consumersOff": 79,
+      "estimatedTimeOfRestoration": "2022-03-13T21:21:00",
+      "estimatedTimeOfRestorationMajority": "2022-03-13T21:21:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 54.550133,
+        "lng": -2.73695
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " CA10 3PW, CA10 3PZ, CA10 3QF, CA10 3PY, CA10 3QE, CA10 3NE, CA10 3PP, CA11 0PA, CA10 3PR, CA10 3NB, CA10 3QD, LA8 0LF, CA10 2RS, CA10 2QT, CA10 2QX, CA10 2QU, CA10 2QL, CA10 2RE, CA10 2RW, CA10 2QR, CA10 2RJ, CA10 2RL, CA10 2RQ, CA10 2QZ, CA10 2QQ, CA10 2QS, CA10 2RH, CA10 2PU, CA10 2PT, CA10 2RF, CA10 2RP, CA10 1JH, CA10 2QJ, CA10 2QP, CA10 2QB, CA10 2PG, CA10 2RG, CA10 3ND, CA11 8SE, CA10 2RA, CA10 2RB, CA10 2RR, CA10 2NX, CA10 2QY, CA11 9SE, CA10 2QG",
+      "UnderReviewStatusTimeCheck": true,
+      "WebTMSFaultType": "HVFL"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 1,
   "ShowPolygons": false
 }

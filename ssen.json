@@ -278,6 +278,37 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-03-23T22:00:00.000+0000",
+      "latitude": 51.42138964154178,
+      "estimatedRestoration": "2022-03-24T06:00:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '206145'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "type": "PSI",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/206145",
+      "reference": "206145",
+      "name": "RG2 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG2 0LX",
+        "RG2 0TE",
+        "RG2 0TG",
+        "RG2 0TH"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -0.9760390509195277,
+          51.42138964154178
+        ],
+        "type": "Point"
+      },
+      "UUID": "536cf9d3-2351-47ca-a7b7-f993cb4c4007",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.9760390509195277,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-03-23T20:09:00.000+0000",
       "latitude": 57.13909984053905,
       "estimatedRestoration": "2022-03-23T23:30:00.000+0000",
@@ -310,7 +341,8 @@
       "py/object": "Fault",
       "loggedAt": "2022-03-23T21:31:00.000+0000",
       "latitude": 57.550898037210594,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ5757'",
+      "estimatedRestoration": "2022-03-23T23:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ5757'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ5757",
       "reference": "JQ5757",
@@ -336,48 +368,6 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.94150354369073,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
-      "loggedAt": "2022-03-23T21:38:00.000+0000",
-      "latitude": 59.953074475801735,
-      "estimatedRestoration": "2022-03-24T00:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ5760'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ5760",
-      "reference": "JQ5760",
-      "name": "ZE2 Area",
-      "networkId": "com.sse.ssepd.shepd",
-      "affectedAreas": [
-        "ZE2 9GB",
-        "ZE2 9JB",
-        "ZE2 9JD",
-        "ZE2 9JE",
-        "ZE2 9JG",
-        "ZE2 9JH",
-        "ZE2 9JJ",
-        "ZE2 9JQ",
-        "ZE2 9JR",
-        "ZE2 9JW",
-        "ZE2 9NP"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -1.3225489122681027,
-          59.953074475801735
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2022-03-23T22:15:00.000+0000",
-      "UUID": "38c64ce3-ee33-4722-bfaf-8827468b25d2",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "evChargersAffected": [
-        "e460cf56-d809-4646-9273-3c3b8afd1f4d"
-      ],
-      "longitude": -1.3225489122681027,
       "resolved": false
     }
   ]

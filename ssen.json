@@ -183,7 +183,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-03-23T17:26:00.000+0000",
       "latitude": 50.79084708046399,
-      "estimatedRestoration": "2022-03-23T21:00:00.000+0000",
+      "estimatedRestoration": "2022-03-24T12:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ5690'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ5690",
@@ -330,6 +330,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-03-23T20:00:00.000+0000",
       "UUID": "25299f8a-476b-486b-a3aa-bd94a289b99a",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -345,7 +346,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ5522",
       "reference": "JQ5522",
-      "name": "IV2 & IV12 Areas",
+      "name": "IV12 & IV2 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV12 5NY",
@@ -364,6 +365,35 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -3.984275297369106,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-23T16:36:00.000+0000",
+      "latitude": 56.69344340856635,
+      "estimatedRestoration": "2022-03-23T22:40:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ5620'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ5620",
+      "reference": "JQ5620",
+      "engineerOnSiteTime": "2022-03-23T17:30:00.000+0000",
+      "name": "DD8 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "DD8 3TQ"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -2.9054732935386434,
+          56.69344340856635
+        ],
+        "type": "Point"
+      },
+      "UUID": "aa8997ca-64e7-405b-80b8-3dd899b156b5",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.9054732935386434,
       "resolved": false
     }
   ]

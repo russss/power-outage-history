@@ -248,6 +248,40 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-03-23T12:44:00.000+0000",
+      "latitude": 51.01167684860418,
+      "estimatedRestoration": "2022-03-23T23:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ5471'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ5471",
+      "reference": "JQ5471",
+      "engineerOnSiteTime": "2022-03-23T17:15:00.000+0000",
+      "name": "GU32 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "GU32 1LX",
+        "GU32 1LY",
+        "GU32 1LZ",
+        "GU32 1NA",
+        "GU32 1NB",
+        "GU32 1ND"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.0740213010513937,
+          51.01167684860418
+        ],
+        "type": "Point"
+      },
+      "UUID": "69d5fa40-94e1-4fdd-ba34-c7ebd30efde4",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.0740213010513937,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-03-23T14:05:00.000+0000",
       "latitude": 57.55921032354869,
       "estimatedRestoration": "2022-03-23T18:00:00.000+0000",
@@ -255,7 +289,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ5522",
       "reference": "JQ5522",
-      "name": "IV12 & IV2 Areas",
+      "name": "IV2 & IV12 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV12 5NY",
@@ -278,31 +312,32 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2021-11-26T15:30:00.000+0000",
-      "latitude": 56.733546623896785,
-      "estimatedRestoration": "2022-03-23T23:15:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ5737'",
+      "loggedAt": "2022-03-23T20:09:00.000+0000",
+      "latitude": 57.13909984053905,
+      "estimatedRestoration": "2022-03-23T23:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ5741'",
       "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ5737",
-      "reference": "JQ5737",
-      "engineerOnSiteTime": "2022-03-23T00:01:00.000+0000",
-      "name": "DD9 Area",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ5741",
+      "reference": "JQ5741",
+      "name": "AB11 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "DD9 6SB"
+        "AB11 6TJ",
+        "AB11 6TQ"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -2.820053663396036,
-          56.733546623896785
+          -2.107149254591006,
+          57.13909984053905
         ],
         "type": "Point"
       },
-      "UUID": "0d953c34-b717-4b04-9290-9378296caf72",
+      "estimatedArrivalOnSiteTime": "2022-03-23T21:30:00.000+0000",
+      "UUID": "7bcb1a89-03cd-42ce-b499-24b5d35c7632",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.820053663396036,
+      "longitude": -2.107149254591006,
       "resolved": false
     }
   ]

@@ -9,7 +9,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/205694",
       "reference": "205694",
-      "name": "BH21 & DT11 Areas",
+      "name": "DT11 & BH21 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH21 3QZ",
@@ -195,8 +195,39 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-03-25T07:45:00.000+0000",
+      "latitude": 51.365265229024104,
+      "estimatedRestoration": "2022-03-25T11:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ6586'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ6586",
+      "reference": "JQ6586",
+      "name": "RG45 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG40 3SY",
+        "RG45 6AE",
+        "RG45 6AF"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -0.8339915315068434,
+          51.365265229024104
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-03-25T08:30:00.000+0000",
+      "UUID": "0af4054e-0f0c-4a4e-9ed2-f52a9362220b",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.8339915315068434,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-03-25T06:58:00.000+0000",
-      "latitude": 60.23173363068499,
+      "latitude": 60.23161577922229,
       "estimatedRestoration": "2022-03-25T10:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ6565'",
       "type": "HV",
@@ -205,23 +236,18 @@
       "name": "ZE2 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "ZE2 9NP",
-        "ZE2 9PB",
-        "ZE2 9PD",
-        "ZE2 9PE",
         "ZE2 9PF",
         "ZE2 9PG",
         "ZE2 9PH",
         "ZE2 9PJ",
-        "ZE2 9PQ",
         "ZE2 9QX",
         "ZE2 9XB"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -1.5725881442169767,
-          60.23173363068499
+          -1.5639596753035099,
+          60.23161577922229
         ],
         "type": "Point"
       },
@@ -229,14 +255,15 @@
       "UUID": "c5f34789-7a8a-48a6-a8e0-21a7abb065a9",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.5725881442169767,
+      "longitude": -1.5639596753035099,
       "resolved": false
     },
     {
       "py/object": "Fault",
       "loggedAt": "2022-03-25T07:38:00.000+0000",
       "latitude": 60.276696449457454,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ6583'",
+      "estimatedRestoration": "2022-03-25T11:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ6583'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ6583",
       "reference": "JQ6583",

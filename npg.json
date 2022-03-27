@@ -1,5 +1,5 @@
 {
-  "lastModified": 1648359605000,
+  "lastModified": 1648361706000,
   "powercuts": {
     "INCD-279646-A": {
       "areacode": 15,
@@ -7,7 +7,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "REQ.D, LINESMEN",
       "customerStageSequence": 4,
-      "elapsed": "08d 19:10",
+      "elapsed": "08d 19:45",
       "estimatedTimeTillResolution": null,
       "group": "LV TEMPS",
       "latestStageSequenceHistory": 1647629409000,
@@ -50,7 +50,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "TEES SUPER, SPOC TEES SUPER",
       "customerStageSequence": 5,
-      "elapsed": "01d 20:58",
+      "elapsed": "01d 21:33",
       "estimatedTimeTillResolution": 1648465200000,
       "group": "MAJOR REPAIRS",
       "latestStageSequenceHistory": 1648220711000,
@@ -87,13 +87,56 @@
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
+    "INCD-281981-A": {
+      "areacode": 23,
+      "category": "Unmetered Service Repair",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "JOINTER, JOINTER",
+      "customerStageSequence": 4,
+      "elapsed": "00d 09:21",
+      "estimatedTimeTillResolution": null,
+      "group": "MAJOR REPAIRS",
+      "latestStageSequenceHistory": 1648348207000,
+      "latestStageSequenceStatus": 2,
+      "location": "BD19 3UQ, FEEDER PILLAR CM MESSAGE SIGN, MOTORWAY COMMS CABINET EI100/5M, BRADFORD ROAD, CLECKHEATON",
+      "logged": 1648331640000,
+      "natureOfOutage": "Single Premise",
+      "networkObject": "SNELSINS LANE_",
+      "numberOfCalls": 1,
+      "postcodes": {
+        "BD19 3UQ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.7345,
+          "lng": -1.72456
+        }
+      },
+      "prefix": null,
+      "priority": 3,
+      "reference": "INCD-281981-A",
+      "region": "West Yorkshire / Bradford 2",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 2,
+      "startnumber": 0,
+      "status": "Awaiting",
+      "totalConfirmedOff": 0,
+      "totalPredictedOff": 1,
+      "totalResourceAssigned": 1,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 0,
+      "type": "SP",
+      "hoursSinceLogged": 8,
+      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
+      "categoryWebText": ""
+    },
     "INCD-281983-A": {
       "areacode": 15,
       "category": "HV Restoration",
       "class": "models.MapDataPowercutIncno",
       "contact": "WILSON, ANDREW",
       "customerStageSequence": 7,
-      "elapsed": "00d 07:48",
+      "elapsed": "00d 08:23",
       "estimatedTimeTillResolution": 1648369800000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1648335309000,
@@ -102,7 +145,7 @@
       "logged": 1648335120000,
       "natureOfOutage": "Large Area Fault",
       "networkObject": "4042778-ASSET",
-      "numberOfCalls": 25,
+      "numberOfCalls": 26,
       "postcodes": {
         "HG5 8NB": {
           "class": "models.MapDataLocation",
@@ -708,7 +751,7 @@
       "stageSequence": 7,
       "startnumber": 0,
       "status": "In Progress",
-      "totalConfirmedOff": 37,
+      "totalConfirmedOff": 84,
       "totalPredictedOff": 0,
       "totalResourceAssigned": 0,
       "totalResourceDispatched": 0,
@@ -716,116 +759,8 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 136,
       "type": "HV_N",
-      "hoursSinceLogged": 6,
+      "hoursSinceLogged": 7,
       "stageSequenceMessage": "We are currently working hard to restore your power however we are unable to provide an accurate restoration time. Please call us on 105 if you have any specific questions.",
-      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
-    },
-    "INCD-282000-A": {
-      "areacode": 23,
-      "category": "LV Restoration",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "BARRETT, ANDREW",
-      "customerStageSequence": 4,
-      "elapsed": "00d 06:09",
-      "estimatedTimeTillResolution": 1648360800000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1648356907000,
-      "latestStageSequenceStatus": 4,
-      "location": "HU15 1HR, ELLOUGHTON SS, Transformer LV",
-      "logged": 1648341060000,
-      "natureOfOutage": "Localised Fault",
-      "networkObject": "4046136",
-      "numberOfCalls": 12,
-      "postcodes": {
-        "HU15 1HR": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7386,
-          "lng": -0.566549
-        },
-        "HU15 1HS": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7412,
-          "lng": -0.569693
-        },
-        "HU15 1HT": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7414,
-          "lng": -0.568653
-        },
-        "HU15 1HU": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7413,
-          "lng": -0.567385
-        },
-        "HU15 1SG": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7328,
-          "lng": -0.560455
-        },
-        "HU15 1FB": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7317,
-          "lng": -0.56142
-        },
-        "HU15 1SE": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7335,
-          "lng": -0.560326
-        },
-        "HU15 1LW": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7409,
-          "lng": -0.566002
-        },
-        "HU15 1JP": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7392,
-          "lng": -0.569654
-        },
-        "HU15 1SL": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7326,
-          "lng": -0.56348
-        },
-        "HU15 1SP": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7414,
-          "lng": -0.57049
-        },
-        "HU15 1LU": {
-          "class": "models.MapDataLocation",
-          "lat": 53.741,
-          "lng": -0.566849
-        },
-        "HU15 2EH": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7687,
-          "lng": -0.601424
-        },
-        "HU15 1JA": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7397,
-          "lng": -0.565742
-        }
-      },
-      "prefix": null,
-      "priority": 3,
-      "reference": "INCD-282000-A",
-      "region": "Humber Estuary / Hull 1",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 4,
-      "startnumber": 0,
-      "status": "In Progress",
-      "totalConfirmedOff": 73,
-      "totalPredictedOff": 34,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 1,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 9,
-      "type": "LV",
-      "hoursSinceLogged": 5,
-      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
     "INCD-282002-A": {
@@ -834,7 +769,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "O'CONNORS, CIVIL TEAM",
       "customerStageSequence": 2,
-      "elapsed": "00d 03:46",
+      "elapsed": "00d 04:21",
       "estimatedTimeTillResolution": 1648357200000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1648359307000,
@@ -867,7 +802,50 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "SP",
-      "hoursSinceLogged": 3,
+      "hoursSinceLogged": 4,
+      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
+      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
+    },
+    "INCD-282005-A": {
+      "areacode": 15,
+      "category": "Unknown P2",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "",
+      "customerStageSequence": 1,
+      "elapsed": "00d 00:28",
+      "estimatedTimeTillResolution": 1648371600000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1648360206000,
+      "latestStageSequenceStatus": 1,
+      "location": "DL7 9UJ, NORTH YORKSHIRE, LEEMING BAR INDUSTRIAL ESTATE, TARGET EXPRESS;, TUTIN ROAD",
+      "logged": 1648360020000,
+      "natureOfOutage": "Single Premise",
+      "networkObject": "BEDALE",
+      "numberOfCalls": 1,
+      "postcodes": {
+        "DL7 9UJ": {
+          "class": "models.MapDataLocation",
+          "lat": 54.3064,
+          "lng": -1.56718
+        }
+      },
+      "prefix": null,
+      "priority": 4,
+      "reference": "INCD-282005-A",
+      "region": "Yorkshire Dales NE / Northallerton 1",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 1,
+      "startnumber": 0,
+      "status": "Awaiting",
+      "totalConfirmedOff": 0,
+      "totalPredictedOff": 1,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 0,
+      "type": "SP",
+      "hoursSinceLogged": 0,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -877,7 +855,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Chris Greathead",
       "customerStageSequence": 0,
-      "elapsed": "0d 1:19",
+      "elapsed": "0d 0:44",
       "estimatedTimeTillResolution": 1648366200000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1648339208000,
@@ -975,7 +953,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 16,
       "type": "LV",
-      "hoursSinceLogged": -1,
+      "hoursSinceLogged": 0,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -985,7 +963,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Sam Keyworth",
       "customerStageSequence": 0,
-      "elapsed": "0d 12:19",
+      "elapsed": "0d 11:44",
       "estimatedTimeTillResolution": 1648418400000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1648339208000,
@@ -1038,7 +1016,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "LV",
-      "hoursSinceLogged": -12,
+      "hoursSinceLogged": -11,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     }

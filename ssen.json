@@ -160,7 +160,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-03-29T02:14:00.000+0000",
       "latitude": 51.493473420967256,
-      "estimatedRestoration": "2022-03-29T07:30:00.000+0000",
+      "estimatedRestoration": "2022-03-29T11:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ8282'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ8282",
@@ -199,7 +199,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ8291",
       "reference": "JQ8291",
-      "name": "PA77 & PA78 Areas",
+      "name": "PA78 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "PA77 6TR",
@@ -251,6 +251,40 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -3.4457396982831585,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-29T04:50:00.000+0000",
+      "latitude": 58.591671255072846,
+      "estimatedRestoration": "2022-03-29T08:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ8305'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ8305",
+      "reference": "JQ8305",
+      "name": "KW14 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "KW14 8SP",
+        "KW14 8SR",
+        "KW14 8SS",
+        "KW14 8ST",
+        "KW14 8SW",
+        "KW14 8YT"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -3.4332292589496864,
+          58.591671255072846
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-03-29T17:30:00.000+0000",
+      "UUID": "69234c49-5d6a-4169-b2ca-5837279397a3",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.4332292589496864,
       "resolved": false
     }
   ]

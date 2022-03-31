@@ -331,7 +331,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ9966",
       "reference": "JQ9966",
-      "name": "RG18 & RG7 Areas",
+      "name": "RG7 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG18 0UD",
@@ -627,6 +627,47 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.6678630322901358,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-31T17:16:00.000+0000",
+      "latitude": 51.076050819980345,
+      "estimatedRestoration": "2022-03-31T20:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JR0019'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JR0019",
+      "reference": "JR0019",
+      "name": "RH14 & RH12 Areas",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RH12 3BS",
+        "RH12 3DR",
+        "RH12 3DW",
+        "RH12 3JN",
+        "RH12 3JW",
+        "RH14",
+        "RH14 0SX",
+        "RH14 0TR",
+        "RH14 0TT"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -0.4874844668407262,
+          51.076050819980345
+        ],
+        "type": "Point"
+      },
+      "UUID": "19f694fc-fe1e-4675-8049-def47e60fed5",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "a6abe1fa-b40a-4830-8696-ecc3ca9433d1",
+        "9b163a8f-5711-45a0-92c6-9ae93e2a677c",
+        "4774c60a-2bfc-4e10-b0fc-a1ed8bf1ef65"
+      ],
+      "longitude": -0.4874844668407262,
       "resolved": false
     },
     {

@@ -9,7 +9,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/206559",
       "reference": "206559",
-      "name": "SP9 & SP11 Areas",
+      "name": "SP11 & SP9 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SP11 8PU",
@@ -129,7 +129,7 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-03-31T16:28:00.000+0000",
-      "latitude": 51.00819840583854,
+      "latitude": 51.0326080319862,
       "estimatedRestoration": "2022-04-01T00:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ9977'",
       "type": "HV",
@@ -138,13 +138,93 @@
       "name": "GU32 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "GU32 3PA"
+        "GU32",
+        "GU32 1AT",
+        "GU32 1BB",
+        "GU32 1BD",
+        "GU32 1BE",
+        "GU32 1BG",
+        "GU32 1BH",
+        "GU32 1BJ",
+        "GU32 1BL",
+        "GU32 1BN",
+        "GU32 1BQ",
+        "GU32 1BW",
+        "GU32 1BX",
+        "GU32 1BY",
+        "GU32 1BZ",
+        "GU32 1DA",
+        "GU32 1DB",
+        "GU32 1DD",
+        "GU32 1DE",
+        "GU32 1DF",
+        "GU32 1DG",
+        "GU32 1DH",
+        "GU32 1DJ",
+        "GU32 1DL",
+        "GU32 1DN",
+        "GU32 1DP",
+        "GU32 1DQ",
+        "GU32 1DR",
+        "GU32 1DS",
+        "GU32 1DT",
+        "GU32 1DU",
+        "GU32 1DW",
+        "GU32 1DX",
+        "GU32 1DY",
+        "GU32 1DZ",
+        "GU32 1EA",
+        "GU32 1EB",
+        "GU32 1ED",
+        "GU32 1EE",
+        "GU32 1EF",
+        "GU32 1EG",
+        "GU32 1EH",
+        "GU32 1EJ",
+        "GU32 1EN",
+        "GU32 1EP",
+        "GU32 1EQ",
+        "GU32 1ER",
+        "GU32 1ES",
+        "GU32 1ET",
+        "GU32 1QY",
+        "GU32 1RH",
+        "GU32 1RJ",
+        "GU32 1RL",
+        "GU32 1RN",
+        "GU32 1RP",
+        "GU32 1RR",
+        "GU32 1RS",
+        "GU32 1RU",
+        "GU32 1RW",
+        "GU32 1RX",
+        "GU33 6LN",
+        "GU33 6LP",
+        "GU33 6LW",
+        "GU34 3NP",
+        "GU34 3NR",
+        "GU34 3NS",
+        "GU34 3NT",
+        "GU34 3NU",
+        "GU34 3NX",
+        "GU34 3NY",
+        "GU34 3NZ",
+        "GU34 3PA",
+        "GU34 3PB",
+        "GU34 3PE",
+        "GU34 3PF",
+        "GU34 3PH",
+        "GU34 3PJ",
+        "GU34 3PL",
+        "GU34 3PW",
+        "GU34 3PY",
+        "GU34 3QA"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -0.9568252011346031,
-          51.00819840583854
+          -0.9921158918514257,
+          51.0326080319862
         ],
         "type": "Point"
       },
@@ -158,7 +238,7 @@
         "1fe1edb5-bef0-4151-8cf6-2e2751addfd8",
         "81b421ed-cd3b-4015-9f48-838e702c664a"
       ],
-      "longitude": -0.9568252011346031,
+      "longitude": -0.9921158918514257,
       "resolved": false
     },
     {
@@ -202,6 +282,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JR0056",
       "reference": "JR0056",
+      "engineerOnSiteTime": "2022-03-31T22:30:00.000+0000",
       "name": "GL54 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -252,75 +333,6 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.7989219281512998,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
-      "loggedAt": "2022-03-31T20:35:00.000+0000",
-      "latitude": 50.79079279533423,
-      "estimatedRestoration": "2022-04-01T05:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JR0076'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JR0076",
-      "reference": "JR0076",
-      "engineerOnSiteTime": "2022-03-31T21:25:00.000+0000",
-      "name": "PO4 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "PO4 8DG",
-        "PO4 8DY",
-        "PO4 8DZ",
-        "PO4 8EA",
-        "PO4 8EG",
-        "PO4 8EH",
-        "PO4 8EJ",
-        "PO4 8FL",
-        "PO4 9EE"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -1.0563012820410727,
-          50.79079279533423
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2022-03-31T21:30:00.000+0000",
-      "UUID": "65df823d-fe62-4794-bc43-fcb678f9756a",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.0563012820410727,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
-      "loggedAt": "2022-03-31T21:04:00.000+0000",
-      "latitude": 51.414889170416714,
-      "estimatedRestoration": "2022-04-01T00:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JR0081'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JR0081",
-      "reference": "JR0081",
-      "name": "RG2 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "RG2 8PD",
-        "RG2 8UB",
-        "RG2 8UF"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -0.9658738696148785,
-          51.414889170416714
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2022-03-31T22:15:00.000+0000",
-      "UUID": "90a93b25-768b-4ab5-92ed-2be975908254",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.9658738696148785,
       "resolved": false
     },
     {
@@ -382,6 +394,37 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.221339391735651,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-31T23:01:00.000+0000",
+      "latitude": 51.49317233124696,
+      "estimatedRestoration": "2022-04-01T02:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JR0098'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JR0098",
+      "reference": "JR0098",
+      "name": "UB2 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "UB2 5RQ",
+        "UB2 5RR",
+        "UB2 5RS"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -0.37626931735696634,
+          51.49317233124696
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-04-01T00:00:00.000+0000",
+      "UUID": "378f345d-9efe-4140-9c43-7caaedf259ef",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.37626931735696634,
       "resolved": false
     },
     {

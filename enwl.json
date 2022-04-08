@@ -68,16 +68,16 @@
           "Url": "/about-us/contact-us/report-a-power-cut-105/"
         }
       ],
-      "faultNumber": "INC 125031024",
+      "faultNumber": "INC 125031013",
       "multipleFaultNumbers": null,
-      "date": "2022-04-08T00:31:47",
+      "date": "2022-04-07T22:42:59",
       "region": "Stockport",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
-      "consumersOff": 42,
-      "estimatedTimeOfRestoration": "2022-04-08T06:31:00",
-      "estimatedTimeOfRestorationMajority": "2022-04-08T06:31:00",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
+      "consumersOff": 117,
+      "estimatedTimeOfRestoration": "2022-04-08T03:00:00",
+      "estimatedTimeOfRestorationMajority": "2022-04-08T03:00:00",
       "information": "",
       "actualTimeOfRestoration": null,
       "outageCentrePoint": {
@@ -86,6 +86,47 @@
       },
       "outageLocations": null,
       "AffectedPostcodes": " SK2 7JT, SK2 7JS, SK2 7JJ, SK2 7JR, SK2 7JN, SK2 7DQ, SK2 7DG",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "U/GM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cut’s, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125031000",
+      "multipleFaultNumbers": null,
+      "date": "2022-04-07T22:00:25",
+      "region": "Leigh",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 165,
+      "estimatedTimeOfRestoration": "2022-04-08T03:58:00",
+      "estimatedTimeOfRestorationMajority": "2022-04-08T03:58:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.491512,
+        "lng": -2.498958
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " WN7 2AP, WN7 2AX, WN7 3BP, WN7 3BG, WN7 3BF, WN7 3BS, WN7 3AA, WN7 2AT, WN7 3BT, WN7 3BQ, WN7 2AS, WN7 2AN, WN7 3BL, WN7 3EA, WN7 3BH, WN7 3BN, WN7 2BP, WN7 2AU, WN7 3AB",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "U/GM"
     },
@@ -135,8 +176,9 @@
   "AvailableItemTypes": [
     "CurrentFault",
     "ResolvedFault",
+    "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 2,
+  "TotalResults": 3,
   "ShowPolygons": false
 }

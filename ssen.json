@@ -461,7 +461,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-04-26T08:41:00.000+0000",
       "latitude": 50.79849146493325,
-      "estimatedRestoration": "2022-04-26T12:00:00.000+0000",
+      "estimatedRestoration": "2022-04-26T16:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JS2705'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JS2705",
@@ -501,7 +501,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JS2746",
       "reference": "JS2746",
-      "name": "PO35 Area",
+      "name": "PO33 & PO35 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "PO33 1XG",
@@ -920,7 +920,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/207208",
       "reference": "207208",
-      "name": "AB42 & AB41 Areas",
+      "name": "AB41 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB41 8PR",
@@ -1007,6 +1007,44 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.884031288216019,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-04-26T11:21:00.000+0000",
+      "latitude": 56.62924428736748,
+      "estimatedRestoration": "2022-04-26T14:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JS2836'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JS2836",
+      "reference": "JS2836",
+      "name": "PH15 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "PH15 2EA",
+        "PH15 2EB",
+        "PH15 2ED",
+        "PH15 2EE",
+        "PH15 2EF",
+        "PH15 2EG",
+        "PH15 2EH",
+        "PH15 2EL",
+        "PH15 2EN",
+        "PH15 2EQ"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -3.8256344165493563,
+          56.62924428736748
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-04-26T12:30:00.000+0000",
+      "UUID": "09ff7d7e-13d3-4cff-8d45-3dfffba53733",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.8256344165493563,
       "resolved": false
     }
   ]

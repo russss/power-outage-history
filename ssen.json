@@ -101,6 +101,41 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-04-28T07:30:00.000+0000",
+      "latitude": 51.08656786265931,
+      "estimatedRestoration": "2022-04-28T15:30:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '206558'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "type": "PSI",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/206558",
+      "reference": "206558",
+      "name": "SO23 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "S023",
+        "SO23 7JG",
+        "SO23 7JH",
+        "SO23 7JJ",
+        "SO23 7JL",
+        "SO23 7JN",
+        "SO23 7JQ",
+        "SO23 7JW"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.303782327325284,
+          51.08656786265931
+        ],
+        "type": "Point"
+      },
+      "UUID": "90433d23-c579-463e-8c1f-82bde8f5c179",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.303782327325284,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-04-25T06:00:00.000+0000",
       "latitude": 56.59484562207691,
       "estimatedRestoration": "2022-04-29T16:00:00.000+0000",
@@ -161,6 +196,44 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -3.458455838132528,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-04-28T07:30:00.000+0000",
+      "latitude": 58.49011541498314,
+      "estimatedRestoration": "2022-04-28T15:30:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '206700'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "type": "PSI",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/206700",
+      "reference": "206700",
+      "name": "HS2 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "HS2 0SW",
+        "HS2 0TQ",
+        "HS2 0XA",
+        "HS2 0XB",
+        "HS2 0XF",
+        "HS2 0XG",
+        "HS2 0XH"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -6.253538377656975,
+          58.49011541498314
+        ],
+        "type": "Point"
+      },
+      "UUID": "d030ebe0-2442-4aa9-9e3e-90263862d0bb",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "8d9e02f7-4678-4c45-9f32-33c1d374a4cf",
+        "8780e335-e019-42f7-98c8-f8a107e5aa5b"
+      ],
+      "longitude": -6.253538377656975,
       "resolved": false
     }
   ]

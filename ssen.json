@@ -4,7 +4,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-04-30T08:57:00.000+0000",
       "latitude": 51.40441581772625,
-      "estimatedRestoration": "2022-04-30T20:00:00.000+0000",
+      "estimatedRestoration": "2022-04-30T21:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JS4876'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JS4876",
@@ -204,6 +204,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JS5029",
       "reference": "JS5029",
+      "engineerOnSiteTime": "2022-04-30T17:30:00.000+0000",
       "name": "PO6 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -286,6 +287,37 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -4.418195694282524,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-04-30T18:21:00.000+0000",
+      "latitude": 57.9011301321642,
+      "estimatedRestoration": "2022-04-30T21:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JS5048'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JS5048",
+      "reference": "JS5048",
+      "name": "IV26 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "IV26 2TF",
+        "IV26 2XJ",
+        "IV26 2XL",
+        "IV26 2XP"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -5.157222005460641,
+          57.9011301321642
+        ],
+        "type": "Point"
+      },
+      "UUID": "1d66e2f6-11c7-4d1d-9c72-09e3fb594f97",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.157222005460641,
       "resolved": false
     }
   ]

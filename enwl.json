@@ -46,14 +46,57 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124087780",
+      "multipleFaultNumbers": null,
+      "date": "2022-05-06T09:11:27",
+      "region": "Mossley, Ashton-Under-Lyne",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
+      "consumersOff": 561,
+      "estimatedTimeOfRestoration": "2022-05-06T12:11:00",
+      "estimatedTimeOfRestorationMajority": "2022-05-06T12:11:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.51392,
+        "lng": -2.035873
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " OL5 9HP, OL5 9LU, OL5 9NF, OL5 9HA, OL5 9DL, OL5 0DE, OL5 9HX, OL5 9ND, OL5 9NL, OL5 9EA, OL5 9NT, OL5 9HB, OL5 9JF, OL5 9NB, OL5 9HZ, OL5 9HL, OL5 9LZ, OL5 9NQ, OL5 9DR, OL5 9NN, OL5 9NA, OL5 9SA, OL5 9HR, OL5 9DN, OL5 9NS, OL5 9NH, OL5 9SB, OL5 9HY, OL5 9EH, OL5 9EE, OL5 9PY, OL5 9HT, OL5 9SD, OL5 9NW, OL5 9NJ, OL5 9HU, OL5 9SF, OL5 9LX, OL5 9QW, OL5 9JB, OL5 9SE, OL5 9LY, OL5 9AA, OL5 9HW, OL5 9NE, OL5 9LB",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 1,
   "ShowPolygons": false
 }

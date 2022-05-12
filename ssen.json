@@ -641,6 +641,40 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-05-12T10:49:00.000+0000",
+      "latitude": 50.76888858036963,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT0634'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT0634",
+      "reference": "JT0634",
+      "name": "BH23 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "BH23 6AA",
+        "BH23 6AB",
+        "BH23 6AE",
+        "BH23 6AH",
+        "BH23 6AX",
+        "BH23 6AY",
+        "BH23 6BH",
+        "BH23 6BT"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.8272588175727535,
+          50.76888858036963
+        ],
+        "type": "Point"
+      },
+      "UUID": "b5909ae4-3d8f-40f0-ad0e-4ba879b62080",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.8272588175727535,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-05-12T07:30:00.000+0000",
       "latitude": 57.08232340763732,
       "estimatedRestoration": "2022-05-12T16:00:00.000+0000",
@@ -1022,44 +1056,13 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-05-12T09:00:00.000+0000",
-      "latitude": 56.56516063525864,
-      "estimatedRestoration": "2022-05-12T11:00:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '207387'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "type": "PSI",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/207387",
-      "reference": "207387",
-      "name": "PH13 Area",
-      "networkId": "com.sse.ssepd.shepd",
-      "affectedAreas": [
-        "PH12 8SX",
-        "PH13 9EU",
-        "PH13 9EY",
-        "PH13 9EZ"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -3.2186022159212606,
-          56.56516063525864
-        ],
-        "type": "Point"
-      },
-      "UUID": "b8293dd4-d7f9-4325-afee-01393af7e846",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.2186022159212606,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
-      "loggedAt": "2022-05-12T09:00:00.000+0000",
       "latitude": 56.48410810914811,
       "estimatedRestoration": "2022-05-12T11:00:00.000+0000",
       "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '207209'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/207209",
       "reference": "207209",
-      "name": "PA34 & PA37 Areas",
+      "name": "PA37 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "PA34 4NS",

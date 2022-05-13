@@ -2,31 +2,37 @@
   "Faults": [
     {
       "py/object": "Fault",
-      "loggedAt": "2022-05-12T23:30:00.000+0000",
-      "latitude": 51.50812028222698,
-      "estimatedRestoration": "2022-05-13T05:00:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '207734'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "type": "PSI",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/207734",
-      "reference": "207734",
-      "name": "UB11 Area",
+      "loggedAt": "2022-05-13T04:37:00.000+0000",
+      "latitude": 51.731357540400346,
+      "estimatedRestoration": "2022-05-13T07:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT0937'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT0937",
+      "reference": "JT0937",
+      "name": "OX4 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "UB11 1FE",
-        "UB11 1TT"
+        "OX4 3JL",
+        "OX4 3JT",
+        "OX4 3LF",
+        "OX4 3NE",
+        "OX4 3SG",
+        "OX4 3XH",
+        "OX4 3YF"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -0.4454966099473898,
-          51.50812028222698
+          -1.2193815942783657,
+          51.731357540400346
         ],
         "type": "Point"
       },
-      "UUID": "bed33aa1-7211-423c-ba7c-59e772429ea0",
+      "estimatedArrivalOnSiteTime": "2022-05-13T06:15:00.000+0000",
+      "UUID": "8dcad3c7-7c16-4319-88f9-4730e08f3266",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.4454966099473898,
+      "longitude": -1.2193815942783657,
       "resolved": false
     }
   ]

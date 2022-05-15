@@ -170,6 +170,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT2127",
       "reference": "JT2127",
+      "engineerOnSiteTime": "2022-05-15T20:00:00.000+0000",
       "name": "SO18 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -328,6 +329,42 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -0.9603673605996027,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-05-15T21:20:00.000+0000",
+      "latitude": 50.74671777917668,
+      "estimatedRestoration": "2022-05-16T00:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT2152'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT2152",
+      "reference": "JT2152",
+      "name": "BH23 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "BH10 4EA",
+        "BH23 4NQ",
+        "BH23 4PY",
+        "BH23 4PZ",
+        "BH23 4QB",
+        "BH23 4QE",
+        "BH23 4QG",
+        "BH23 4QH",
+        "BH23 4QQ"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.738201485215286,
+          50.74671777917668
+        ],
+        "type": "Point"
+      },
+      "UUID": "c8011126-ff07-49ba-8cf3-06387a02de41",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.738201485215286,
       "resolved": false
     },
     {

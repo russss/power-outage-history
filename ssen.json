@@ -539,30 +539,32 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-05-23T08:00:00.000+0000",
-      "latitude": 50.71716391453928,
-      "estimatedRestoration": "2022-05-23T15:00:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '208060'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "type": "PSI",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/208060",
-      "reference": "208060",
-      "name": "BH14 Area",
+      "loggedAt": "2022-05-23T07:10:00.000+0000",
+      "latitude": 51.469305763163014,
+      "estimatedRestoration": "2022-05-23T11:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT6245'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT6245",
+      "reference": "JT6245",
+      "name": "TW4 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "BH14 8DZ"
+        "TW4 7AL",
+        "TW4 7EA"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -1.951815965563231,
-          50.71716391453928
+          -0.3800970388074037,
+          51.469305763163014
         ],
         "type": "Point"
       },
-      "UUID": "665d3517-ceb3-4889-89e2-abcb041e2a50",
+      "estimatedArrivalOnSiteTime": "2022-05-23T08:00:00.000+0000",
+      "UUID": "41ac118a-6091-4880-b1b8-ac885c666c7c",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.951815965563231,
+      "longitude": -0.3800970388074037,
       "resolved": false
     },
     {

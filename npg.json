@@ -1,5 +1,5 @@
 {
-  "lastModified": 1653432308000,
+  "lastModified": 1653434107000,
   "powercuts": {
     "INCD-294247-A": {
       "areacode": 15,
@@ -7,7 +7,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "REQUIRED, ACCESS ",
       "customerStageSequence": 7,
-      "elapsed": "07d 12:48",
+      "elapsed": "07d 13:18",
       "estimatedTimeTillResolution": null,
       "group": "LV TEMPS",
       "latestStageSequenceHistory": 1652791214000,
@@ -40,7 +40,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "LV",
-      "hoursSinceLogged": 180,
+      "hoursSinceLogged": 181,
       "stageSequenceMessage": "We are currently working hard to restore your power however we are unable to provide an accurate restoration time. Please call us on 105 if you have any specific questions.",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -50,7 +50,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "",
       "customerStageSequence": 4,
-      "elapsed": "02d 06:14",
+      "elapsed": "02d 06:44",
       "estimatedTimeTillResolution": 1653248700000,
       "group": "HV / EHV TEMPS",
       "latestStageSequenceHistory": 1653243007000,
@@ -93,7 +93,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "DAY OF WEEK, WEDNESDAY",
       "customerStageSequence": 4,
-      "elapsed": "00d 12:06",
+      "elapsed": "00d 12:36",
       "estimatedTimeTillResolution": null,
       "group": "MAJOR REPAIRS",
       "latestStageSequenceHistory": 1653399019000,
@@ -130,13 +130,56 @@
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
+    "INCD-296461-A": {
+      "areacode": 23,
+      "category": "Unknown P2",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "REQUIRED, JOINTER",
+      "customerStageSequence": 2,
+      "elapsed": "00d 12:07",
+      "estimatedTimeTillResolution": null,
+      "group": "MAJOR REPAIRS",
+      "latestStageSequenceHistory": 1653405914000,
+      "latestStageSequenceStatus": 2,
+      "location": "HD4 6XU, UPPERFOLD, THE BARN, THE VILLAGE, THURSTONLAND, HUDDERSFIELD",
+      "logged": 1653390480000,
+      "natureOfOutage": "Single Premise",
+      "networkObject": "HONLEY",
+      "numberOfCalls": 1,
+      "postcodes": {
+        "HD4 6XU": {
+          "class": "models.MapDataLocation",
+          "lat": 53.5903,
+          "lng": -1.75172
+        }
+      },
+      "prefix": null,
+      "priority": 1,
+      "reference": "INCD-296461-A",
+      "region": "West Yorkshire / Leeds South 1",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 2,
+      "startnumber": 0,
+      "status": "Awaiting",
+      "totalConfirmedOff": 0,
+      "totalPredictedOff": 1,
+      "totalResourceAssigned": 1,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 0,
+      "type": "SP",
+      "hoursSinceLogged": 12,
+      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
+      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
+    },
     "INCD-296473-A": {
       "areacode": 15,
       "category": "Smart Meter Cutout Change",
       "class": "models.MapDataPowercutIncno",
       "contact": "+, JOINTER REQ",
       "customerStageSequence": 4,
-      "elapsed": "00d 11:16",
+      "elapsed": "00d 11:46",
       "estimatedTimeTillResolution": null,
       "group": "LV TEMPS",
       "latestStageSequenceHistory": 1653398217000,
@@ -173,13 +216,61 @@
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": ""
     },
+    "INCD-296481-A": {
+      "areacode": 23,
+      "category": "U/G LV Mains Repair (Other)",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "",
+      "customerStageSequence": 1,
+      "elapsed": "00d 11:22",
+      "estimatedTimeTillResolution": 1653444900000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433808000,
+      "latestStageSequenceStatus": 1,
+      "location": "HD8 9JD, PENNINE DRIVE SS, Transformer LV",
+      "logged": 1653393180000,
+      "natureOfOutage": "Localised Fault",
+      "networkObject": "4072007",
+      "numberOfCalls": 17,
+      "postcodes": {
+        "HD8 9JE": {
+          "class": "models.MapDataLocation",
+          "lat": 53.5934,
+          "lng": -1.62724
+        },
+        "HD8 9JD": {
+          "class": "models.MapDataLocation",
+          "lat": 53.5925,
+          "lng": -1.62608
+        }
+      },
+      "prefix": null,
+      "priority": 3,
+      "reference": "INCD-296481-A",
+      "region": "West Yorkshire / Leeds South 1",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 1,
+      "startnumber": 0,
+      "status": "Awaiting",
+      "totalConfirmedOff": 0,
+      "totalPredictedOff": 41,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 10,
+      "type": "LV",
+      "hoursSinceLogged": 11,
+      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
+      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
+    },
     "INCD-296551-A": {
       "areacode": 23,
       "category": "U/G HV Mains Repair",
       "class": "models.MapDataPowercutIncno",
       "contact": "PEART, STEVEN",
       "customerStageSequence": 7,
-      "elapsed": "00d 07:57",
+      "elapsed": "00d 08:27",
       "estimatedTimeTillResolution": 1653435000000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1653404419000,
@@ -188,7 +279,7 @@
       "logged": 1653403680000,
       "natureOfOutage": "Large Area Fault",
       "networkObject": "4040709-ASSET",
-      "numberOfCalls": 89,
+      "numberOfCalls": 90,
       "postcodes": {
         "DN11 8SE": {
           "class": "models.MapDataLocation",
@@ -592,7 +683,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 160,
       "type": "HV_N",
-      "hoursSinceLogged": 7,
+      "hoursSinceLogged": 8,
       "stageSequenceMessage": "We are currently working hard to restore your power however we are unable to provide an accurate restoration time. Please call us on 105 if you have any specific questions.",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -602,7 +693,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "ELLIS, NIKKI",
       "customerStageSequence": 7,
-      "elapsed": "00d 07:54",
+      "elapsed": "00d 08:24",
       "estimatedTimeTillResolution": 1653437700000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1653411910000,
@@ -640,7 +731,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "LV",
-      "hoursSinceLogged": 7,
+      "hoursSinceLogged": 8,
       "stageSequenceMessage": "We are currently working hard to restore your power however we are unable to provide an accurate restoration time. Please call us on 105 if you have any specific questions.",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -650,7 +741,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "WALSH, STEWART",
       "customerStageSequence": 4,
-      "elapsed": "00d 06:17",
+      "elapsed": "00d 06:47",
       "estimatedTimeTillResolution": null,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1653423910000,
@@ -693,7 +784,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "JOHNSTON, DAVE",
       "customerStageSequence": 5,
-      "elapsed": "00d 04:15",
+      "elapsed": "00d 04:45",
       "estimatedTimeTillResolution": 1653435000000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1653423009000,
@@ -730,81 +821,13 @@
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
-    "INCD-296634-A": {
-      "areacode": 15,
-      "category": "LV Restoration",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "HICKSON, HENRY",
-      "customerStageSequence": 5,
-      "elapsed": "00d 03:07",
-      "estimatedTimeTillResolution": 1653437700000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653430808000,
-      "latestStageSequenceStatus": 5,
-      "location": "++ RE INT @ 22:15 ++ TS24 8BG, HARTLEPOOL ERROL SS, Transformer LV",
-      "logged": 1653421080000,
-      "natureOfOutage": "Localised Fault",
-      "networkObject": "63877",
-      "numberOfCalls": 2,
-      "postcodes": {
-        "TS24 8BB": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6862,
-          "lng": -1.21563
-        },
-        "TS24 8BE": {
-          "class": "models.MapDataLocation",
-          "lat": 54.686,
-          "lng": -1.21608
-        },
-        "TS24 8AT": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6872,
-          "lng": -1.21548
-        },
-        "TS26 8AB": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6857,
-          "lng": -1.21651
-        },
-        "TS24 7SD": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6855,
-          "lng": -1.21601
-        },
-        "TS26 8AA": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6864,
-          "lng": -1.21627
-        }
-      },
-      "prefix": null,
-      "priority": 3,
-      "reference": "INCD-296634-A",
-      "region": "Teesside / Middlesbrough 1",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "In Progress",
-      "totalConfirmedOff": 9,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 2,
-      "totalResourceOnsite": 3,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 0,
-      "type": "LV",
-      "hoursSinceLogged": 3,
-      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
-      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
-    },
     "INCD-296636-A": {
       "areacode": 15,
       "category": "S/L Knockdown",
       "class": "models.MapDataPowercutIncno",
       "contact": "CIVILS, CLANCY DOCWRA",
       "customerStageSequence": 5,
-      "elapsed": "00d 03:02",
+      "elapsed": "00d 03:32",
       "estimatedTimeTillResolution": null,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1653425409000,
@@ -841,56 +864,13 @@
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": ""
     },
-    "INCD-296643-A": {
-      "areacode": 15,
-      "category": "Unknown P2",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "COOPER, JOE",
-      "customerStageSequence": 3,
-      "elapsed": "00d 02:12",
-      "estimatedTimeTillResolution": 1653435900000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653425409000,
-      "latestStageSequenceStatus": 3,
-      "location": "YO17 8LU, HOLLY TREE HOUSE, THORPE BASSETT, MALTON",
-      "logged": 1653424380000,
-      "natureOfOutage": "Single Premise",
-      "networkObject": "MALTON",
-      "numberOfCalls": 1,
-      "postcodes": {
-        "YO17 8LU": {
-          "class": "models.MapDataLocation",
-          "lat": 54.1474,
-          "lng": -0.682883
-        }
-      },
-      "prefix": null,
-      "priority": 4,
-      "reference": "INCD-296643-A",
-      "region": "Yorkshire Moors & Wolds NE / York 1",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 3,
-      "startnumber": 0,
-      "status": "In Progress",
-      "totalConfirmedOff": 0,
-      "totalPredictedOff": 1,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 2,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 0,
-      "type": "SP",
-      "hoursSinceLogged": 2,
-      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
-      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
-    },
     "INCD-296645-A": {
       "areacode": 23,
       "category": "Unknown P2",
       "class": "models.MapDataPowercutIncno",
       "contact": "WHITEHEAD, JOHN",
       "customerStageSequence": 4,
-      "elapsed": "00d 01:53",
+      "elapsed": "00d 02:23",
       "estimatedTimeTillResolution": 1653436800000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1653427809000,
@@ -923,7 +903,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 1,
       "type": "SP",
-      "hoursSinceLogged": 1,
+      "hoursSinceLogged": 2,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -933,7 +913,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "PICKLES, TOM",
       "customerStageSequence": 7,
-      "elapsed": "00d 01:53",
+      "elapsed": "00d 02:23",
       "estimatedTimeTillResolution": 1653444000000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1653430808000,
@@ -1021,64 +1001,21 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 27,
       "type": "LV",
-      "hoursSinceLogged": 1,
+      "hoursSinceLogged": 2,
       "stageSequenceMessage": "We are currently working hard to restore your power however we are unable to provide an accurate restoration time. Please call us on 105 if you have any specific questions.",
-      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
-    },
-    "INCD-296650-A": {
-      "areacode": 15,
-      "category": "U/G Service repair",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "DEAKIN, STEPHEN",
-      "customerStageSequence": 4,
-      "elapsed": "00d 01:22",
-      "estimatedTimeTillResolution": 1653521400000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653431408000,
-      "latestStageSequenceStatus": 4,
-      "location": "HG2 0HA, 27, QUEENS ROAD, HARROGATE",
-      "logged": 1653427380000,
-      "natureOfOutage": "Single Premise",
-      "networkObject": "HARROGATE WEST",
-      "numberOfCalls": 1,
-      "postcodes": {
-        "HG2 0HA": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9865,
-          "lng": -1.54656
-        }
-      },
-      "prefix": null,
-      "priority": 4,
-      "reference": "INCD-296650-A",
-      "region": "Yorkshire Dales NE / Harrogate 1",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 4,
-      "startnumber": 0,
-      "status": "In Progress",
-      "totalConfirmedOff": 1,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 1,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 0,
-      "type": "SP",
-      "hoursSinceLogged": 1,
-      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
     "INCD-296656-A": {
       "areacode": 23,
       "category": "DNO Energisation check",
       "class": "models.MapDataPowercutIncno",
-      "contact": "RIGBY, JAKE",
-      "customerStageSequence": 3,
-      "elapsed": "00d 00:51",
+      "contact": "REQUIRED, JOINTER",
+      "customerStageSequence": 4,
+      "elapsed": "00d 01:21",
       "estimatedTimeTillResolution": null,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653430509000,
-      "latestStageSequenceStatus": 3,
+      "group": "MAJOR REPAIRS",
+      "latestStageSequenceHistory": 1653433808000,
+      "latestStageSequenceStatus": 2,
       "location": "S8  7RB, 45, GREENHILL MAIN ROAD, SHEFFIELD",
       "logged": 1653429240000,
       "natureOfOutage": "Single Premise",
@@ -1096,57 +1033,266 @@
       "reference": "INCD-296656-A",
       "region": "South Yorkshire / Sheffield 1",
       "resourceAllocationDelay": 0,
-      "stageSequence": 3,
+      "stageSequence": 2,
       "startnumber": 0,
-      "status": "In Progress",
+      "status": "Awaiting",
       "totalConfirmedOff": 0,
       "totalPredictedOff": 1,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 1,
+      "totalResourceAssigned": 1,
+      "totalResourceDispatched": 0,
       "totalResourceOnsite": 0,
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "SP",
-      "hoursSinceLogged": 0,
+      "hoursSinceLogged": 1,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": ""
     },
-    "PPC044185": {
+    "PPC044774": {
       "areacode": 23,
-      "category": "We need to temporarily turn the power off to carry out replacement work at a substation in the area.",
+      "category": "We need to temporarily turn the power off to connect a new customer in the area.",
       "class": "models.MapDataPowercutIncno",
-      "contact": "Tony Dack",
+      "contact": "Robbie Glentworth",
       "customerStageSequence": 7,
-      "elapsed": "0d 14:45",
+      "elapsed": "0d 8:14",
       "estimatedTimeTillResolution": 1653577200000,
       "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653380435000,
+      "latestStageSequenceHistory": 1653433208000,
       "latestStageSequenceStatus": 7,
-      "location": "BAYTON LANE - TRINITY COLLEGE ALPHA - MOUNT VERNON",
-      "logged": 1653379200000,
+      "location": "1584 Saltfleetby Regulator - 1493 Saltfleetby Mill Lane",
+      "logged": 1653463800000,
       "natureOfOutage": "Planned Work on System",
-      "networkObject": "HORSFORTH GOLF CLUB 43620",
+      "networkObject": "WHITE HOUSE FARM SALTFLEETBY 41329",
       "numberOfCalls": 0,
       "postcodes": {
-        "LS18 5SB": {
+        "LN11 7TL": {
           "class": "models.MapDataLocation",
-          "lat": 53.848,
-          "lng": -1.63708
+          "lat": 53.3922,
+          "lng": 0.178269
         },
-        "LS19 6AD": {
+        "LN11 7SN": {
           "class": "models.MapDataLocation",
-          "lat": 53.8621,
-          "lng": -1.67219
+          "lat": 53.3848,
+          "lng": 0.162751
+        },
+        "LN11 7SS": {
+          "class": "models.MapDataLocation",
+          "lat": 53.3776,
+          "lng": 0.140492
+        },
+        "LN11 7TJ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.3904,
+          "lng": 0.172703
         }
       },
       "prefix": null,
       "priority": 8,
-      "reference": "PPC044185",
-      "region": "BAYTON LANE - TRINITY COLLEGE ALPHA - MOUNT VERNON",
+      "reference": "PPC044774",
+      "region": "1584 Saltfleetby Regulator - 1493 Saltfleetby Mill Lane",
       "resourceAllocationDelay": 0,
       "stageSequence": 7,
       "startnumber": 0,
       "status": "The scheduled work has been cancelled and is no longer taking place today",
+      "totalConfirmedOff": 31,
+      "totalPredictedOff": 0,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 6,
+      "type": "LV",
+      "hoursSinceLogged": -8,
+      "stageSequenceMessage": "",
+      "categoryWebText": ""
+    },
+    "PPC044812": {
+      "areacode": 23,
+      "category": "We need to temporarily turn the power off to connect a new customer in the area.",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "Sarah Hawkin",
+      "customerStageSequence": 0,
+      "elapsed": "0d 9:44",
+      "estimatedTimeTillResolution": 1653476400000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Cross Flatts Place",
+      "logged": 1653469200000,
+      "natureOfOutage": "Planned Work on System",
+      "networkObject": "CROSS FLATTS PLACE 7911",
+      "numberOfCalls": 0,
+      "postcodes": {
+        "LS11 7PD": {
+          "class": "models.MapDataLocation",
+          "lat": 53.7726,
+          "lng": -1.56276
+        },
+        "LS11 7JA": {
+          "class": "models.MapDataLocation",
+          "lat": 53.7739,
+          "lng": -1.56194
+        },
+        "LS11 7JL": {
+          "class": "models.MapDataLocation",
+          "lat": 53.7736,
+          "lng": -1.56328
+        },
+        "LS11 7JN": {
+          "class": "models.MapDataLocation",
+          "lat": 53.773,
+          "lng": -1.56305
+        },
+        "LS11 7JH": {
+          "class": "models.MapDataLocation",
+          "lat": 53.7718,
+          "lng": -1.56239
+        },
+        "LS11 7HY": {
+          "class": "models.MapDataLocation",
+          "lat": 53.7745,
+          "lng": -1.56176
+        },
+        "LS11 7JJ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.7736,
+          "lng": -1.56211
+        },
+        "LS11 0LE": {
+          "class": "models.MapDataLocation",
+          "lat": 53.7697,
+          "lng": -1.58517
+        },
+        "LS11 7JS": {
+          "class": "models.MapDataLocation",
+          "lat": 53.7715,
+          "lng": -1.5639
+        }
+      },
+      "prefix": null,
+      "priority": 8,
+      "reference": "PPC044812",
+      "region": "Cross Flatts Place",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 0,
+      "startnumber": 0,
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 179,
+      "totalPredictedOff": 0,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 31,
+      "type": "LV",
+      "hoursSinceLogged": -9,
+      "stageSequenceMessage": "",
+      "categoryWebText": ""
+    },
+    "PPC044845": {
+      "areacode": 15,
+      "category": "We need to temporarily turn the power off to carry out replacement work on our overhead power lines in the area.",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "Jack Rivers ",
+      "customerStageSequence": 0,
+      "elapsed": "0d 9:14",
+      "estimatedTimeTillResolution": 1653481800000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Snainton White House SS",
+      "logged": 1653467400000,
+      "natureOfOutage": "Planned Work on System",
+      "networkObject": "SNAINTON WHITE HOUSE",
+      "numberOfCalls": 0,
+      "postcodes": {
+        "YO13 9BG": {
+          "class": "models.MapDataLocation",
+          "lat": 54.223,
+          "lng": -0.580638
+        }
+      },
+      "prefix": null,
+      "priority": 8,
+      "reference": "PPC044845",
+      "region": "Snainton White House SS",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 0,
+      "startnumber": 0,
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 4,
+      "totalPredictedOff": 0,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 0,
+      "type": "LV",
+      "hoursSinceLogged": -9,
+      "stageSequenceMessage": "",
+      "categoryWebText": ""
+    },
+    "PPC044888": {
+      "areacode": 15,
+      "category": "We need to temporarily turn the power off to carry out a permanent repair in the area.",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "Ian Blenkinsop",
+      "customerStageSequence": 0,
+      "elapsed": "0d 5:44",
+      "estimatedTimeTillResolution": 1653474600000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Darlington Priestgate South s/s LV Feeder B",
+      "logged": 1653454800000,
+      "natureOfOutage": "Planned Work on System",
+      "networkObject": "DARLINGTON PRIESTGATE SOUTH",
+      "numberOfCalls": 0,
+      "postcodes": {
+        "DL1 1NT": {
+          "class": "models.MapDataLocation",
+          "lat": 54.5256,
+          "lng": -1.55478
+        },
+        "DL1 1NU": {
+          "class": "models.MapDataLocation",
+          "lat": 54.5251,
+          "lng": -1.5541
+        },
+        "DL1 1NX": {
+          "class": "models.MapDataLocation",
+          "lat": 54.5251,
+          "lng": -1.55435
+        },
+        "DL1 1NG": {
+          "class": "models.MapDataLocation",
+          "lat": 54.5256,
+          "lng": -1.55419
+        },
+        "DL1 1NP": {
+          "class": "models.MapDataLocation",
+          "lat": 54.5259,
+          "lng": -1.55465
+        },
+        "DL1 1UW": {
+          "class": "models.MapDataLocation",
+          "lat": 54.5332,
+          "lng": -1.55265
+        },
+        "DL1 1PD": {
+          "class": "models.MapDataLocation",
+          "lat": 54.5248,
+          "lng": -1.55296
+        }
+      },
+      "prefix": null,
+      "priority": 8,
+      "reference": "PPC044888",
+      "region": "Darlington Priestgate South s/s LV Feeder B",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 0,
+      "startnumber": 0,
+      "status": "Work is scheduled to start",
       "totalConfirmedOff": 2,
       "totalPredictedOff": 0,
       "totalResourceAssigned": 0,
@@ -1155,361 +1301,416 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "LV",
-      "hoursSinceLogged": 14,
+      "hoursSinceLogged": -5,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
-    "PPC044565": {
+    "PPC044925": {
+      "areacode": 23,
+      "category": "We need to temporarily turn the power off to connect a new customer in the area.",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "Mark Firth",
+      "customerStageSequence": 0,
+      "elapsed": "0d 10:14",
+      "estimatedTimeTillResolution": 1653485400000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "S/S 8058 Heaton Street,\r\nWay 9 & 10.",
+      "logged": 1653471000000,
+      "natureOfOutage": "Planned Work on System",
+      "networkObject": "HEATON STREET 8058",
+      "numberOfCalls": 0,
+      "postcodes": {
+        "DN21 2BX": {
+          "class": "models.MapDataLocation",
+          "lat": 53.3988,
+          "lng": -0.775807
+        },
+        "DN21 2BW": {
+          "class": "models.MapDataLocation",
+          "lat": 53.3997,
+          "lng": -0.775392
+        },
+        "DN21 2BL": {
+          "class": "models.MapDataLocation",
+          "lat": 53.4,
+          "lng": -0.775143
+        },
+        "DN21 2BP": {
+          "class": "models.MapDataLocation",
+          "lat": 53.399,
+          "lng": -0.775246
+        },
+        "DN21 2BT": {
+          "class": "models.MapDataLocation",
+          "lat": 53.399,
+          "lng": -0.775246
+        }
+      },
+      "prefix": null,
+      "priority": 8,
+      "reference": "PPC044925",
+      "region": "S/S 8058 Heaton Street,\r\nWay 9 & 10.",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 0,
+      "startnumber": 0,
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 5,
+      "totalPredictedOff": 0,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 0,
+      "type": "LV",
+      "hoursSinceLogged": -10,
+      "stageSequenceMessage": "",
+      "categoryWebText": ""
+    },
+    "PPC044964": {
+      "areacode": 15,
+      "category": "We need to temporarily turn the power off to undertake vegetation management in the area.",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "Gary Walker",
+      "customerStageSequence": 0,
+      "elapsed": "0d 8:44",
+      "estimatedTimeTillResolution": 1653489000000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Abbeylands Sw-Abbeylands",
+      "logged": 1653465600000,
+      "natureOfOutage": "Planned Work on System",
+      "networkObject": "ABBEYLANDS",
+      "numberOfCalls": 0,
+      "postcodes": {
+        "NE66 2JY": {
+          "class": "models.MapDataLocation",
+          "lat": 55.4241,
+          "lng": -1.71705
+        },
+        "NE66 2JX": {
+          "class": "models.MapDataLocation",
+          "lat": 55.4203,
+          "lng": -1.71782
+        }
+      },
+      "prefix": null,
+      "priority": 8,
+      "reference": "PPC044964",
+      "region": "Abbeylands Sw-Abbeylands",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 0,
+      "startnumber": 0,
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 22,
+      "totalPredictedOff": 0,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 6,
+      "type": "LV",
+      "hoursSinceLogged": -8,
+      "stageSequenceMessage": "",
+      "categoryWebText": ""
+    },
+    "PPC044966": {
+      "areacode": 23,
+      "category": "We need to temporarily turn the power off to undertake vegetation management in the area.",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "Dave Hutchinson",
+      "customerStageSequence": 0,
+      "elapsed": "0d 8:44",
+      "estimatedTimeTillResolution": 1653492600000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Yapham 7483-Belthorpe Lane 10546",
+      "logged": 1653465600000,
+      "natureOfOutage": "Planned Work on System",
+      "networkObject": "LOW BELTHORPE FARM 1307",
+      "numberOfCalls": 0,
+      "postcodes": {
+        "YO42 4RW": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9163,
+          "lng": -0.807741
+        },
+        "YO42 1PW": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9606,
+          "lng": -0.782304
+        },
+        "YO4 2TT": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9738,
+          "lng": -0.764155
+        },
+        "YO42 1SY": {
+          "class": "models.MapDataLocation",
+          "lat": 54.001,
+          "lng": -0.755523
+        },
+        "YO42 1PR": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9593,
+          "lng": -0.798847
+        },
+        "YO42 1PL": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9594,
+          "lng": -0.798204
+        },
+        "YO42 1PN": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9622,
+          "lng": -0.787499
+        },
+        "YO42 4SX": {
+          "class": "models.MapDataLocation",
+          "lat": 53.892,
+          "lng": -0.879206
+        },
+        "YO42 2PG": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9229,
+          "lng": -0.775634
+        },
+        "YO42 1TT": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9741,
+          "lng": -0.764697
+        },
+        "YO42 2PJ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9299,
+          "lng": -0.777943
+        },
+        "YO42 1PJ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9588,
+          "lng": -0.800494
+        },
+        "YO42 1PH": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9587,
+          "lng": -0.799153
+        },
+        "YO42 1SF": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9741,
+          "lng": -0.783954
+        },
+        "YO42 1SD": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9681,
+          "lng": -0.80169
+        },
+        "YO42 4JF": {
+          "class": "models.MapDataLocation",
+          "lat": 53.8742,
+          "lng": -0.780951
+        },
+        "YO42 1SB": {
+          "class": "models.MapDataLocation",
+          "lat": 53.977,
+          "lng": -0.81162
+        },
+        "YO42 2PW": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9292,
+          "lng": -0.775921
+        }
+      },
+      "prefix": null,
+      "priority": 8,
+      "reference": "PPC044966",
+      "region": "Yapham 7483-Belthorpe Lane 10546",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 0,
+      "startnumber": 0,
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 90,
+      "totalPredictedOff": 0,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 5,
+      "type": "LV",
+      "hoursSinceLogged": -8,
+      "stageSequenceMessage": "",
+      "categoryWebText": ""
+    },
+    "PPC044994": {
       "areacode": 15,
       "category": "We need to temporarily turn the power off to carry out replacement of poles that support our overhead power lines in the area.",
       "class": "models.MapDataPowercutIncno",
-      "contact": "Andrew Harker",
-      "customerStageSequence": 4,
-      "elapsed": "0d 14:45",
-      "estimatedTimeTillResolution": 1653490800000,
+      "contact": "Taylor Moulden",
+      "customerStageSequence": 0,
+      "elapsed": "0d 9:14",
+      "estimatedTimeTillResolution": 1653487200000,
       "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653379219000,
-      "latestStageSequenceStatus": 4,
-      "location": "Keld Park - Keld Moor Sw - Keld Force 20Kv Td Fdr",
-      "logged": 1653379200000,
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Toronto Village Substation, LV Feeder A. ",
+      "logged": 1653467400000,
       "natureOfOutage": "Planned Work on System",
-      "networkObject": "BIRKDALE HARKER",
+      "networkObject": "TORONTO VILLAGE",
       "numberOfCalls": 0,
       "postcodes": {
-        "DL11 6LT": {
+        "DL14 7RN": {
           "class": "models.MapDataLocation",
-          "lat": 54.4086,
-          "lng": -2.21028
-        },
-        "DL11 6LS": {
-          "class": "models.MapDataLocation",
-          "lat": 54.4053,
-          "lng": -2.21311
-        },
-        "DL11 6EA": {
-          "class": "models.MapDataLocation",
-          "lat": 54.4144,
-          "lng": -2.17492
-        },
-        "DL11 6EB": {
-          "class": "models.MapDataLocation",
-          "lat": 54.4235,
-          "lng": -2.16919
-        },
-        "DL11 6LP": {
-          "class": "models.MapDataLocation",
-          "lat": 54.4194,
-          "lng": -2.21228
-        },
-        "DL11 6DZ": {
-          "class": "models.MapDataLocation",
-          "lat": 54.4085,
-          "lng": -2.17756
+          "lat": 54.6727,
+          "lng": -1.69744
         }
       },
       "prefix": null,
       "priority": 8,
-      "reference": "PPC044565",
-      "region": "Keld Park - Keld Moor Sw - Keld Force 20Kv Td Fdr",
+      "reference": "PPC044994",
+      "region": "Toronto Village Substation, LV Feeder A. ",
       "resourceAllocationDelay": 0,
-      "stageSequence": 4,
+      "stageSequence": 0,
       "startnumber": 0,
-      "status": "In Progress",
-      "totalConfirmedOff": 21,
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 44,
       "totalPredictedOff": 0,
       "totalResourceAssigned": 0,
       "totalResourceDispatched": 0,
       "totalResourceOnsite": 0,
       "totalRestored": 0,
-      "totalSensitiveAffected": 1,
+      "totalSensitiveAffected": 9,
       "type": "LV",
-      "hoursSinceLogged": 14,
+      "hoursSinceLogged": -9,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
-    "PPC044744": {
+    "PPC045018": {
       "areacode": 15,
-      "category": "We need to temporarily turn the power off to carry out replacement work on our overhead power lines in the area.",
+      "category": "We need to temporarily turn the power off to connect a new customer in the area.",
       "class": "models.MapDataPowercutIncno",
-      "contact": "Andrew Staveley",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:45",
-      "estimatedTimeTillResolution": 1653400800000,
+      "contact": "Richard Aiston",
+      "customerStageSequence": 0,
+      "elapsed": "0d 8:44",
+      "estimatedTimeTillResolution": 1653487200000,
       "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653401130000,
-      "latestStageSequenceStatus": 5,
-      "location": "Cropton Cabins - Cropton Peep 11kV Teed Feeder",
-      "logged": 1653379200000,
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Monument Sw - Sheperds Way 11kV Teed Fdr",
+      "logged": 1653465600000,
       "natureOfOutage": "Planned Work on System",
-      "networkObject": "CROPTON BANKS",
+      "networkObject": "EAST BARNWELL FARM",
       "numberOfCalls": 0,
       "postcodes": {
-        "YO18 8EX": {
+        "NE38 8LQ": {
           "class": "models.MapDataLocation",
-          "lat": 54.2998,
-          "lng": -0.822628
+          "lat": 54.8866,
+          "lng": -1.50226
         },
-        "YO18 8ET": {
+        "DH4 7ET": {
           "class": "models.MapDataLocation",
-          "lat": 54.3114,
-          "lng": -0.822051
+          "lat": 54.879,
+          "lng": -1.4892
         },
-        "YO18 8EU": {
+        "DH4 7SR": {
           "class": "models.MapDataLocation",
-          "lat": 54.3063,
-          "lng": -0.827605
+          "lat": 54.8789,
+          "lng": -1.51371
         },
-        "YO18 8ES": {
+        "DH4 7ER": {
           "class": "models.MapDataLocation",
-          "lat": 54.3165,
-          "lng": -0.836541
+          "lat": 54.8788,
+          "lng": -1.48786
+        },
+        "DH4 7ES": {
+          "class": "models.MapDataLocation",
+          "lat": 54.8787,
+          "lng": -1.48729
+        },
+        "DH4 7NJ": {
+          "class": "models.MapDataLocation",
+          "lat": 54.8801,
+          "lng": -1.48087
+        },
+        "DH4 7NH": {
+          "class": "models.MapDataLocation",
+          "lat": 54.8841,
+          "lng": -1.49901
+        },
+        "DH5 0QX": {
+          "class": "models.MapDataLocation",
+          "lat": 54.8008,
+          "lng": -1.45382
         }
       },
       "prefix": null,
       "priority": 8,
-      "reference": "PPC044744",
-      "region": "Cropton Cabins - Cropton Peep 11kV Teed Feeder",
+      "reference": "PPC045018",
+      "region": "Monument Sw - Sheperds Way 11kV Teed Fdr",
       "resourceAllocationDelay": 0,
-      "stageSequence": 5,
+      "stageSequence": 0,
       "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 11,
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 12,
       "totalPredictedOff": 0,
       "totalResourceAssigned": 0,
       "totalResourceDispatched": 0,
       "totalResourceOnsite": 0,
       "totalRestored": 0,
-      "totalSensitiveAffected": 0,
+      "totalSensitiveAffected": 2,
       "type": "LV",
-      "hoursSinceLogged": 14,
+      "hoursSinceLogged": -8,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
-    "PPC044764": {
+    "PPC045033": {
       "areacode": 23,
-      "category": "We need to temporarily turn the power off to undertake vegetation management in the area.",
+      "category": "We need to temporarily turn the power off to connect a new customer in the area.",
       "class": "models.MapDataPowercutIncno",
-      "contact": "Alan Fox",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:45",
-      "estimatedTimeTillResolution": 1653397200000,
+      "contact": "Andy Balding",
+      "customerStageSequence": 0,
+      "elapsed": "0d 9:14",
+      "estimatedTimeTillResolution": 1653485400000,
       "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653397211000,
-      "latestStageSequenceStatus": 5,
-      "location": "Healey House 2085",
-      "logged": 1653379200000,
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Priory Estate 7521 Way 1",
+      "logged": 1653467400000,
       "natureOfOutage": "Planned Work on System",
-      "networkObject": "HEALEY HOUSE 2085",
+      "networkObject": "PRIORY ESTATE 7521",
       "numberOfCalls": 0,
       "postcodes": {
-        "HD4 7DG": {
+        "WF9 2SU": {
           "class": "models.MapDataLocation",
-          "lat": 53.6056,
-          "lng": -1.82623
+          "lat": 53.5957,
+          "lng": -1.27794
         },
-        "HD4 7DZ": {
+        "WF9 2SS": {
           "class": "models.MapDataLocation",
-          "lat": 53.6077,
-          "lng": -1.82861
+          "lat": 53.5949,
+          "lng": -1.28022
         },
-        "HD4 7DQ": {
+        "WF9 2ST": {
           "class": "models.MapDataLocation",
-          "lat": 53.6058,
-          "lng": -1.82447
+          "lat": 53.5951,
+          "lng": -1.27896
+        },
+        "WF1 5PE": {
+          "class": "models.MapDataLocation",
+          "lat": 53.678,
+          "lng": -1.4897
         }
       },
       "prefix": null,
       "priority": 8,
-      "reference": "PPC044764",
-      "region": "Healey House 2085",
+      "reference": "PPC045033",
+      "region": "Priory Estate 7521 Way 1",
       "resourceAllocationDelay": 0,
-      "stageSequence": 5,
+      "stageSequence": 0,
       "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 8,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 0,
-      "type": "LV",
-      "hoursSinceLogged": 14,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC044779": {
-      "areacode": 15,
-      "category": "We need to temporarily turn the power off to undertake vegetation management in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Pete Oughton",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:45",
-      "estimatedTimeTillResolution": 1653386400000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653386423000,
-      "latestStageSequenceStatus": 5,
-      "location": "Fenton House",
-      "logged": 1653379200000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "FENTON HOUSE",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "NE71 6JW": {
-          "class": "models.MapDataLocation",
-          "lat": 55.6056,
-          "lng": -2.01883
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC044779",
-      "region": "Fenton House",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 1,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 0,
-      "type": "LV",
-      "hoursSinceLogged": 14,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC044780": {
-      "areacode": 15,
-      "category": "We need to temporarily turn the power off to undertake vegetation management in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Pete Oughton",
-      "customerStageSequence": 5,
-      "elapsed": "0d 11:45",
-      "estimatedTimeTillResolution": 1653400800000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653400818000,
-      "latestStageSequenceStatus": 5,
-      "location": "Galewood Grain",
-      "logged": 1653390000000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "GALEWOOD GRAIN",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "NE71 6HW": {
-          "class": "models.MapDataLocation",
-          "lat": 55.5851,
-          "lng": -2.07772
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC044780",
-      "region": "Galewood Grain",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 1,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 0,
-      "type": "LV",
-      "hoursSinceLogged": 11,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC044797": {
-      "areacode": 23,
-      "category": "We need to temporarily turn the power off to undertake vegetation management in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Dean Hodgson",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:45",
-      "estimatedTimeTillResolution": 1653406200000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653406219000,
-      "latestStageSequenceStatus": 5,
-      "location": "Sproatley Rise 6644",
-      "logged": 1653379200000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "SPROATLEY RISE 6644",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "HU11 4PW": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7924,
-          "lng": -0.19008
-        },
-        "HU11 4PA": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7948,
-          "lng": -0.191131
-        },
-        "HU11 4XH": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7927,
-          "lng": -0.191449
-        },
-        "HU11 4XF": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7937,
-          "lng": -0.19247
-        },
-        "HU11 4XE": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7924,
-          "lng": -0.192102
-        },
-        "HU11 4PR": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7927,
-          "lng": -0.187395
-        },
-        "HU11 4PL": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7924,
-          "lng": -0.191202
-        },
-        "HU11 4PP": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7929,
-          "lng": -0.189725
-        },
-        "HU11 4PN": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7905,
-          "lng": -0.190647
-        },
-        "HU11 4GA": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7911,
-          "lng": -0.190729
-        },
-        "HU11 4XQ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7939,
-          "lng": -0.193282
-        },
-        "HU11 4PJ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7934,
-          "lng": -0.190903
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC044797",
-      "region": "Sproatley Rise 6644",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
+      "status": "Work is scheduled to start",
       "totalConfirmedOff": 14,
       "totalPredictedOff": 0,
       "totalResourceAssigned": 0,
@@ -1518,41 +1719,99 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 3,
       "type": "LV",
-      "hoursSinceLogged": 14,
+      "hoursSinceLogged": -9,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
-    "PPC044798": {
+    "PPC045038": {
       "areacode": 23,
-      "category": "We need to temporarily turn the power off to undertake vegetation management in the area.",
+      "category": "We need to temporarily turn the power off to carry out a permanent repair in the area.",
       "class": "models.MapDataPowercutIncno",
-      "contact": "Dean Hodgson",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:15",
-      "estimatedTimeTillResolution": 1653404400000,
+      "contact": "Christopher Best",
+      "customerStageSequence": 0,
+      "elapsed": "0d 9:44",
+      "estimatedTimeTillResolution": 1653483600000,
       "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653404419000,
-      "latestStageSequenceStatus": 5,
-      "location": "West Newton Mount Pleasant 1587",
-      "logged": 1653381000000,
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "6 properties New Street HX3 9SN",
+      "logged": 1653469200000,
       "natureOfOutage": "Planned Work on System",
-      "networkObject": "WEST NEWTON MOUNT PLEASANT 1587",
+      "networkObject": "NEW ROW 968",
       "numberOfCalls": 0,
       "postcodes": {
-        "HU11 4LP": {
+        "HX3 9SW": {
           "class": "models.MapDataLocation",
-          "lat": 53.8236,
-          "lng": -0.183692
+          "lat": 53.7085,
+          "lng": -1.83035
+        },
+        "HX3 9SN": {
+          "class": "models.MapDataLocation",
+          "lat": 53.7089,
+          "lng": -1.82641
+        },
+        "HX3 9SP": {
+          "class": "models.MapDataLocation",
+          "lat": 53.7085,
+          "lng": -1.82841
         }
       },
       "prefix": null,
       "priority": 8,
-      "reference": "PPC044798",
-      "region": "West Newton Mount Pleasant 1587",
+      "reference": "PPC045038",
+      "region": "6 properties New Street HX3 9SN",
       "resourceAllocationDelay": 0,
-      "stageSequence": 5,
+      "stageSequence": 0,
       "startnumber": 0,
-      "status": "The scheduled work has now been completed",
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 10,
+      "totalPredictedOff": 0,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 4,
+      "type": "LV",
+      "hoursSinceLogged": -9,
+      "stageSequenceMessage": "",
+      "categoryWebText": ""
+    },
+    "PPC045058": {
+      "areacode": 15,
+      "category": "We need to temporarily turn the power off to carry out replacement work on our overhead power lines in the area.",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "Mark Whittaker",
+      "customerStageSequence": 0,
+      "elapsed": "0d 8:44",
+      "estimatedTimeTillResolution": 1653490800000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "THROCKRINGTON SW TO SUBSTATION",
+      "logged": 1653465600000,
+      "natureOfOutage": "Planned Work on System",
+      "networkObject": "COLWELL FELL",
+      "numberOfCalls": 0,
+      "postcodes": {
+        "NE46 4TR": {
+          "class": "models.MapDataLocation",
+          "lat": 55.0828,
+          "lng": -2.05508
+        },
+        "NE46 4TS": {
+          "class": "models.MapDataLocation",
+          "lat": 55.0845,
+          "lng": -2.06692
+        }
+      },
+      "prefix": null,
+      "priority": 8,
+      "reference": "PPC045058",
+      "region": "THROCKRINGTON SW TO SUBSTATION",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 0,
+      "startnumber": 0,
+      "status": "Work is scheduled to start",
       "totalConfirmedOff": 6,
       "totalPredictedOff": 0,
       "totalResourceAssigned": 0,
@@ -1561,175 +1820,42 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 1,
       "type": "LV",
-      "hoursSinceLogged": 14,
+      "hoursSinceLogged": -8,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
-    "PPC044846": {
-      "areacode": 15,
-      "category": "We need to temporarily turn the power off to carry out a permanent repair in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Paul Horner",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:15",
-      "estimatedTimeTillResolution": 1653386400000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653386423000,
-      "latestStageSequenceStatus": 5,
-      "location": "Follifoot Central S/S - LV Fdr :- The Paddocks - Hillside",
-      "logged": 1653381000000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "FOLLIFOOT CENTRAL",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "HG3 1EE": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9658,
-          "lng": -1.47933
-        },
-        "HG3 1ED": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9665,
-          "lng": -1.47934
-        },
-        "HG3 1EG": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9642,
-          "lng": -1.46969
-        },
-        "HG3 1EF": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9649,
-          "lng": -1.47948
-        },
-        "HG3 1EA": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9664,
-          "lng": -1.48161
-        },
-        "HG3 1EB": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9661,
-          "lng": -1.48079
-        },
-        "HG3 1EH": {
-          "class": "models.MapDataLocation",
-          "lat": 53.967,
-          "lng": -1.47895
-        },
-        "HG3 1NF": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9676,
-          "lng": -1.48224
-        },
-        "HG3 1DD": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9672,
-          "lng": -1.47971
-        },
-        "HG3 1DZ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.967,
-          "lng": -1.48048
-        },
-        "HG3 1DY": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9669,
-          "lng": -1.48223
-        },
-        "HG3 1DX": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9678,
-          "lng": -1.48086
-        },
-        "HG3 1DR": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9669,
-          "lng": -1.49119
-        },
-        "HG3 1UB": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9683,
-          "lng": -1.48055
-        },
-        "HG3 1DU": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9674,
-          "lng": -1.48013
-        },
-        "HG3 1DT": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9688,
-          "lng": -1.47846
-        },
-        "HG3 1DS": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9681,
-          "lng": -1.48414
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC044846",
-      "region": "Follifoot Central S/S - LV Fdr :- The Paddocks - Hillside",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 103,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 19,
-      "type": "LV",
-      "hoursSinceLogged": 14,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC044935": {
+    "PPC045071": {
       "areacode": 23,
-      "category": "We need to temporarily turn the power off to carry out power upgrades in the area.",
+      "category": "We need to temporarily turn the power off to carry out replacement of poles that support our overhead power lines in the area.",
       "class": "models.MapDataPowercutIncno",
-      "contact": "Charles Walker",
-      "customerStageSequence": 4,
-      "elapsed": "0d 14:45",
-      "estimatedTimeTillResolution": 1653652800000,
+      "contact": "Henry Erskine",
+      "customerStageSequence": 0,
+      "elapsed": "0d 9:14",
+      "estimatedTimeTillResolution": 1653489000000,
       "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653379219000,
-      "latestStageSequenceStatus": 4,
-      "location": "Barnaby Bridge 2647,  Whiteacres Lane Head Road 52161 & M1 Transponder Cawthorne Road 22956 ",
-      "logged": 1653379200000,
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Hollin Hall Farm Spur 11kV feeder",
+      "logged": 1653467400000,
       "natureOfOutage": "Planned Work on System",
-      "networkObject": "BARNBY BRIDGE 22144",
+      "networkObject": "HOLLIN HALL FARM 1570",
       "numberOfCalls": 0,
       "postcodes": {
-        "S75 4DR": {
+        "LS17 9LU": {
           "class": "models.MapDataLocation",
-          "lat": 53.5684,
-          "lng": -1.54654
-        },
-        "S75 4DP": {
-          "class": "models.MapDataLocation",
-          "lat": 53.5683,
-          "lng": -1.54544
-        },
-        "S75 4DT": {
-          "class": "models.MapDataLocation",
-          "lat": 53.5686,
-          "lng": -1.55886
+          "lat": 53.8882,
+          "lng": -1.50605
         }
       },
       "prefix": null,
       "priority": 8,
-      "reference": "PPC044935",
-      "region": "Barnaby Bridge 2647,  Whiteacres Lane Head Road 52161 & M1 Transponder Cawthorne Road 22956 ",
+      "reference": "PPC045071",
+      "region": "Hollin Hall Farm Spur 11kV feeder",
       "resourceAllocationDelay": 0,
-      "stageSequence": 4,
+      "stageSequence": 0,
       "startnumber": 0,
-      "status": "In Progress",
-      "totalConfirmedOff": 10,
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 2,
       "totalPredictedOff": 0,
       "totalResourceAssigned": 0,
       "totalResourceDispatched": 0,
@@ -1737,778 +1863,365 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 1,
       "type": "LV",
-      "hoursSinceLogged": 14,
+      "hoursSinceLogged": -9,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
-    "PPC044955": {
+    "PPC045094": {
       "areacode": 23,
-      "category": "We need to temporarily turn the power off to connect a new customer in the area.",
+      "category": "We need to temporarily turn the power off to carry out replacement of poles that support our overhead power lines in the area.",
       "class": "models.MapDataPowercutIncno",
-      "contact": "Paul Martyn",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:45",
-      "estimatedTimeTillResolution": 1653400800000,
+      "contact": "Thomas Saddington",
+      "customerStageSequence": 0,
+      "elapsed": "0d 8:44",
+      "estimatedTimeTillResolution": 1653490800000,
       "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653400818000,
-      "latestStageSequenceStatus": 5,
-      "location": "Birkwood House Cell Supply PE\r\nBirkwood House",
-      "logged": 1653379200000,
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Goxhill School, circuit 2",
+      "logged": 1653465600000,
       "natureOfOutage": "Planned Work on System",
-      "networkObject": "BIRKWOOD HOUSE 33487",
+      "networkObject": "GOXHILL SCHOOL 5353",
       "numberOfCalls": 0,
       "postcodes": {
-        "WF4 1LN": {
+        "DN19 7JP": {
           "class": "models.MapDataLocation",
-          "lat": 53.6654,
-          "lng": -1.41877
+          "lat": 53.6822,
+          "lng": -0.333224
+        },
+        "DN19 7LB": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6807,
+          "lng": -0.335769
+        },
+        "DN19 7FB": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6854,
+          "lng": -0.329026
+        },
+        "DN19 7LA": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6824,
+          "lng": -0.335745
+        },
+        "DN19 7JN": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6813,
+          "lng": -0.331791
+        },
+        "DN19 7JW": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6806,
+          "lng": -0.331756
+        },
+        "DN19 7JH": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6781,
+          "lng": -0.332401
+        },
+        "DN19 7JR": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6827,
+          "lng": -0.330811
         }
       },
       "prefix": null,
       "priority": 8,
-      "reference": "PPC044955",
-      "region": "Birkwood House Cell Supply PE\r\nBirkwood House",
+      "reference": "PPC045094",
+      "region": "Goxhill School, circuit 2",
       "resourceAllocationDelay": 0,
-      "stageSequence": 5,
+      "stageSequence": 0,
       "startnumber": 0,
-      "status": "The scheduled work has now been completed",
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 16,
+      "totalPredictedOff": 0,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 2,
+      "type": "LV",
+      "hoursSinceLogged": -8,
+      "stageSequenceMessage": "",
+      "categoryWebText": ""
+    },
+    "PPC045146": {
+      "areacode": 15,
+      "category": "We need to temporarily turn the power off to carry out a permanent repair in the area.",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "Lee Soanes",
+      "customerStageSequence": 0,
+      "elapsed": "0d 9:14",
+      "estimatedTimeTillResolution": 1653485400000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "SHOTTON BYRON LV FEEDER B",
+      "logged": 1653467400000,
+      "natureOfOutage": "Planned Work on System",
+      "networkObject": "SHOTTON BYRON",
+      "numberOfCalls": 0,
+      "postcodes": {
+        "DH6 2RD": {
+          "class": "models.MapDataLocation",
+          "lat": 54.7597,
+          "lng": -1.38333
+        },
+        "DH6 2PQ": {
+          "class": "models.MapDataLocation",
+          "lat": 54.7579,
+          "lng": -1.38725
+        },
+        "DH6 2PB": {
+          "class": "models.MapDataLocation",
+          "lat": 54.7583,
+          "lng": -1.3858
+        },
+        "DH6 2PA": {
+          "class": "models.MapDataLocation",
+          "lat": 54.7591,
+          "lng": -1.38619
+        },
+        "DH6 2PF": {
+          "class": "models.MapDataLocation",
+          "lat": 54.7587,
+          "lng": -1.38469
+        },
+        "DH6 2PD": {
+          "class": "models.MapDataLocation",
+          "lat": 54.7582,
+          "lng": -1.38414
+        },
+        "DH6 2PH": {
+          "class": "models.MapDataLocation",
+          "lat": 54.7575,
+          "lng": -1.38748
+        }
+      },
+      "prefix": null,
+      "priority": 8,
+      "reference": "PPC045146",
+      "region": "SHOTTON BYRON LV FEEDER B",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 0,
+      "startnumber": 0,
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 28,
+      "totalPredictedOff": 0,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 7,
+      "type": "LV",
+      "hoursSinceLogged": -9,
+      "stageSequenceMessage": "",
+      "categoryWebText": ""
+    },
+    "PPC045147": {
+      "areacode": 15,
+      "category": "We need to temporarily turn the power off to carry out replacement work on our overhead power lines in the area.",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "David Atkinson",
+      "customerStageSequence": 0,
+      "elapsed": "0d 10:14",
+      "estimatedTimeTillResolution": 1653480000000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "STAINDROP BELL S.S",
+      "logged": 1653471000000,
+      "natureOfOutage": "Planned Work on System",
+      "networkObject": "STAINDROP BELL",
+      "numberOfCalls": 0,
+      "postcodes": {
+        "DL2 3PA": {
+          "class": "models.MapDataLocation",
+          "lat": 54.5708,
+          "lng": -1.80099
+        }
+      },
+      "prefix": null,
+      "priority": 8,
+      "reference": "PPC045147",
+      "region": "STAINDROP BELL S.S",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 0,
+      "startnumber": 0,
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 4,
+      "totalPredictedOff": 0,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 0,
+      "type": "LV",
+      "hoursSinceLogged": -10,
+      "stageSequenceMessage": "",
+      "categoryWebText": ""
+    },
+    "PPC045152": {
+      "areacode": 23,
+      "category": "We need to temporarily turn the power off to replace damaged underground cables in the area.",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "Dave Marsden",
+      "customerStageSequence": 0,
+      "elapsed": "0d 9:44",
+      "estimatedTimeTillResolution": 1653480000000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Street lights o/s no 16 Trueman Way",
+      "logged": 1653469200000,
+      "natureOfOutage": "Planned Work on System",
+      "networkObject": "BAILEY CRESCENT 33167",
+      "numberOfCalls": 0,
+      "postcodes": {
+        "WF9 2TP": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6006,
+          "lng": -1.28482
+        },
+        "WF9 2TQ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.5994,
+          "lng": -1.28493
+        },
+        "WF9 2TT": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6009,
+          "lng": -1.28614
+        },
+        "WF9 2TU": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6001,
+          "lng": -1.2859
+        },
+        "WF9 2TH": {
+          "class": "models.MapDataLocation",
+          "lat": 53.5996,
+          "lng": -1.28456
+        },
+        "WF9 2TX": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6001,
+          "lng": -1.28652
+        },
+        "WF9 2UP": {
+          "class": "models.MapDataLocation",
+          "lat": 53.6,
+          "lng": -1.28741
+        }
+      },
+      "prefix": null,
+      "priority": 8,
+      "reference": "PPC045152",
+      "region": "Street lights o/s no 16 Trueman Way",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 0,
+      "startnumber": 0,
+      "status": "Work is scheduled to start",
       "totalConfirmedOff": 8,
       "totalPredictedOff": 0,
       "totalResourceAssigned": 0,
       "totalResourceDispatched": 0,
       "totalResourceOnsite": 0,
       "totalRestored": 0,
-      "totalSensitiveAffected": 0,
+      "totalSensitiveAffected": 2,
       "type": "LV",
-      "hoursSinceLogged": 14,
+      "hoursSinceLogged": -9,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
-    "PPC044962": {
+    "PPC045157": {
+      "areacode": 23,
+      "category": "We need to temporarily turn the power off to carry out a permanent repair in the area.",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "Grant Mitchell",
+      "customerStageSequence": 0,
+      "elapsed": "0d 9:44",
+      "estimatedTimeTillResolution": 1653480000000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "Romb Pickle",
+      "logged": 1653469200000,
+      "natureOfOutage": "Planned Work on System",
+      "networkObject": "ROMB PICKLE 1641",
+      "numberOfCalls": 0,
+      "postcodes": {
+        "HD8 8YP": {
+          "class": "models.MapDataLocation",
+          "lat": 53.57,
+          "lng": -1.64674
+        }
+      },
+      "prefix": null,
+      "priority": 8,
+      "reference": "PPC045157",
+      "region": "Romb Pickle",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 0,
+      "startnumber": 0,
+      "status": "Work is scheduled to start",
+      "totalConfirmedOff": 8,
+      "totalPredictedOff": 0,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 2,
+      "type": "LV",
+      "hoursSinceLogged": -9,
+      "stageSequenceMessage": "",
+      "categoryWebText": ""
+    },
+    "PPC045168": {
       "areacode": 15,
       "category": "We need to temporarily turn the power off to undertake vegetation management in the area.",
       "class": "models.MapDataPowercutIncno",
-      "contact": "Gary Walker",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:45",
-      "estimatedTimeTillResolution": 1653404400000,
+      "contact": "Andrew Hopper",
+      "customerStageSequence": 0,
+      "elapsed": "0d 8:44",
+      "estimatedTimeTillResolution": 1653487200000,
       "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653404419000,
-      "latestStageSequenceStatus": 5,
-      "location": "Barndale-Alnwick Park Sw-Alnwick Park",
-      "logged": 1653379200000,
+      "latestStageSequenceHistory": 1653433208000,
+      "latestStageSequenceStatus": 0,
+      "location": "High / low Paradise",
+      "logged": 1653465600000,
       "natureOfOutage": "Planned Work on System",
-      "networkObject": "ST MICHAELS",
+      "networkObject": "HIGH PARADISE",
       "numberOfCalls": 0,
       "postcodes": {
-        "NE66 1NB": {
+        "YO7 2HS": {
           "class": "models.MapDataLocation",
-          "lat": 55.4177,
-          "lng": -1.70991
+          "lat": 54.2867,
+          "lng": -1.23045
         },
-        "NE66 1NP": {
+        "YO7 2HT": {
           "class": "models.MapDataLocation",
-          "lat": 55.4166,
-          "lng": -1.70981
-        },
-        "NE66 1ND": {
-          "class": "models.MapDataLocation",
-          "lat": 55.4181,
-          "lng": -1.71245
-        },
-        "NE66 1NE": {
-          "class": "models.MapDataLocation",
-          "lat": 55.4172,
-          "lng": -1.71252
-        },
-        "NE66 3JA": {
-          "class": "models.MapDataLocation",
-          "lat": 55.4254,
-          "lng": -1.75179
-        },
-        "NE66 3HX": {
-          "class": "models.MapDataLocation",
-          "lat": 55.417,
-          "lng": -1.71526
-        },
-        "NE66 2BT": {
-          "class": "models.MapDataLocation",
-          "lat": 55.35,
-          "lng": -1.8466
-        },
-        "NE66 3HY": {
-          "class": "models.MapDataLocation",
-          "lat": 55.4184,
-          "lng": -1.72367
-        },
-        "NE66 1NF": {
-          "class": "models.MapDataLocation",
-          "lat": 55.4188,
-          "lng": -1.71273
-        },
-        "NE66 3HZ": {
-          "class": "models.MapDataLocation",
-          "lat": 55.4249,
-          "lng": -1.73511
-        },
-        "NE66 1DH": {
-          "class": "models.MapDataLocation",
-          "lat": 55.4153,
-          "lng": -1.7135
-        },
-        "NE66 1LT": {
-          "class": "models.MapDataLocation",
-          "lat": 55.4156,
-          "lng": -1.71037
+          "lat": 54.292,
+          "lng": -1.22845
         }
       },
       "prefix": null,
       "priority": 8,
-      "reference": "PPC044962",
-      "region": "Barndale-Alnwick Park Sw-Alnwick Park",
+      "reference": "PPC045168",
+      "region": "High / low Paradise",
       "resourceAllocationDelay": 0,
-      "stageSequence": 5,
+      "stageSequence": 0,
       "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 132,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 26,
-      "type": "LV",
-      "hoursSinceLogged": 14,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC044974": {
-      "areacode": 15,
-      "category": "We need to temporarily turn the power off to replace damaged underground cables in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Phil Banks",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:45",
-      "estimatedTimeTillResolution": 1653402600000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653402616000,
-      "latestStageSequenceStatus": 5,
-      "location": "GRANTLEY DRIVE, HARROGATE ",
-      "logged": 1653379200000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "GRANTLEY DRIVE EAST",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "HG3 2XL": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9997,
-          "lng": -1.55674
-        },
-        "HG3 2XN": {
-          "class": "models.MapDataLocation",
-          "lat": 54.0003,
-          "lng": -1.55792
-        },
-        "HG3 2XU": {
-          "class": "models.MapDataLocation",
-          "lat": 54.0011,
-          "lng": -1.5614
-        },
-        "HG3 2XS": {
-          "class": "models.MapDataLocation",
-          "lat": 54.0014,
-          "lng": -1.55912
-        },
-        "HG3 2XY": {
-          "class": "models.MapDataLocation",
-          "lat": 54.0015,
-          "lng": -1.5609
-        },
-        "HG3 2XW": {
-          "class": "models.MapDataLocation",
-          "lat": 54.0013,
-          "lng": -1.55856
-        },
-        "HG3 2UY": {
-          "class": "models.MapDataLocation",
-          "lat": 54.0011,
-          "lng": -1.55735
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC044974",
-      "region": "GRANTLEY DRIVE, HARROGATE ",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 18,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 1,
-      "type": "LV",
-      "hoursSinceLogged": 14,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC044990": {
-      "areacode": 23,
-      "category": "We need to temporarily turn the power off to carry out replacement of poles that support our overhead power lines in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Liam Callaghan",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:15",
-      "estimatedTimeTillResolution": 1653402600000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653402616000,
-      "latestStageSequenceStatus": 5,
-      "location": "Skeffling east 2580",
-      "logged": 1653381000000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "SKEFFLING EAST 2580",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "HU12 0UU": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6542,
-          "lng": 0.078244
-        },
-        "HU12 0UP": {
-          "class": "models.MapDataLocation",
-          "lat": 53.654,
-          "lng": 0.071636
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC044990",
-      "region": "Skeffling east 2580",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 14,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 4,
-      "type": "LV",
-      "hoursSinceLogged": 14,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC045030": {
-      "areacode": 15,
-      "category": "We need to temporarily turn the power off to carry out power upgrades in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "John Rhodes",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:15",
-      "estimatedTimeTillResolution": 1653395400000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653395412000,
-      "latestStageSequenceStatus": 5,
-      "location": "Rainton Meadows SS - Pole 105 - LV FDR",
-      "logged": 1653381000000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "RAINTON MEADOWS",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "DH4 6NR": {
-          "class": "models.MapDataLocation",
-          "lat": 54.8159,
-          "lng": -1.49845
-        },
-        "DH4 6NP": {
-          "class": "models.MapDataLocation",
-          "lat": 54.817,
-          "lng": -1.49708
-        },
-        "DH4 6NN": {
-          "class": "models.MapDataLocation",
-          "lat": 54.8167,
-          "lng": -1.49572
-        },
-        "DH5 9QE": {
-          "class": "models.MapDataLocation",
-          "lat": 54.8314,
-          "lng": -1.45794
-        },
-        "DH4 6PP": {
-          "class": "models.MapDataLocation",
-          "lat": 54.8157,
-          "lng": -1.49609
-        },
-        "DH4 6SW": {
-          "class": "models.MapDataLocation",
-          "lat": 54.8156,
-          "lng": -1.49753
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC045030",
-      "region": "Rainton Meadows SS - Pole 105 - LV FDR",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 39,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 5,
-      "type": "LV",
-      "hoursSinceLogged": 14,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC045043": {
-      "areacode": 15,
-      "category": "We need to temporarily turn the power off to carry out replacement of poles that support our overhead power lines in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "John Bramley",
-      "customerStageSequence": 7,
-      "elapsed": "0d 13:45",
-      "estimatedTimeTillResolution": 1653397200000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653397211000,
-      "latestStageSequenceStatus": 5,
-      "location": "CHURCH LANE FERRYHILL SS",
-      "logged": 1653382800000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "CHURCH LANE FERRYHILL",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "DL17 8LZ": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6869,
-          "lng": -1.55871
-        },
-        "DL17 8JT": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6865,
-          "lng": -1.55756
-        },
-        "DL17 8JZ": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6866,
-          "lng": -1.55795
-        },
-        "DL17 8LY": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6877,
-          "lng": -1.55544
-        },
-        "DL17 8ND": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6865,
-          "lng": -1.56065
-        },
-        "DL17 8NE": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6869,
-          "lng": -1.56041
-        },
-        "DL17 8NB": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6867,
-          "lng": -1.55964
-        },
-        "DL17 8JP": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6875,
-          "lng": -1.55743
-        },
-        "DL17 8NA": {
-          "class": "models.MapDataLocation",
-          "lat": 54.6872,
-          "lng": -1.55918
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC045043",
-      "region": "CHURCH LANE FERRYHILL SS",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 45,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 9,
-      "type": "LV",
-      "hoursSinceLogged": 13,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC045057": {
-      "areacode": 15,
-      "category": "We need to temporarily turn the power off to carry out replacement work on our overhead power lines in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Mark Whittaker",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:45",
-      "estimatedTimeTillResolution": 1653393600000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653393612000,
-      "latestStageSequenceStatus": 5,
-      "location": "HOMILTON S/S",
-      "logged": 1653379200000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "HOMILTON",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "NE19 2BE": {
-          "class": "models.MapDataLocation",
-          "lat": 55.0999,
-          "lng": -2.03575
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC045057",
-      "region": "HOMILTON S/S",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 1,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 0,
-      "type": "LV",
-      "hoursSinceLogged": 14,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC045121": {
-      "areacode": 15,
-      "category": "We need to temporarily turn the power off to connect a new customer in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Ryan Barnett",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:15",
-      "estimatedTimeTillResolution": 1653402600000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653401414000,
-      "latestStageSequenceStatus": 5,
-      "location": "Church Street Tower, Roker (Flats & Landlords Supply)",
-      "logged": 1653381000000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "WHICKHAM STREET",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "SR6 0DY": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9135,
-          "lng": -1.37424
-        },
-        "SR6 0BD": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9143,
-          "lng": -1.37753
-        },
-        "SR6 0DX": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9146,
-          "lng": -1.37661
-        },
-        "SR6 0DF": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9134,
-          "lng": -1.37875
-        },
-        "SR6 0EB": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9157,
-          "lng": -1.37574
-        },
-        "SR6 0DT": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9147,
-          "lng": -1.37737
-        },
-        "SR6 0AG": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9135,
-          "lng": -1.37761
-        },
-        "SR6 0DR": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9152,
-          "lng": -1.37724
-        },
-        "SR6 0QQ": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9138,
-          "lng": -1.37782
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC045121",
-      "region": "Church Street Tower, Roker (Flats & Landlords Supply)",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 65,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 14,
-      "type": "LV",
-      "hoursSinceLogged": 14,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC045196": {
-      "areacode": 15,
-      "category": "We need to temporarily turn the power off to carry out a permanent repair in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Callum Tate",
-      "customerStageSequence": 5,
-      "elapsed": "0d 18:45",
-      "estimatedTimeTillResolution": 1653368400000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653368406000,
-      "latestStageSequenceStatus": 5,
-      "location": "West Lane School LV FDR B",
-      "logged": 1653364800000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "WEST LANE SCHOOL",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "NE12 6BL": {
-          "class": "models.MapDataLocation",
-          "lat": 55.0323,
-          "lng": -1.56112
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC045196",
-      "region": "West Lane School LV FDR B",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
+      "status": "Work is scheduled to start",
       "totalConfirmedOff": 9,
       "totalPredictedOff": 0,
       "totalResourceAssigned": 0,
       "totalResourceDispatched": 0,
       "totalResourceOnsite": 0,
       "totalRestored": 0,
-      "totalSensitiveAffected": 1,
+      "totalSensitiveAffected": 0,
       "type": "LV",
-      "hoursSinceLogged": 18,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC045238": {
-      "areacode": 23,
-      "category": "We need to temporarily turn the power off to carry out a permanent repair in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Lee Hebden",
-      "customerStageSequence": 5,
-      "elapsed": "0d 14:15",
-      "estimatedTimeTillResolution": 1653397200000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653397211000,
-      "latestStageSequenceStatus": 5,
-      "location": "Albion Mills 736, Way4.",
-      "logged": 1653381000000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "ALBION MILLS ELLAND 736",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "HX5 0HU": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6808,
-          "lng": -1.83685
-        },
-        "HX5 0HT": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6807,
-          "lng": -1.83568
-        },
-        "HX5 0HR": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6807,
-          "lng": -1.83771
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC045238",
-      "region": "Albion Mills 736, Way4.",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 24,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 4,
-      "type": "LV",
-      "hoursSinceLogged": 14,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC045240": {
-      "areacode": 23,
-      "category": "We need to temporarily turn the power off to carry out a permanent repair in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Keith Taylor",
-      "customerStageSequence": 5,
-      "elapsed": "0d 13:45",
-      "estimatedTimeTillResolution": 1653393600000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653393612000,
-      "latestStageSequenceStatus": 5,
-      "location": "Fault repair outside 38 Linton Rd. Fred from Barden Rd S/S 5235 way 4",
-      "logged": 1653382800000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "BARDEN ROAD 5235",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "WF1 4HJ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6843,
-          "lng": -1.47183
-        },
-        "WF1 4HQ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6836,
-          "lng": -1.47647
-        },
-        "WF1 4HH": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6838,
-          "lng": -1.47375
-        },
-        "WF1 4HG": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6836,
-          "lng": -1.47817
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC045240",
-      "region": "Fault repair outside 38 Linton Rd. Fred from Barden Rd S/S 5235 way 4",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 5,
-      "startnumber": 0,
-      "status": "The scheduled work has now been completed",
-      "totalConfirmedOff": 68,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 12,
-      "type": "LV",
-      "hoursSinceLogged": 13,
-      "stageSequenceMessage": "",
-      "categoryWebText": ""
-    },
-    "PPC045263": {
-      "areacode": 23,
-      "category": "We need to temporarily turn the power off to connect a new customer in the area.",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "Willy Narag",
-      "customerStageSequence": 7,
-      "elapsed": "0d 14:45",
-      "estimatedTimeTillResolution": 1653661800000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1653385573000,
-      "latestStageSequenceStatus": 7,
-      "location": "Stainforth Doncaster DN7 5BF",
-      "logged": 1653379200000,
-      "natureOfOutage": "Planned Work on System",
-      "networkObject": "RAMSKIN LANE P/E 44569",
-      "numberOfCalls": 0,
-      "postcodes": {
-        "DN7 5GB": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6007,
-          "lng": -1.02491
-        },
-        "DN7 5AJ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6007,
-          "lng": -1.02998
-        },
-        "DN7 5BE": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6014,
-          "lng": -1.02336
-        },
-        "DN7 5AZ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6008,
-          "lng": -1.02588
-        },
-        "DN7 5BF": {
-          "class": "models.MapDataLocation",
-          "lat": 53.601,
-          "lng": -1.02458
-        },
-        "DN7 5BG": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6002,
-          "lng": -1.02487
-        },
-        "DN7 5AF": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6002,
-          "lng": -1.0297
-        },
-        "DN7 5BL": {
-          "class": "models.MapDataLocation",
-          "lat": 53.6002,
-          "lng": -1.02165
-        }
-      },
-      "prefix": null,
-      "priority": 8,
-      "reference": "PPC045263",
-      "region": "Stainforth Doncaster DN7 5BF",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 7,
-      "startnumber": 0,
-      "status": "The scheduled work has been cancelled and is no longer taking place today",
-      "totalConfirmedOff": 49,
-      "totalPredictedOff": 0,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 10,
-      "type": "LV",
-      "hoursSinceLogged": 14,
+      "hoursSinceLogged": -8,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     }

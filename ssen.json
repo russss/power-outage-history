@@ -33,7 +33,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-05-25T12:57:00.000+0000",
       "latitude": 51.471803194424794,
-      "estimatedRestoration": "2022-05-25T20:00:00.000+0000",
+      "estimatedRestoration": "2022-05-25T22:59:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT7651'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT7651",
@@ -126,11 +126,12 @@
       "py/object": "Fault",
       "loggedAt": "2022-05-25T17:09:00.000+0000",
       "latitude": 51.449379085754465,
-      "estimatedRestoration": "2022-05-25T20:30:00.000+0000",
+      "estimatedRestoration": "2022-05-26T02:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT7799'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT7799",
       "reference": "JT7799",
+      "engineerOnSiteTime": "2022-05-25T18:10:00.000+0000",
       "name": "RG5 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -212,44 +213,51 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-05-25T18:16:00.000+0000",
-      "latitude": 50.76950179798533,
-      "estimatedRestoration": "2022-05-25T21:25:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT7816'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT7816",
-      "reference": "JT7816",
-      "name": "BH11 Area",
+      "loggedAt": "2022-05-25T18:58:00.000+0000",
+      "latitude": 51.24351109247788,
+      "estimatedRestoration": "2022-05-25T22:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT7831'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT7831",
+      "reference": "JT7831",
+      "name": "RG25 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "BH11 9DA",
-        "BH11 9GF",
-        "BH11 9HP",
-        "BH11 9HX",
-        "BH11 9HZ",
-        "BH11 9JB",
-        "BH11 9JZ",
-        "BH11 9LF",
-        "BH11 9LG",
-        "BH11 9LU",
-        "BH11 9LX",
-        "BH11 9NA",
-        "BH11 9NU",
-        "BH11 9NX",
-        "BH11 9PA"
+        "RG22 6SZ",
+        "RG25 3BZ",
+        "RG25 3DA",
+        "RG25 3DB",
+        "RG25 3DD",
+        "RG25 3DZ",
+        "RG25 3HL",
+        "RG25 3HN",
+        "RG25 3HP",
+        "RG25 3HQ",
+        "RG25 3HW",
+        "RG25 3JG",
+        "RG25 3JS",
+        "RG25 3JT",
+        "RG25 3LA",
+        "RG25 3LB",
+        "RG25 3LD",
+        "RG25 3LE",
+        "RG25 3LN"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -1.9203240649020685,
-          50.76950179798533
+          -1.260400716473263,
+          51.24351109247788
         ],
         "type": "Point"
       },
-      "UUID": "0bc56633-e7f7-4212-8b53-f4c370b4824a",
+      "UUID": "72aa2abe-79d6-4ebc-9ffb-b59d28fd9695",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.9203240649020685,
+      "evChargersAffected": [
+        "7b7ea59c-f063-436e-95e3-0e5060eaae79"
+      ],
+      "longitude": -1.260400716473263,
       "resolved": false
     },
     {
@@ -284,6 +292,37 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -5.8270121500353085,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-05-25T17:32:00.000+0000",
+      "latitude": 57.21230113414115,
+      "estimatedRestoration": "2022-05-25T20:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT7808'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT7808",
+      "reference": "JT7808",
+      "name": "AB33 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "AB33 8RE",
+        "AB33 8SS",
+        "AB33 8TR"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -2.938293682877863,
+          57.21230113414115
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-05-25T19:00:00.000+0000",
+      "UUID": "9c4941e1-60c2-45ce-a335-555ad6256aba",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.938293682877863,
       "resolved": false
     }
   ]

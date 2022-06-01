@@ -46,13 +46,56 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125039925",
+      "multipleFaultNumbers": null,
+      "date": "2022-06-02T00:30:52",
+      "region": "Hyde",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Preparing to send team",
+      "consumersOff": 236,
+      "estimatedTimeOfRestoration": "2022-06-02T03:30:00",
+      "estimatedTimeOfRestorationMajority": "2022-06-02T03:30:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.469028,
+        "lng": -2.042786
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " SK15 2SZ, SK15 2SL, SK15 2SP, SK15 3QU, SK15 2SQ, SK15 3QX, SK14 4EG, SK15 2TD, SK15 2SN, SK15 3QR, SK15 2SW, SK15 2SG, SK15 2SH, SK15 3QT, SK15 3QZ, SK15 3QP, SK15 3QY, SK14 4UU, SK14 4EN, SK14 4US, SK14 4EB, SK14 4UX, SK14 4UE, SK14 4UN, SK14 4EP, SK14 4EW, SK14 4EF, SK14 4EL, SK14 6SJ, SK14 4UF, SK14 4ED, SK14 4UT, SK14 4UY, SK14 3BT, SK14 4UP, SK14 4EA, SK14 4BF, SK14 3BU",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 1,
   "ShowPolygons": false
 }

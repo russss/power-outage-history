@@ -46,13 +46,97 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125040050",
+      "multipleFaultNumbers": null,
+      "date": "2022-06-02T20:33:39",
+      "region": "Woodplumpton, Preston",
+      "faultType": "Current Fault",
+      "faultStatus": "Preparing to send team",
+      "previousFaultStatus": "Preparing to send team",
+      "consumersOff": 280,
+      "estimatedTimeOfRestoration": "2022-06-02T23:33:00",
+      "estimatedTimeOfRestorationMajority": "2022-06-02T23:33:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.853636,
+        "lng": -2.72113
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " PR3 2ER, PR3 5AA, PR3 0RP, PR3 5AS, PR3 5AJ, PR3 5AE, PR3 2FR, PR3 1UU, PR3 5AH, PR3 5AN, PR3 5AT, PR3 2LF, PR3 2EQ, PR3 2LH, PR3 0RQ, PR3 2EU, PR3 5AU, PR3 2LE, PR3 0RS, PR3 5AQ, PR3 2LJ, PR3 5AL, PR3 5AR, PR3 2FX, PR3 5AP, PR3 2LQ, PR3 2LL, PR3 5BD, PR4 0BE, PR3 2JS, PR3 1UX, PR3 5AB, PR3 2LP, PR3 2ES, PR4 0BH, PR3 2EW, PR3 0RU, PR3 2LN, PR3 0PP, PR3 2ET, PR3 5AD, PR3 2LD, PR3 0JJ, PR3 5BG, PR3 0RX, PR3 0RR, PR3 0RN, PR3 5DQ, PR3 2NL, PR3 6BX, PR3 2AR, PR3 5AX, PR3 5DR",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cut’s, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125040045",
+      "multipleFaultNumbers": null,
+      "date": "2022-06-02T19:14:00",
+      "region": "Rochdale",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 83,
+      "estimatedTimeOfRestoration": "2022-06-03T00:00:00",
+      "estimatedTimeOfRestorationMajority": "2022-06-03T00:00:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.6173,
+        "lng": -2.131507
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " OL16 3AY, OL16 3AU, OL16 3BB, OL16 3BW, OL16 3BD, OL16 3BG, OL16 2YB, OL16 3BH, OL16 3BQ, OL12 0DP, OL16 3BJ, OL16 3BN, OL16 3FS, OL16 3BL, OL16 4AU",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "U/GM"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 2,
   "ShowPolygons": false
 }

@@ -46,13 +46,56 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125040109",
+      "multipleFaultNumbers": null,
+      "date": "2022-06-03T07:23:54",
+      "region": "Glossop",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 136,
+      "estimatedTimeOfRestoration": "2022-06-03T10:23:00",
+      "estimatedTimeOfRestorationMajority": "2022-06-03T10:23:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.442703,
+        "lng": -1.950694
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " SK13 8AL, SK13 8DA, SK13 8AZ, SK13 8AH, SK13 8AR, SK13 8AX, SK13 8AU, SK13 8DJ, SK13 8HS, SK13 8DD, SK13 8AF, SK13 8BX, SK13 8AQ, SK13 8AT, SK13 8AW, SK13 8AY, SK13 8BH",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "PHDN"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 1,
   "ShowPolygons": false
 }

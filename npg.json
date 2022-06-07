@@ -1,5 +1,5 @@
 {
-  "lastModified": 1654630809000,
+  "lastModified": 1654632909000,
   "powercuts": {
     "INCD-295930-A": {
       "areacode": 23,
@@ -7,7 +7,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "",
       "customerStageSequence": 4,
-      "elapsed": "16d 03:09",
+      "elapsed": "16d 03:44",
       "estimatedTimeTillResolution": 1653248700000,
       "group": "HV / EHV TEMPS",
       "latestStageSequenceHistory": 1653243007000,
@@ -50,7 +50,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "WALKER, CHARLIE",
       "customerStageSequence": 7,
-      "elapsed": "06d 22:15",
+      "elapsed": "06d 22:50",
       "estimatedTimeTillResolution": 1654088400000,
       "group": "HV / EHV TEMPS",
       "latestStageSequenceHistory": 1654087811000,
@@ -763,7 +763,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "CULLEN, ROB",
       "customerStageSequence": 3,
-      "elapsed": "00d 10:35",
+      "elapsed": "00d 11:10",
       "estimatedTimeTillResolution": 1654646400000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654620311000,
@@ -821,7 +821,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 14,
       "type": "LV",
-      "hoursSinceLogged": 10,
+      "hoursSinceLogged": 11,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -831,7 +831,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "ALAM, QASSIM",
       "customerStageSequence": 3,
-      "elapsed": "00d 08:53",
+      "elapsed": "00d 09:28",
       "estimatedTimeTillResolution": 1654635600000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654606813000,
@@ -864,7 +864,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "HV_N",
-      "hoursSinceLogged": 8,
+      "hoursSinceLogged": 9,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by someone damaging the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -874,7 +874,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "CRC, PENSHAW",
       "customerStageSequence": 2,
-      "elapsed": "00d 07:30",
+      "elapsed": "00d 08:05",
       "estimatedTimeTillResolution": null,
       "group": "CRC",
       "latestStageSequenceHistory": 1654613417000,
@@ -907,7 +907,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "SP",
-      "hoursSinceLogged": 7,
+      "hoursSinceLogged": 8,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -917,7 +917,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "RICHARDSON, JOHN",
       "customerStageSequence": 5,
-      "elapsed": "00d 06:07",
+      "elapsed": "00d 06:42",
       "estimatedTimeTillResolution": 1654633800000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654626911000,
@@ -954,17 +954,60 @@
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
+    "INCD-300000-A": {
+      "areacode": 23,
+      "category": "Smart Meter Cutout Change",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "BROOKS, LEON",
+      "customerStageSequence": 4,
+      "elapsed": "00d 06:39",
+      "estimatedTimeTillResolution": null,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1654631410000,
+      "latestStageSequenceStatus": 4,
+      "location": "S5  6HT, 270, BELLHOUSE ROAD, SHEFFIELD",
+      "logged": 1654608960000,
+      "natureOfOutage": "Single Premise",
+      "networkObject": "BELLHOUSE ROAD",
+      "numberOfCalls": 1,
+      "postcodes": {
+        "S5 6HT": {
+          "class": "models.MapDataLocation",
+          "lat": 53.4223,
+          "lng": -1.44329
+        }
+      },
+      "prefix": null,
+      "priority": 3,
+      "reference": "INCD-300000-A",
+      "region": "South Yorkshire / Sheffield 1",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 4,
+      "startnumber": 0,
+      "status": "In Progress",
+      "totalConfirmedOff": 0,
+      "totalPredictedOff": 1,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 1,
+      "totalResourceOnsite": 1,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 0,
+      "type": "SP",
+      "hoursSinceLogged": 6,
+      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
+      "categoryWebText": ""
+    },
     "INCD-300005-A": {
       "areacode": 15,
       "category": "U/G LV Mains Repair (Other)",
       "class": "models.MapDataPowercutIncno",
       "contact": "BURN, JOHN",
-      "customerStageSequence": 4,
-      "elapsed": "00d 05:45",
+      "customerStageSequence": 5,
+      "elapsed": "00d 06:20",
       "estimatedTimeTillResolution": 1654646400000,
       "group": "RESTORATION",
-      "latestStageSequenceHistory": 1654630510000,
-      "latestStageSequenceStatus": 4,
+      "latestStageSequenceHistory": 1654631111000,
+      "latestStageSequenceStatus": 5,
       "location": "NE3 1SL, RIDGEWOOD SS, Transformer LV",
       "logged": 1654610100000,
       "natureOfOutage": "Localised Fault",
@@ -1033,22 +1076,22 @@
         }
       },
       "prefix": null,
-      "priority": 3,
+      "priority": 1,
       "reference": "INCD-300005-A",
       "region": "Tyne and Wear / Newcastle 2",
       "resourceAllocationDelay": 0,
-      "stageSequence": 4,
+      "stageSequence": 5,
       "startnumber": 0,
       "status": "In Progress",
       "totalConfirmedOff": 57,
       "totalPredictedOff": 115,
       "totalResourceAssigned": 0,
-      "totalResourceDispatched": 3,
-      "totalResourceOnsite": 1,
+      "totalResourceDispatched": 2,
+      "totalResourceOnsite": 2,
       "totalRestored": 0,
       "totalSensitiveAffected": 15,
       "type": "LV",
-      "hoursSinceLogged": 5,
+      "hoursSinceLogged": 6,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -1058,7 +1101,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "CIVILS, CLANCY DOCWRA",
       "customerStageSequence": 5,
-      "elapsed": "00d 05:29",
+      "elapsed": "00d 06:04",
       "estimatedTimeTillResolution": 1654641000000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654619710000,
@@ -1076,7 +1119,7 @@
         }
       },
       "prefix": null,
-      "priority": 3,
+      "priority": 1,
       "reference": "INCD-300009-A",
       "region": "Tyne and Wear / Gateshead 1",
       "resourceAllocationDelay": 0,
@@ -1091,7 +1134,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 6,
       "type": "LV",
-      "hoursSinceLogged": 5,
+      "hoursSinceLogged": 6,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -1101,7 +1144,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "REQUIRED, FURTHER ACTION",
       "customerStageSequence": 4,
-      "elapsed": "00d 05:17",
+      "elapsed": "00d 05:52",
       "estimatedTimeTillResolution": null,
       "group": "MAJOR REPAIRS",
       "latestStageSequenceHistory": 1654622411000,
@@ -1144,7 +1187,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "REQ.D, LINESMEN",
       "customerStageSequence": 4,
-      "elapsed": "00d 04:46",
+      "elapsed": "00d 05:21",
       "estimatedTimeTillResolution": null,
       "group": "MAJOR REPAIRS",
       "latestStageSequenceHistory": 1654620010000,
@@ -1177,7 +1220,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "SP",
-      "hoursSinceLogged": 4,
+      "hoursSinceLogged": 5,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -1187,7 +1230,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "SWIFT, ADAM",
       "customerStageSequence": 7,
-      "elapsed": "00d 04:35",
+      "elapsed": "00d 05:10",
       "estimatedTimeTillResolution": 1654642800000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654629312000,
@@ -1196,7 +1239,7 @@
       "logged": 1654614300000,
       "natureOfOutage": "Localised Fault",
       "networkObject": "4075372",
-      "numberOfCalls": 52,
+      "numberOfCalls": 56,
       "postcodes": {
         "S65 2EX": {
           "class": "models.MapDataLocation",
@@ -1285,7 +1328,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 29,
       "type": "LV",
-      "hoursSinceLogged": 4,
+      "hoursSinceLogged": 5,
       "stageSequenceMessage": "We are currently working hard to restore your power however we are unable to provide an accurate restoration time. Please call us on 105 if you have any specific questions.",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -1295,7 +1338,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "WARD, ASH",
       "customerStageSequence": 5,
-      "elapsed": "00d 03:27",
+      "elapsed": "00d 04:02",
       "estimatedTimeTillResolution": null,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654628111000,
@@ -1328,7 +1371,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 1,
       "type": "SP",
-      "hoursSinceLogged": 3,
+      "hoursSinceLogged": 4,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
@@ -1338,7 +1381,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "FARMER, ADRIAN",
       "customerStageSequence": 4,
-      "elapsed": "00d 03:09",
+      "elapsed": "00d 03:44",
       "estimatedTimeTillResolution": 1654633800000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654627810000,
@@ -1379,9 +1422,9 @@
       "areacode": 23,
       "category": "U/G LV Mains Repair (Other)",
       "class": "models.MapDataPowercutIncno",
-      "contact": "BRAITHWAITE, JAMIE",
+      "contact": "O'CONNORS, CIVIL TEAM",
       "customerStageSequence": 5,
-      "elapsed": "00d 02:44",
+      "elapsed": "00d 03:19",
       "estimatedTimeTillResolution": 1654642800000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654628111000,
@@ -1390,7 +1433,7 @@
       "logged": 1654620960000,
       "natureOfOutage": "Localised Fault",
       "networkObject": "4046603",
-      "numberOfCalls": 8,
+      "numberOfCalls": 11,
       "postcodes": {
         "HU3 6JR": {
           "class": "models.MapDataLocation",
@@ -1428,383 +1471,32 @@
       "status": "In Progress",
       "totalConfirmedOff": 38,
       "totalPredictedOff": 14,
-      "totalResourceAssigned": 1,
+      "totalResourceAssigned": 0,
       "totalResourceDispatched": 0,
-      "totalResourceOnsite": 3,
+      "totalResourceOnsite": 4,
       "totalRestored": 0,
       "totalSensitiveAffected": 14,
       "type": "LV",
-      "hoursSinceLogged": 2,
-      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
-      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
-    },
-    "INCD-300063-A": {
-      "areacode": 23,
-      "category": "O/H HV Mains Repair",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "HODGART, ALAN",
-      "customerStageSequence": 3,
-      "elapsed": "00d 01:20",
-      "estimatedTimeTillResolution": 1654632000000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1654627211000,
-      "latestStageSequenceStatus": 3,
-      "location": "YO19 6QR, KING RUDDING, ARCB",
-      "logged": 1654626000000,
-      "natureOfOutage": "Large Area Fault",
-      "networkObject": "4043270-ASSET",
-      "numberOfCalls": 33,
-      "postcodes": {
-        "YO8 5SW": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8467,
-          "lng": -0.990936
-        },
-        "YO8 5RF": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8263,
-          "lng": -0.965339
-        },
-        "YO8 5DA": {
-          "class": "models.MapDataLocation",
-          "lat": 53.818,
-          "lng": -0.996683
-        },
-        "YO8 5SN": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8521,
-          "lng": -0.995869
-        },
-        "YO43 3LW": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8832,
-          "lng": -0.667985
-        },
-        "YO8 5LD": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8192,
-          "lng": -1.01879
-        },
-        "YO8 7RR": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8252,
-          "lng": -0.966082
-        },
-        "YO8 5SL": {
-          "class": "models.MapDataLocation",
-          "lat": 53.842,
-          "lng": -1.00673
-        },
-        "YO19 6ER": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8697,
-          "lng": -0.951448
-        },
-        "YO8 5LB": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8115,
-          "lng": -1.03288
-        },
-        "YO8 7RX": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8349,
-          "lng": -0.958534
-        },
-        "YO8 5DF": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8329,
-          "lng": -0.9758
-        },
-        "YO8 5DE": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8394,
-          "lng": -0.981384
-        },
-        "YO8 5SQ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8385,
-          "lng": -0.996209
-        },
-        "YO8 7RU": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8282,
-          "lng": -0.964154
-        },
-        "YO8 5SP": {
-          "class": "models.MapDataLocation",
-          "lat": 53.838,
-          "lng": -0.992012
-        },
-        "YO8 5SF": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8396,
-          "lng": -0.992595
-        },
-        "YO8 5RU": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8281,
-          "lng": -0.963487
-        },
-        "YO8 5SG": {
-          "class": "models.MapDataLocation",
-          "lat": 53.837,
-          "lng": -0.991274
-        },
-        "YO8 5SD": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8378,
-          "lng": -0.994524
-        },
-        "YO8 5SE": {
-          "class": "models.MapDataLocation",
-          "lat": 53.837,
-          "lng": -0.990015
-        },
-        "YO8 5SJ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8387,
-          "lng": -1.00444
-        },
-        "YO43 3LS": {
-          "class": "models.MapDataLocation",
-          "lat": 53.9161,
-          "lng": -0.645241
-        },
-        "YO19 6LJ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8342,
-          "lng": -1.02096
-        },
-        "YO43 3PL": {
-          "class": "models.MapDataLocation",
-          "lat": 53.874,
-          "lng": -0.706622
-        },
-        "YO8 5LE": {
-          "class": "models.MapDataLocation",
-          "lat": 53.817,
-          "lng": -1.01098
-        },
-        "YO8 5RX": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8418,
-          "lng": -0.963773
-        },
-        "YO19 6DQ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8606,
-          "lng": -0.970743
-        },
-        "YO8 8PS": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7142,
-          "lng": -0.951939
-        },
-        "YO8 5RR": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8248,
-          "lng": -0.967124
-        },
-        "YO8 9DH": {
-          "class": "models.MapDataLocation",
-          "lat": 53.7777,
-          "lng": -1.07603
-        },
-        "YO19 6DH": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8561,
-          "lng": -0.978349
-        },
-        "YO8 7DF": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8329,
-          "lng": -0.9758
-        },
-        "YO4 6DJ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8641,
-          "lng": -0.982367
-        },
-        "YO19 6DJ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8608,
-          "lng": -0.989092
-        },
-        "YO19 6DL": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8704,
-          "lng": -0.986473
-        },
-        "YO19 6DN": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8754,
-          "lng": -0.981361
-        },
-        "YO8 7SN": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8521,
-          "lng": -0.995869
-        },
-        "YO8 7SQ": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8383,
-          "lng": -0.997474
-        },
-        "YO43 3PD": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8806,
-          "lng": -0.708031
-        },
-        "YO8 7SL": {
-          "class": "models.MapDataLocation",
-          "lat": 53.842,
-          "lng": -1.00673
-        },
-        "YO19 6DF": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8509,
-          "lng": -0.950976
-        },
-        "YO8 7SF": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8392,
-          "lng": -0.991663
-        },
-        "YO19 6QL": {
-          "class": "models.MapDataLocation",
-          "lat": 53.8308,
-          "lng": -1.03018
-        }
-      },
-      "prefix": null,
-      "priority": 2,
-      "reference": "INCD-300063-A",
-      "region": "Yorkshire Moors & Wolds YK / Castleford 4",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 3,
-      "startnumber": 0,
-      "status": "In Progress",
-      "totalConfirmedOff": 0,
-      "totalPredictedOff": 285,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 1,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 33,
-      "type": "HV_N",
-      "hoursSinceLogged": 1,
-      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
-      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
-    },
-    "INCD-300065-A": {
-      "areacode": 15,
-      "category": "Unknown P2",
-      "class": "models.MapDataPowercutIncno",
-      "contact": "",
-      "customerStageSequence": 4,
-      "elapsed": "00d 01:15",
-      "estimatedTimeTillResolution": 1654638300000,
-      "group": "RESTORATION",
-      "latestStageSequenceHistory": 1654629610000,
-      "latestStageSequenceStatus": 1,
-      "location": "NE6 5JS, HEATON PARK SS, Transformer LV",
-      "logged": 1654626300000,
-      "natureOfOutage": "Localised Fault",
-      "networkObject": "58954",
-      "numberOfCalls": 3,
-      "postcodes": {
-        "NE6 5JY": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9862,
-          "lng": -1.57803
-        },
-        "NE6 5JX": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9862,
-          "lng": -1.58053
-        },
-        "NE6 5QJ": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9863,
-          "lng": -1.58267
-        },
-        "NE6 5JT": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9854,
-          "lng": -1.58182
-        },
-        "NE6 5HN": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9821,
-          "lng": -1.58134
-        },
-        "NE6 5JS": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9845,
-          "lng": -1.58592
-        },
-        "NE6 5LR": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9868,
-          "lng": -1.57822
-        },
-        "NE6 5QB": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9873,
-          "lng": -1.58186
-        },
-        "NE6 5LB": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9876,
-          "lng": -1.58014
-        },
-        "NE6 5LD": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9871,
-          "lng": -1.57908
-        },
-        "NE6 5XH": {
-          "class": "models.MapDataLocation",
-          "lat": 54.9856,
-          "lng": -1.58052
-        }
-      },
-      "prefix": null,
-      "priority": 4,
-      "reference": "INCD-300065-A",
-      "region": "Tyne and Wear / Newcastle 2",
-      "resourceAllocationDelay": 0,
-      "stageSequence": 1,
-      "startnumber": 0,
-      "status": "Awaiting",
-      "totalConfirmedOff": 0,
-      "totalPredictedOff": 209,
-      "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
-      "totalResourceOnsite": 0,
-      "totalRestored": 0,
-      "totalSensitiveAffected": 11,
-      "type": "LV",
-      "hoursSinceLogged": 1,
+      "hoursSinceLogged": 3,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
     "INCD-300075-A": {
       "areacode": 23,
-      "category": "Unknown P2",
+      "category": "LV Restoration",
       "class": "models.MapDataPowercutIncno",
       "contact": "THORP, MICK",
-      "customerStageSequence": 3,
-      "elapsed": "00d 00:25",
+      "customerStageSequence": 4,
+      "elapsed": "00d 01:00",
       "estimatedTimeTillResolution": 1654641000000,
       "group": "RESTORATION",
-      "latestStageSequenceHistory": 1654629610000,
-      "latestStageSequenceStatus": 3,
+      "latestStageSequenceHistory": 1654632010000,
+      "latestStageSequenceStatus": 4,
       "location": "HX3 5NW, DENFIELD AVENUE SS, Transformer LV",
       "logged": 1654629300000,
       "natureOfOutage": "Localised Fault",
       "networkObject": "4063663",
-      "numberOfCalls": 6,
+      "numberOfCalls": 7,
       "postcodes": {
         "HX3 5NL": {
           "class": "models.MapDataLocation",
@@ -1823,41 +1515,41 @@
         }
       },
       "prefix": null,
-      "priority": 4,
+      "priority": 3,
       "reference": "INCD-300075-A",
       "region": "West Yorkshire / Bradford 2",
       "resourceAllocationDelay": 0,
-      "stageSequence": 3,
+      "stageSequence": 4,
       "startnumber": 0,
       "status": "In Progress",
       "totalConfirmedOff": 0,
       "totalPredictedOff": 58,
       "totalResourceAssigned": 0,
-      "totalResourceDispatched": 1,
-      "totalResourceOnsite": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 1,
       "totalRestored": 0,
       "totalSensitiveAffected": 11,
       "type": "LV",
-      "hoursSinceLogged": 0,
+      "hoursSinceLogged": 1,
       "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
     "INCD-300076-A": {
       "areacode": 23,
-      "category": "Unknown P2",
+      "category": "Transformer GM HV",
       "class": "models.MapDataPowercutIncno",
-      "contact": "",
+      "contact": "HARRISON, PAUL",
       "customerStageSequence": 7,
-      "elapsed": "00d 00:21",
+      "elapsed": "00d 00:56",
       "estimatedTimeTillResolution": 1654635600000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654629911000,
       "latestStageSequenceStatus": 7,
-      "location": "S26 4TL, BEIGHTON SS, CB",
+      "location": "S26 2DE, ROSSLYN AVENUE - TRANSFORMER 11KV FEEDER",
       "logged": 1654629540000,
       "natureOfOutage": "Large Area Fault",
-      "networkObject": "4043588-ASSET",
-      "numberOfCalls": 138,
+      "networkObject": "4075488-ASSET",
+      "numberOfCalls": 193,
       "postcodes": {
         "S26 2DN": {
           "class": "models.MapDataLocation",
@@ -2113,6 +1805,11 @@
           "class": "models.MapDataLocation",
           "lat": 53.3556,
           "lng": -1.30296
+        },
+        "S26 4UU": {
+          "class": "models.MapDataLocation",
+          "lat": 53.3657,
+          "lng": -1.31576
         },
         "S26 2GY": {
           "class": "models.MapDataLocation",
@@ -2381,52 +2078,449 @@
         }
       },
       "prefix": null,
-      "priority": 2,
+      "priority": 3,
       "reference": "INCD-300076-A",
       "region": "South Yorkshire / Sheffield 1",
       "resourceAllocationDelay": 0,
       "stageSequence": 7,
       "startnumber": 0,
-      "status": "Awaiting",
-      "totalConfirmedOff": 1696,
+      "status": "In Progress",
+      "totalConfirmedOff": 300,
       "totalPredictedOff": 0,
       "totalResourceAssigned": 0,
-      "totalResourceDispatched": 0,
+      "totalResourceDispatched": 1,
       "totalResourceOnsite": 0,
       "totalRestored": 0,
       "totalSensitiveAffected": 300,
       "type": "HV_N",
       "hoursSinceLogged": 0,
       "stageSequenceMessage": "We are currently working hard to restore your power however we are unable to provide an accurate restoration time. Please call us on 105 if you have any specific questions.",
+      "categoryWebText": "We've had to switch off the power for safety purposes whilst our engineers work on the cables and equipment that serves your area. We appreciate your patience and understanding"
+    },
+    "INCD-300091-A": {
+      "areacode": 23,
+      "category": "Unknown P2",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "WIDDICOMBE, JON",
+      "customerStageSequence": 3,
+      "elapsed": "00d 00:23",
+      "estimatedTimeTillResolution": 1654642800000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1654632010000,
+      "latestStageSequenceStatus": 3,
+      "location": "S18 1YF, 22, MOORGATE CRESCENT, DRONFIELD",
+      "logged": 1654631520000,
+      "natureOfOutage": "Single Premise",
+      "networkObject": "DRONFIELD",
+      "numberOfCalls": 1,
+      "postcodes": {
+        "S18 1YF": {
+          "class": "models.MapDataLocation",
+          "lat": 53.2965,
+          "lng": -1.46578
+        }
+      },
+      "prefix": null,
+      "priority": 4,
+      "reference": "INCD-300091-A",
+      "region": "South Yorkshire / Sheffield 1",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 3,
+      "startnumber": 0,
+      "status": "In Progress",
+      "totalConfirmedOff": 0,
+      "totalPredictedOff": 1,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 1,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 0,
+      "type": "SP",
+      "hoursSinceLogged": 0,
+      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
       "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
     },
-    "INCD-300087-A": {
+    "INCD-300101-A": {
+      "areacode": 15,
+      "category": "Unknown P2",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "",
+      "customerStageSequence": 1,
+      "elapsed": "00d 00:11",
+      "estimatedTimeTillResolution": 1654638300000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1654632611000,
+      "latestStageSequenceStatus": 1,
+      "location": "HG3 1HA, SUNRISE FARM, ARCB",
+      "logged": 1654632240000,
+      "natureOfOutage": "Large Area Fault",
+      "networkObject": "4042778-ASSET",
+      "numberOfCalls": 39,
+      "postcodes": {
+        "HG3 1AH": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9562,
+          "lng": -1.44775
+        },
+        "HG3 1EG": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9642,
+          "lng": -1.46969
+        },
+        "HG3 1AJ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9557,
+          "lng": -1.44756
+        },
+        "HG3 1AE": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9543,
+          "lng": -1.44533
+        },
+        "HG3 1AF": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9548,
+          "lng": -1.4473
+        },
+        "HG3 1AG": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9556,
+          "lng": -1.44842
+        },
+        "HG3 1AA": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9638,
+          "lng": -1.44875
+        },
+        "HG3 1AB": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9577,
+          "lng": -1.43921
+        },
+        "HG5 8NB": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9687,
+          "lng": -1.45547
+        },
+        "HG3 1AY": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9575,
+          "lng": -1.45121
+        },
+        "HG3 1AX": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9562,
+          "lng": -1.4508
+        },
+        "HG3 1AZ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9604,
+          "lng": -1.45898
+        },
+        "HG3 1AU": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9563,
+          "lng": -1.45031
+        },
+        "HG3 1EQ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9563,
+          "lng": -1.48713
+        },
+        "HG3 1AT": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9565,
+          "lng": -1.45048
+        },
+        "HG3 1AW": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9561,
+          "lng": -1.45033
+        },
+        "HG3 1WG": {
+          "class": "models.MapDataLocation",
+          "lat": 53.954,
+          "lng": -1.44502
+        },
+        "HG3 1AQ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9557,
+          "lng": -1.44959
+        },
+        "HG3 1AP": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9545,
+          "lng": -1.44907
+        },
+        "HG3 1AS": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9559,
+          "lng": -1.45122
+        },
+        "HG3 1AR": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9557,
+          "lng": -1.45125
+        },
+        "HG3 1AL": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9585,
+          "lng": -1.44939
+        },
+        "HG3 1HA": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9486,
+          "lng": -1.49839
+        },
+        "HG3 1AN": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9559,
+          "lng": -1.44991
+        },
+        "HG3 1BL": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9509,
+          "lng": -1.4451
+        },
+        "HG3 1BG": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9545,
+          "lng": -1.4496
+        },
+        "HG3 1BH": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9515,
+          "lng": -1.44344
+        },
+        "HG3 1SY": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9858,
+          "lng": -1.69701
+        },
+        "HG3 1BF": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9513,
+          "lng": -1.44534
+        },
+        "HG3 1DA": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9556,
+          "lng": -1.45235
+        },
+        "HG3 1ND": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9546,
+          "lng": -1.45085
+        },
+        "HG3 1DB": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9522,
+          "lng": -1.44677
+        },
+        "HG3 1BD": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9536,
+          "lng": -1.44918
+        },
+        "HG3 1BA": {
+          "class": "models.MapDataLocation",
+          "lat": 53.954,
+          "lng": -1.44969
+        },
+        "HG3 1SU": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9828,
+          "lng": -1.7045
+        },
+        "HG3 1BB": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9538,
+          "lng": -1.44913
+        },
+        "HG3 1NE": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9536,
+          "lng": -1.44678
+        },
+        "HG3 1BZ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9538,
+          "lng": -1.45079
+        },
+        "HG3 1DW": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9599,
+          "lng": -1.50082
+        },
+        "HG3 1BY": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9473,
+          "lng": -1.45812
+        },
+        "HG3 1BW": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9508,
+          "lng": -1.44316
+        },
+        "HG3 1BT": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9495,
+          "lng": -1.44176
+        },
+        "HG3 1BS": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9512,
+          "lng": -1.44406
+        },
+        "HG3 1BQ": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9527,
+          "lng": -1.44681
+        },
+        "HG3 1BP": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9508,
+          "lng": -1.44196
+        },
+        "HG3 1BN": {
+          "class": "models.MapDataLocation",
+          "lat": 53.9503,
+          "lng": -1.44489
+        }
+      },
+      "prefix": null,
+      "priority": 4,
+      "reference": "INCD-300101-A",
+      "region": "Yorkshire Dales YK / Castleford 1",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 1,
+      "startnumber": 0,
+      "status": "Awaiting",
+      "totalConfirmedOff": 0,
+      "totalPredictedOff": 545,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 60,
+      "type": "HV_N",
+      "hoursSinceLogged": 0,
+      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
+      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
+    },
+    "INCD-300102-A": {
+      "areacode": 15,
+      "category": "Unknown P2",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "",
+      "customerStageSequence": 1,
+      "elapsed": "00d 00:06",
+      "estimatedTimeTillResolution": 1654643700000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1654632611000,
+      "latestStageSequenceStatus": 1,
+      "location": "Ts160bs, 13 RAILWAY TERRACE,  EAGLESCLIFFE,  STOCKTON-ON-TEES",
+      "logged": 1654632540000,
+      "natureOfOutage": "Single Premise",
+      "networkObject": "BOWESFIELD",
+      "numberOfCalls": 1,
+      "postcodes": {
+        "TS16 0BS": {
+          "class": "models.MapDataLocation",
+          "lat": 54.5304,
+          "lng": -1.34879
+        }
+      },
+      "prefix": null,
+      "priority": 4,
+      "reference": "INCD-300102-A",
+      "region": "Teesside / Middlesbrough 1",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 1,
+      "startnumber": 0,
+      "status": "Awaiting",
+      "totalConfirmedOff": 0,
+      "totalPredictedOff": 1,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 0,
+      "type": "SP",
+      "hoursSinceLogged": 0,
+      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
+      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
+    },
+    "INCD-300103-A": {
       "areacode": 23,
       "category": "Unknown P2",
       "class": "models.MapDataPowercutIncno",
       "contact": "",
       "customerStageSequence": 1,
-      "elapsed": "00d 00:01",
-      "estimatedTimeTillResolution": 1654641900000,
+      "elapsed": "00d 00:02",
+      "estimatedTimeTillResolution": 1654643700000,
       "group": "RESTORATION",
-      "latestStageSequenceHistory": 1654630810000,
+      "latestStageSequenceHistory": 1654632911000,
       "latestStageSequenceStatus": 1,
-      "location": "S26 4UU, 77 WESLEY AVENUE,  SWALLOWNEST,  SHEFFIELD",
-      "logged": 1654630740000,
+      "location": "YO19 6DQ, STATION HOUSE, no streetname, THORGANBY, YORK",
+      "logged": 1654632780000,
       "natureOfOutage": "Single Premise",
-      "networkObject": "BEIGHTON",
+      "networkObject": "OLYMPIA MILLS",
       "numberOfCalls": 1,
       "postcodes": {
-        "S26 4UU": {
+        "YO19 6DQ": {
           "class": "models.MapDataLocation",
-          "lat": 53.3657,
-          "lng": -1.31576
+          "lat": 53.8606,
+          "lng": -0.970743
         }
       },
       "prefix": null,
       "priority": 4,
-      "reference": "INCD-300087-A",
-      "region": "South Yorkshire / Sheffield 1",
+      "reference": "INCD-300103-A",
+      "region": "Yorkshire Moors & Wolds YK / Castleford 4",
+      "resourceAllocationDelay": 0,
+      "stageSequence": 1,
+      "startnumber": 0,
+      "status": "Awaiting",
+      "totalConfirmedOff": 0,
+      "totalPredictedOff": 1,
+      "totalResourceAssigned": 0,
+      "totalResourceDispatched": 0,
+      "totalResourceOnsite": 0,
+      "totalRestored": 0,
+      "totalSensitiveAffected": 0,
+      "type": "SP",
+      "hoursSinceLogged": 0,
+      "stageSequenceMessage": "Our team are working hard to restore your power as quickly as possible",
+      "categoryWebText": "The power cut affecting your property has been caused by an unexpected problem with the cables or equipment that serve your area. If you need to report an emergency, please call 105"
+    },
+    "INCD-300104-A": {
+      "areacode": 23,
+      "category": "Unknown P2",
+      "class": "models.MapDataPowercutIncno",
+      "contact": "",
+      "customerStageSequence": 1,
+      "elapsed": "00d 00:02",
+      "estimatedTimeTillResolution": 1654643700000,
+      "group": "RESTORATION",
+      "latestStageSequenceHistory": 1654632911000,
+      "latestStageSequenceStatus": 1,
+      "location": "YO8 5RR, 29 GREEN LANE,  NORTH DUFFIELD,  SELBY",
+      "logged": 1654632780000,
+      "natureOfOutage": "Single Premise",
+      "networkObject": "OLYMPIA MILLS",
+      "numberOfCalls": 1,
+      "postcodes": {
+        "YO8 5RR": {
+          "class": "models.MapDataLocation",
+          "lat": 53.8248,
+          "lng": -0.967124
+        }
+      },
+      "prefix": null,
+      "priority": 4,
+      "reference": "INCD-300104-A",
+      "region": "Yorkshire Moors & Wolds YK / Castleford 4",
       "resourceAllocationDelay": 0,
       "stageSequence": 1,
       "startnumber": 0,
@@ -2449,7 +2543,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Nigel Burton",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:40",
+      "elapsed": "0d 12:15",
       "estimatedTimeTillResolution": 1654617600000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654617609000,
@@ -2487,7 +2581,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "LV",
-      "hoursSinceLogged": 11,
+      "hoursSinceLogged": 12,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -2497,7 +2591,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Alan Fox",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:40",
+      "elapsed": "0d 12:15",
       "estimatedTimeTillResolution": 1654605000000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654605018000,
@@ -2535,7 +2629,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 3,
       "type": "LV",
-      "hoursSinceLogged": 11,
+      "hoursSinceLogged": 12,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -2545,7 +2639,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Alister Gregory",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:55",
+      "elapsed": "0d 12:30",
       "estimatedTimeTillResolution": 1654626600000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654626611000,
@@ -2588,7 +2682,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Adrian ONeill",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:40",
+      "elapsed": "0d 12:15",
       "estimatedTimeTillResolution": 1654615800000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654615812000,
@@ -2631,7 +2725,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 2,
       "type": "LV",
-      "hoursSinceLogged": 11,
+      "hoursSinceLogged": 12,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -2641,7 +2735,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Joe Martin",
       "customerStageSequence": 5,
-      "elapsed": "0d 10:40",
+      "elapsed": "0d 11:15",
       "estimatedTimeTillResolution": 1654605000000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654605018000,
@@ -2714,7 +2808,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 2,
       "type": "LV",
-      "hoursSinceLogged": 10,
+      "hoursSinceLogged": 11,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -2724,7 +2818,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Martin Robinson",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:40",
+      "elapsed": "0d 12:15",
       "estimatedTimeTillResolution": 1654610400000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654610417000,
@@ -2767,7 +2861,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 6,
       "type": "LV",
-      "hoursSinceLogged": 11,
+      "hoursSinceLogged": 12,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -2777,7 +2871,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Jack Rivers ",
       "customerStageSequence": 5,
-      "elapsed": "0d 10:40",
+      "elapsed": "0d 11:15",
       "estimatedTimeTillResolution": 1654606800000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654606813000,
@@ -2825,7 +2919,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 4,
       "type": "LV",
-      "hoursSinceLogged": 10,
+      "hoursSinceLogged": 11,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -2835,7 +2929,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Mark Whittaker",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:40",
+      "elapsed": "0d 12:15",
       "estimatedTimeTillResolution": 1654599600000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654599612000,
@@ -2873,7 +2967,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "LV",
-      "hoursSinceLogged": 11,
+      "hoursSinceLogged": 12,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -2883,7 +2977,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Mark Whittaker",
       "customerStageSequence": 5,
-      "elapsed": "0d 7:40",
+      "elapsed": "0d 8:15",
       "estimatedTimeTillResolution": 1654614000000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654614020000,
@@ -2916,7 +3010,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "LV",
-      "hoursSinceLogged": 7,
+      "hoursSinceLogged": 8,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -2926,7 +3020,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Liam Callaghan",
       "customerStageSequence": 7,
-      "elapsed": "0d 11:10",
+      "elapsed": "0d 11:45",
       "estimatedTimeTillResolution": 1654608600000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654608611000,
@@ -3014,7 +3108,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Adam Morris",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:10",
+      "elapsed": "0d 11:45",
       "estimatedTimeTillResolution": 1654608600000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654608611000,
@@ -3062,7 +3156,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Andrew Makin",
       "customerStageSequence": 5,
-      "elapsed": "0d 10:40",
+      "elapsed": "0d 11:15",
       "estimatedTimeTillResolution": 1654610400000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654610417000,
@@ -3105,7 +3199,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 6,
       "type": "LV",
-      "hoursSinceLogged": 10,
+      "hoursSinceLogged": 11,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -3115,7 +3209,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Kyle Hendlesby2",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:40",
+      "elapsed": "0d 12:15",
       "estimatedTimeTillResolution": 1654610400000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654610417000,
@@ -3173,7 +3267,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 1,
       "type": "LV",
-      "hoursSinceLogged": 11,
+      "hoursSinceLogged": 12,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -3183,7 +3277,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Liam Callaghan",
       "customerStageSequence": 5,
-      "elapsed": "0d 10:40",
+      "elapsed": "0d 11:15",
       "estimatedTimeTillResolution": 1654612200000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654612219000,
@@ -3251,7 +3345,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "LV",
-      "hoursSinceLogged": 10,
+      "hoursSinceLogged": 11,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -3261,7 +3355,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Gary Walker",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:40",
+      "elapsed": "0d 12:15",
       "estimatedTimeTillResolution": 1654608600000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654608611000,
@@ -3314,7 +3408,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 1,
       "type": "LV",
-      "hoursSinceLogged": 11,
+      "hoursSinceLogged": 12,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -3324,7 +3418,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Jake Hampshire",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:40",
+      "elapsed": "0d 12:15",
       "estimatedTimeTillResolution": 1654606800000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654606813000,
@@ -3367,7 +3461,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 3,
       "type": "LV",
-      "hoursSinceLogged": 11,
+      "hoursSinceLogged": 12,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -3377,7 +3471,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Neil Pattison",
       "customerStageSequence": 5,
-      "elapsed": "0d 10:40",
+      "elapsed": "0d 11:15",
       "estimatedTimeTillResolution": 1654781400000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654623610000,
@@ -3415,7 +3509,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 6,
       "type": "LV",
-      "hoursSinceLogged": 10,
+      "hoursSinceLogged": 11,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -3425,7 +3519,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Neil Pattison",
       "customerStageSequence": 4,
-      "elapsed": "0d 11:40",
+      "elapsed": "0d 12:15",
       "estimatedTimeTillResolution": 1654783200000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654588811000,
@@ -3463,7 +3557,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 2,
       "type": "LV",
-      "hoursSinceLogged": 11,
+      "hoursSinceLogged": 12,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -3473,7 +3567,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Paul Jones",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:10",
+      "elapsed": "0d 11:45",
       "estimatedTimeTillResolution": 1654608600000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654608611000,
@@ -3516,7 +3610,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "John Bramley",
       "customerStageSequence": 5,
-      "elapsed": "0d 10:40",
+      "elapsed": "0d 11:15",
       "estimatedTimeTillResolution": 1654606800000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654606813000,
@@ -3559,7 +3653,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "LV",
-      "hoursSinceLogged": 10,
+      "hoursSinceLogged": 11,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -3569,7 +3663,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Ian Flanagan",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:10",
+      "elapsed": "0d 11:45",
       "estimatedTimeTillResolution": 1654610400000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654610417000,
@@ -3647,7 +3741,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Adrian ONeill",
       "customerStageSequence": 5,
-      "elapsed": "0d 11:40",
+      "elapsed": "0d 12:15",
       "estimatedTimeTillResolution": 1654599600000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654599612000,
@@ -3710,7 +3804,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 4,
       "type": "LV",
-      "hoursSinceLogged": 11,
+      "hoursSinceLogged": 12,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     },
@@ -3720,7 +3814,7 @@
       "class": "models.MapDataPowercutIncno",
       "contact": "Paul Anderson",
       "customerStageSequence": 5,
-      "elapsed": "0d 10:40",
+      "elapsed": "0d 11:15",
       "estimatedTimeTillResolution": 1654599600000,
       "group": "RESTORATION",
       "latestStageSequenceHistory": 1654599339000,
@@ -3778,7 +3872,7 @@
       "totalRestored": 0,
       "totalSensitiveAffected": 0,
       "type": "LV",
-      "hoursSinceLogged": 10,
+      "hoursSinceLogged": 11,
       "stageSequenceMessage": "",
       "categoryWebText": ""
     }

@@ -238,7 +238,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JU7042",
       "reference": "JU7042",
       "maxLongitude": -1.3138,
-      "engineerOnSiteTime": "2022-06-14T08:45:00.000+0000",
+      "engineerOnSiteTime": "2022-06-14T08:40:00.000+0000",
       "minLatitude": 51.0573,
       "name": "SO23 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -653,7 +653,7 @@
       "reference": "207999",
       "maxLongitude": -1.2052,
       "minLatitude": 51.7262,
-      "name": "OX2 Area",
+      "name": "OX4 & OX2 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "OX2 9PE",
@@ -1705,9 +1705,65 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-06-14T09:08:00.000+0000",
+      "latitude": 50.85655539838848,
+      "estimatedRestoration": "2022-06-14T12:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JU7121'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JU7121",
+      "reference": "JU7121",
+      "maxLongitude": -2.1595,
+      "minLatitude": 50.8557,
+      "name": "DT11 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "DT11 7DR",
+        "DT11 7DU",
+        "DT11 7DZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.1632,
+              50.8571
+            ],
+            [
+              -2.1595,
+              50.8571
+            ],
+            [
+              -2.1595,
+              50.8557
+            ],
+            [
+              -2.1632,
+              50.8557
+            ],
+            [
+              -2.1632,
+              50.8571
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "b7abc0d7-711e-4366-b98e-5d069780a85f",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -2.1632,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "1d926c32-7377-4eb6-8638-57c748ab8d24"
+      ],
+      "maxLatitude": 50.8571,
+      "longitude": -2.160999402652413,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-06-14T06:34:00.000+0000",
       "latitude": 57.1191222941247,
-      "estimatedRestoration": "2022-06-14T09:30:00.000+0000",
+      "estimatedRestoration": "2022-06-14T14:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JU7043'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JU7043",

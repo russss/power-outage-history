@@ -725,6 +725,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JU9512",
       "reference": "JU9512",
       "maxLongitude": -1.338,
+      "engineerOnSiteTime": "2022-06-17T17:15:00.000+0000",
       "minLatitude": 51.5861,
       "name": "OX12 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -885,6 +886,81 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-06-17T17:34:00.000+0000",
+      "latitude": 51.512337771426,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JU9547'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JU9547",
+      "reference": "JU9547",
+      "maxLongitude": -0.263,
+      "minLatitude": 51.5079,
+      "name": "W3 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "W3 6EY",
+        "W3 6HD",
+        "W3 6HE",
+        "W3 6HF",
+        "W3 6HG",
+        "W3 6HH",
+        "W3 6HJ",
+        "W3 6HL",
+        "W3 6HP",
+        "W3 6HQ",
+        "W3 6HR",
+        "W3 6HW",
+        "W3 6JZ",
+        "W3 6PD",
+        "W3 6PF",
+        "W3 6QP",
+        "W3 6QR",
+        "W3 6QW",
+        "W3 6SX",
+        "W3 6SY",
+        "W3 6SZ",
+        "W3 9NJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.2724,
+              51.5145
+            ],
+            [
+              -0.263,
+              51.5145
+            ],
+            [
+              -0.263,
+              51.5079
+            ],
+            [
+              -0.2724,
+              51.5079
+            ],
+            [
+              -0.2724,
+              51.5145
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "2acac029-1c72-4dd7-8a0b-46f1d4166061",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -0.2724,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "23d35535-4d29-4fd9-8603-5396ff3f8a6c",
+        "e811c6a2-0740-4461-9175-21f6e58d4bd2"
+      ],
+      "maxLatitude": 51.5145,
+      "longitude": -0.266522254975808,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-06-17T13:09:00.000+0000",
       "latitude": 57.548405087876965,
       "estimatedRestoration": "2022-06-17T19:00:00.000+0000",
@@ -938,31 +1014,26 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-06-17T14:22:00.000+0000",
-      "latitude": 57.44720603776583,
+      "latitude": 57.449077768479306,
       "estimatedRestoration": "2022-06-17T18:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JU9507'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JU9507",
       "reference": "JU9507",
       "maxLongitude": -3.0631,
-      "minLatitude": 57.4289,
+      "minLatitude": 57.4387,
       "name": "AB55 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB55",
         "AB55 4AA",
-        "AB55 4AF",
-        "AB55 4AN",
         "AB55 4AP",
         "AB55 4AQ",
-        "AB55 4AR",
         "AB55 4AX",
         "AB55 4BB",
         "AB55 4BD",
         "AB55 4BG",
         "AB55 4BH",
-        "AB55 4BR",
-        "AB55 4DF",
         "AB55 4DG",
         "AB55 4DH",
         "AB55 4DJ",
@@ -970,11 +1041,8 @@
         "AB55 4DN",
         "AB55 4DP",
         "AB55 4DW",
-        "AB55 4EH",
         "AB55 4EJ",
         "AB55 4EP",
-        "AB55 4ER",
-        "AB55 4EX",
         "AB55 4FH",
         "AB55 4GH"
       ],
@@ -982,7 +1050,7 @@
         "coordinates": [
           [
             [
-              -3.1475,
+              -3.1418,
               57.4793
             ],
             [
@@ -991,14 +1059,14 @@
             ],
             [
               -3.0631,
-              57.4289
+              57.4387
             ],
             [
-              -3.1475,
-              57.4289
+              -3.1418,
+              57.4387
             ],
             [
-              -3.1475,
+              -3.1418,
               57.4793
             ]
           ]
@@ -1008,10 +1076,10 @@
       "estimatedArrivalOnSiteTime": "2022-06-17T15:15:00.000+0000",
       "UUID": "fef9a4d6-c085-43be-a5de-24efd3187acb",
       "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -3.1475,
+      "minLongitude": -3.1418,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 57.4793,
-      "longitude": -3.1246905610043805,
+      "longitude": -3.122315148717974,
       "resolved": false
     }
   ]

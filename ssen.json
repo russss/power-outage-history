@@ -102,6 +102,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-06-21T08:45:00.000+0000",
       "UUID": "f5787fa3-4d57-4633-96fb-31e25ce26afa",
       "region": "com.opengrid.geo.world.europe.gb",
       "minLongitude": -0.8593,
@@ -332,6 +333,60 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-06-21T06:08:00.000+0000",
+      "latitude": 51.08779434089322,
+      "estimatedRestoration": "2022-06-21T09:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JV1264'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JV1264",
+      "reference": "JV1264",
+      "maxLongitude": -1.1667,
+      "minLatitude": 51.0862,
+      "name": "SO24 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SO24 9EP",
+        "SO24 9ET",
+        "SO24 9EU"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.1777,
+              51.091
+            ],
+            [
+              -1.1667,
+              51.091
+            ],
+            [
+              -1.1667,
+              51.0862
+            ],
+            [
+              -1.1777,
+              51.0862
+            ],
+            [
+              -1.1777,
+              51.091
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-06-21T07:30:00.000+0000",
+      "UUID": "518e8624-0ec2-4ad1-a903-07c59ebe67ad",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.1777,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.091,
+      "longitude": -1.1731630784150826,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-06-20T08:00:00.000+0000",
       "latitude": 56.23737012712104,
       "estimatedRestoration": "2022-07-05T15:00:00.000+0000",
@@ -379,62 +434,6 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 56.2513,
       "longitude": -3.938626779227591,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
-      "loggedAt": "2022-06-21T06:47:00.000+0000",
-      "latitude": 56.46588799010396,
-      "estimatedRestoration": "2022-06-21T10:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JV1275'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JV1275",
-      "reference": "JV1275",
-      "maxLongitude": -3.0219,
-      "minLatitude": 56.4645,
-      "name": "DD2 Area",
-      "networkId": "com.sse.ssepd.shepd",
-      "affectedAreas": [
-        "DD2 2DJ",
-        "DD2 2DL",
-        "DD2 2DP",
-        "DD2 2DQ",
-        "DD2 2DR",
-        "DD2 2ES"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -3.0258,
-              56.4686
-            ],
-            [
-              -3.0219,
-              56.4686
-            ],
-            [
-              -3.0219,
-              56.4645
-            ],
-            [
-              -3.0258,
-              56.4645
-            ],
-            [
-              -3.0258,
-              56.4686
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "UUID": "f15d93ce-8ce6-483c-b434-c765b24f7af5",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -3.0258,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "maxLatitude": 56.4686,
-      "longitude": -3.0236574814201704,
       "resolved": false
     }
   ]

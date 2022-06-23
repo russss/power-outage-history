@@ -301,12 +301,13 @@
       "py/object": "Fault",
       "loggedAt": "2022-06-23T18:36:00.000+0000",
       "latitude": 51.346415824158825,
-      "estimatedRestoration": "2022-06-23T22:00:00.000+0000",
+      "estimatedRestoration": "2022-06-24T04:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JV2931'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JV2931",
       "reference": "JV2931",
       "maxLongitude": -1.1213,
+      "engineerOnSiteTime": "2022-06-23T21:00:00.000+0000",
       "minLatitude": 51.3413,
       "name": "RG26 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -464,6 +465,66 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.5099,
       "longitude": -0.43188976757890407,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-06-23T20:45:00.000+0000",
+      "latitude": 50.95014255617233,
+      "estimatedRestoration": "2022-06-24T02:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JU6114'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JU6114",
+      "reference": "JU6114",
+      "maxLongitude": -2.481,
+      "engineerOnSiteTime": "2022-06-21T16:10:00.000+0000",
+      "minLatitude": 50.945,
+      "name": "DT9 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "DT9 3AS",
+        "DT9 3DT",
+        "DT9 3DX",
+        "DT9 3DY",
+        "DT9 3DZ",
+        "DT9 3EB",
+        "DT9 3RX",
+        "DT9 3SA",
+        "DT9 3TB"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.5109,
+              50.9589
+            ],
+            [
+              -2.481,
+              50.9589
+            ],
+            [
+              -2.481,
+              50.945
+            ],
+            [
+              -2.5109,
+              50.945
+            ],
+            [
+              -2.5109,
+              50.9589
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "ad240632-0188-4447-ae05-2c08dbca1b79",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -2.5109,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.9589,
+      "longitude": -2.508187047798631,
       "resolved": false
     },
     {

@@ -120,15 +120,15 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-06-23T17:01:00.000+0000",
-      "latitude": 51.313637176612836,
-      "estimatedRestoration": "2022-06-23T20:00:00.000+0000",
+      "latitude": 51.31495500846116,
+      "estimatedRestoration": "2022-06-23T22:59:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JV2892'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JV2892",
       "reference": "JV2892",
       "maxLongitude": -1.7902,
       "minLatitude": 51.2333,
-      "name": "SN10 & SN9 Areas",
+      "name": "SN9 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SN10 3BJ",
@@ -162,11 +162,6 @@
         "SN9 6EG",
         "SN9 6EH",
         "SN9 6EJ",
-        "SN9 6EN",
-        "SN9 6EP",
-        "SN9 6ER",
-        "SN9 6ES",
-        "SN9 6EW",
         "SN9 6FA",
         "SN9 6FB",
         "SN9 6HB",
@@ -183,7 +178,6 @@
         "SN9 6JX",
         "SN9 6JY",
         "SN9 6JZ",
-        "SN9 6NA",
         "SN9 6NF"
       ],
       "location": {
@@ -219,7 +213,7 @@
       "minLongitude": -1.9847,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.356,
-      "longitude": -1.855483614914934,
+      "longitude": -1.8596260940391875,
       "resolved": false
     },
     {
@@ -340,6 +334,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JV2912",
       "reference": "JV2912",
       "maxLongitude": -1.4564,
+      "engineerOnSiteTime": "2022-06-23T18:15:00.000+0000",
       "minLatitude": 50.9441,
       "name": "SO16 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -437,6 +432,67 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 50.7898,
       "longitude": -1.9617327166727767,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-06-23T18:36:00.000+0000",
+      "latitude": 51.346415824158825,
+      "estimatedRestoration": "2022-06-23T22:10:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JV2931'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JV2931",
+      "reference": "JV2931",
+      "maxLongitude": -1.1213,
+      "minLatitude": 51.3413,
+      "name": "RG26 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG26 3AS",
+        "RG26 3AU",
+        "RG26 3AY",
+        "RG26 3DH",
+        "RG26 3DZ",
+        "RG26 3TS",
+        "RG26 3UA",
+        "RG26 3UE",
+        "RG26 3UH",
+        "RG26 3US"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.1543,
+              51.3582
+            ],
+            [
+              -1.1213,
+              51.3582
+            ],
+            [
+              -1.1213,
+              51.3413
+            ],
+            [
+              -1.1543,
+              51.3413
+            ],
+            [
+              -1.1543,
+              51.3582
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-06-23T20:30:00.000+0000",
+      "UUID": "7e7dbf28-b90e-4510-ad5a-e601daa00e38",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.1543,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.3582,
+      "longitude": -1.1418554364690492,
       "resolved": false
     },
     {

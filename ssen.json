@@ -470,6 +470,63 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-06-29T06:31:00.000+0000",
+      "latitude": 51.643700952482455,
+      "estimatedRestoration": "2022-06-29T09:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JV5412'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JV5412",
+      "reference": "JV5412",
+      "maxLongitude": -0.7773,
+      "minLatitude": 51.6415,
+      "name": "HP13 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "HP13 5HZ",
+        "HP13 5JA",
+        "HP13 5JL",
+        "HP13 5JP",
+        "HP13 5JW",
+        "HP13 5JY",
+        "HP13 5UJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.7854,
+              51.645
+            ],
+            [
+              -0.7773,
+              51.645
+            ],
+            [
+              -0.7773,
+              51.6415
+            ],
+            [
+              -0.7854,
+              51.6415
+            ],
+            [
+              -0.7854,
+              51.645
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "aab8b0a2-bd5c-43e2-8ad3-541f7b74931c",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -0.7854,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.645,
+      "longitude": -0.7819607870935978,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-06-29T04:39:00.000+0000",
       "latitude": 55.97638627555688,
       "estimatedRestoration": "2022-06-29T08:00:00.000+0000",
@@ -479,7 +536,7 @@
       "reference": "JV5379",
       "maxLongitude": -4.9055,
       "minLatitude": 55.9068,
-      "name": "PA21 & PA23 Areas",
+      "name": "PA23 & PA21 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "PA21 2DS",

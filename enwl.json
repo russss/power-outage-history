@@ -73,7 +73,7 @@
       "date": "2022-07-07T15:11:39",
       "region": "Mossside, Egremont",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
+      "faultStatus": "Team on their way",
       "previousFaultStatus": "Preparing to send team",
       "consumersOff": 182,
       "estimatedTimeOfRestoration": "2022-07-07T18:11:00",
@@ -114,9 +114,9 @@
       "date": "2022-07-07T14:59:36",
       "region": "Urmston, Manchester",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
-      "consumersOff": 110,
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "Team on their way",
+      "consumersOff": 155,
       "estimatedTimeOfRestoration": "2022-07-07T20:59:00",
       "estimatedTimeOfRestorationMajority": "2022-07-07T20:59:00",
       "information": "",
@@ -126,9 +126,50 @@
         "lng": -2.374024
       },
       "outageLocations": null,
-      "AffectedPostcodes": " M41 7DJ, M41 7DA, M41 8DD, M41 8DZ, M41 8DF, M41 7NW, M41 8DH, M41 8DS, M41 8DX, M41 8DY, M41 7NN, M41 7WB, M41 8DU, M41 7WT",
+      "AffectedPostcodes": " M41 7DJ, M41 7DA, M41 8DD, M41 8DZ, M41 8DY, M41 8DH, M41 8DF, M41 7NW, M41 8DS, M41 8DX, M41 7NN, M41 7WB, M41 7WT, M41 8DU",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "U/GM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124092959",
+      "multipleFaultNumbers": null,
+      "date": "2022-07-07T14:44:08",
+      "region": "Stalybridge",
+      "faultType": "Current Fault",
+      "faultStatus": "Preparing to send team",
+      "previousFaultStatus": "Preparing to send team",
+      "consumersOff": 15,
+      "estimatedTimeOfRestoration": "2022-07-07T17:44:00",
+      "estimatedTimeOfRestorationMajority": "2022-07-07T17:44:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.484468,
+        "lng": -2.031702
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " SK15 3QY, SK15 3QZ, SK15 3QU, SK15 3QP, SK15 3QX, SK15 3QT",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
     },
     {
       "FaultLabel": "Live power cut",
@@ -179,6 +220,6 @@
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 3,
+  "TotalResults": 4,
   "ShowPolygons": false
 }

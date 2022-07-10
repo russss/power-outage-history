@@ -67,6 +67,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JW1109",
       "reference": "JW1109",
       "maxLongitude": -2.4677,
+      "engineerOnSiteTime": "2022-07-10T07:45:00.000+0000",
       "minLatitude": 50.5968,
       "name": "DT4 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -513,6 +514,58 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.5643,
       "longitude": -1.7863800533298217,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-07-10T11:15:00.000+0000",
+      "latitude": 51.63654374312161,
+      "estimatedRestoration": "2022-07-10T17:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JW1265'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JW1265",
+      "reference": "JW1265",
+      "maxLongitude": -1.3446,
+      "minLatitude": 51.6296,
+      "name": "OX12 & OX13 Areas",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "OX12 0HS",
+        "OX13 6BE"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.3947,
+              51.646
+            ],
+            [
+              -1.3446,
+              51.646
+            ],
+            [
+              -1.3446,
+              51.6296
+            ],
+            [
+              -1.3947,
+              51.6296
+            ],
+            [
+              -1.3947,
+              51.646
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "ccfdd9a0-9d86-407d-b505-8050de7a68bf",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.3947,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.646,
+      "longitude": -1.372384205354196,
       "resolved": false
     },
     {

@@ -104,7 +104,7 @@
       "reference": "JW7488",
       "maxLongitude": -0.6712,
       "minLatitude": 51.6045,
-      "name": "HP10 & HP9 Areas",
+      "name": "HP9 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "HP10 0NT",
@@ -289,7 +289,7 @@
       "reference": "JW7665",
       "maxLongitude": -1.2731,
       "minLatitude": 51.6954,
-      "name": "OX1 & OX13 Areas",
+      "name": "OX13 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "OX1 5DT",
@@ -742,6 +742,61 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-07-19T20:38:00.000+0000",
+      "latitude": 50.67237324620553,
+      "estimatedRestoration": "2022-07-20T03:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JW7926'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JW7926",
+      "reference": "JW7926",
+      "maxLongitude": -2.2785,
+      "minLatitude": 50.6574,
+      "name": "DT2 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "DT2 8DA",
+        "DT2 8DB",
+        "DT2 8DR",
+        "DT2 8DS",
+        "DT2 8DT"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.3144,
+              50.692
+            ],
+            [
+              -2.2785,
+              50.692
+            ],
+            [
+              -2.2785,
+              50.6574
+            ],
+            [
+              -2.3144,
+              50.6574
+            ],
+            [
+              -2.3144,
+              50.692
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "bf188f80-0934-4dda-95fb-8b6f886e3165",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -2.3144,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.692,
+      "longitude": -2.2926686687180147,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-07-19T13:23:00.000+0000",
       "latitude": 56.589194924000445,
       "estimatedRestoration": "2022-07-19T22:59:00.000+0000",
@@ -751,7 +806,7 @@
       "reference": "JW7470",
       "maxLongitude": -3.4093,
       "minLatitude": 56.5674,
-      "name": "PH10 & PH8 Areas",
+      "name": "PH8 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "PH10 6SJ",

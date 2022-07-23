@@ -166,7 +166,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-07-23T11:41:00.000+0000",
       "latitude": 51.41226145080273,
-      "estimatedRestoration": "2022-07-23T14:30:00.000+0000",
+      "estimatedRestoration": "2022-07-23T18:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JX0224'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JX0224",
@@ -229,7 +229,7 @@
       "maxLongitude": -1.212,
       "engineerOnSiteTime": "2022-07-23T11:30:00.000+0000",
       "minLatitude": 50.8836,
-      "name": "SO31 & SO32 Areas",
+      "name": "SO32 & SO31 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO31 7PA",
@@ -380,6 +380,61 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.4022,
       "longitude": -1.2510275354452502,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-07-23T14:13:00.000+0000",
+      "latitude": 50.84738947389514,
+      "estimatedRestoration": "2022-07-23T17:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JX0299'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JX0299",
+      "reference": "JX0299",
+      "maxLongitude": -1.2921,
+      "minLatitude": 50.844,
+      "name": "SO31 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SO31 9GH",
+        "SO31 9GZ",
+        "SO31 9JQ",
+        "SO31 9JR"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.2985,
+              50.8485
+            ],
+            [
+              -1.2921,
+              50.8485
+            ],
+            [
+              -1.2921,
+              50.844
+            ],
+            [
+              -1.2985,
+              50.844
+            ],
+            [
+              -1.2985,
+              50.8485
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-07-23T15:00:00.000+0000",
+      "UUID": "df55d59e-e55f-4071-93ba-192db0d0a5ff",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.2985,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.8485,
+      "longitude": -1.2951455780150458,
       "resolved": false
     },
     {

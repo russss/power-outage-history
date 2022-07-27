@@ -417,7 +417,8 @@
       "py/object": "Fault",
       "loggedAt": "2022-07-27T17:37:00.000+0000",
       "latitude": 50.924827567846094,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JX2513'",
+      "estimatedRestoration": "2022-07-27T22:59:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JX2513'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JX2513",
       "reference": "JX2513",
@@ -470,6 +471,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-07-27T17:37:00.000+0000",
       "UUID": "8d63167b-1456-4c3c-bac9-d2fceefa6f31",
       "region": "com.opengrid.geo.world.europe.gb",
       "minLongitude": -1.2658,
@@ -480,6 +482,57 @@
       ],
       "maxLatitude": 50.9559,
       "longitude": -1.2439080491713532,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-07-27T17:12:00.000+0000",
+      "latitude": 50.67997849637715,
+      "estimatedRestoration": "2022-07-27T21:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JX2506'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JX2506",
+      "reference": "JX2506",
+      "maxLongitude": -2.2826,
+      "minLatitude": 50.6744,
+      "name": "DT2 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "DT2 8DS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.3088,
+              50.692
+            ],
+            [
+              -2.2826,
+              50.692
+            ],
+            [
+              -2.2826,
+              50.6744
+            ],
+            [
+              -2.3088,
+              50.6744
+            ],
+            [
+              -2.3088,
+              50.692
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "aecbeec6-be1a-4909-84ac-c95652c0eb5b",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -2.3088,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.692,
+      "longitude": -2.297259337746188,
       "resolved": false
     },
     {

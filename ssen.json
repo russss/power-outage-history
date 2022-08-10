@@ -408,7 +408,7 @@
       "reference": "JY0462",
       "maxLongitude": -1.4557,
       "minLatitude": 51.1349,
-      "name": "SO20 Area",
+      "name": "SP11 & SO20 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO20 6EG",
@@ -532,7 +532,7 @@
       "reference": "JY0629",
       "maxLongitude": -1.112,
       "minLatitude": 50.8885,
-      "name": "SO32 & SO40 Areas",
+      "name": "SO40 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO32 3NP",
@@ -685,7 +685,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-08-10T12:36:00.000+0000",
       "latitude": 50.90844983408414,
-      "estimatedRestoration": "2022-08-10T20:35:00.000+0000",
+      "estimatedRestoration": "2022-08-11T02:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JY0355'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JY0355",
@@ -737,6 +737,62 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 50.9199,
       "longitude": -1.4034140473755594,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-08-10T16:48:00.000+0000",
+      "latitude": 51.49940989709941,
+      "estimatedRestoration": "2022-08-10T20:40:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JY0656'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JY0656",
+      "reference": "JY0656",
+      "maxLongitude": -0.8614,
+      "engineerOnSiteTime": "2022-08-10T17:30:00.000+0000",
+      "minLatitude": 51.4943,
+      "name": "RG10 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG10 8DT",
+        "RG10 8DU",
+        "RG10 8DW",
+        "RG10 8DX",
+        "RG10 8DY"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.8702,
+              51.5007
+            ],
+            [
+              -0.8614,
+              51.5007
+            ],
+            [
+              -0.8614,
+              51.4943
+            ],
+            [
+              -0.8702,
+              51.4943
+            ],
+            [
+              -0.8702,
+              51.5007
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "03149751-1def-4800-a030-2934da4fbebd",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -0.8702,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.5007,
+      "longitude": -0.8663293365497505,
       "resolved": false
     },
     {

@@ -73,8 +73,8 @@
       "date": "2022-08-11T19:15:10",
       "region": "Morecambe",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
       "consumersOff": 42,
       "estimatedTimeOfRestoration": "2022-08-12T01:14:00",
       "estimatedTimeOfRestorationMajority": "2022-08-12T01:14:00",
@@ -117,8 +117,8 @@
       "faultStatus": "We're on site",
       "previousFaultStatus": "We're on site",
       "consumersOff": 17,
-      "estimatedTimeOfRestoration": "2022-08-11T19:32:00",
-      "estimatedTimeOfRestorationMajority": "2022-08-11T19:32:00",
+      "estimatedTimeOfRestoration": "2022-08-11T20:00:00",
+      "estimatedTimeOfRestorationMajority": "2022-08-11T20:00:00",
       "information": "",
       "actualTimeOfRestoration": null,
       "outageCentrePoint": {
@@ -198,7 +198,7 @@
       "faultType": "Current Fault",
       "faultStatus": "Team on their way",
       "previousFaultStatus": "Team on their way",
-      "consumersOff": 67,
+      "consumersOff": 11,
       "estimatedTimeOfRestoration": "2022-08-11T20:30:00",
       "estimatedTimeOfRestorationMajority": "2022-08-11T20:30:00",
       "information": "",
@@ -211,6 +211,47 @@
       "AffectedPostcodes": " WN4 9LG, WN4 9LB, WN4 9NJ, WN4 9LF, WN4 9LX, WN4 9NL, WN4 9NG, WN4 9LD, WN4 9LA, WN4 9JZ, WN4 9LE, WN4 9NQ, WN4 0YU, WN4 9NF, WN4 9LQ, WN4 9JY, WN4 0AD, WN4 9LT, WN4 9NH, WN4 0YD, WN4 0YA, WN4 0XS, WN4 9JX, WN4 0YT, WN4 0YX, WN4 0XL, WN4 0UD, WN4 0SD, WN4 0XU, WN4 0YB, WN4 0SA, WN4 0YF, WN4 0TU, WA11 9TE, WN4 0TT, WN4 0SB, WN4 0XJ, WN4 0TB, WN4 0TX, WN4 0TY, WN4 0RX, WN4 0TA, WN4 0SZ, WN4 0RU, WN4 0RW",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "HVFL"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cut’s, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124101277",
+      "multipleFaultNumbers": null,
+      "date": "2022-08-11T07:37:37",
+      "region": "Worsley, Manchester",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 10,
+      "estimatedTimeOfRestoration": "2022-08-12T00:00:00",
+      "estimatedTimeOfRestorationMajority": "2022-08-12T00:00:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.503752,
+        "lng": -2.367487
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " M28 2SH, M28 2SJ, M28 2SL, M28 2TS, M28 2TJ, M28 2TP, M28 2TY",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "U/GM"
     }
   ],
   "Markers": null,
@@ -219,6 +260,6 @@
     "ResolvedFault",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 4,
+  "TotalResults": 5,
   "ShowPolygons": false
 }

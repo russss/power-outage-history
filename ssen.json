@@ -4,7 +4,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-08-31T10:12:00.000+0000",
       "latitude": 51.49800917975013,
-      "estimatedRestoration": "2022-08-31T18:30:00.000+0000",
+      "estimatedRestoration": "2022-08-31T22:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JZ3328'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JZ3328",
@@ -61,7 +61,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-08-31T12:03:00.000+0000",
       "latitude": 51.55883349707061,
-      "estimatedRestoration": "2022-08-31T17:30:00.000+0000",
+      "estimatedRestoration": "2022-08-31T18:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JZ3400'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JZ3400",
@@ -467,107 +467,198 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-08-31T08:00:00.000+0000",
-      "latitude": 57.45227185136412,
-      "estimatedRestoration": "2022-08-31T16:00:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '209684'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "type": "PSI",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/209684",
-      "reference": "209684",
-      "maxLongitude": -5.0881,
-      "minLatitude": 57.3455,
-      "name": "IV54 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "loggedAt": "2022-08-31T16:14:00.000+0000",
+      "latitude": 51.8083497288157,
+      "estimatedRestoration": "2022-08-31T19:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JZ3563'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JZ3563",
+      "reference": "JZ3563",
+      "maxLongitude": -1.5728,
+      "minLatitude": 51.7781,
+      "name": "OX18 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "IV54 8YN",
-        "IV54 8YU",
-        "IV54 8YX"
+        "OX18 3PA",
+        "OX18 4BA",
+        "OX18 4BB",
+        "OX18 4BL",
+        "OX18 4BN",
+        "OX18 4BQ",
+        "OX18 4BS",
+        "OX18 4BT",
+        "OX18 4BU",
+        "OX18 4BW",
+        "OX18 4DE",
+        "OX18 4DF",
+        "OX18 4DH",
+        "OX18 4DT",
+        "OX18 4DU",
+        "OX18 4DX",
+        "OX18 4DY",
+        "OX18 4EA",
+        "OX18 4ED",
+        "OX18 4ER",
+        "OX18 4ET",
+        "OX18 4EX",
+        "OX18 4HW",
+        "OX18 4SD",
+        "OX18 4US"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -5.4856,
-              57.5796
+              -1.7312,
+              51.8383
             ],
             [
-              -5.0881,
-              57.5796
+              -1.5728,
+              51.8383
             ],
             [
-              -5.0881,
-              57.3455
+              -1.5728,
+              51.7781
             ],
             [
-              -5.4856,
-              57.3455
+              -1.7312,
+              51.7781
             ],
             [
-              -5.4856,
-              57.5796
+              -1.7312,
+              51.8383
             ]
           ]
         ],
         "type": "Polygon"
       },
-      "UUID": "8b6562ff-00f5-4be2-a713-d2b058eb11a6",
+      "estimatedArrivalOnSiteTime": "2022-08-31T17:00:00.000+0000",
+      "UUID": "a01ec6cc-ce47-4169-b9d8-81be468ca505",
       "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -5.4856,
+      "minLongitude": -1.7312,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "maxLatitude": 57.5796,
-      "longitude": -5.3776670547516545,
+      "maxLatitude": 51.8383,
+      "longitude": -1.6149518357414898,
       "resolved": false
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-08-31T15:30:00.000+0000",
-      "latitude": 56.53414373040202,
-      "estimatedRestoration": "2022-08-31T16:00:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '209713'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "type": "PSI",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/209713",
-      "reference": "209713",
-      "maxLongitude": -2.9461,
-      "minLatitude": 56.5262,
-      "name": "DD4 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "loggedAt": "2022-08-31T16:17:00.000+0000",
+      "latitude": 51.777941678335466,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JZ3569'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JZ3569",
+      "reference": "JZ3569",
+      "maxLongitude": -1.2935,
+      "minLatitude": 51.7639,
+      "name": "OX29 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "DD4 0QZ",
-        "DD4 0SZ"
+        "OX29 4BB",
+        "OX29 4BJ",
+        "OX29 4BT",
+        "OX29 4BX",
+        "OX29 4BY",
+        "OX29 4BZ",
+        "OX29 4DU",
+        "OX29 4EB",
+        "OX29 4EF",
+        "OX29 4HB",
+        "OX29 4HG"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -2.9774,
-              56.5422
+              -1.3828,
+              51.812
             ],
             [
-              -2.9461,
-              56.5422
+              -1.2935,
+              51.812
             ],
             [
-              -2.9461,
-              56.5262
+              -1.2935,
+              51.7639
             ],
             [
-              -2.9774,
-              56.5262
+              -1.3828,
+              51.7639
             ],
             [
-              -2.9774,
-              56.5422
+              -1.3828,
+              51.812
             ]
           ]
         ],
         "type": "Polygon"
       },
-      "UUID": "204b868b-a2b0-4d29-8710-5be7b624104c",
+      "UUID": "ba59e15d-0756-4c81-8349-a7867af59169",
       "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -2.9774,
+      "minLongitude": -1.3828,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "maxLatitude": 56.5422,
-      "longitude": -2.9628999587776184,
+      "maxLatitude": 51.812,
+      "longitude": -1.3592788347294165,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-08-31T16:13:00.000+0000",
+      "latitude": 51.777941678335466,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JZ3566'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JZ3566",
+      "reference": "JZ3566",
+      "maxLongitude": -1.2935,
+      "minLatitude": 51.7639,
+      "name": "OX29 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "OX29 4BB",
+        "OX29 4BJ",
+        "OX29 4BT",
+        "OX29 4BX",
+        "OX29 4BY",
+        "OX29 4BZ",
+        "OX29 4DU",
+        "OX29 4EB",
+        "OX29 4EF",
+        "OX29 4HB",
+        "OX29 4HG"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.3828,
+              51.812
+            ],
+            [
+              -1.2935,
+              51.812
+            ],
+            [
+              -1.2935,
+              51.7639
+            ],
+            [
+              -1.3828,
+              51.7639
+            ],
+            [
+              -1.3828,
+              51.812
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "2ffadcb1-db43-4728-a7c1-91ee99b9ac74",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.3828,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.812,
+      "longitude": -1.3592788347294165,
       "resolved": false
     }
   ]

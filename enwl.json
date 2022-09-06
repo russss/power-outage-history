@@ -75,17 +75,17 @@
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
       "previousFaultStatus": "We're on site",
-      "consumersOff": 66,
-      "estimatedTimeOfRestoration": "2022-09-06T17:27:00",
-      "estimatedTimeOfRestorationMajority": "2022-09-06T17:27:00",
+      "consumersOff": 6,
+      "estimatedTimeOfRestoration": "2022-09-06T13:00:00",
+      "estimatedTimeOfRestorationMajority": "2022-09-06T13:00:00",
       "information": "",
       "actualTimeOfRestoration": null,
       "outageCentrePoint": {
-        "lat": 53.751275,
-        "lng": -2.358969
+        "lat": 53.752343,
+        "lng": -2.358627
       },
       "outageLocations": null,
-      "AffectedPostcodes": " BB5 2BQ, BB5 1EH, BB5 2BE, BB5 6TJ, BB5 2AT, BB5 2BB, BB5 2AZ, BB5 7BQ, BB5 1EN, BB5 6RL",
+      "AffectedPostcodes": " BB5 1EH, BB5 1EN, BB5 6RL",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "U/GM"
     },
@@ -114,8 +114,8 @@
       "date": "2022-09-06T10:39:57",
       "region": "Heskethbank, Preston",
       "faultType": "Current Fault",
-      "faultStatus": "Team on their way",
-      "previousFaultStatus": "Team on their way",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
       "consumersOff": 12,
       "estimatedTimeOfRestoration": "2022-09-06T16:36:00",
       "estimatedTimeOfRestorationMajority": "2022-09-06T16:36:00",
@@ -155,8 +155,8 @@
       "date": "2022-09-06T10:28:28",
       "region": "Manchester",
       "faultType": "Current Fault",
-      "faultStatus": "Team on their way",
-      "previousFaultStatus": "Team on their way",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
       "consumersOff": 29,
       "estimatedTimeOfRestoration": "2022-09-06T16:28:00",
       "estimatedTimeOfRestorationMajority": "2022-09-06T16:28:00",
@@ -170,6 +170,47 @@
       "AffectedPostcodes": " M2 4JQ, M2 4ND, M2 4LZ, M2 4LY, M2 6DE, M2 4LG, M2 6AZ, M2 6AY, M2 6AG",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "U/GM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124103767",
+      "multipleFaultNumbers": null,
+      "date": "2022-09-06T09:25:12",
+      "region": "Rixton, Warrington",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": null,
+      "consumersOff": 41,
+      "estimatedTimeOfRestoration": "2022-09-06T14:30:00",
+      "estimatedTimeOfRestorationMajority": "2022-09-06T14:30:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.407212,
+        "lng": -2.481734
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " WA3 6DY, WA3 6EB, WA3 6EA, WA3 6EW, WA3 6EE, WA3 6ED, WA3 6EY, WA3 6DZ, WA3 6HA",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
     },
     {
       "FaultLabel": "Live power cut",
@@ -250,47 +291,6 @@
       },
       "outageLocations": null,
       "AffectedPostcodes": " OL7 0EL, OL7 0AQ, OL7 0BQ, OL6 7NU, OL7 0BA, OL7 0AW, OL7 0AL, OL7 0AN, OL6 7TS",
-      "UnderReviewStatusTimeCheck": true,
-      "WebTMSFaultType": "U/GM"
-    },
-    {
-      "FaultLabel": "Live power cut",
-      "Type": "CurrentFault",
-      "Icon": "icon-warning",
-      "ShowViewOnMapCTA": false,
-      "UnderReview": true,
-      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cut’s, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
-      "UpdateInfo": null,
-      "CTAs": [
-        {
-          "Icon": "icon-arrow-right",
-          "Text": "What to do in a power cut",
-          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
-        },
-        {
-          "Icon": "icon-arrow-right",
-          "Text": "I'm involved in this power cut",
-          "Url": "/about-us/contact-us/report-a-power-cut-105/"
-        }
-      ],
-      "faultNumber": "INC 124103417",
-      "multipleFaultNumbers": null,
-      "date": "2022-09-04T19:51:31",
-      "region": "Manchester",
-      "faultType": "Current Fault",
-      "faultStatus": "We're on site",
-      "previousFaultStatus": "We're on site",
-      "consumersOff": 31,
-      "estimatedTimeOfRestoration": "2022-09-05T21:00:00",
-      "estimatedTimeOfRestorationMajority": "2022-09-05T21:00:00",
-      "information": "",
-      "actualTimeOfRestoration": null,
-      "outageCentrePoint": {
-        "lat": 53.342594,
-        "lng": -2.151691
-      },
-      "outageLocations": null,
-      "AffectedPostcodes": " M23 2QE, M23 2ZW, M23 2ZN, M23 2QA, M23 2YW, M23 1LS, M23 1PU, M23 1PT, M23 1PS",
       "UnderReviewStatusTimeCheck": true,
       "WebTMSFaultType": "U/GM"
     }

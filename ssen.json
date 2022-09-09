@@ -624,7 +624,7 @@
       "reference": "JZ9372",
       "maxLongitude": -0.3737,
       "minLatitude": 51.5056,
-      "name": "UB2 & UB1 Areas",
+      "name": "UB1 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "UB1 1RD",
@@ -671,6 +671,60 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.5093,
       "longitude": -0.3766533769968119,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-09-09T15:34:00.000+0000",
+      "latitude": 50.946532823546136,
+      "estimatedRestoration": "2022-09-09T19:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JZ9420'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JZ9420",
+      "reference": "JZ9420",
+      "maxLongitude": -1.4299,
+      "minLatitude": 50.9448,
+      "name": "SO16 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SO16 8FD",
+        "SO16 8FF",
+        "SO16 8HR",
+        "SO16 8HT"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.4395,
+              50.9517
+            ],
+            [
+              -1.4299,
+              50.9517
+            ],
+            [
+              -1.4299,
+              50.9448
+            ],
+            [
+              -1.4395,
+              50.9448
+            ],
+            [
+              -1.4395,
+              50.9517
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "23c91713-9212-41a5-a5fd-9daa71704dda",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.4395,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.9517,
+      "longitude": -1.4341291138752887,
       "resolved": false
     }
   ]

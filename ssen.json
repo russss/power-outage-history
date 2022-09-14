@@ -397,7 +397,7 @@
       "reference": "210176",
       "maxLongitude": -1.9922,
       "minLatitude": 50.7636,
-      "name": "BH21 Area",
+      "name": "BH18 & BH21 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH18 9DB",
@@ -461,7 +461,7 @@
       "reference": "210128",
       "maxLongitude": -2.2596,
       "minLatitude": 51.0249,
-      "name": "BA9 Area",
+      "name": "SP8 & BA9 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BA9 8AZ",
@@ -979,6 +979,59 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-08-04T08:58:00.000+0000",
+      "latitude": 50.80122587895265,
+      "estimatedRestoration": "2022-09-14T14:25:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KA1867'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KA1867",
+      "reference": "KA1867",
+      "maxLongitude": -1.0878,
+      "minLatitude": 50.8002,
+      "name": "PO1 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "PO1 1BY",
+        "PO1 1EA",
+        "PO1 1HG"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.0909,
+              50.8028
+            ],
+            [
+              -1.0878,
+              50.8028
+            ],
+            [
+              -1.0878,
+              50.8002
+            ],
+            [
+              -1.0909,
+              50.8002
+            ],
+            [
+              -1.0909,
+              50.8028
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "bec11c0e-c321-4640-9f4d-69c40d1bad99",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.0909,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.8028,
+      "longitude": -1.0892971980764796,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-09-14T07:00:00.000+0000",
       "latitude": 57.52877045843642,
       "estimatedRestoration": "2022-09-14T16:00:00.000+0000",
@@ -1041,7 +1094,7 @@
       "reference": "210447",
       "maxLongitude": -3.4597,
       "minLatitude": 57.3887,
-      "name": "IV36 Area",
+      "name": "PH26 & IV36 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV36",

@@ -46,14 +46,57 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124105592",
+      "multipleFaultNumbers": null,
+      "date": "2022-09-21T11:28:07",
+      "region": "Tarleton, Preston",
+      "faultType": "Current Fault",
+      "faultStatus": "Preparing to send team",
+      "previousFaultStatus": null,
+      "consumersOff": 15,
+      "estimatedTimeOfRestoration": "2022-09-21T14:28:00",
+      "estimatedTimeOfRestorationMajority": "2022-09-21T14:28:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.677852,
+        "lng": -2.917459
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " PR9 8BP, PR9 8ES, PR9 8AR, PR9 8FG, PR9 8ER, PR9 8BJ, PR9 8DQ, PR9 8GY, PR9 8BD, PR9 8DT, PR9 8EX, PR9 8BG, PR9 8HH, PR9 8BQ, PR9 8BN, PR9 8HF, PR9 8HG, PR9 8BB, PR9 8HE, PR9 8RF, PR9 8ET, PR9 8BT, PR9 8AX, PR9 8GR, PR9 8FF, PR9 8DG, PR9 8FT, PR9 8AL, PR9 8EY, PR9 0EZ, PR9 8HJ, PR9 8FP, PR9 8BH, PR9 8BA, PR9 8AS, PR9 8SA, PR9 8FS, PR9 8JL, PR9 8RG, PR9 8BU, PR9 8EU, PR9 8AT, PR9 8AZ, PR9 8FY, PR9 8GX, PR9 8DN, PR9 8HD, PR9 8FQ, PR9 8BW, PR9 8FH, PR9 8AY, PR9 8FL, PR9 8BE, PR9 8FN, PR9 8BS, PR9 8AU, PR9 8GZ, PR9 8GU, PR9 8AP, PR9 8FR, PR9 8B, PR9 8HQ, PR9 8FU, PR9 8DL, PR9 8BL, PR9 8SL, PR6 8DG",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 1,
   "ShowPolygons": false
 }

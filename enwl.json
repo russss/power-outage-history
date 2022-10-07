@@ -73,8 +73,8 @@
       "date": "2022-10-07T11:08:47",
       "region": "Lees, Oldham",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
       "consumersOff": 46,
       "estimatedTimeOfRestoration": "2022-10-07T17:04:00",
       "estimatedTimeOfRestorationMajority": "2022-10-07T17:04:00",
@@ -116,7 +116,7 @@
       "faultType": "Current Fault",
       "faultStatus": "Team on their way",
       "previousFaultStatus": "Team on their way",
-      "consumersOff": 163,
+      "consumersOff": 162,
       "estimatedTimeOfRestoration": "2022-10-07T13:53:00",
       "estimatedTimeOfRestorationMajority": "2022-10-07T13:53:00",
       "information": "",
@@ -129,6 +129,47 @@
       "AffectedPostcodes": " SK11 9RT, SK11 9RQ, SK11 9RF, SK11 9RS, CW12 2PL, SK11 9RU, SK11 9ER, CW12 2NY, SK11 9RG, SK11 9QQ, SK11 9EY, SK11 9QY, SK11 9RD, SK11 9QU, SK11 9PY, SK11 9JD, SK11 9RJ, SK11 9JB, SK11 9QP, CW12 2NU, CW12 2PA, SK11 9ET, SK11 9EW, SK11 9JN, SK11 9PS, SK11 9HL, SK11 9RA, SK11 9RB, SK11 9RY, SK11 9QN, SK11 9QR, CW12 2NS, SK11 9RR, CW12 2PJ, SK11 9EU, SK11 9JE, SK11 9JA, SK11 9QZ, CW12 2PB, CW12 2PH, CW12 2PE, SK11 9JW, SK11 9RE, SK11 9RX, CW12 2PD, SK11 9HD, SK11 9RZ, CW12 2PG, SK11 9QL, SK11 9QJ, SK11 9HX, SK11 9HY, CW12 2NX, CW12 2NW, SK11 9QS, SK11 0PW, CW12 2PR, SK11 9EZ, SK11 9ES, CW12 2PF, SK11 9PT, SK9 7AL, CW12 2NT, SK11 9RN, SK11 9EX, SK11 0PP, SK11 7UE, CW12 2NL, SK11 9HZ, SK11 9QX",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "HVFL"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": true,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cut’s, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125053520",
+      "multipleFaultNumbers": null,
+      "date": "2022-10-07T00:05:26",
+      "region": "Bury",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 69,
+      "estimatedTimeOfRestoration": "2022-10-07T04:05:00",
+      "estimatedTimeOfRestorationMajority": "2022-10-07T04:05:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.60261,
+        "lng": -2.320829
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " BL8 1TJ, BL8 1TA, BL8 1SJ, BL8 1TF, BL8 1TH, BL8 1TB, BL8 1TL",
+      "UnderReviewStatusTimeCheck": true,
+      "WebTMSFaultType": "U/GM"
     },
     {
       "FaultLabel": "Live power cut",
@@ -219,6 +260,6 @@
     "ResolvedFault",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 4,
+  "TotalResults": 5,
   "ShowPolygons": false
 }

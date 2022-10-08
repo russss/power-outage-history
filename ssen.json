@@ -192,7 +192,7 @@
       "reference": "210856",
       "maxLongitude": -2.1757,
       "minLatitude": 51.351,
-      "name": "SN12 Area",
+      "name": "BA14 & SN12 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BA14",
@@ -357,6 +357,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KB4949",
       "reference": "KB4949",
+      "engineerOnSiteTime": "2022-10-08T09:45:00.000+0000",
       "name": "SP11 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -435,6 +436,60 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.5009,
       "longitude": -0.6411931945541215,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-10-08T10:31:00.000+0000",
+      "latitude": 51.21585226460696,
+      "estimatedRestoration": "2022-10-08T13:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KB5011'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KB5011",
+      "reference": "KB5011",
+      "maxLongitude": -0.7046,
+      "minLatitude": 51.2092,
+      "name": "GU10 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "GU10 1JB",
+        "GU10 1JD",
+        "GU10 1JZ",
+        "GU10 1LQ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.7374,
+              51.2232
+            ],
+            [
+              -0.7046,
+              51.2232
+            ],
+            [
+              -0.7046,
+              51.2092
+            ],
+            [
+              -0.7374,
+              51.2092
+            ],
+            [
+              -0.7374,
+              51.2232
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "d806cd01-5ae5-4fff-af0f-05a9178b77d2",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -0.7374,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.2232,
+      "longitude": -0.7213351688292686,
       "resolved": false
     },
     {
@@ -615,7 +670,7 @@
       "reference": "211310",
       "maxLongitude": -5.7214,
       "minLatitude": 57.2797,
-      "name": "IV40 & IV55 Areas",
+      "name": "IV55 & IV40 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV40 8BT",

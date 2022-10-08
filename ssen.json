@@ -108,6 +108,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-10-08T08:00:00.000+0000",
       "UUID": "5f27b833-3156-4e59-8c7a-7f57cbe11be4",
       "region": "com.opengrid.geo.world.europe.gb",
       "minLongitude": -0.9726,
@@ -224,6 +225,137 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-10-08T07:30:00.000+0000",
+      "latitude": 51.02431606118618,
+      "estimatedRestoration": "2022-10-08T15:30:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '210645'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "type": "PSI",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/210645",
+      "reference": "210645",
+      "maxLongitude": -0.4714,
+      "minLatitude": 51.0089,
+      "name": "RH14 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RH14 0AW",
+        "RH14 0AZ",
+        "RH14 0BD",
+        "RH14 0DF",
+        "RH14 0DG",
+        "RH14 0DP",
+        "RH14 0DU",
+        "RH14 0DZ",
+        "RH14 0EA",
+        "RH14 0EB",
+        "RH14 0EE",
+        "RH14 0EF",
+        "RH14 0EG",
+        "RH14 0EH",
+        "RH14 0EJ",
+        "RH14 0QJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.5103,
+              51.0446
+            ],
+            [
+              -0.4714,
+              51.0446
+            ],
+            [
+              -0.4714,
+              51.0089
+            ],
+            [
+              -0.5103,
+              51.0089
+            ],
+            [
+              -0.5103,
+              51.0446
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "bbad763e-95a9-450a-b003-d08adf2d17bb",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -0.5103,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.0446,
+      "longitude": -0.4966119899628854,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-10-08T07:30:00.000+0000",
+      "latitude": 51.368770638472895,
+      "estimatedRestoration": "2022-10-08T15:30:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '210856'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "type": "PSI",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/210856",
+      "reference": "210856",
+      "maxLongitude": -2.1757,
+      "minLatitude": 51.351,
+      "name": "SN12 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "BA14",
+        "BA14 6PP",
+        "BA14 6PR",
+        "BA14 6PS",
+        "BA14 6PW",
+        "BA14 6QQ",
+        "SN12 8ND",
+        "SN12 8NH",
+        "SN12 8NJ",
+        "SN12 8NL",
+        "SN12 8NN",
+        "SN12 8NP",
+        "SN12 8NQ",
+        "SN12 8NR",
+        "SN12 8NU"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.2261,
+              51.3974
+            ],
+            [
+              -2.1757,
+              51.3974
+            ],
+            [
+              -2.1757,
+              51.351
+            ],
+            [
+              -2.2261,
+              51.351
+            ],
+            [
+              -2.2261,
+              51.3974
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "d1f9cf65-52ee-4b49-9592-2bb60c584c48",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -2.2261,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.3974,
+      "longitude": -2.206835040319786,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-10-07T20:48:00.000+0000",
       "latitude": 56.09563395885321,
       "estimatedRestoration": "2022-10-08T13:00:00.000+0000",
@@ -284,41 +416,98 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-10-08T06:15:00.000+0000",
-      "latitude": 58.44137336161347,
-      "estimatedRestoration": "2022-10-08T09:30:00.000+0000",
+      "latitude": 58.43930436080376,
+      "estimatedRestoration": "2022-10-08T14:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KB4908'",
-      "type": "LV",
+      "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KB4908",
       "reference": "KB4908",
-      "maxLongitude": -6.3662,
-      "minLatitude": 58.412,
+      "maxLongitude": -5.8104,
+      "minLatitude": 58.0498,
       "name": "HS2 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "HS2 0SH"
+        "HS2 0BH",
+        "HS2 0BJ",
+        "HS2 0BY",
+        "HS2 0EX",
+        "HS2 0LB",
+        "HS2 0QN",
+        "HS2 0QR",
+        "HS2 0QS",
+        "HS2 0QX",
+        "HS2 0QY",
+        "HS2 0QZ",
+        "HS2 0RA",
+        "HS2 0RB",
+        "HS2 0RG",
+        "HS2 0RH",
+        "HS2 0RJ",
+        "HS2 0RL",
+        "HS2 0RQ",
+        "HS2 0RR",
+        "HS2 0RS",
+        "HS2 0RT",
+        "HS2 0RU",
+        "HS2 0RX",
+        "HS2 0RY",
+        "HS2 0RZ",
+        "HS2 0SD",
+        "HS2 0SG",
+        "HS2 0SH",
+        "HS2 0SJ",
+        "HS2 0SN",
+        "HS2 0SP",
+        "HS2 0SR",
+        "HS2 0ST",
+        "HS2 0SU",
+        "HS2 0SW",
+        "HS2 0SY",
+        "HS2 0SZ",
+        "HS2 0TA",
+        "HS2 0TB",
+        "HS2 0TD",
+        "HS2 0TG",
+        "HS2 0TH",
+        "HS2 0TJ",
+        "HS2 0TL",
+        "HS2 0TN",
+        "HS2 0TQ",
+        "HS2 0TR",
+        "HS2 0TS",
+        "HS2 0TW",
+        "HS2 0TX",
+        "HS2 0XA",
+        "HS2 0XB",
+        "HS2 0XD",
+        "HS2 0XF",
+        "HS2 0XG",
+        "HS2 0XH",
+        "HS2 0XJ",
+        "HS2 9QB"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -6.4221,
-              58.4497
+              -6.6083,
+              59.1347
             ],
             [
-              -6.3662,
-              58.4497
+              -5.8104,
+              59.1347
             ],
             [
-              -6.3662,
-              58.412
+              -5.8104,
+              58.0498
             ],
             [
-              -6.4221,
-              58.412
+              -6.6083,
+              58.0498
             ],
             [
-              -6.4221,
-              58.4497
+              -6.6083,
+              59.1347
             ]
           ]
         ],
@@ -327,10 +516,67 @@
       "estimatedArrivalOnSiteTime": "2022-10-08T07:30:00.000+0000",
       "UUID": "4615cda3-71a7-4259-841c-1afd3e5aa6f8",
       "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -6.4221,
+      "minLongitude": -6.6083,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "maxLatitude": 58.4497,
-      "longitude": -6.3926200125458434,
+      "evChargersAffected": [
+        "8d9e02f7-4678-4c45-9f32-33c1d374a4cf",
+        "8780e335-e019-42f7-98c8-f8a107e5aa5b"
+      ],
+      "maxLatitude": 59.1347,
+      "longitude": -6.345747496392092,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-10-08T07:07:00.000+0000",
+      "latitude": 59.12136906537256,
+      "estimatedRestoration": "2022-10-08T10:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KB4940'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KB4940",
+      "reference": "KB4940",
+      "maxLongitude": -3.2328,
+      "minLatitude": 59.1088,
+      "name": "KW17 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "KW17 2LP",
+        "KW17 2LR"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.2935,
+              59.127
+            ],
+            [
+              -3.2328,
+              59.127
+            ],
+            [
+              -3.2328,
+              59.1088
+            ],
+            [
+              -3.2935,
+              59.1088
+            ],
+            [
+              -3.2935,
+              59.127
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-10-08T08:30:00.000+0000",
+      "UUID": "ff263498-ade9-4e28-8d0e-8f158a5f23a7",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -3.2935,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 59.127,
+      "longitude": -3.2665237570920196,
       "resolved": false
     }
   ]

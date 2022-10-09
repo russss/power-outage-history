@@ -295,6 +295,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KB5543",
       "reference": "KB5543",
       "maxLongitude": -1.8814,
+      "engineerOnSiteTime": "2022-10-09T08:30:00.000+0000",
       "minLatitude": 50.7422,
       "name": "BH9 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -407,6 +408,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KB5560",
       "reference": "KB5560",
+      "engineerOnSiteTime": "2022-10-09T09:30:00.000+0000",
       "name": "BH23 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -493,6 +495,89 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-10-09T09:48:00.000+0000",
+      "latitude": 50.60064971540555,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KB5583'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KB5583",
+      "reference": "KB5583",
+      "maxLongitude": -1.9552,
+      "minLatitude": 50.5764,
+      "name": "BH19 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "BH19 2SS",
+        "BH19 3BP",
+        "BH19 3HR",
+        "BH19 3HS",
+        "BH19 3JP",
+        "BH19 3JQ",
+        "BH19 3JS",
+        "BH19 3JT",
+        "BH19 3JU",
+        "BH19 3JX",
+        "BH19 3JY",
+        "BH19 3JZ",
+        "BH19 3LA",
+        "BH19 3LB",
+        "BH19 3LD",
+        "BH19 3LE",
+        "BH19 3LF",
+        "BH19 3LG",
+        "BH19 3LH",
+        "BH19 3LJ",
+        "BH19 3LL",
+        "BH19 3LN",
+        "BH19 3LP",
+        "BH19 3LQ",
+        "BH19 3LR",
+        "BH19 3LS",
+        "BH19 3LT",
+        "BH19 3LU",
+        "BH19 3LW",
+        "BH19 3LX",
+        "BH19 3LY",
+        "BH19 3LZ",
+        "BH20 5LR",
+        "BH20 5PD"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.1319,
+              50.6192
+            ],
+            [
+              -1.9552,
+              50.6192
+            ],
+            [
+              -1.9552,
+              50.5764
+            ],
+            [
+              -2.1319,
+              50.5764
+            ],
+            [
+              -2.1319,
+              50.6192
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "1e846c8e-bd2f-4aad-a6a2-34f6ffd3b1c5",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -2.1319,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.6192,
+      "longitude": -2.033562378972174,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-10-09T07:00:00.000+0000",
       "latitude": 57.11223712210727,
       "estimatedRestoration": "2022-10-09T16:00:00.000+0000",
@@ -553,7 +638,7 @@
       "reference": "211313",
       "maxLongitude": -2.1643,
       "minLatitude": 56.6421,
-      "name": "AB16 & AB31 Areas",
+      "name": "DD8 & AB31 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB16 6RW",

@@ -349,6 +349,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KB8924",
       "reference": "KB8924",
       "maxLongitude": -0.2852,
+      "engineerOnSiteTime": "2022-10-16T11:15:00.000+0000",
       "minLatitude": 51.4917,
       "name": "W5 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -674,6 +675,58 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 56.8626,
       "longitude": -5.1337407055225786,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-10-16T11:35:00.000+0000",
+      "latitude": 58.9859556378435,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KB8961'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KB8961",
+      "reference": "KB8961",
+      "maxLongitude": -3.1857,
+      "minLatitude": 58.9653,
+      "name": "KW16 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "KW16 3EY",
+        "KW16 3JX",
+        "KW16 3JZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.2681,
+              59.0082
+            ],
+            [
+              -3.1857,
+              59.0082
+            ],
+            [
+              -3.1857,
+              58.9653
+            ],
+            [
+              -3.2681,
+              58.9653
+            ],
+            [
+              -3.2681,
+              59.0082
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "bed07079-be56-403a-987a-57c956ded241",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -3.2681,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 59.0082,
+      "longitude": -3.22848815376353,
       "resolved": false
     }
   ]

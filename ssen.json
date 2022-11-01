@@ -920,12 +920,13 @@
       "py/object": "Fault",
       "loggedAt": "2022-11-01T05:55:00.000+0000",
       "latitude": 50.85068695107029,
-      "estimatedRestoration": "2022-11-01T10:00:00.000+0000",
+      "estimatedRestoration": "2022-11-01T17:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC8981'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC8981",
       "reference": "KC8981",
       "maxLongitude": -1.4059,
+      "engineerOnSiteTime": "2022-11-01T08:00:00.000+0000",
       "minLatitude": 50.8457,
       "name": "SO45 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -980,14 +981,14 @@
       "py/object": "Fault",
       "loggedAt": "2022-11-01T06:50:00.000+0000",
       "latitude": 50.9036910700757,
-      "estimatedRestoration": "2022-11-01T10:00:00.000+0000",
+      "estimatedRestoration": "2022-11-01T13:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9033'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9033",
       "reference": "KC9033",
       "maxLongitude": -1.1855,
       "minLatitude": 50.8804,
-      "name": "PO17 Area",
+      "name": "SO32 & PO17 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "PO15 6DY",
@@ -1356,7 +1357,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-11-01T04:42:00.000+0000",
       "latitude": 50.61804237919666,
-      "estimatedRestoration": "2022-11-01T12:00:00.000+0000",
+      "estimatedRestoration": "2022-11-01T13:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9093'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9093",
@@ -1419,7 +1420,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-11-01T04:34:00.000+0000",
       "latitude": 51.404804699462126,
-      "estimatedRestoration": "2022-11-01T11:30:00.000+0000",
+      "estimatedRestoration": "2022-11-01T16:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC8943'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC8943",
@@ -2094,10 +2095,10 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-11-01T07:17:00.000+0000",
-      "latitude": 51.471859139658505,
+      "latitude": 51.47704313227919,
       "estimatedRestoration": "2022-11-01T15:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9051'",
-      "type": "LV",
+      "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9051",
       "reference": "KC9051",
       "maxLongitude": -2.1922,
@@ -2105,33 +2106,39 @@
       "name": "SN14 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
+        "SN14 7DD",
+        "SN14 7EN",
         "SN14 7ER",
         "SN14 7ES",
         "SN14 7ET",
-        "SN14 7EW"
+        "SN14 7EU",
+        "SN14 7EW",
+        "SN14 7EX",
+        "SN14 7HZ",
+        "SN14 7JA"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -2.2253,
-              51.4849
+              -2.2418,
+              51.4903
             ],
             [
               -2.1922,
-              51.4849
+              51.4903
             ],
             [
               -2.1922,
               51.4659
             ],
             [
-              -2.2253,
+              -2.2418,
               51.4659
             ],
             [
-              -2.2253,
-              51.4849
+              -2.2418,
+              51.4903
             ]
           ]
         ],
@@ -2140,17 +2147,17 @@
       "estimatedArrivalOnSiteTime": "2022-11-01T08:50:00.000+0000",
       "UUID": "194b8ae3-2a22-4264-93bb-35af554cbe95",
       "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -2.2253,
+      "minLongitude": -2.2418,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "maxLatitude": 51.4849,
-      "longitude": -2.206941523986229,
+      "maxLatitude": 51.4903,
+      "longitude": -2.214236478838876,
       "resolved": false
     },
     {
       "py/object": "Fault",
       "loggedAt": "2022-11-01T07:10:00.000+0000",
       "latitude": 50.994447612904736,
-      "estimatedRestoration": "2022-11-01T15:00:00.000+0000",
+      "estimatedRestoration": "2022-11-01T19:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9049'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9049",
@@ -2205,7 +2212,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-11-01T03:24:00.000+0000",
       "latitude": 51.395704055540435,
-      "estimatedRestoration": "2022-11-01T14:00:00.000+0000",
+      "estimatedRestoration": "2022-11-01T15:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9182'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9182",
@@ -2256,7 +2263,7 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-11-01T08:48:00.000+0000",
+      "loggedAt": "2022-11-01T08:58:00.000+0000",
       "latitude": 51.640435315352036,
       "estimatedRestoration": "2022-11-01T12:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9190'",
@@ -2325,6 +2332,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9098",
       "reference": "KC9098",
       "maxLongitude": -2.3819,
+      "engineerOnSiteTime": "2022-11-01T08:55:00.000+0000",
       "minLatitude": 50.9746,
       "name": "BA8 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -2987,6 +2995,355 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.2861,
       "longitude": -2.1730903909668293,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-01T06:46:00.000+0000",
+      "latitude": 50.84125922867102,
+      "estimatedRestoration": "2022-11-01T15:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9236'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9236",
+      "reference": "KC9236",
+      "name": "BH21 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "BH21 7JZ",
+        "BH21 7LA"
+      ],
+      "location": {
+        "coordinates": [
+          -1.9159842312593023,
+          50.84125922867102
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-11-01T08:00:00.000+0000",
+      "UUID": "1ed1be84-3aa7-4426-954e-30ba4cf241d8",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.9159842312593023,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-01T09:12:00.000+0000",
+      "latitude": 50.853810001232866,
+      "estimatedRestoration": "2022-11-01T21:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9232'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9232",
+      "reference": "KC9232",
+      "maxLongitude": -1.2809,
+      "minLatitude": 50.8524,
+      "name": "SO31 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SO31 9AU",
+        "SO31 9BN",
+        "SO31 9BP",
+        "SO31 9BQ",
+        "SO31 9BR",
+        "SO31 9BS",
+        "SO31 9BU",
+        "SO31 9DB",
+        "SO31 9EZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.2859,
+              50.8551
+            ],
+            [
+              -1.2809,
+              50.8551
+            ],
+            [
+              -1.2809,
+              50.8524
+            ],
+            [
+              -1.2859,
+              50.8524
+            ],
+            [
+              -1.2859,
+              50.8551
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "bcb8e5a6-6859-449b-9b1c-8b06e4255a8e",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.2859,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.8551,
+      "longitude": -1.28330015344064,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-01T08:00:00.000+0000",
+      "latitude": 50.651198275105045,
+      "estimatedRestoration": "2022-11-01T20:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9201'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9201",
+      "reference": "KC9201",
+      "maxLongitude": -1.296,
+      "minLatitude": 50.6473,
+      "name": "PO30 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "PO30 3EL"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.3057,
+              50.6549
+            ],
+            [
+              -1.296,
+              50.6549
+            ],
+            [
+              -1.296,
+              50.6473
+            ],
+            [
+              -1.3057,
+              50.6473
+            ],
+            [
+              -1.3057,
+              50.6549
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-11-01T10:00:00.000+0000",
+      "UUID": "b346d062-e4ae-4721-afc5-307688f3482c",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.3057,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.6549,
+      "longitude": -1.301762213175066,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-01T09:30:00.000+0000",
+      "latitude": 51.71876874844011,
+      "estimatedRestoration": "2022-11-01T14:30:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '211805'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "type": "PSI",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/211805",
+      "reference": "211805",
+      "maxLongitude": -1.3119,
+      "minLatitude": 51.7157,
+      "name": "OX13 & OX1 Areas",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "OX1 5JX",
+        "OX13 6BF"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.3271,
+              51.7281
+            ],
+            [
+              -1.3119,
+              51.7281
+            ],
+            [
+              -1.3119,
+              51.7157
+            ],
+            [
+              -1.3271,
+              51.7157
+            ],
+            [
+              -1.3271,
+              51.7281
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "b98daed0-a96e-4367-978b-8801ee96b5cb",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.3271,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.7281,
+      "longitude": -1.322101719339557,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-01T07:02:00.000+0000",
+      "latitude": 51.55350449197732,
+      "estimatedRestoration": "2022-11-01T19:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9037'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9037",
+      "reference": "KC9037",
+      "maxLongitude": -1.0164,
+      "minLatitude": 51.5511,
+      "name": "RG9 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG9 5QG"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.0271,
+              51.5596
+            ],
+            [
+              -1.0164,
+              51.5596
+            ],
+            [
+              -1.0164,
+              51.5511
+            ],
+            [
+              -1.0271,
+              51.5511
+            ],
+            [
+              -1.0271,
+              51.5596
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-11-01T09:00:00.000+0000",
+      "UUID": "a0855ecb-a057-4904-a088-93f233c61bc4",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.0271,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.5596,
+      "longitude": -1.020067935975323,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-01T08:29:00.000+0000",
+      "latitude": 51.48888741875324,
+      "estimatedRestoration": "2022-11-01T20:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9254'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9254",
+      "reference": "KC9254",
+      "maxLongitude": -1.223,
+      "minLatitude": 51.4795,
+      "name": "RG18 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG18 0TD",
+        "RG18 0TU"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.241,
+              51.5018
+            ],
+            [
+              -1.223,
+              51.5018
+            ],
+            [
+              -1.223,
+              51.4795
+            ],
+            [
+              -1.241,
+              51.4795
+            ],
+            [
+              -1.241,
+              51.5018
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "1758014f-9ed6-459c-b352-b8a4ef2bc9ab",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.241,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.5018,
+      "longitude": -1.236260256805564,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-01T07:45:00.000+0000",
+      "latitude": 50.639291051372666,
+      "estimatedRestoration": "2022-11-01T12:35:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9086'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9086",
+      "reference": "KC9086",
+      "maxLongitude": -1.2066,
+      "engineerOnSiteTime": "2022-11-01T08:10:00.000+0000",
+      "minLatitude": 50.6321,
+      "name": "PO38 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "PO38 3AG",
+        "PO38 3AQ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.2236,
+              50.6424
+            ],
+            [
+              -1.2066,
+              50.6424
+            ],
+            [
+              -1.2066,
+              50.6321
+            ],
+            [
+              -1.2236,
+              50.6321
+            ],
+            [
+              -1.2236,
+              50.6424
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "9bbb57ea-814f-474e-a327-1aae6ceaa978",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.2236,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.6424,
+      "longitude": -1.2141048794710407,
       "resolved": false
     },
     {
@@ -3709,7 +4066,7 @@
       "reference": "210399",
       "maxLongitude": -2.1643,
       "minLatitude": 57.1531,
-      "name": "AB51 Area",
+      "name": "AB16 & AB51 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB16 6RW",
@@ -3754,6 +4111,62 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 57.6582,
       "longitude": -2.455786002138638,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-01T09:30:00.000+0000",
+      "latitude": 56.43659310680794,
+      "estimatedRestoration": "2022-11-01T14:30:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '211387'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "type": "PSI",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/211387",
+      "reference": "211387",
+      "maxLongitude": -3.234,
+      "minLatitude": 56.4174,
+      "name": "PH2 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "PH2 6AZ",
+        "PH2 6ET",
+        "PH2 6NR",
+        "PH2 6NW",
+        "PH2 7PP",
+        "PH2 7PW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.3815,
+              56.4488
+            ],
+            [
+              -3.234,
+              56.4488
+            ],
+            [
+              -3.234,
+              56.4174
+            ],
+            [
+              -3.3815,
+              56.4174
+            ],
+            [
+              -3.3815,
+              56.4488
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "ba8c53e1-e536-45b4-a9b5-cc7f91e3f498",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -3.3815,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 56.4488,
+      "longitude": -3.361665970760151,
       "resolved": false
     }
   ]

@@ -233,7 +233,7 @@
       "reference": "211475",
       "maxLongitude": -0.5491,
       "minLatitude": 51.4062,
-      "name": "GU25 & TW20 Areas",
+      "name": "TW20 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU25 4AW",
@@ -286,7 +286,7 @@
       "reference": "211934",
       "maxLongitude": -1.3133,
       "minLatitude": 51.7066,
-      "name": "OX13 & OX1 Areas",
+      "name": "OX1 & OX13 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "OX1 5JP",
@@ -343,7 +343,7 @@
       "reference": "211346",
       "maxLongitude": -1.8068,
       "minLatitude": 51.0772,
-      "name": "SP3 Area",
+      "name": "SP4 & SP3 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SP2 7NB",
@@ -559,7 +559,7 @@
       "reference": "211450",
       "maxLongitude": -2.2191,
       "minLatitude": 50.6321,
-      "name": "BH20 & DT2 Areas",
+      "name": "DT2 & BH20 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH20 5PS",
@@ -1085,6 +1085,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-11-02T11:00:00.000+0000",
       "UUID": "7538a99b-05f9-47e6-89c4-19a00db8d758",
       "region": "com.opengrid.geo.world.europe.gb",
       "minLongitude": -0.7747,
@@ -1155,6 +1156,58 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 50.7687,
       "longitude": -2.079755829167891,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-02T09:10:00.000+0000",
+      "latitude": 51.205442053666985,
+      "estimatedRestoration": "2022-11-02T13:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KE0166'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE0166",
+      "reference": "KE0166",
+      "maxLongitude": -1.4775,
+      "engineerOnSiteTime": "2022-11-02T09:45:00.000+0000",
+      "minLatitude": 51.2052,
+      "name": "SP10 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SP10 2HZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.4783,
+              51.2056
+            ],
+            [
+              -1.4775,
+              51.2056
+            ],
+            [
+              -1.4775,
+              51.2052
+            ],
+            [
+              -1.4783,
+              51.2052
+            ],
+            [
+              -1.4783,
+              51.2056
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "e10e9234-e7d7-4b29-b4a7-bc36cf07bd30",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.4783,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.2056,
+      "longitude": -1.4778714699290831,
       "resolved": false
     },
     {
@@ -1435,7 +1488,7 @@
       "reference": "211752",
       "maxLongitude": -4.0156,
       "minLatitude": 57.3958,
-      "name": "IV1 & IV2 Areas",
+      "name": "IV2 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV1 2XQ",
@@ -1540,7 +1593,7 @@
       "reference": "210813",
       "maxLongitude": -2.0328,
       "minLatitude": 57.1531,
-      "name": "AB16 & AB24 Areas",
+      "name": "AB43 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB16 6RW",
@@ -1971,6 +2024,169 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 58.1593,
       "longitude": -7.296519172672155,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-02T10:35:00.000+0000",
+      "latitude": 56.47443076814648,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KE0243'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE0243",
+      "reference": "KE0243",
+      "maxLongitude": -3.0282,
+      "minLatitude": 56.4575,
+      "name": "DD2 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "DD2 4FA",
+        "DD2 4JU",
+        "DD2 4JW",
+        "DD2 4JX",
+        "DD2 4JY",
+        "DD2 4LA",
+        "DD2 4LB",
+        "DD2 4LD",
+        "DD2 4LE",
+        "DD2 4LF",
+        "DD2 4LG",
+        "DD2 4LH",
+        "DD2 4LJ",
+        "DD2 4LN",
+        "DD2 4LY",
+        "DD2 4LZ",
+        "DD2 4NA",
+        "DD2 4NB",
+        "DD2 4ND",
+        "DD2 4NE",
+        "DD2 4NH",
+        "DD2 4NJ",
+        "DD2 4NL",
+        "DD2 4NN",
+        "DD2 4NQ",
+        "DD2 4NR",
+        "DD2 4NS",
+        "DD2 4NT",
+        "DD2 4NU",
+        "DD2 4NW",
+        "DD2 4NY",
+        "DD2 4PB",
+        "DD2 4PD",
+        "DD2 4PJ",
+        "DD2 4PL",
+        "DD2 4PP",
+        "DD2 4PQ",
+        "DD2 4PR",
+        "DD2 4PS",
+        "DD2 4PT",
+        "DD2 4PU",
+        "DD2 4QG",
+        "DD2 4QL",
+        "DD2 4QN",
+        "DD2 4QP",
+        "DD2 4QQ",
+        "DD2 4QR",
+        "DD2 4QS",
+        "DD2 4QT",
+        "DD2 4QU",
+        "DD2 4QW",
+        "DD2 4QX",
+        "DD2 4QY",
+        "DD2 4QZ",
+        "DD2 4RA",
+        "DD2 4RB",
+        "DD2 4RD",
+        "DD2 4RE",
+        "DD2 4RF",
+        "DD2 4RG",
+        "DD2 4RH",
+        "DD2 4RJ",
+        "DD2 4RL",
+        "DD2 4RN",
+        "DD2 4RP",
+        "DD2 4RR",
+        "DD2 4RS",
+        "DD2 4RT",
+        "DD2 4RU",
+        "DD2 4RW",
+        "DD2 4RX",
+        "DD2 4RY",
+        "DD2 4RZ",
+        "DD2 4SA",
+        "DD2 4SB",
+        "DD2 4SD",
+        "DD2 4SE",
+        "DD2 4SF",
+        "DD2 4SG",
+        "DD2 4SH",
+        "DD2 4SJ",
+        "DD2 4SL",
+        "DD2 4SN",
+        "DD2 4SP",
+        "DD2 4SQ",
+        "DD2 4SR",
+        "DD2 4SS",
+        "DD2 4SW",
+        "DD2 4SX",
+        "DD2 4SY",
+        "DD2 4SZ",
+        "DD2 4TA",
+        "DD2 4TB",
+        "DD2 4TD",
+        "DD2 4TF",
+        "DD2 4TG",
+        "DD2 4TH",
+        "DD2 4UB",
+        "DD2 4UH",
+        "DD2 4US",
+        "DD2 4UT",
+        "DD2 4WB",
+        "DD2 4XE",
+        "DD2 5AD",
+        "DD2 5EP",
+        "DD2 5JW",
+        "DD2 5JX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.1135,
+              56.4927
+            ],
+            [
+              -3.0282,
+              56.4927
+            ],
+            [
+              -3.0282,
+              56.4575
+            ],
+            [
+              -3.1135,
+              56.4575
+            ],
+            [
+              -3.1135,
+              56.4927
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "d897b918-2fe6-4edb-948f-0ae6f8c2db17",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -3.1135,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "78c3ffe1-88e9-4943-bfdf-b2e6289ececc",
+        "e60f82b6-381f-4d2a-8dad-53604663d984",
+        "6b3d9214-3adf-4b1b-a736-6c5fc91e395c",
+        "6a35e3a7-4c51-413a-998a-c0f7e69c0a76",
+        "b15551dd-8dcc-4721-8404-e23416613a81"
+      ],
+      "maxLatitude": 56.4927,
+      "longitude": -3.0432707101199816,
       "resolved": false
     }
   ]

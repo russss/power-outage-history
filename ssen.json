@@ -2,14 +2,71 @@
   "Faults": [
     {
       "py/object": "Fault",
+      "loggedAt": "2022-11-01T09:23:00.000+0000",
+      "latitude": 50.74819661689535,
+      "estimatedRestoration": "2022-11-02T12:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC9247'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC9247",
+      "reference": "KC9247",
+      "maxLongitude": -1.849,
+      "engineerOnSiteTime": "2022-11-01T11:02:00.000+0000",
+      "minLatitude": 50.7438,
+      "name": "BH8 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "BH8 9HX",
+        "BH8 9PJ",
+        "BH8 9PS",
+        "BH8 9PT",
+        "BH8 9PZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.8592,
+              50.751
+            ],
+            [
+              -1.849,
+              50.751
+            ],
+            [
+              -1.849,
+              50.7438
+            ],
+            [
+              -1.8592,
+              50.7438
+            ],
+            [
+              -1.8592,
+              50.751
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "ddbc3dda-1ba2-4e8b-8643-8e1e6c8f1aa9",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.8592,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.751,
+      "longitude": -1.8535996497597185,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-11-02T04:37:00.000+0000",
       "latitude": 51.559586927093015,
-      "estimatedRestoration": "2022-11-02T08:00:00.000+0000",
+      "estimatedRestoration": "2022-11-02T15:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KE0084'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE0084",
       "reference": "KE0084",
       "maxLongitude": -1.7901,
+      "engineerOnSiteTime": "2022-11-02T05:22:00.000+0000",
       "minLatitude": 51.5584,
       "name": "SN1 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -55,6 +112,64 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.5606,
       "longitude": -1.7918860284602194,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-02T05:33:00.000+0000",
+      "latitude": 51.079423350710805,
+      "estimatedRestoration": "2022-11-02T09:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KE0093'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE0093",
+      "reference": "KE0093",
+      "maxLongitude": -1.8115,
+      "minLatitude": 51.077,
+      "name": "SP2 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SP2 7DP",
+        "SP2 7HD",
+        "SP2 7HF",
+        "SP2 7ND",
+        "SP2 9BN",
+        "SP2 9BT",
+        "SP2 9LY"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.8205,
+              51.0864
+            ],
+            [
+              -1.8115,
+              51.0864
+            ],
+            [
+              -1.8115,
+              51.077
+            ],
+            [
+              -1.8205,
+              51.077
+            ],
+            [
+              -1.8205,
+              51.0864
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-11-02T06:45:00.000+0000",
+      "UUID": "ea877954-ea25-49f3-932e-03a9bda4e4d3",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.8205,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.0864,
+      "longitude": -1.8164425177194583,
       "resolved": false
     }
   ]

@@ -536,6 +536,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE2778",
       "reference": "KE2778",
+      "engineerOnSiteTime": "2022-11-04T18:08:00.000+0000",
       "name": "SP4 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -631,6 +632,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE2794",
       "reference": "KE2794",
       "maxLongitude": -1.7655,
+      "engineerOnSiteTime": "2022-11-04T18:15:00.000+0000",
       "minLatitude": 50.7352,
       "name": "BH23 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -788,6 +790,80 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.7366,
       "longitude": -1.9748289534249939,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-04T18:43:00.000+0000",
+      "latitude": 51.45644081474348,
+      "estimatedRestoration": "2022-11-04T22:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KE2824'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE2824",
+      "reference": "KE2824",
+      "maxLongitude": -0.9804,
+      "minLatitude": 51.4544,
+      "name": "RG1 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG1",
+        "RG1 7DB",
+        "RG1 7EY",
+        "RG1 7HA",
+        "RG1 7HB",
+        "RG1 7HT",
+        "RG1 7JB",
+        "RG1 7LR",
+        "RG1 7NB",
+        "RG1 7ND",
+        "RG1 7NH",
+        "RG1 7NP",
+        "RG1 7NR",
+        "RG1 7NS",
+        "RG1 7NT",
+        "RG1 7NU",
+        "RG1 7NX",
+        "RG1 7PA",
+        "RG1 7PB",
+        "RG1 7PD",
+        "RG1 7PG",
+        "RG1 7PH",
+        "RG1 7PN",
+        "RG1 7PP"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.9903,
+              51.4594
+            ],
+            [
+              -0.9804,
+              51.4594
+            ],
+            [
+              -0.9804,
+              51.4544
+            ],
+            [
+              -0.9903,
+              51.4544
+            ],
+            [
+              -0.9903,
+              51.4594
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "170dbbd0-dd63-45b9-a06f-b155a282ac8d",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -0.9903,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.4594,
+      "longitude": -0.9854453423804461,
       "resolved": false
     }
   ]

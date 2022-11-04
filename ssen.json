@@ -480,6 +480,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE2747",
       "reference": "KE2747",
       "maxLongitude": -1.9613,
+      "engineerOnSiteTime": "2022-11-04T17:45:00.000+0000",
       "minLatitude": 51.7141,
       "name": "GL7 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -733,6 +734,60 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 50.8,
       "longitude": -1.1018029279042303,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-04T17:52:00.000+0000",
+      "latitude": 51.734549293560775,
+      "estimatedRestoration": "2022-11-04T22:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KE2805'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE2805",
+      "reference": "KE2805",
+      "maxLongitude": -1.9731,
+      "minLatitude": 51.7334,
+      "name": "GL7 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "GL7 2RL",
+        "GL7 2RN",
+        "GL7 2RW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.9767,
+              51.7366
+            ],
+            [
+              -1.9731,
+              51.7366
+            ],
+            [
+              -1.9731,
+              51.7334
+            ],
+            [
+              -1.9767,
+              51.7334
+            ],
+            [
+              -1.9767,
+              51.7366
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-11-04T19:00:00.000+0000",
+      "UUID": "f8c71c4b-fdb0-4a20-b019-a88d54318ee3",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.9767,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.7366,
+      "longitude": -1.9748289534249939,
       "resolved": false
     }
   ]

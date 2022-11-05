@@ -395,6 +395,17 @@
     },
     {
       "py/object": "Fault",
+      "Messages": [
+        {
+          "py/object": "Message",
+          "senderName": "tobias.sell@sse.com",
+          "senderUserId": "44833855-d575-41a0-92f7-7cd8a3b8dabd",
+          "text": "Engineers are responding to a main network fault in the area. We aim to restore power by 00:00.",
+          "UUID": "b28916fa-73aa-45d2-aa07-3f885bc1211b",
+          "py/class": "http://opengrid.com/givr/1.0#//Message",
+          "sentDateTime": "2022-11-05T21:37:18.059+0000"
+        }
+      ],
       "loggedAt": "2022-11-05T14:15:00.000+0000",
       "latitude": 51.044224961401376,
       "estimatedRestoration": "2022-11-05T23:50:00.000+0000",
@@ -578,7 +589,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-11-05T18:08:00.000+0000",
       "latitude": 58.9882216782822,
-      "estimatedRestoration": "2022-11-05T21:30:00.000+0000",
+      "estimatedRestoration": "2022-11-05T22:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KE3296'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE3296",
@@ -631,6 +642,129 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 59.049,
       "longitude": -3.2963816051984294,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-11-05T17:01:00.000+0000",
+      "latitude": 57.330848758422455,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KE3268'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE3268",
+      "reference": "KE3268",
+      "maxLongitude": -2.4041,
+      "engineerOnSiteTime": "2022-11-05T18:00:00.000+0000",
+      "minLatitude": 57.2794,
+      "name": "AB51 & AB52 Areas",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "AB51 5EB",
+        "AB51 5ED",
+        "AB51 5EE",
+        "AB51 5EH",
+        "AB51 5EJ",
+        "AB51 5EL",
+        "AB51 5HP",
+        "AB51 5HQ",
+        "AB51 5HS",
+        "AB51 5HW",
+        "AB51 5HZ",
+        "AB52",
+        "AB52 6AB",
+        "AB52 6AD",
+        "AB52 6AG",
+        "AB52 6EA",
+        "AB52 6HB",
+        "AB52 6HD",
+        "AB52 6HE",
+        "AB52 6HF",
+        "AB52 6HG",
+        "AB52 6HH",
+        "AB52 6HJ",
+        "AB52 6HL",
+        "AB52 6HQ",
+        "AB52 6LH",
+        "AB52 6LJ",
+        "AB52 6LL",
+        "AB52 6LR",
+        "AB52 6NG",
+        "AB52 6PE",
+        "AB52 6PG",
+        "AB52 6PH",
+        "AB52 6QN",
+        "AB52 6QP",
+        "AB52 6QQ",
+        "AB52 6QR",
+        "AB52 6QS",
+        "AB52 6QT",
+        "AB52 6QU",
+        "AB52 6QX",
+        "AB52 6QY",
+        "AB52 6RB",
+        "AB52 6RD",
+        "AB52 6RE",
+        "AB52 6RF",
+        "AB52 6RG",
+        "AB52 6RH",
+        "AB52 6RL",
+        "AB52 6RN",
+        "AB52 6RP",
+        "AB52 6RQ",
+        "AB52 6RR",
+        "AB52 6RS",
+        "AB52 6RT",
+        "AB52 6RU",
+        "AB52 6RW",
+        "AB52 6RX",
+        "AB52 6RY",
+        "AB52 6SB",
+        "AB52 6SD",
+        "AB52 6SF",
+        "AB52 6SG",
+        "AB52 6SH",
+        "AB52 6SP",
+        "AB52 6SU",
+        "AB52 6SW",
+        "AB52 6SZ",
+        "AB52 6TJ",
+        "AB52 6TW",
+        "AB52 6UA",
+        "AB52 6XR",
+        "AB52 6ZA"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.6944,
+              57.6709
+            ],
+            [
+              -2.4041,
+              57.6709
+            ],
+            [
+              -2.4041,
+              57.2794
+            ],
+            [
+              -2.6944,
+              57.2794
+            ],
+            [
+              -2.6944,
+              57.6709
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "df2ef77e-148c-4f02-bc9b-46488337df1d",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -2.6944,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 57.6709,
+      "longitude": -2.548422383711395,
       "resolved": false
     }
   ]

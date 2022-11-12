@@ -46,14 +46,57 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cut’s, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124128536",
+      "multipleFaultNumbers": null,
+      "date": "2022-11-12T05:01:57",
+      "region": "Manchester",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": null,
+      "consumersOff": 62,
+      "estimatedTimeOfRestoration": "2022-11-12T10:47:00",
+      "estimatedTimeOfRestorationMajority": "2022-11-12T10:47:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.456604,
+        "lng": -2.240344
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " M14 4SS, M14 4SL, M14 4LZ, M14 4ST, M14 4WB, M14 4WE, M14 4WH, M14 4GP, M14 4JN, M14 4LT, M14 4SN, M14 4JQ, M14 4WF, M14 4UB, M14 4UD, M14 4SU, M14 4SW, M14 4SX, M14 4SP",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "U/GM"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 1,
   "ShowPolygons": false
 }

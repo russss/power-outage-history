@@ -46,13 +46,56 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our time scales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cut’s, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124129615",
+      "multipleFaultNumbers": null,
+      "date": "2022-11-16T19:13:35",
+      "region": "Bacup",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 44,
+      "estimatedTimeOfRestoration": "2022-11-17T02:00:00",
+      "estimatedTimeOfRestorationMajority": "2022-11-17T02:00:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.69128,
+        "lng": -2.248687
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " OL13 0PR, OL13 0PB, OL13 0PW, OL13 0PF, OL13 0PE, OL13 0PN, OL13 0PS, OL13 0PG, OL13 0QA, BB4 7JJ, OL13 0PA, BB4 7DY, BB4 7AP, BB4 7JF, OL13 0NW, BB4 7JZ, BB4 7JA, OL13 0NR, BB4 7JH, BB4 7LA, BB4 7AB, OL13 0NP, OL13 0NB, BB4 7DQ, BB4 7JP, BB4 7AF, BB4 7JX, OL13 0NH, BB4 7EQ, BB4 7JG, OL13 0PD, BB4 7AE, BB4 7ED, BB4 7EG, OL13 0NT, BB4 7FD, BB4 7JR, BB4 7JB, BB4 7EF, BB4 7DZ, BB4 7AD, OL13 0NY, BB4 7JS, BB4 7TW, BB4 7HB, BB4 7LG, BB4 7JY, BB4 7EX, OL13 0NS, BB4 7JQ, BB4 7LN, BB4 7JE, BB4 7EE, BB4 7EA, OL13 0NN, BB4 7EJ, BB4 7AG, OL13 0NU",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 1,
   "ShowPolygons": false
 }

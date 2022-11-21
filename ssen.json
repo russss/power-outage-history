@@ -16,7 +16,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2022-11-20T21:24:00.000+0000",
-      "estimatedRestoration": "2022-11-21T09:00:00.000+0000",
+      "estimatedRestoration": "2022-11-21T14:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF4065'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF4065",
       "maxLongitude": -1.8067,
@@ -62,46 +62,6 @@
     {
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2022-11-20T22:37:00.000+0000",
-      "latitude": 50.85643719989761,
-      "estimatedRestoration": "2022-11-21T05:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF4084'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF4084",
-      "reference": "KF4084",
-      "etaUpdate": true,
-      "affectedCustomerCount": 20,
-      "name": "BH21 Area",
-      "otherUpdate": true,
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "BH21 6RF",
-        "BH21 6RG",
-        "BH21 6RH",
-        "BH21 6RJ",
-        "BH21 6RP",
-        "BH21 6RQ",
-        "BH21 6RW",
-        "BH21 6SA"
-      ],
-      "location": {
-        "coordinates": [
-          -1.8830821011939591,
-          50.85643719989761
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2022-11-20T23:30:00.000+0000",
-      "UUID": "7630775f-6f31-4998-92c9-a9441c16327c",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "etrUpdate": true,
-      "longitude": -1.8830821011939591,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
-      "srtUpdate": true,
       "loggedAt": "2022-11-20T23:28:00.000+0000",
       "latitude": 51.24177564574364,
       "estimatedRestoration": "2022-11-21T11:00:00.000+0000",
@@ -132,6 +92,66 @@
       "etrUpdate": true,
       "longitude": -1.6305994316796963,
       "resolved": false
+    },
+    {
+      "latitude": 50.885067764175176,
+      "type": "LV",
+      "reference": "KF4120",
+      "etaUpdate": true,
+      "affectedCustomerCount": 31,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "487c6bd8-6437-4ada-b515-e524662c7f52",
+      "minLongitude": -1.0139,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.0122334727952103,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2022-11-21T02:20:00.000+0000",
+      "estimatedRestoration": "2022-11-21T06:55:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF4120'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF4120",
+      "maxLongitude": -1.0106,
+      "minLatitude": 50.8841,
+      "name": "PO7 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PO7 8LP",
+        "PO7 8LS",
+        "PO7 8LT",
+        "PO7 8LX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.0139,
+              50.8861
+            ],
+            [
+              -1.0106,
+              50.8861
+            ],
+            [
+              -1.0106,
+              50.8841
+            ],
+            [
+              -1.0139,
+              50.8841
+            ],
+            [
+              -1.0139,
+              50.8861
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-11-21T03:15:00.000+0000",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.8861,
+      "etrUpdate": true
     }
   ]
 }

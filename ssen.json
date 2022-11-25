@@ -111,6 +111,64 @@
       "resolved": false
     },
     {
+      "latitude": 51.68895994440831,
+      "type": "LV",
+      "reference": "KF7694",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2022-11-25T18:30:00.000+0000",
+      "affectedCustomerCount": 5,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "dc6bf70f-9d92-4cac-9723-1fc9a598919d",
+      "minLongitude": -0.7699,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.7642544174587417,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2022-11-25T21:30:00.000+0000",
+      "estimatedRestoration": "2022-11-26T23:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF7694'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF7694",
+      "maxLongitude": -0.7571,
+      "minLatitude": 51.6838,
+      "name": "HP16 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "HP16 0JS",
+        "HP16 0JT"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.7699,
+              51.6915
+            ],
+            [
+              -0.7571,
+              51.6915
+            ],
+            [
+              -0.7571,
+              51.6838
+            ],
+            [
+              -0.7699,
+              51.6838
+            ],
+            [
+              -0.7699,
+              51.6915
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.6915,
+      "etrUpdate": true
+    },
+    {
       "latitude": 57.59904372650209,
       "type": "PSI",
       "reference": "212628",
@@ -189,7 +247,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF7949",
       "maxLongitude": -3.4318,
       "minLatitude": 56.3924,
-      "name": "PH2 Area",
+      "name": "PH1 & PH2 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "PH1 3QH",

@@ -73,7 +73,7 @@
       "date": "2022-12-03T06:56:28",
       "region": "Davyhulme East, Trafford",
       "faultType": "Current Fault",
-      "faultStatus": "Team on their way",
+      "faultStatus": "We're on site",
       "previousFaultStatus": "Team on their way",
       "consumersOff": 4,
       "estimatedTimeOfRestoration": "2022-12-03T12:56:00",
@@ -94,7 +94,7 @@
       "Type": "CurrentFault",
       "Icon": "icon-warning",
       "ShowViewOnMapCTA": false,
-      "UnderReview": true,
+      "UnderReview": false,
       "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cuts, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
       "UpdateInfo": null,
       "CTAs": [
@@ -116,18 +116,18 @@
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
       "previousFaultStatus": "We're on site",
-      "consumersOff": 41,
-      "estimatedTimeOfRestoration": "2022-12-03T08:20:00",
-      "estimatedTimeOfRestorationMajority": "2022-12-03T08:20:00",
+      "consumersOff": 128,
+      "estimatedTimeOfRestoration": "2022-12-03T09:30:00",
+      "estimatedTimeOfRestorationMajority": "2022-12-03T09:30:00",
       "information": "",
       "actualTimeOfRestoration": null,
       "outageCentrePoint": {
-        "lat": 53.715393,
-        "lng": -2.178883
+        "lat": 53.710601,
+        "lng": -2.183318
       },
       "outageLocations": null,
-      "AffectedPostcodes": " OL13 9UT, OL13 9UR, OL13 9UU, OL13 9UH, OL13 9UQ, OL13 8RT, OL13 9UX",
-      "UnderReviewStatusTimeCheck": true,
+      "AffectedPostcodes": " OL13 9UT, OL13 9UR, OL13 9UU, OL13 9UH, OL13 9UQ, OL13 8RT, OL13 9UX, OL13 9ET, OL13 9XT, OL13 9HB, OL13 9UZ, OL13 9ES, OL13 9UF, OL13 9DJ, OL13 9UG, OL13 9HP, OL13 9EZ",
+      "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "HVFL"
     },
     {
@@ -211,6 +211,47 @@
       "AffectedPostcodes": " PR25 5TE, PR25 5TH",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "U/GM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cuts, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124130895",
+      "multipleFaultNumbers": null,
+      "date": "2022-11-24T13:39:32",
+      "region": "Ribbleton, Preston",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 25,
+      "estimatedTimeOfRestoration": "2022-12-03T19:00:00",
+      "estimatedTimeOfRestorationMajority": "2022-12-03T19:00:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.783197,
+        "lng": -2.655998
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " PR2 6RH, PR2 6RU, PR2 6RR, PR2 6RL, PR2 6TQ, PR2 6SN, PR2 6RX",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "U/GM"
     }
   ],
   "Markers": null,
@@ -220,6 +261,6 @@
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 4,
+  "TotalResults": 5,
   "ShowPolygons": false
 }

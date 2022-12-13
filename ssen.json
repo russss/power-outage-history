@@ -71,7 +71,7 @@
       "reference": "212254",
       "etaUpdate": true,
       "affectedCustomerCount": 21,
-      "name": "SP4 & SP5 Areas",
+      "name": "SP5 Area",
       "otherUpdate": true,
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -325,30 +325,26 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2022-12-13T16:10:00.000+0000",
-      "latitude": 51.00721114754044,
+      "latitude": 51.009909604466614,
       "estimatedRestoration": "2022-12-13T19:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KG9780'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KG9780",
       "reference": "KG9780",
       "etaUpdate": true,
-      "affectedCustomerCount": 38,
-      "name": "SP6 & SP5 Areas",
+      "affectedCustomerCount": 26,
+      "name": "SP5 Area",
       "otherUpdate": true,
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SP5 4LL",
         "SP5 4LN",
-        "SP5 4LP",
-        "SP5 4LW",
-        "SP5 5RF",
-        "SP6 3PA",
-        "SP6 3PB"
+        "SP5 5RF"
       ],
       "location": {
         "coordinates": [
-          -1.8656720259522077,
-          51.00721114754044
+          -1.8744731049278458,
+          51.009909604466614
         ],
         "type": "Point"
       },
@@ -356,7 +352,7 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "etrUpdate": true,
-      "longitude": -1.8656720259522077,
+      "longitude": -1.8744731049278458,
       "resolved": false
     },
     {
@@ -479,6 +475,7 @@
       "type": "LV",
       "reference": "KG9831",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2022-12-13T17:50:00.000+0000",
       "affectedCustomerCount": 22,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "d0f8a5c7-4fcb-41dc-b52b-b65afeaef48b",
@@ -642,6 +639,77 @@
       "etrUpdate": true,
       "longitude": -0.3923467811441142,
       "resolved": false
+    },
+    {
+      "latitude": 51.50760698396988,
+      "type": "LV",
+      "reference": "KG9861",
+      "etaUpdate": true,
+      "affectedCustomerCount": 41,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "6a1b7489-4cdc-47c5-aad6-1ae801937123",
+      "minLongitude": -0.3414,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.33853551974588203,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2022-12-13T17:17:00.000+0000",
+      "estimatedRestoration": "2022-12-13T20:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KG9861'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KG9861",
+      "maxLongitude": -0.3341,
+      "minLatitude": 51.5051,
+      "name": "W7 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "W7 2NU",
+        "W7 2NY",
+        "W7 3SL",
+        "W7 3SU",
+        "W7 3SX",
+        "W7 3SY",
+        "W7 3TA",
+        "W7 3TR",
+        "W7 3TS",
+        "W7 3TT",
+        "W7 3TY",
+        "W7 3TZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.3414,
+              51.5088
+            ],
+            [
+              -0.3341,
+              51.5088
+            ],
+            [
+              -0.3341,
+              51.5051
+            ],
+            [
+              -0.3414,
+              51.5051
+            ],
+            [
+              -0.3414,
+              51.5088
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-12-13T17:45:00.000+0000",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "d97792a9-a2b4-4d79-87f4-bb61fc95d44d"
+      ],
+      "maxLatitude": 51.5088,
+      "etrUpdate": true
     },
     {
       "customIncludeDefault": false,
@@ -1722,7 +1790,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2022-12-12T17:01:00.000+0000",
-      "estimatedRestoration": "2022-12-13T23:00:00.000+0000",
+      "estimatedRestoration": "2022-12-15T23:00:00.000+0000",
       "message": "11AM UPDATE\n\nWe have successfully restored power to over 2,500 properties, with 3,800 homes currently off supply in Voe, Whalsay, Brae, Tumblin, Yell and Unst.\n\nAll efforts are being made to restore customer supplies as soon as practically possible, but our teams are experiencing extremely challenging conditions. Weather-related travel delays are also restricting the ability to send additional operational teams to the islands.\n\n<a href=\"https://www.ssen.co.uk/news-views/2022/shetland-severe-weather-11am-update/\">https://www.ssen.co.uk/news-views/2022/shetland-severe-weather-11am-update/</a>",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KG9019",
       "maxLongitude": -1.0208,

@@ -870,7 +870,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2022-12-21T11:28:00.000+0000",
+      "loggedAt": "2022-12-21T11:27:00.000+0000",
       "estimatedRestoration": "2022-12-21T20:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KH7325'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KH7325",
@@ -1230,6 +1230,71 @@
       "resolved": false
     },
     {
+      "latitude": 50.92884830380867,
+      "type": "LV",
+      "reference": "KH7389",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2022-12-21T13:00:00.000+0000",
+      "affectedCustomerCount": 10,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "09be2e28-a73b-4d8e-a470-d09757fdf612",
+      "minLongitude": -1.5058,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.5020458801679715,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2022-12-21T12:13:00.000+0000",
+      "estimatedRestoration": "2022-12-21T18:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KH7389'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KH7389",
+      "maxLongitude": -1.4988,
+      "minLatitude": 50.9268,
+      "name": "SO40 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SO40 3GH",
+        "SO40 3GR",
+        "SO40 3LW",
+        "SO40 3LX",
+        "SO40 3LY",
+        "SO40 3LZ",
+        "SO40 3PE",
+        "SO40 3PR",
+        "SO40 3PS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.5058,
+              50.9314
+            ],
+            [
+              -1.4988,
+              50.9314
+            ],
+            [
+              -1.4988,
+              50.9268
+            ],
+            [
+              -1.5058,
+              50.9268
+            ],
+            [
+              -1.5058,
+              50.9314
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.9314,
+      "etrUpdate": true
+    },
+    {
       "latitude": 50.92498186695706,
       "type": "LV",
       "reference": "KH6560",
@@ -1295,16 +1360,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 51.2462550776689,
+      "latitude": 51.24139190637133,
       "type": "HV",
       "reference": "KH7441",
       "etaUpdate": true,
-      "affectedCustomerCount": 211,
+      "affectedCustomerCount": 40,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "b492ad4c-d7c8-4f00-85d1-aa435e3dd76c",
       "minLongitude": -1.0939,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.0758527515348781,
+      "longitude": -1.0760504608719987,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -1314,13 +1379,9 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KH7441",
       "maxLongitude": -1.048,
       "minLatitude": 51.2227,
-      "name": "RG21 & RG25 Areas",
+      "name": "RG25 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "RG21 3AD",
-        "RG21 3EL",
-        "RG21 3EN",
-        "RG21 3EQ",
         "RG25 2HA",
         "RG25 2JY",
         "RG25 2JZ",

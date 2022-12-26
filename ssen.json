@@ -188,6 +188,7 @@
       "type": "HV",
       "reference": "KJ0555",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2022-12-26T09:20:00.000+0000",
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "6d775c13-8e52-4459-a303-084255919146",
       "minLongitude": -0.8171,
@@ -494,16 +495,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 58.94895070602082,
+      "latitude": 58.948291198969585,
       "type": "HV",
       "reference": "KJ0568",
       "etaUpdate": true,
-      "affectedCustomerCount": 16,
+      "affectedCustomerCount": 19,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "04ffaf02-9d60-44b0-87a2-882cddef3612",
       "minLongitude": -2.8847,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.8522145738584506,
+      "longitude": -2.852806607166901,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -696,6 +697,61 @@
       "estimatedArrivalOnSiteTime": "2022-12-26T10:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 57.3603,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 55.56826578235329,
+      "type": "HV",
+      "reference": "KJ0593",
+      "etaUpdate": true,
+      "affectedCustomerCount": 1,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "d876b680-8fd3-4ef1-a377-1a6d9ed0dcec",
+      "minLongitude": -5.3092,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.2702884351779895,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2022-12-26T09:05:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KJ0593'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ0593",
+      "maxLongitude": -5.2286,
+      "minLatitude": 55.555,
+      "name": "KA27 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "KA27 8DR"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -5.3092,
+              55.6193
+            ],
+            [
+              -5.2286,
+              55.6193
+            ],
+            [
+              -5.2286,
+              55.555
+            ],
+            [
+              -5.3092,
+              55.555
+            ],
+            [
+              -5.3092,
+              55.6193
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 55.6193,
       "etrUpdate": true
     }
   ]

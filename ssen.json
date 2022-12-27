@@ -263,6 +263,7 @@
       "type": "LV",
       "reference": "KJ0882",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2022-12-27T09:20:00.000+0000",
       "affectedCustomerCount": 11,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "7ecdbc93-c6bb-494d-9eb5-a9f3ab3d686b",
@@ -273,7 +274,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2022-12-27T08:49:00.000+0000",
-      "estimatedRestoration": "2022-12-27T11:00:00.000+0000",
+      "estimatedRestoration": "2022-12-27T18:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KJ0882'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ0882",
       "maxLongitude": -0.7994,
@@ -443,16 +444,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 57.28787138340143,
+      "latitude": 57.286511051340376,
       "type": "HV",
       "reference": "KJ0975",
       "etaUpdate": true,
-      "affectedCustomerCount": 17,
+      "affectedCustomerCount": 30,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "ec988c2a-6a74-4dc2-8c56-011f33984e7c",
       "minLongitude": -2.4889,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.449572497836143,
+      "longitude": -2.4456243345732234,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -460,13 +461,14 @@
       "estimatedRestoration": "2022-12-27T12:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KJ0975'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ0975",
-      "maxLongitude": -2.4233,
+      "maxLongitude": -2.4055,
       "minLatitude": 57.2723,
       "name": "AB51 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "AB51 5HA",
         "AB51 5JA",
+        "AB51 5JJ",
         "AB51 5JL"
       ],
       "location": {
@@ -477,11 +479,11 @@
               57.2995
             ],
             [
-              -2.4233,
+              -2.4055,
               57.2995
             ],
             [
-              -2.4233,
+              -2.4055,
               57.2723
             ],
             [
@@ -559,6 +561,62 @@
       "estimatedArrivalOnSiteTime": "2022-12-27T09:45:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 55.5991,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 60.423000768734816,
+      "type": "HV",
+      "reference": "KJ0990",
+      "etaUpdate": true,
+      "affectedCustomerCount": 17,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "d946f3d4-a9ad-4666-af69-9856c288dd3b",
+      "minLongitude": -0.864,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.7634714713328614,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2022-12-27T10:09:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KJ0990'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ0990",
+      "maxLongitude": -0.7244,
+      "minLatitude": 60.3936,
+      "name": "ZE2 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "ZE2",
+        "ZE2 9AS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.864,
+              60.4411
+            ],
+            [
+              -0.7244,
+              60.4411
+            ],
+            [
+              -0.7244,
+              60.3936
+            ],
+            [
+              -0.864,
+              60.3936
+            ],
+            [
+              -0.864,
+              60.4411
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 60.4411,
       "etrUpdate": true
     }
   ]

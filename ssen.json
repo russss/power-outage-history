@@ -125,6 +125,7 @@
       "type": "LV",
       "reference": "KJ5274",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-01-02T21:00:00.000+0000",
       "affectedCustomerCount": 9,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "724e3d42-7c36-4944-80fe-97a97e7b60e5",
@@ -185,6 +186,7 @@
       "type": "LV",
       "reference": "KJ5318",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-01-02T22:00:00.000+0000",
       "affectedCustomerCount": 6,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "013ff0e1-070b-4862-99df-27cf9dd04c11",
@@ -240,6 +242,39 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.025,
       "etrUpdate": true
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-01-02T21:15:00.000+0000",
+      "latitude": 51.67379782931121,
+      "estimatedRestoration": "2023-01-03T04:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KJ5315'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ5315",
+      "reference": "KJ5315",
+      "etaUpdate": true,
+      "affectedCustomerCount": 12,
+      "name": "GL7 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "GL7 6DA"
+      ],
+      "location": {
+        "coordinates": [
+          -1.9515941736266307,
+          51.67379782931121
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2023-01-02T23:20:00.000+0000",
+      "UUID": "6252471e-2129-4431-a648-ea1f0220016b",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -1.9515941736266307,
+      "resolved": false
     }
   ]
 }

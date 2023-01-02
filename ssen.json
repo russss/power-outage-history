@@ -20,7 +20,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ4880",
       "maxLongitude": -0.9994,
       "minLatitude": 51.6446,
-      "name": "OX9 Area",
+      "name": "OX10 & OX9 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "OX10 7LS",
@@ -621,6 +621,7 @@
       "type": "LV",
       "reference": "KJ5187",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-01-02T15:20:00.000+0000",
       "affectedCustomerCount": 6,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "b8ae08ef-0d97-46ad-8d1f-3258637a25fb",
@@ -797,6 +798,69 @@
       "estimatedArrivalOnSiteTime": "2023-01-02T16:50:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.3564,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 57.62305968252033,
+      "type": "LV",
+      "reference": "KJ5168",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-01-02T14:30:00.000+0000",
+      "affectedCustomerCount": 15,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "ec4e1708-d89d-4936-8379-89ab98272a7f",
+      "minLongitude": -3.128,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.1177309309217054,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-01-02T13:48:00.000+0000",
+      "estimatedRestoration": "2023-01-02T19:40:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KJ5168'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ5168",
+      "maxLongitude": -3.0913,
+      "minLatitude": 57.6111,
+      "name": "IV32 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "IV32 7DZ",
+        "IV32 7HZ",
+        "IV32 7JH",
+        "IV32 7JJ",
+        "IV32 7JL",
+        "IV32 7JQ",
+        "IV32 7JS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.128,
+              57.6275
+            ],
+            [
+              -3.0913,
+              57.6275
+            ],
+            [
+              -3.0913,
+              57.6111
+            ],
+            [
+              -3.128,
+              57.6111
+            ],
+            [
+              -3.128,
+              57.6275
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.6275,
       "etrUpdate": true
     }
   ]

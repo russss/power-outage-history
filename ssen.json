@@ -183,16 +183,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 51.454238091745836,
+      "latitude": 51.451828782260506,
       "type": "HV",
       "reference": "KJ7441",
       "etaUpdate": true,
-      "affectedCustomerCount": 1,
+      "affectedCustomerCount": 3,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "8e1361d4-f29f-45ac-be57-3faa5e18601a",
       "minLongitude": -2.0242,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.011306562030942,
+      "longitude": -2.005448819650674,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -200,12 +200,14 @@
       "estimatedRestoration": "2023-01-05T21:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KJ7441'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ7441",
-      "maxLongitude": -2.0045,
-      "minLatitude": 51.4503,
+      "maxLongitude": -1.9942,
+      "minLatitude": 51.4485,
       "name": "SN11 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "SN11 9HB"
+        "SN11 9HB",
+        "SN11 9PX",
+        "SN11 9RB"
       ],
       "location": {
         "coordinates": [
@@ -215,16 +217,16 @@
               51.4607
             ],
             [
-              -2.0045,
+              -1.9942,
               51.4607
             ],
             [
-              -2.0045,
-              51.4503
+              -1.9942,
+              51.4485
             ],
             [
               -2.0242,
-              51.4503
+              51.4485
             ],
             [
               -2.0242,
@@ -504,6 +506,78 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 58.4189,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 58.06443460288305,
+      "type": "HV",
+      "reference": "KJ7470",
+      "etaUpdate": true,
+      "affectedCustomerCount": 356,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "bd4e8917-e4bf-4f14-89ac-912676f43525",
+      "minLongitude": -6.7411,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -6.449400481176915,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-01-05T19:18:00.000+0000",
+      "estimatedRestoration": "2023-01-05T22:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KJ7470'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ7470",
+      "maxLongitude": -6.3242,
+      "minLatitude": 57.8801,
+      "name": "HS2 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "HS2 9LQ",
+        "HS2 9QA",
+        "HS2 9QB",
+        "HS2 9QD",
+        "HS2 9QE",
+        "HS2 9QH",
+        "HS2 9QJ",
+        "HS2 9QL",
+        "HS2 9QP",
+        "HS2 9QR",
+        "HS2 9QU",
+        "HS2 9QX",
+        "HS2 9QY",
+        "HS2 9QZ",
+        "HS2 9RD",
+        "HS2 9RF",
+        "HS2 9RG"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -6.7411,
+              58.1129
+            ],
+            [
+              -6.3242,
+              58.1129
+            ],
+            [
+              -6.3242,
+              57.8801
+            ],
+            [
+              -6.7411,
+              57.8801
+            ],
+            [
+              -6.7411,
+              58.1129
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 58.1129,
       "etrUpdate": true
     }
   ]

@@ -74,7 +74,7 @@
       "region": "Hawcoat, Barrow-In-Furness",
       "faultType": "Current Fault",
       "faultStatus": "Preparing to send team",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "Preparing to send team",
       "consumersOff": 26,
       "estimatedTimeOfRestoration": "2023-01-13T12:19:00",
       "estimatedTimeOfRestorationMajority": "2023-01-13T12:19:00",
@@ -115,7 +115,7 @@
       "region": "Adlington, Cheshire East",
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "We're on site",
       "consumersOff": 13,
       "estimatedTimeOfRestoration": "2023-01-13T15:30:00",
       "estimatedTimeOfRestorationMajority": "2023-01-13T15:30:00",
@@ -155,8 +155,8 @@
       "date": "2023-01-13T08:54:25",
       "region": "Langwathby, Eden",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
       "consumersOff": 14,
       "estimatedTimeOfRestoration": "2023-01-13T11:54:00",
       "estimatedTimeOfRestorationMajority": "2023-01-13T11:54:00",
@@ -168,6 +168,47 @@
       },
       "outageLocations": null,
       "AffectedPostcodes": " CA10 1QQ, CA10 1RH, CA10 1TY, CA10 1TX, CA10 1QW, CA10 1RL, CA10 1QT, CA10 1RQ, CA10 1FB, CA10 1DN, CA10 1QL, CA10 1RB, CA10 1QF, CA10 1RF, CA10 1QH, CA10 1SG, CA10 1QG, CA10 1RN, CA10 1RJ, CA10 1QR, CA10 1QX, CA10 1TZ, CA10 1QD, CA10 1NU, CA10 1NZ, CA10 1QE, CA10 1RE, CA10 2AG, CA10 1RG, CA10 1QZ, CA10 1QU, CA10 1QJ, CA10 1SL, CA10 1QP, CA10 1NY, CA10 1NB, CA11 0AU, CA11 0HL, CA10 1SH, CA10 1QS, CA10 1QN, CA10 1NJ, CA10 1SD, CA10 1FF, CA10 3AT",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cuts, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124139134",
+      "multipleFaultNumbers": null,
+      "date": "2023-01-13T08:19:38",
+      "region": "Kirkandrews, Carlisle",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": null,
+      "consumersOff": 7,
+      "estimatedTimeOfRestoration": "2023-01-13T11:19:00",
+      "estimatedTimeOfRestorationMajority": "2023-01-13T11:19:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 55.042374,
+        "lng": -2.94139
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " CA6 5SN, CA6 5PW, CA6 5PP",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "HVFL"
     },
@@ -425,6 +466,6 @@
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 9,
+  "TotalResults": 10,
   "ShowPolygons": false
 }

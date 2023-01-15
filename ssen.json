@@ -198,6 +198,17 @@
       "longitude": -1.494610700371554,
       "resolved": false,
       "py/object": "Fault",
+      "Messages": [
+        {
+          "py/object": "Message",
+          "senderName": "tobias.sell@sse.com",
+          "senderUserId": "44833855-d575-41a0-92f7-7cd8a3b8dabd",
+          "text": "Engineers are responding to a main network fault in the area. We aim to restore power by 23:00.",
+          "UUID": "4bf9fd04-d3f8-4336-b18d-23aed1164952",
+          "py/class": "http://opengrid.com/givr/1.0#//Message",
+          "sentDateTime": "2023-01-15T20:12:48.333+0000"
+        }
+      ],
       "srtUpdate": true,
       "loggedAt": "2023-01-15T14:43:00.000+0000",
       "estimatedRestoration": "2023-01-15T23:00:00.000+0000",
@@ -602,77 +613,6 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.3601,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 51.551693488286716,
-      "type": "LV",
-      "reference": "KK5302",
-      "etaUpdate": true,
-      "affectedCustomerCount": 75,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "29da64ba-40c6-436b-8542-42f114e63dcf",
-      "minLongitude": -0.372,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.36652753047073056,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-01-15T19:54:00.000+0000",
-      "estimatedRestoration": "2023-01-15T23:10:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KK5302'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KK5302",
-      "maxLongitude": -0.3628,
-      "minLatitude": 51.549,
-      "name": "UB5 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "UB5 4AU",
-        "UB5 4AX",
-        "UB5 4DR",
-        "UB5 4DX",
-        "UB5 4DY",
-        "UB5 4DZ",
-        "UB5 4EA",
-        "UB5 4EG",
-        "UB5 4EH",
-        "UB5 4EL",
-        "UB5 4EQ",
-        "UB5 4HE",
-        "UB5 4HF",
-        "UB5 4QX",
-        "UB5 4QY",
-        "UB5 4QZ"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -0.372,
-              51.5537
-            ],
-            [
-              -0.3628,
-              51.5537
-            ],
-            [
-              -0.3628,
-              51.549
-            ],
-            [
-              -0.372,
-              51.549
-            ],
-            [
-              -0.372,
-              51.5537
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 51.5537,
       "etrUpdate": true
     },
     {

@@ -253,7 +253,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-01-21T22:20:00.000+0000",
+      "loggedAt": "2023-01-21T22:25:00.000+0000",
       "estimatedRestoration": "2023-01-22T01:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KM0910'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM0910",
@@ -313,6 +313,66 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.4954,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.49119738703241,
+      "type": "LV",
+      "reference": "KM0913",
+      "etaUpdate": true,
+      "affectedCustomerCount": 19,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "602be0db-afb9-4f63-8e62-30678a2ee3e0",
+      "minLongitude": -0.5401,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.5378144920973258,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-01-21T22:28:00.000+0000",
+      "estimatedRestoration": "2023-01-22T01:35:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KM0913'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM0913",
+      "maxLongitude": -0.5348,
+      "minLatitude": 51.4901,
+      "name": "SL3 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SL3 8UR",
+        "SL3 8UT",
+        "SL3 8UZ",
+        "SL3 8XA",
+        "SL3 8XB"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.5401,
+              51.493
+            ],
+            [
+              -0.5348,
+              51.493
+            ],
+            [
+              -0.5348,
+              51.4901
+            ],
+            [
+              -0.5401,
+              51.4901
+            ],
+            [
+              -0.5401,
+              51.493
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.493,
       "etrUpdate": true
     },
     {
@@ -386,16 +446,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 57.06070942589072,
+      "latitude": 57.06054001978787,
       "type": "HV",
       "reference": "KM0894",
       "etaUpdate": true,
-      "affectedCustomerCount": 456,
+      "affectedCustomerCount": 237,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "35c5dc7f-d3ab-44c1-9ca5-bdb009d6e610",
-      "minLongitude": -2.1509,
+      "minLongitude": -2.1502,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.138711397579214,
+      "longitude": -2.1375566189316126,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -408,50 +468,43 @@
       "name": "AB12 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "AB12 4BA",
-        "AB12 4BB",
         "AB12 4BD",
-        "AB12 4BH",
         "AB12 4NB",
         "AB12 4ND",
         "AB12 4NE",
         "AB12 4NF",
         "AB12 4NX",
         "AB12 4NY",
-        "AB12 4QB",
         "AB12 4QF",
         "AB12 4QY",
-        "AB12 4TL",
         "AB12 4TN",
-        "AB12 4TP",
         "AB12 4XN",
         "AB12 4XP",
         "AB12 4XR",
-        "AB12 4XT",
         "AB39 3SG"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -2.1509,
-              57.0681
+              -2.1502,
+              57.0673
             ],
             [
               -2.131,
-              57.0681
+              57.0673
             ],
             [
               -2.131,
               57.0337
             ],
             [
-              -2.1509,
+              -2.1502,
               57.0337
             ],
             [
-              -2.1509,
-              57.0681
+              -2.1502,
+              57.0673
             ]
           ]
         ],
@@ -459,7 +512,7 @@
       },
       "estimatedArrivalOnSiteTime": "2023-01-21T22:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.0681,
+      "maxLatitude": 57.0673,
       "etrUpdate": true
     }
   ]

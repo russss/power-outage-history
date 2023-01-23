@@ -1,16 +1,16 @@
 {
   "Faults": [
     {
-      "latitude": 51.53066034506359,
+      "latitude": 51.52939259068719,
       "type": "HV",
       "reference": "KM1673",
       "etaUpdate": true,
-      "affectedCustomerCount": 87,
+      "affectedCustomerCount": 59,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "40a78604-9d3d-44ae-b450-d6625f700eeb",
-      "minLongitude": -0.8124,
+      "minLongitude": -0.8062,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.7849651097140331,
+      "longitude": -0.7737398277754248,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -24,23 +24,19 @@
       "otherUpdate": true,
       "affectedAreas": [
         "SL6 3QE",
-        "SL6 5LE",
         "SL6 5LH",
         "SL6 6NU",
         "SL6 6PA",
         "SL6 6PB",
         "SL6 6PE",
         "SL6 6QL",
-        "SL6 6QN",
-        "SL6 6QP",
-        "SL6 6QR",
-        "SL6 6RG"
+        "SL6 6QN"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -0.8124,
+              -0.8062,
               51.5447
             ],
             [
@@ -52,11 +48,11 @@
               51.51
             ],
             [
-              -0.8124,
+              -0.8062,
               51.51
             ],
             [
-              -0.8124,
+              -0.8062,
               51.5447
             ]
           ]
@@ -148,7 +144,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM1971",
       "maxLongitude": -1.2306,
       "minLatitude": 51.7008,
-      "name": "OX29 & OX1 Areas",
+      "name": "OX1 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "OX1 5RP",
@@ -689,6 +685,73 @@
       "estimatedArrivalOnSiteTime": "2023-01-23T19:15:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 57.5964,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 55.947602048630074,
+      "type": "LV",
+      "reference": "KM2359",
+      "etaUpdate": true,
+      "affectedCustomerCount": 25,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "dadf0f03-b6d8-42eb-9f72-4db8984b8dcb",
+      "minLongitude": -4.9299,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.926490725072684,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-01-23T20:09:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KM2359'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM2359",
+      "maxLongitude": -4.9237,
+      "minLatitude": 55.946,
+      "name": "PA23 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PA23 7DH",
+        "PA23 7DJ",
+        "PA23 7DL",
+        "PA23 7DN",
+        "PA23 7DP",
+        "PA23 7DR",
+        "PA23 7DT",
+        "PA23 7DU",
+        "PA23 7DY",
+        "PA23 7HP",
+        "PA23 7HQ",
+        "PA23 7HR",
+        "PA23 7NE"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.9299,
+              55.9494
+            ],
+            [
+              -4.9237,
+              55.9494
+            ],
+            [
+              -4.9237,
+              55.946
+            ],
+            [
+              -4.9299,
+              55.946
+            ],
+            [
+              -4.9299,
+              55.9494
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 55.9494,
       "etrUpdate": true
     }
   ]

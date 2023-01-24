@@ -855,8 +855,8 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-01-24T18:22:00.000+0000",
-      "estimatedRestoration": "2023-01-24T21:30:00.000+0000",
+      "loggedAt": "2023-01-24T18:21:00.000+0000",
+      "estimatedRestoration": "2023-01-25T00:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KM3270'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM3270",
       "maxLongitude": -1.1131,
@@ -907,6 +907,96 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.5317,
       "etrUpdate": true
+    },
+    {
+      "latitude": 51.59192295692154,
+      "type": "LV",
+      "reference": "KM3280",
+      "etaUpdate": true,
+      "affectedCustomerCount": 21,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "b767754c-fc69-4554-a620-dc36d425f370",
+      "minLongitude": -1.8165,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.8152390488886534,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-01-24T18:27:00.000+0000",
+      "estimatedRestoration": "2023-01-24T21:35:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KM3280'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM3280",
+      "maxLongitude": -1.8127,
+      "minLatitude": 51.5901,
+      "name": "SN25 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SN25 1SA",
+        "SN25 1SH",
+        "SN25 1SJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.8165,
+              51.5929
+            ],
+            [
+              -1.8127,
+              51.5929
+            ],
+            [
+              -1.8127,
+              51.5901
+            ],
+            [
+              -1.8165,
+              51.5901
+            ],
+            [
+              -1.8165,
+              51.5929
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.5929,
+      "etrUpdate": true
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-01-24T18:23:00.000+0000",
+      "latitude": 51.67379782931121,
+      "estimatedRestoration": "2023-01-24T21:35:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KM3275'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM3275",
+      "reference": "KM3275",
+      "etaUpdate": true,
+      "affectedCustomerCount": 12,
+      "name": "GL7 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "GL7 6DA"
+      ],
+      "location": {
+        "coordinates": [
+          -1.9515941736266307,
+          51.67379782931121
+        ],
+        "type": "Point"
+      },
+      "UUID": "a4eca0e6-4283-499b-8804-c0c60c189469",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -1.9515941736266307,
+      "resolved": false
     },
     {
       "latitude": 55.756440838803236,

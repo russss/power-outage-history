@@ -46,13 +46,97 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cuts, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124144075",
+      "multipleFaultNumbers": null,
+      "date": "2023-02-04T01:34:14",
+      "region": "Mossley, Tameside",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
+      "consumersOff": 466,
+      "estimatedTimeOfRestoration": "2023-02-04T04:34:00",
+      "estimatedTimeOfRestorationMajority": "2023-02-04T04:34:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.517263,
+        "lng": -2.037343
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " OL5 9DS, OL5 9AJ, OL5 0DJ, OL5 0AG, OL5 9DU, OL5 9AB, OL5 0DN, OL5 9DD, OL5 9DG, OL5 0AZ, OL5 0DP, OL5 9DZ, OL5 9DE, OL5 9AA, OL5 9DF, OL5 0AL, OL5 0DW, OL5 9DX, OL5 0AU, OL5 0BA, OL5 9DB, OL5 0AA, OL5 0AJ, OL5 0DT, OL5 9AQ, OL5 0DH, OL5 9BF, OL5 9HP, OL5 0DL, OL5 0AH, OL5 9HH, OL5 0AQ, OL5 0AN, OL5 9DY, OL5 9BT, OL5 9AG, OL5 9HN, OL5 0AB, OL5 9AF, OL5 0DE, OL5 0DU, OL5 9DA, OL5 0AT, OL5 0DX, OL3 7HU, OL5 9HL, OL5 0AD, OL5 0AW",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cuts, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124144074",
+      "multipleFaultNumbers": null,
+      "date": "2023-02-04T01:24:46",
+      "region": "Hazel Grove, Stockport",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 122,
+      "estimatedTimeOfRestoration": "2023-02-04T07:19:00",
+      "estimatedTimeOfRestorationMajority": "2023-02-04T07:19:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.382627,
+        "lng": -2.124203
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " SK7 4BB, SK7 4AB, SK7 4HH, SK7 4AD, SK7 4AX, SK7 4BY, SK7 4AE, SK7 4BD, SK7 4AM, SK7 4AY, SK7 4AU, SK7 4AW, SK7 4AT, SK7 4AR, SK7 4BS, SK7 4AS, SK7 4AA",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "U/GM"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 2,
   "ShowPolygons": false
 }

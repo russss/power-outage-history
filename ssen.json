@@ -579,7 +579,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN4333",
       "maxLongitude": -6.3849,
       "minLatitude": 58.2041,
-      "name": "HS1 & HS2 Areas",
+      "name": "HS2 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "HS1 2DU",
@@ -613,8 +613,98 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2023-02-11T10:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 58.2173,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 56.039098149540486,
+      "type": "HV",
+      "reference": "KN4401",
+      "etaUpdate": true,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "43d10f2f-90fe-42f2-858b-088c787a4b1c",
+      "minLongitude": -4.5545,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.486888978104673,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-11T13:10:00.000+0000",
+      "estimatedRestoration": "2023-02-11T14:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KN4401'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN4401",
+      "maxLongitude": -4.3165,
+      "minLatitude": 55.7889,
+      "name": "G63 & G83 Areas",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "G63 0BB",
+        "G63 0BG",
+        "G63 0BQ",
+        "G63 0DH",
+        "G63 0DW",
+        "G63 0EP",
+        "G63 0ER",
+        "G63 0ET",
+        "G63 0EU",
+        "G63 0EX",
+        "G63 0EY",
+        "G63 0EZ",
+        "G63 0HA",
+        "G63 0HB",
+        "G63 0HD",
+        "G63 0HE",
+        "G63 0HF",
+        "G63 0HG",
+        "G63 0HU",
+        "G77 6NW",
+        "G83 8NE",
+        "G83 8NF",
+        "G83 8NG",
+        "G83 8NW",
+        "G83 8RR",
+        "G83 8RS",
+        "G83 8RT",
+        "G83 8RU",
+        "G83 8RX",
+        "G83 8RY",
+        "G83 8RZ",
+        "G83 8SA",
+        "G83 8SB",
+        "G83 8SD",
+        "G83 9LX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.5545,
+              56.0757
+            ],
+            [
+              -4.3165,
+              56.0757
+            ],
+            [
+              -4.3165,
+              55.7889
+            ],
+            [
+              -4.5545,
+              55.7889
+            ],
+            [
+              -4.5545,
+              56.0757
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 56.0757,
       "etrUpdate": true
     }
   ]

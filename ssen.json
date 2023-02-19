@@ -625,7 +625,7 @@
       "type": "HV",
       "reference": "KP1218",
       "etaUpdate": true,
-      "affectedCustomerCount": 89,
+      "affectedCustomerCount": 107,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "250f24a7-9aeb-4719-b399-ae801238da5b",
       "minLongitude": -0.9564,
@@ -640,7 +640,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KP1218",
       "maxLongitude": -0.8722,
       "minLatitude": 51.0058,
-      "name": "GU33 & GU32 Areas",
+      "name": "GU31 & GU32 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "GU27",
@@ -804,75 +804,6 @@
     },
     {
       "customIncludeDefault": false,
-      "latitude": 57.65389494357279,
-      "type": "HV",
-      "reference": "KN7626",
-      "etaUpdate": true,
-      "affectedCustomerCount": 4,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "ec968865-d5cb-4ded-932b-c176727d6b90",
-      "minLongitude": -2.4059,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.36037496483898,
-      "resolved": false,
-      "py/object": "Fault",
-      "Messages": [
-        {
-          "py/object": "Message",
-          "senderName": "troy.fisher@sse.com",
-          "senderUserId": "736a8580-c634-11e8-ba17-06631dcd9760",
-          "text": "We have a catering unit near your area providing hot food and drink complimentary of us whilst you remain without power and after your power is restored. The unit is in Turriff at The Haughs near the Cricket Club. You can use this link to find the specific location: https://what3words.com/upcoming.walkway.meanders.",
-          "UUID": "6e027e1f-c6fd-405e-940d-a9d3fc4e7d99",
-          "py/class": "http://opengrid.com/givr/1.0#//Message",
-          "sentDateTime": "2023-02-19T12:17:59.150+0000"
-        }
-      ],
-      "srtUpdate": true,
-      "loggedAt": "2023-02-17T07:42:00.000+0000",
-      "estimatedRestoration": "2023-02-19T14:00:00.000+0000",
-      "message": "We're very sorry for the power cut affecting your area. Storm Otto is has caused damage to our network and this has resulted in several power cuts across Scotland. Our teams are working hard to get your power restored and after assessing the extent of the damage, believe they will have your power restored by the time provided above. We know this is a long time and if we can restore power sooner, we will. Thank you for your ongoing patience and understanding. You can follow our latest updates too at <a href=\"https://www.ssen.co.uk/storm/\">www.ssen.co.uk/storm/</a>.",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7626",
-      "maxLongitude": -2.3279,
-      "minLatitude": 57.6341,
-      "name": "AB45 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "AB45 3SJ",
-        "AB45 3YJ"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.4059,
-              57.6714
-            ],
-            [
-              -2.3279,
-              57.6714
-            ],
-            [
-              -2.3279,
-              57.6341
-            ],
-            [
-              -2.4059,
-              57.6341
-            ],
-            [
-              -2.4059,
-              57.6714
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.6714,
-      "etrUpdate": true
-    },
-    {
-      "customIncludeDefault": false,
       "latitude": 57.63932563576434,
       "type": "HV",
       "reference": "KN7714",
@@ -1017,7 +948,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7849",
       "maxLongitude": -1.8564,
       "minLatitude": 57.4549,
-      "name": "AB42 Area",
+      "name": "AB43 & AB42 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "AB42 0PR",
@@ -1053,65 +984,6 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 57.6076,
-      "etrUpdate": true
-    },
-    {
-      "customIncludeDefault": false,
-      "latitude": 57.34855701806223,
-      "type": "LV",
-      "reference": "KP0946",
-      "etaUpdate": true,
-      "affectedCustomerCount": 4,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "9487d08f-d2a7-4e63-9677-21fecd0b0583",
-      "minLongitude": -2.7702,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.7528940996236315,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-02-18T21:18:00.000+0000",
-      "estimatedRestoration": "2023-02-19T18:00:00.000+0000",
-      "message": "We're very sorry for the power cut affecting your area. Storm Otto is has caused damage to our network and this has resulted in several power cuts across Scotland. Our teams are working hard to get your power restored and after assessing the extent of the damage, believe they will have your power restored by the time provided above. We know this is a long time and if we can restore power sooner, we will. Thank you for your ongoing patience and understanding. You can follow our latest updates too at <a href=\"https://www.ssen.co.uk/storm/\">www.ssen.co.uk/storm/</a>.",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KP0946",
-      "maxLongitude": -2.7368,
-      "minLatitude": 57.3409,
-      "name": "AB54 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "AB52 6YQ",
-        "AB54 4NH",
-        "AB54 4NP"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.7702,
-              57.3552
-            ],
-            [
-              -2.7368,
-              57.3552
-            ],
-            [
-              -2.7368,
-              57.3409
-            ],
-            [
-              -2.7702,
-              57.3409
-            ],
-            [
-              -2.7702,
-              57.3552
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.3552,
       "etrUpdate": true
     },
     {

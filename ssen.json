@@ -204,7 +204,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-03-19T02:32:00.000+0000",
-      "estimatedRestoration": "2023-03-19T05:35:00.000+0000",
+      "estimatedRestoration": "2023-03-19T08:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KR6931'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KR6931",
       "maxLongitude": -1.3244,
@@ -250,6 +250,73 @@
         "cdb3a136-3005-453d-b23e-c19964dc6364"
       ],
       "maxLatitude": 51.4017,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.635385727280195,
+      "type": "HV",
+      "reference": "KR6939",
+      "etaUpdate": true,
+      "affectedCustomerCount": 33,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "b0712c9c-e873-4009-8992-4af4f9958e02",
+      "minLongitude": -1.1796,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.1760047544528884,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-03-19T03:16:00.000+0000",
+      "estimatedRestoration": "2023-03-19T06:15:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KR6939'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KR6939",
+      "maxLongitude": -1.1728,
+      "minLatitude": 50.6313,
+      "name": "PO37 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PO37 6EX",
+        "PO37 7AT",
+        "PO37 7BF",
+        "PO37 7BG",
+        "PO37 7BH",
+        "PO37 7BQ",
+        "PO37 7BT",
+        "PO37 7BU",
+        "PO37 7BW",
+        "PO37 7BY",
+        "PO37 7BZ",
+        "PO37 7DA"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.1796,
+              50.6389
+            ],
+            [
+              -1.1728,
+              50.6389
+            ],
+            [
+              -1.1728,
+              50.6313
+            ],
+            [
+              -1.1796,
+              50.6313
+            ],
+            [
+              -1.1796,
+              50.6389
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.6389,
       "etrUpdate": true
     }
   ]

@@ -605,72 +605,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 58.4747982224273,
-      "type": "HV",
-      "reference": "KS4100",
-      "etaUpdate": true,
-      "affectedCustomerCount": 2,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "76b9d01a-8d7d-4c03-942e-0dec71842452",
-      "minLongitude": -3.1497,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.1348105763578333,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-03-26T13:42:00.000+0000",
-      "estimatedRestoration": "2023-03-26T17:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KS4100'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KS4100",
-      "maxLongitude": -3.1172,
-      "minLatitude": 58.4638,
-      "name": "KW1 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "KW1 4RW"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -3.1497,
-              58.4942
-            ],
-            [
-              -3.1172,
-              58.4942
-            ],
-            [
-              -3.1172,
-              58.4638
-            ],
-            [
-              -3.1497,
-              58.4638
-            ],
-            [
-              -3.1497,
-              58.4942
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 58.4942,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 57.03011812465923,
+      "latitude": 57.0293154968998,
       "type": "HV",
       "reference": "KS4125",
       "etaUpdate": true,
-      "affectedCustomerCount": 51,
+      "affectedCustomerCount": 32,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "cfa0bb71-a712-409a-8cb9-50307ef1af23",
       "minLongitude": -2.3204,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.2638846308032687,
+      "longitude": -2.2653615997415453,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -684,7 +628,6 @@
       "otherUpdate": true,
       "affectedAreas": [
         "AB39 3QJ",
-        "AB39 3QN",
         "AB39 3RA",
         "AB39 3RB"
       ],
@@ -693,11 +636,11 @@
           [
             [
               -2.3204,
-              57.0429
+              57.0385
             ],
             [
               -2.2243,
-              57.0429
+              57.0385
             ],
             [
               -2.2243,
@@ -709,7 +652,7 @@
             ],
             [
               -2.3204,
-              57.0429
+              57.0385
             ]
           ]
         ],
@@ -717,8 +660,39 @@
       },
       "estimatedArrivalOnSiteTime": "2023-03-26T15:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.0429,
+      "maxLatitude": 57.0385,
       "etrUpdate": true
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-03-26T14:25:00.000+0000",
+      "latitude": 56.46603703205651,
+      "estimatedRestoration": "2023-03-26T19:15:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KS4116'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KS4116",
+      "reference": "KS4116",
+      "etaUpdate": true,
+      "name": "DD1 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "DD1 3LU"
+      ],
+      "location": {
+        "coordinates": [
+          -2.9412445129424087,
+          56.46603703205651
+        ],
+        "type": "Point"
+      },
+      "UUID": "2dfd2b1f-9a69-434f-b759-efcfb023bd2b",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -2.9412445129424087,
+      "resolved": false
     }
   ]
 }

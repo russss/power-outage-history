@@ -1011,7 +1011,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/215401",
       "maxLongitude": -0.6877,
       "minLatitude": 50.7197,
-      "name": "SL4 Area",
+      "name": "BH1 & RG42 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "BH1 2AL",
@@ -1171,7 +1171,7 @@
       "type": "PSI",
       "reference": "215557",
       "etaUpdate": true,
-      "affectedCustomerCount": 28,
+      "affectedCustomerCount": 23,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "46096fdc-058f-4f20-bbd6-24abe75acfda",
       "minLongitude": -2.0094,
@@ -1336,6 +1336,45 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.6991,
       "etrUpdate": true
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-03-27T09:22:00.000+0000",
+      "latitude": 51.540991285618546,
+      "estimatedRestoration": "2023-03-27T12:25:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KS4602'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KS4602",
+      "reference": "KS4602",
+      "etaUpdate": true,
+      "affectedCustomerCount": 28,
+      "name": "UB8 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "UB8 2AE",
+        "UB8 2BF",
+        "UB8 2DN",
+        "UB8 2LU",
+        "UB8 2LX",
+        "UB8 2NA",
+        "UB8 2YH",
+        "UB8 2YJ"
+      ],
+      "location": {
+        "coordinates": [
+          -0.481552319784404,
+          51.540991285618546
+        ],
+        "type": "Point"
+      },
+      "UUID": "fa3babcb-e6d2-4704-aa49-6faa5357596f",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -0.481552319784404,
+      "resolved": false
     },
     {
       "latitude": 56.90194088942342,
@@ -1644,7 +1683,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-03-27T08:16:00.000+0000",
+      "loggedAt": "2023-03-27T08:19:00.000+0000",
       "estimatedRestoration": "2023-03-27T11:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KS4510'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KS4510",

@@ -732,16 +732,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 51.501125571616384,
+      "latitude": 51.50137762799179,
       "type": "PSI",
       "reference": "215666",
       "etaUpdate": true,
-      "affectedCustomerCount": 68,
+      "affectedCustomerCount": 7,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "b314af29-b437-47f1-8ef1-1ffa1e0da6e1",
-      "minLongitude": -0.2568,
+      "minLongitude": -0.2545,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.2544848014122325,
+      "longitude": -0.25389884741078944,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -750,20 +750,18 @@
       "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '215666'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/215666",
       "maxLongitude": -0.2529,
-      "minLatitude": 51.5006,
+      "minLatitude": 51.5009,
       "name": "W4 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "W4 1AA",
-        "W4 1AB",
-        "W4 1DY",
-        "W4 1DZ"
+        "W4 1AB"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -0.2568,
+              -0.2545,
               51.5022
             ],
             [
@@ -772,14 +770,14 @@
             ],
             [
               -0.2529,
-              51.5006
+              51.5009
             ],
             [
-              -0.2568,
-              51.5006
+              -0.2545,
+              51.5009
             ],
             [
-              -0.2568,
+              -0.2545,
               51.5022
             ]
           ]
@@ -3104,6 +3102,64 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 57.4908,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 56.48134651291559,
+      "type": "LV",
+      "reference": "KS5614",
+      "etaUpdate": true,
+      "affectedCustomerCount": 23,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "ff98c0cd-18b8-4539-81ad-7ffea9d7604f",
+      "minLongitude": -2.9293,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.9257116317807945,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-03-28T10:29:00.000+0000",
+      "estimatedRestoration": "2023-03-28T13:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KS5614'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KS5614",
+      "maxLongitude": -2.9236,
+      "minLatitude": 56.4804,
+      "name": "DD4 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DD4 8LJ",
+        "DD4 8LL",
+        "DD4 8LN"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.9293,
+              56.482
+            ],
+            [
+              -2.9236,
+              56.482
+            ],
+            [
+              -2.9236,
+              56.4804
+            ],
+            [
+              -2.9293,
+              56.4804
+            ],
+            [
+              -2.9293,
+              56.482
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 56.482,
       "etrUpdate": true
     }
   ]

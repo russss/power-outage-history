@@ -473,12 +473,12 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-04-04T17:54:00.000+0000",
-      "estimatedRestoration": "2023-04-04T21:10:00.000+0000",
+      "estimatedRestoration": "2023-04-05T00:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KT2550'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KT2550",
       "maxLongitude": -1.7532,
       "minLatitude": 50.725,
-      "name": "BH6 & BH23 Areas",
+      "name": "BH23 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "BH23 2GZ",
@@ -522,63 +522,39 @@
       "etrUpdate": true
     },
     {
-      "latitude": 56.56024159559001,
-      "type": "HV",
-      "reference": "KT2547",
-      "etaUpdate": true,
-      "affectedCustomerCount": 12,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "0518e0c7-17e9-431b-b9e6-f1be07a1b300",
-      "minLongitude": -2.7542,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.7077618456945625,
-      "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-04-04T17:36:00.000+0000",
-      "estimatedRestoration": "2023-04-04T18:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KT2547'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KT2547",
-      "maxLongitude": -2.6784,
-      "minLatitude": 56.544,
-      "name": "DD11 Area",
+      "loggedAt": "2023-04-04T18:12:00.000+0000",
+      "latitude": 50.75312581112725,
+      "estimatedRestoration": "2023-04-05T01:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KT2564'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KT2564",
+      "reference": "KT2564",
+      "etaUpdate": true,
+      "affectedCustomerCount": 11,
+      "name": "BH23 Area",
       "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "DD11 2PR",
-        "DD11 2PY",
-        "DD11 2QR",
-        "DD11 2QS"
+        "BH23 7HY",
+        "BH23 7JN",
+        "BH23 7NE",
+        "BH23 7NT"
       ],
       "location": {
         "coordinates": [
-          [
-            [
-              -2.7542,
-              56.5802
-            ],
-            [
-              -2.6784,
-              56.5802
-            ],
-            [
-              -2.6784,
-              56.544
-            ],
-            [
-              -2.7542,
-              56.544
-            ],
-            [
-              -2.7542,
-              56.5802
-            ]
-          ]
+          -1.7660777417023041,
+          50.75312581112725
         ],
-        "type": "Polygon"
+        "type": "Point"
       },
+      "UUID": "270cbefa-a57f-49af-95ff-becf6ea6ccf8",
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 56.5802,
-      "etrUpdate": true
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -1.7660777417023041,
+      "resolved": false
     }
   ]
 }

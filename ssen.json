@@ -219,6 +219,7 @@
       "type": "LV",
       "reference": "KT2756",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-04-05T06:40:00.000+0000",
       "affectedCustomerCount": 34,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "f556cfed-4dfb-4ccb-928c-2156c1a63a4d",
@@ -406,6 +407,152 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.7721,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.91799665372058,
+      "type": "LV",
+      "reference": "KT2798",
+      "etaUpdate": true,
+      "affectedCustomerCount": 27,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "7cfb6b11-e6c5-41cc-9b5a-27df4fe8c26d",
+      "minLongitude": -1.5225,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.5110812308675012,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-04-05T07:22:00.000+0000",
+      "estimatedRestoration": "2023-04-05T10:25:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KT2798'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KT2798",
+      "maxLongitude": -1.5077,
+      "minLatitude": 50.914,
+      "name": "SO40 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SO40 7DY",
+        "SO40 8ER",
+        "SO40 8ES",
+        "SO40 8GJ",
+        "SO40 8TE"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.5225,
+              50.9203
+            ],
+            [
+              -1.5077,
+              50.9203
+            ],
+            [
+              -1.5077,
+              50.914
+            ],
+            [
+              -1.5225,
+              50.914
+            ],
+            [
+              -1.5225,
+              50.9203
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.9203,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 60.74779905561037,
+      "type": "HV",
+      "reference": "KT2800",
+      "etaUpdate": true,
+      "affectedCustomerCount": 563,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "14104ccf-a850-4ef9-96c0-d9cb38ae6a8f",
+      "minLongitude": -1.3851,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.874626469188887,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-04-05T07:23:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KT2800'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KT2800",
+      "maxLongitude": -0.7585,
+      "minLatitude": 60.3892,
+      "name": "ZE2 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "ZE2",
+        "ZE2 9BS",
+        "ZE2 9DL",
+        "ZE2 9DN",
+        "ZE2 9DP",
+        "ZE2 9DR",
+        "ZE2 9DS",
+        "ZE2 9DT",
+        "ZE2 9DU",
+        "ZE2 9DW",
+        "ZE2 9DX",
+        "ZE2 9DY",
+        "ZE2 9DZ",
+        "ZE2 9EA",
+        "ZE2 9EB",
+        "ZE2 9ED",
+        "ZE2 9EE",
+        "ZE2 9EF",
+        "ZE2 9EH",
+        "ZE2 9EJ",
+        "ZE2 9EQ",
+        "ZE2 9QG",
+        "ZE2 9TA",
+        "ZE2 9TJ",
+        "ZE2 9TN",
+        "ZE2 9TP",
+        "ZE2 9TW",
+        "ZE2 9UT",
+        "ZE2 9XL"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.3851,
+              60.8608
+            ],
+            [
+              -0.7585,
+              60.8608
+            ],
+            [
+              -0.7585,
+              60.3892
+            ],
+            [
+              -1.3851,
+              60.3892
+            ],
+            [
+              -1.3851,
+              60.8608
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "dea02cd8-e62c-4bde-b5e6-a6850cd68657"
+      ],
+      "maxLatitude": 60.8608,
       "etrUpdate": true
     }
   ]

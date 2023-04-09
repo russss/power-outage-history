@@ -21,7 +21,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KT5599",
       "maxLongitude": -1.2407,
       "minLatitude": 51.7498,
-      "name": "OX1 & OX4 Areas",
+      "name": "OX4 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "OX1 4DS",
@@ -139,7 +139,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KT5407",
       "maxLongitude": -1.8469,
       "minLatitude": 50.7283,
-      "name": "BH1 & BH12 Areas",
+      "name": "BH15 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "BH1 4DZ",
@@ -179,6 +179,69 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.7387,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.565166189968366,
+      "type": "LV",
+      "reference": "KT6047",
+      "etaUpdate": true,
+      "affectedCustomerCount": 34,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "f363d354-687b-4c5a-95ca-09e578a20028",
+      "minLongitude": -1.8362,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.834318539664186,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-04-09T20:40:00.000+0000",
+      "estimatedRestoration": "2023-04-09T23:45:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KT6047'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KT6047",
+      "maxLongitude": -1.832,
+      "minLatitude": 51.5624,
+      "name": "SN5 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SN5 5QA",
+        "SN5 5SP",
+        "SN5 5SR",
+        "SN5 5SU",
+        "SN5 5SW",
+        "SN5 5SX",
+        "SN5 5SY",
+        "SN5 5SZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.8362,
+              51.567
+            ],
+            [
+              -1.832,
+              51.567
+            ],
+            [
+              -1.832,
+              51.5624
+            ],
+            [
+              -1.8362,
+              51.5624
+            ],
+            [
+              -1.8362,
+              51.567
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.567,
       "etrUpdate": true
     }
   ]

@@ -430,68 +430,119 @@
       "etrUpdate": true
     },
     {
-      "latitude": 56.473515002679314,
-      "type": "LV",
-      "reference": "KU6561",
+      "latitude": 56.115920209973865,
+      "type": "HV",
+      "reference": "KU6563",
       "etaUpdate": true,
-      "engineerOnSiteTime": "2023-04-20T20:10:00.000+0000",
-      "affectedCustomerCount": 11,
       "networkId": "com.sse.ssepd.shepd",
-      "UUID": "46e5d29b-16b8-4325-9689-23212efa303a",
-      "minLongitude": -3.0152,
+      "UUID": "0f25c21c-4f74-4a05-8c3a-65fd42bba7ef",
+      "minLongitude": -5.2999,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.0128078034159604,
+      "longitude": -5.184352676241991,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-04-20T19:33:00.000+0000",
-      "estimatedRestoration": "2023-04-20T23:40:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KU6561'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KU6561",
-      "maxLongitude": -3.0099,
-      "minLatitude": 56.4723,
-      "name": "DD2 Area",
+      "loggedAt": "2023-04-20T19:45:00.000+0000",
+      "estimatedRestoration": "2023-04-20T22:59:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KU6563'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KU6563",
+      "maxLongitude": -5.0719,
+      "minLatitude": 56.0224,
+      "name": "PA27 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "DD2 3BZ",
-        "DD2 3DN",
-        "DD2 3DP",
-        "DD2 3DQ",
-        "DD2 3DU"
+        "PA27 8BU",
+        "PA27 8BY",
+        "PA27 8BZ",
+        "PA27 8DA",
+        "PA27 8DB"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -3.0152,
-              56.4747
+              -5.2999,
+              56.166
             ],
             [
-              -3.0099,
-              56.4747
+              -5.0719,
+              56.166
             ],
             [
-              -3.0099,
-              56.4723
+              -5.0719,
+              56.0224
             ],
             [
-              -3.0152,
-              56.4723
+              -5.2999,
+              56.0224
             ],
             [
-              -3.0152,
-              56.4747
+              -5.2999,
+              56.166
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2023-04-20T20:45:00.000+0000",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 56.166,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 55.915357348493856,
+      "type": "LV",
+      "reference": "KU6592",
+      "etaUpdate": true,
+      "affectedCustomerCount": 6,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "1336e863-adae-4a5e-b746-2f74d94f7094",
+      "minLongitude": -4.9915,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.947236239703194,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-04-20T20:38:00.000+0000",
+      "estimatedRestoration": "2023-04-20T23:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KU6592'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KU6592",
+      "maxLongitude": -4.9375,
+      "minLatitude": 55.9076,
+      "name": "PA23 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PA23 7QN"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.9915,
+              55.9403
+            ],
+            [
+              -4.9375,
+              55.9403
+            ],
+            [
+              -4.9375,
+              55.9076
+            ],
+            [
+              -4.9915,
+              55.9076
+            ],
+            [
+              -4.9915,
+              55.9403
             ]
           ]
         ],
         "type": "Polygon"
       },
       "region": "com.opengrid.geo.world.europe.gb",
-      "evChargersAffected": [
-        "45528514-fcab-4072-95c1-ceb6148b38a6",
-        "202a4982-df54-42dd-bd25-a81d3a91d502"
-      ],
-      "maxLatitude": 56.4747,
+      "maxLatitude": 55.9403,
       "etrUpdate": true
     }
   ]

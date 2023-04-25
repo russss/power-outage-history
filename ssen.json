@@ -261,7 +261,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-04-25T02:31:00.000+0000",
-      "estimatedRestoration": "2023-04-25T07:30:00.000+0000",
+      "estimatedRestoration": "2023-04-25T12:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KU9710'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KU9710",
       "maxLongitude": -0.4662,
@@ -781,6 +781,72 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 57.5827,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 56.473113119367575,
+      "type": "LV",
+      "reference": "KU9784",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-04-25T07:00:00.000+0000",
+      "affectedCustomerCount": 16,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "02f713e3-2932-4fc4-b0cb-4a45ffd9fead",
+      "minLongitude": -3.0327,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.0299881629676233,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-04-25T06:23:00.000+0000",
+      "estimatedRestoration": "2023-04-25T10:25:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KU9784'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KU9784",
+      "maxLongitude": -3.0272,
+      "minLatitude": 56.4713,
+      "name": "DD2 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DD2 4PU",
+        "DD2 4PW",
+        "DD2 4PX",
+        "DD2 4QA",
+        "DD2 4QB",
+        "DD2 4QD",
+        "DD2 4QE",
+        "DD2 4QF",
+        "DD2 4QH",
+        "DD2 4UN"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.0327,
+              56.4745
+            ],
+            [
+              -3.0272,
+              56.4745
+            ],
+            [
+              -3.0272,
+              56.4713
+            ],
+            [
+              -3.0327,
+              56.4713
+            ],
+            [
+              -3.0327,
+              56.4745
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 56.4745,
       "etrUpdate": true
     }
   ]

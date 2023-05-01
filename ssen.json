@@ -1,69 +1,6 @@
 {
   "Faults": [
     {
-      "latitude": 50.94644727850876,
-      "type": "LV",
-      "reference": "KV4489",
-      "etaUpdate": true,
-      "engineerOnSiteTime": "2023-05-01T13:20:00.000+0000",
-      "affectedCustomerCount": 17,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "a5053413-5452-442f-9dce-bcdf7110efd2",
-      "minLongitude": -1.4051,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.400750150687543,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-05-01T12:47:00.000+0000",
-      "estimatedRestoration": "2023-05-01T21:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KV4489'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KV4489",
-      "maxLongitude": -1.3969,
-      "minLatitude": 50.9445,
-      "name": "SO16 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "SO16 3PT",
-        "SO16 3PY",
-        "SO16 3PZ",
-        "SO16 3QA",
-        "SO16 3QD",
-        "SO16 3QE"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -1.4051,
-              50.9492
-            ],
-            [
-              -1.3969,
-              50.9492
-            ],
-            [
-              -1.3969,
-              50.9445
-            ],
-            [
-              -1.4051,
-              50.9445
-            ],
-            [
-              -1.4051,
-              50.9492
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2023-05-01T13:30:00.000+0000",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 50.9492,
-      "etrUpdate": true
-    },
-    {
       "latitude": 50.756321538500444,
       "type": "LV",
       "reference": "KV4516",
@@ -420,7 +357,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KV4745",
       "maxLongitude": -2.205,
       "minLatitude": 50.9037,
-      "name": "DT11 Area",
+      "name": "SP7 & DT11 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "DT11 8HQ",
@@ -521,6 +458,84 @@
       "etrUpdate": true
     },
     {
+      "latitude": 50.65541801604003,
+      "type": "LV",
+      "reference": "KV4739",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-05-01T20:25:00.000+0000",
+      "affectedCustomerCount": 30,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "caf8aae3-484e-4363-9215-82a625d0c1ee",
+      "minLongitude": -1.1619,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.15533999058149,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-05-01T19:22:00.000+0000",
+      "estimatedRestoration": "2023-05-02T01:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KV4739'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KV4739",
+      "maxLongitude": -1.151,
+      "minLatitude": 50.6535,
+      "name": "PO36 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PO36 8DE",
+        "PO36 8EP",
+        "PO36 8ER",
+        "PO36 8ES",
+        "PO36 8EW",
+        "PO36 8EX",
+        "PO36 8HA",
+        "PO36 8HB",
+        "PO36 8HD",
+        "PO36 8HE",
+        "PO36 8HL",
+        "PO36 8HP",
+        "PO36 8HR",
+        "PO36 8JB",
+        "PO36 8JE",
+        "PO36 8JF",
+        "PO36 9FB"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.1619,
+              50.6576
+            ],
+            [
+              -1.151,
+              50.6576
+            ],
+            [
+              -1.151,
+              50.6535
+            ],
+            [
+              -1.1619,
+              50.6535
+            ],
+            [
+              -1.1619,
+              50.6576
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "1f0cee38-6819-4d10-968a-414c14f9e1e8",
+        "914b201a-fad2-4a5f-9cb3-8c205dadd64c",
+        "e0c1f2e3-9928-4197-a873-e1c39fb03c24"
+      ],
+      "maxLatitude": 50.6576,
+      "etrUpdate": true
+    },
+    {
       "latitude": 56.562737458802104,
       "type": "HV",
       "reference": "KV4726",
@@ -535,12 +550,12 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-05-01T18:38:00.000+0000",
-      "estimatedRestoration": "2023-05-01T22:00:00.000+0000",
+      "estimatedRestoration": "2023-05-01T22:59:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KV4726'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KV4726",
       "maxLongitude": -2.6247,
       "minLatitude": 56.5189,
-      "name": "DD11 Area",
+      "name": "DD8 & DD11 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "DD11 2PD",

@@ -255,70 +255,60 @@
       "etrUpdate": true
     },
     {
-      "latitude": 57.87981951513155,
+      "latitude": 50.87314625470213,
       "type": "LV",
-      "reference": "KV9015",
+      "reference": "KV9463",
       "etaUpdate": true,
-      "affectedCustomerCount": 18,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "bc239eea-02a0-4d46-9e79-e87041a36777",
-      "minLongitude": -4.0334,
+      "affectedCustomerCount": 13,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "304e5618-86d9-4d3c-89f6-0c829b9b1915",
+      "minLongitude": -1.0323,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.02652957254554,
+      "longitude": -1.0308053050142725,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-05-06T17:06:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on their way to site to get the power back on as quickly as they can. please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KV9015'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KV9015",
-      "maxLongitude": -4.0209,
-      "minLatitude": 57.8751,
-      "name": "IV25 Area",
+      "loggedAt": "2023-05-07T15:08:00.000+0000",
+      "estimatedRestoration": "2023-05-07T21:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KV9463'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KV9463",
+      "maxLongitude": -1.0293,
+      "minLatitude": 50.8723,
+      "name": "PO7 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "IV25 3AP",
-        "IV25 3LA",
-        "IV25 3LB",
-        "IV25 3LJ",
-        "IV25 3LP",
-        "IV25 3LS",
-        "IV25 3LW",
-        "IV25 3SA",
-        "IV25 3SD"
+        "PO7 7DG"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -4.0334,
-              57.8831
+              -1.0323,
+              50.8736
             ],
             [
-              -4.0209,
-              57.8831
+              -1.0293,
+              50.8736
             ],
             [
-              -4.0209,
-              57.8751
+              -1.0293,
+              50.8723
             ],
             [
-              -4.0334,
-              57.8751
+              -1.0323,
+              50.8723
             ],
             [
-              -4.0334,
-              57.8831
+              -1.0323,
+              50.8736
             ]
           ]
         ],
         "type": "Polygon"
       },
-      "estimatedArrivalOnSiteTime": "2023-05-06T19:00:00.000+0000",
+      "estimatedArrivalOnSiteTime": "2023-05-07T16:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "evChargersAffected": [
-        "47b886f5-ce6c-47c8-9459-4afbda9f6c3c"
-      ],
-      "maxLatitude": 57.8831,
+      "maxLatitude": 50.8736,
       "etrUpdate": true
     },
     {
@@ -334,6 +324,17 @@
       "longitude": -6.972920542853414,
       "resolved": false,
       "py/object": "Fault",
+      "Messages": [
+        {
+          "py/object": "Message",
+          "senderName": "tobias.sell@sse.com",
+          "senderUserId": "44833855-d575-41a0-92f7-7cd8a3b8dabd",
+          "text": "Engineers are responding to a main network fault in the area. We aim to restore power by 18:30.",
+          "UUID": "2adee900-61a3-40d2-a495-a56917785150",
+          "py/class": "http://opengrid.com/givr/1.0#//Message",
+          "sentDateTime": "2023-05-07T15:16:08.528+0000"
+        }
+      ],
       "srtUpdate": true,
       "loggedAt": "2023-05-07T11:26:00.000+0000",
       "estimatedRestoration": "2023-05-07T17:30:00.000+0000",

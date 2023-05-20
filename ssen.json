@@ -187,7 +187,7 @@
       "reference": "KX2137",
       "etaUpdate": true,
       "engineerOnSiteTime": "2023-05-20T18:00:00.000+0000",
-      "affectedCustomerCount": 695,
+      "affectedCustomerCount": 247,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "f6e09024-4378-4370-b49d-a9c5f88ec15c",
       "minLongitude": -1.4295,
@@ -202,7 +202,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX2137",
       "maxLongitude": -1.1711,
       "minLatitude": 51.6666,
-      "name": "OX13 Area",
+      "name": "OX1 & OX13 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "OX1 5PT",
@@ -494,79 +494,38 @@
         ],
         "type": "Polygon"
       },
-      "estimatedArrivalOnSiteTime": "2023-05-20T19:00:00.000+0000",
+      "estimatedArrivalOnSiteTime": "2023-05-20T20:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.8494,
       "etrUpdate": true
     },
     {
-      "latitude": 50.8539598597598,
+      "latitude": 50.85624930167763,
       "type": "HV",
       "reference": "KX2259",
       "etaUpdate": true,
-      "affectedCustomerCount": 763,
+      "affectedCustomerCount": 361,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "34704b8b-c701-4aa2-8712-197e0eee428f",
-      "minLongitude": -1.2555,
+      "minLongitude": -1.1761,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.167657081760997,
+      "longitude": -1.1633683819538772,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-05-20T19:21:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX2259'",
+      "loggedAt": "2023-05-20T19:23:00.000+0000",
+      "estimatedRestoration": "2023-05-20T22:59:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX2259'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX2259",
-      "maxLongitude": -1.1075,
-      "minLatitude": 50.8384,
+      "maxLongitude": -1.1266,
+      "minLatitude": 50.846,
       "name": "PO16 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "PO14 4PB",
         "PO16",
-        "PO16 0AB",
-        "PO16 0BF",
-        "PO16 0BG",
-        "PO16 0BH",
-        "PO16 0BL",
-        "PO16 0BN",
-        "PO16 0BP",
-        "PO16 0BW",
-        "PO16 0BY",
-        "PO16 0BZ",
-        "PO16 0DA",
-        "PO16 0DB",
-        "PO16 0DD",
-        "PO16 0DE",
-        "PO16 0DF",
-        "PO16 0DG",
-        "PO16 0DH",
-        "PO16 0DJ",
-        "PO16 0DQ",
-        "PO16 0DW",
-        "PO16 0DX",
-        "PO16 0FA",
-        "PO16 0LE",
-        "PO16 0LG",
-        "PO16 0LQ",
-        "PO16 0QU",
-        "PO16 7AG",
-        "PO16 7AL",
-        "PO16 7AN",
-        "PO16 7AP",
-        "PO16 7AW",
-        "PO16 7AX",
-        "PO16 7BL",
-        "PO16 8AA",
-        "PO16 8AB",
         "PO16 8NF",
         "PO16 8NY",
         "PO16 8NZ",
-        "PO16 8QY",
-        "PO16 8QZ",
-        "PO16 8RA",
-        "PO16 8RT",
-        "PO16 8SA",
-        "PO16 8SB",
         "PO16 8SD",
         "PO16 8SE",
         "PO16 8SF",
@@ -577,7 +536,6 @@
         "PO16 8SN",
         "PO16 8SQ",
         "PO16 8SR",
-        "PO16 8SS",
         "PO16 8ST",
         "PO16 8SU",
         "PO16 8SW",
@@ -592,47 +550,38 @@
         "PO16 8TU",
         "PO16 8TY",
         "PO16 8UH",
-        "PO16 8UP",
-        "PO16 8YE",
-        "PO16 9TU",
-        "PO16 9UN",
-        "PO17 6EB"
+        "PO16 9TU"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -1.2555,
-              50.8741
+              -1.1761,
+              50.8611
             ],
             [
-              -1.1075,
-              50.8741
+              -1.1266,
+              50.8611
             ],
             [
-              -1.1075,
-              50.8384
+              -1.1266,
+              50.846
             ],
             [
-              -1.2555,
-              50.8384
+              -1.1761,
+              50.846
             ],
             [
-              -1.2555,
-              50.8741
+              -1.1761,
+              50.8611
             ]
           ]
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2023-05-20T19:50:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "evChargersAffected": [
-        "20bb00da-b986-4434-b1c3-71d11bcc15e9",
-        "cfa3d382-ec45-47ca-8b08-b6fe4508aa68",
-        "5983bd99-e0b2-46ff-b5e2-f982ea05f405",
-        "89379aa0-704a-47a6-bfd8-5dd1060b5559"
-      ],
-      "maxLatitude": 50.8741,
+      "maxLatitude": 50.8611,
       "etrUpdate": true
     },
     {

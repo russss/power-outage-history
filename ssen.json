@@ -182,7 +182,7 @@
       "reference": "KX3058",
       "etaUpdate": true,
       "engineerOnSiteTime": "2023-05-22T10:30:00.000+0000",
-      "affectedCustomerCount": 4,
+      "affectedCustomerCount": 3,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "f06bff37-09be-4642-b722-6d2d39fabb33",
       "minLongitude": -1.6761,
@@ -320,7 +320,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX3082",
       "maxLongitude": -0.7105,
       "minLatitude": 51.5946,
-      "name": "HP10 & HP12 Areas",
+      "name": "HP12 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "HP10 9AB",
@@ -546,7 +546,7 @@
     },
     {
       "latitude": 50.94870579304109,
-      "type": "HV",
+      "type": "LV",
       "reference": "KX3294",
       "etaUpdate": true,
       "engineerOnSiteTime": "2023-05-22T13:30:00.000+0000",
@@ -955,6 +955,42 @@
       "etrUpdate": true
     },
     {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-05-22T18:16:00.000+0000",
+      "latitude": 51.28297950385015,
+      "estimatedRestoration": "2023-05-22T22:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX3631'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX3631",
+      "reference": "KX3631",
+      "etaUpdate": true,
+      "affectedCustomerCount": 15,
+      "name": "SN8 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SN8 3EA",
+        "SN8 3EB",
+        "SN8 3ED",
+        "SN8 3EE",
+        "SN8 3EF"
+      ],
+      "location": {
+        "coordinates": [
+          -1.640262992494821,
+          51.28297950385015
+        ],
+        "type": "Point"
+      },
+      "UUID": "252cbab6-7da1-420d-89f2-d36535cec255",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -1.640262992494821,
+      "resolved": false
+    },
+    {
       "latitude": 58.22391864717945,
       "type": "LV",
       "reference": "KX3339",
@@ -1011,62 +1047,6 @@
       "estimatedArrivalOnSiteTime": "2023-05-22T15:45:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 58.3937,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 57.82213759265578,
-      "type": "HV",
-      "reference": "KX3517",
-      "etaUpdate": true,
-      "affectedCustomerCount": 20,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "fd47aa9f-d18a-41e2-95cf-a4196e135b30",
-      "minLongitude": -4.1225,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.091385897309998,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-05-22T16:11:00.000+0000",
-      "estimatedRestoration": "2023-05-22T19:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX3517'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX3517",
-      "maxLongitude": -4.0771,
-      "minLatitude": 57.8146,
-      "name": "IV19 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "IV19 1QA"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -4.1225,
-              57.8298
-            ],
-            [
-              -4.0771,
-              57.8298
-            ],
-            [
-              -4.0771,
-              57.8146
-            ],
-            [
-              -4.1225,
-              57.8146
-            ],
-            [
-              -4.1225,
-              57.8298
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.8298,
       "etrUpdate": true
     }
   ]

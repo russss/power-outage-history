@@ -15,7 +15,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-05-22T22:54:00.000+0000",
+      "loggedAt": "2023-05-22T10:07:00.000+0000",
       "estimatedRestoration": "2023-05-23T14:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX3728'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX3728",
@@ -1202,7 +1202,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-05-23T10:02:00.000+0000",
-      "estimatedRestoration": "2023-05-23T13:05:00.000+0000",
+      "estimatedRestoration": "2023-05-23T15:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX4078'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX4078",
       "maxLongitude": -0.3011,
@@ -1321,7 +1321,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX4058",
       "maxLongitude": -1.9244,
       "minLatitude": 50.7276,
-      "name": "BH14 & BH12 Areas",
+      "name": "BH12 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "BH12 2BA",
@@ -1359,6 +1359,71 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.7296,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.51346267374968,
+      "type": "LV",
+      "reference": "KX4081",
+      "etaUpdate": true,
+      "affectedCustomerCount": 34,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "e0598e89-2b2e-47d0-9103-5fb022642b42",
+      "minLongitude": -0.3062,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.3022353583191478,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-05-23T10:04:00.000+0000",
+      "estimatedRestoration": "2023-05-23T13:20:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX4081'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX4081",
+      "maxLongitude": -0.2965,
+      "minLatitude": 51.5125,
+      "name": "W5 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "W5 3SS",
+        "W5 3TJ",
+        "W5 5AW",
+        "W5 5JN",
+        "W5 5JR",
+        "W5 5JS",
+        "W5 5JU"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.3062,
+              51.514
+            ],
+            [
+              -0.2965,
+              51.514
+            ],
+            [
+              -0.2965,
+              51.5125
+            ],
+            [
+              -0.3062,
+              51.5125
+            ],
+            [
+              -0.3062,
+              51.514
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "43081661-9e4c-4e55-a9e4-5f2abeabd155"
+      ],
+      "maxLatitude": 51.514,
       "etrUpdate": true
     },
     {

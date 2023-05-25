@@ -46,14 +46,57 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cuts, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124162322",
+      "multipleFaultNumbers": null,
+      "date": "2023-05-25T10:35:13",
+      "region": "Earnshaw Bridge, South Ribble",
+      "faultType": "Current Fault",
+      "faultStatus": "Preparing to send team",
+      "previousFaultStatus": null,
+      "consumersOff": 810,
+      "estimatedTimeOfRestoration": "2023-05-25T13:35:00",
+      "estimatedTimeOfRestorationMajority": "2023-05-25T13:35:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.697532,
+        "lng": -2.711387
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " PR25 1XA, PR25 1QN, PR25 2QU, PR25 1GJ, PR25 1GQ, PR25 2ZL, PR25 1XE, PR25 1QL, PR25 2XS, PR25 1QT, PR26 8NY, PR25 2GE, PR26 7PA, PR25 1QR, PR25 1YP, PR25 2XT, PR25 2XW, PR25 2DL, PR25 1QJ, PR25 1QS, PR25 1GR, PR26 6PD, PR25 2YJ, PR25 2YL, PR26 8HA, PR25 1XB, PR26 7PB, PR25 2GH, PR25 1QQ, PR25 1YN, PR25 2GU, PR26 8NT, PR25 2XE, PR25 2QH, PR25 1XD, PR26 7PD, PR25 2QE, PR25 1XH, PR26 8PH, PR25 3HA, PR26 6QA, PR26 7DP",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 1,
   "ShowPolygons": false
 }

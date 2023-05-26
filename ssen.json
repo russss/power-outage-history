@@ -302,7 +302,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-05-26T13:26:00.000+0000",
-      "estimatedRestoration": "2023-05-26T20:00:00.000+0000",
+      "estimatedRestoration": "2023-05-27T01:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX8033'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX8033",
       "maxLongitude": -0.8723,
@@ -342,6 +342,72 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.4881,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.91512469998423,
+      "type": "LV",
+      "reference": "KX8204",
+      "etaUpdate": true,
+      "affectedCustomerCount": 53,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "f78570ab-b39a-477c-a290-7d0c2e0482ac",
+      "minLongitude": -1.4242,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.4217785560539482,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-05-26T18:11:00.000+0000",
+      "estimatedRestoration": "2023-05-26T21:15:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX8204'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX8204",
+      "maxLongitude": -1.4195,
+      "minLatitude": 50.9136,
+      "name": "SO15 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SO15 3FG",
+        "SO15 5BE",
+        "SO15 5BG",
+        "SO15 5BH",
+        "SO15 5BJ",
+        "SO15 5ED",
+        "SO15 5EE",
+        "SO15 5EF",
+        "SO15 5EG",
+        "SO15 5RS",
+        "SO15 5SL"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.4242,
+              50.9174
+            ],
+            [
+              -1.4195,
+              50.9174
+            ],
+            [
+              -1.4195,
+              50.9136
+            ],
+            [
+              -1.4242,
+              50.9136
+            ],
+            [
+              -1.4242,
+              50.9174
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.9174,
       "etrUpdate": true
     }
   ]

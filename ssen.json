@@ -181,6 +181,7 @@
       "type": "LV",
       "reference": "KY0017",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-05-30T06:00:00.000+0000",
       "affectedCustomerCount": 11,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "09f3d88a-32d9-4e15-ad2f-4f730beb011d",
@@ -190,7 +191,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-05-30T05:04:00.000+0000",
+      "loggedAt": "2023-05-30T05:43:00.000+0000",
       "estimatedRestoration": "2023-05-30T09:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KY0017'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KY0017",
@@ -481,6 +482,73 @@
       "estimatedArrivalOnSiteTime": "2023-05-30T07:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.7604,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.15188713661681,
+      "type": "HV",
+      "reference": "KY0056",
+      "etaUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "98c1981f-c938-476b-bf92-44f224e53712",
+      "minLongitude": -1.0005,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.9842728835666233,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-05-30T06:38:00.000+0000",
+      "estimatedRestoration": "2023-05-30T09:40:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KY0056'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KY0056",
+      "maxLongitude": -0.9793,
+      "minLatitude": 51.1494,
+      "name": "GU34 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "GU34 1GE",
+        "GU34 1GF",
+        "GU34 2BD",
+        "GU34 2BE",
+        "GU34 2BG",
+        "GU34 2BH",
+        "GU34 2BJ",
+        "GU34 2BQ",
+        "GU34 2EL",
+        "GU34 2EP",
+        "GU34 2ER",
+        "GU34 2EW",
+        "GU34 2HX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.0005,
+              51.1595
+            ],
+            [
+              -0.9793,
+              51.1595
+            ],
+            [
+              -0.9793,
+              51.1494
+            ],
+            [
+              -1.0005,
+              51.1494
+            ],
+            [
+              -1.0005,
+              51.1595
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.1595,
       "etrUpdate": true
     },
     {

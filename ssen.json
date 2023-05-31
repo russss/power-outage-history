@@ -317,7 +317,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-05-31T14:45:00.000+0000",
-      "latitude": 51.43570499642201,
+      "latitude": 51.43665600173585,
       "estimatedRestoration": "2023-06-01T00:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KY1848'",
       "type": "LV",
@@ -330,14 +330,13 @@
       "otherUpdate": true,
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "TW13 4QT",
-        "TW13 4QU",
-        "TW13 4QY"
+        "TW13 4QR",
+        "TW13 4QS"
       ],
       "location": {
         "coordinates": [
-          -0.4245624505358416,
-          51.43570499642201
+          -0.42440024728276965,
+          51.43665600173585
         ],
         "type": "Point"
       },
@@ -345,7 +344,7 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "etrUpdate": true,
-      "longitude": -0.4245624505358416,
+      "longitude": -0.42440024728276965,
       "resolved": false
     },
     {
@@ -362,8 +361,8 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-05-31T20:08:00.000+0000",
-      "estimatedRestoration": "2023-05-31T23:10:00.000+0000",
+      "loggedAt": "2023-05-31T20:04:00.000+0000",
+      "estimatedRestoration": "2023-06-01T04:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KY2004'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KY2004",
       "maxLongitude": -1.3021,
@@ -409,6 +408,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2023-05-31T21:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "evChargersAffected": [
         "263b176e-2b8c-4032-a30f-eed75139c238",
@@ -427,6 +427,40 @@
       ],
       "maxLatitude": 51.0581,
       "etrUpdate": true
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-05-31T20:14:00.000+0000",
+      "latitude": 51.43570499642201,
+      "estimatedRestoration": "2023-05-31T23:15:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KY2014'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KY2014",
+      "reference": "KY2014",
+      "etaUpdate": true,
+      "affectedCustomerCount": 12,
+      "name": "TW13 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "TW13 4QT",
+        "TW13 4QU",
+        "TW13 4QY"
+      ],
+      "location": {
+        "coordinates": [
+          -0.4245624505358416,
+          51.43570499642201
+        ],
+        "type": "Point"
+      },
+      "UUID": "5581c308-c586-41ce-b550-1d923cde0603",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -0.4245624505358416,
+      "resolved": false
     },
     {
       "latitude": 58.98178966231093,

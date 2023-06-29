@@ -46,14 +46,57 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cuts, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124170589",
+      "multipleFaultNumbers": null,
+      "date": "2023-06-29T06:32:42",
+      "region": "Atherton, Wigan",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Preparing to send team",
+      "consumersOff": 1140,
+      "estimatedTimeOfRestoration": "2023-06-29T09:32:00",
+      "estimatedTimeOfRestorationMajority": "2023-06-29T09:32:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.51874,
+        "lng": -2.47702
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " M29 8FQ, M46 9FE, M46 9BL, M29 8QD, M46 9AQ, M29 8FL, M46 9BS, M29 8EG, M29 8JE, M29 8LB, M29 8AS, M29 8JF, M29 8LA, M29 8AU, M46 9FF, M29 8EB, M46 9AB, M46 9EH, M46 9EB, M46 9BB, M29 8GP, M46 9EF, M46 9AH, M46 0AR, M29 8JU, M29 8ER, M46 9BZ, M29 8JS, M46 9QZ, M46 9BQ, M29 8JJ, M46 0AA, M46 9AD, M29 8FJ, M46 9TT, M46 0AU, M29 8JH, M29 8HJ, M29 8SU, M29 8HL, M29 8AR, M29 8AX, M46 9BW, M46 9AJ, M46 0AT, M46 9AT, M46 9ER, M46 9AG, M29 8FB, M46 9AR, M29 8GQ, M29 8JB, M29 8JQ, M29 8BL, M46 9EJ, M29 8JD, M29 8AT, M29 8AG, M46 9EG, M46 9AL, M29 8JR, M46 9BA, M46 0AG, M29 8FP, M46 9EQ, M46 9AS, M29 8JX, M29 8JP, M29 8JL, M29 8AZ, M46 9EN, M46 9AN, M46 9EP, M46 9AZ, M29 8JG, M46 9AF, M29 8BW, M46 9ES, M46 9AA, M29 8EQ, M29 8GN, M29 8LD, M46 0BG, M46 9AP, M29 8JY, M46 9GQ, M29 8AY, M46 9DZ, M29 8AN, M29 8AW, M46 9BN, M29 8EW, M29 8AJ, M29 8JW, M29 8JT, M29 8GR, M46 9BJ, M29 8HZ, M46 9EW, M29 8RF, M29 8EN, M29 8BN, M46 9FT, M46 0AQ, M46 9BX, M46 9DG, M29 8JN",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 1,
   "ShowPolygons": false
 }

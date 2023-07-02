@@ -77,8 +77,8 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-07-01T22:21:00.000+0000",
-      "estimatedRestoration": "2023-07-02T14:00:00.000+0000",
+      "loggedAt": "2023-07-01T12:15:00.000+0000",
+      "estimatedRestoration": "2023-07-02T18:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MB5119'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MB5119",
       "maxLongitude": -0.3164,
@@ -435,6 +435,61 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.7481,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 56.63926640049437,
+      "type": "HV",
+      "reference": "MB5308",
+      "etaUpdate": true,
+      "affectedCustomerCount": 1,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "a6b4ce92-1895-4766-9f04-5915257863f9",
+      "minLongitude": -2.9215,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.9132072648448646,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-07-02T12:54:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MB5308'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MB5308",
+      "maxLongitude": -2.9049,
+      "minLatitude": 56.6369,
+      "name": "DD8 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DD8 1TD"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.9215,
+              56.6442
+            ],
+            [
+              -2.9049,
+              56.6442
+            ],
+            [
+              -2.9049,
+              56.6369
+            ],
+            [
+              -2.9215,
+              56.6369
+            ],
+            [
+              -2.9215,
+              56.6442
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 56.6442,
       "etrUpdate": true
     }
   ]

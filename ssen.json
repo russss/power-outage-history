@@ -675,6 +675,65 @@
       "etrUpdate": true
     },
     {
+      "latitude": 51.440099844085026,
+      "type": "LV",
+      "reference": "MC0102",
+      "etaUpdate": true,
+      "affectedCustomerCount": 41,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "862e51b3-0b1e-41e3-8645-c70b7fff533a",
+      "minLongitude": -1.0469,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.0439627547906924,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-07-05T17:20:00.000+0000",
+      "estimatedRestoration": "2023-07-05T20:20:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MC0102'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MC0102",
+      "maxLongitude": -1.0423,
+      "minLatitude": 51.4365,
+      "name": "RG31 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "RG31 7DY",
+        "RG31 7DZ",
+        "RG31 7EF",
+        "RG31 7EJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.0469,
+              51.4413
+            ],
+            [
+              -1.0423,
+              51.4413
+            ],
+            [
+              -1.0423,
+              51.4365
+            ],
+            [
+              -1.0469,
+              51.4365
+            ],
+            [
+              -1.0469,
+              51.4413
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.4413,
+      "etrUpdate": true
+    },
+    {
       "latitude": 57.578097765836596,
       "type": "LV",
       "reference": "MB8575",
@@ -788,64 +847,6 @@
       "estimatedArrivalOnSiteTime": "2023-07-05T17:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 58.2209,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 56.404771291312414,
-      "type": "LV",
-      "reference": "MC0085",
-      "etaUpdate": true,
-      "affectedCustomerCount": 14,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "d7df0f11-c5a1-49c1-a66c-dd18e3ec825c",
-      "minLongitude": -5.4665,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -5.4629973668899865,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-07-05T12:32:00.000+0000",
-      "estimatedRestoration": "2023-07-05T19:55:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MC0085'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MC0085",
-      "maxLongitude": -5.4616,
-      "minLatitude": 56.4041,
-      "name": "PA34 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "PA34 4NP",
-        "PA34 4YE",
-        "PA34 4YH"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -5.4665,
-              56.4062
-            ],
-            [
-              -5.4616,
-              56.4062
-            ],
-            [
-              -5.4616,
-              56.4041
-            ],
-            [
-              -5.4665,
-              56.4041
-            ],
-            [
-              -5.4665,
-              56.4062
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 56.4062,
       "etrUpdate": true
     }
   ]

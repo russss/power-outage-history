@@ -805,7 +805,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-07-11T08:10:00.000+0000",
-      "estimatedRestoration": "2023-07-11T15:00:00.000+0000",
+      "estimatedRestoration": "2023-07-11T18:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MC6028'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MC6028",
       "maxLongitude": -0.6961,
@@ -1250,6 +1250,41 @@
       "etrUpdate": true
     },
     {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-07-11T14:22:00.000+0000",
+      "latitude": 50.78280633450703,
+      "estimatedRestoration": "2023-07-11T21:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MC6608'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MC6608",
+      "reference": "MC6608",
+      "etaUpdate": true,
+      "affectedCustomerCount": 11,
+      "name": "BH23 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "BH23 8AG",
+        "BH23 8NP",
+        "BH23 8NR",
+        "BH23 8NW"
+      ],
+      "location": {
+        "coordinates": [
+          -1.7387236437546847,
+          50.78280633450703
+        ],
+        "type": "Point"
+      },
+      "UUID": "2e697d3c-35ba-4c24-96ca-ff5b836878b9",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -1.7387236437546847,
+      "resolved": false
+    },
+    {
       "latitude": 57.06771122528211,
       "type": "PSI",
       "reference": "217737",
@@ -1600,6 +1635,80 @@
       "estimatedArrivalOnSiteTime": "2023-07-11T15:15:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.5083,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 56.16472929522821,
+      "type": "HV",
+      "reference": "MC6623",
+      "etaUpdate": true,
+      "affectedCustomerCount": 129,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "3b857daa-11e3-4405-a9b3-f2d58b569a09",
+      "minLongitude": -4.0216,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.965065626639903,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-07-11T14:35:00.000+0000",
+      "estimatedRestoration": "2023-07-11T17:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MC6623'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MC6623",
+      "maxLongitude": -3.8955,
+      "minLatitude": 56.1307,
+      "name": "FK15 & FK9 Areas",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "FK15 0HS",
+        "FK15 0HT",
+        "FK15 0HU",
+        "FK15 0JZ",
+        "FK15 0LP",
+        "FK15 0LQ",
+        "FK15 9NR",
+        "FK15 9NS",
+        "FK15 9NT",
+        "FK15 9NU",
+        "FK15 9NX",
+        "FK9 4EU",
+        "FK9 4LZ",
+        "FK9 4NB",
+        "FK9 4ND",
+        "FK9 4NE",
+        "FK9 4PU",
+        "FK9 4UJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.0216,
+              56.1974
+            ],
+            [
+              -3.8955,
+              56.1974
+            ],
+            [
+              -3.8955,
+              56.1307
+            ],
+            [
+              -4.0216,
+              56.1307
+            ],
+            [
+              -4.0216,
+              56.1974
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2023-07-11T15:15:00.000+0000",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 56.1974,
       "etrUpdate": true
     }
   ]

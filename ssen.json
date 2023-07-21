@@ -15,7 +15,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-07-21T09:00:00.000+0000",
-      "estimatedRestoration": "2023-07-21T17:00:00.000+0000",
+      "estimatedRestoration": "2023-07-21T21:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'ME7931'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/ME7931",
       "maxLongitude": -2.464,
@@ -531,6 +531,73 @@
       "etrUpdate": true
     },
     {
+      "latitude": 50.723208527053,
+      "type": "LV",
+      "reference": "ME8364",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-07-21T13:30:00.000+0000",
+      "affectedCustomerCount": 23,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "2c64d108-a32d-4a9d-8448-98d043a4365b",
+      "minLongitude": -1.8129,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.80066573083217,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-07-21T11:32:00.000+0000",
+      "estimatedRestoration": "2023-07-21T21:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'ME8364'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/ME8364",
+      "maxLongitude": -1.7931,
+      "minLatitude": 50.7217,
+      "name": "BH6 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "BH6 3EZ",
+        "BH6 3HL",
+        "BH6 3JA",
+        "BH6 3JD",
+        "BH6 3JE",
+        "BH6 3JF",
+        "BH6 3PU",
+        "BH6 4AN"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.8129,
+              50.7251
+            ],
+            [
+              -1.7931,
+              50.7251
+            ],
+            [
+              -1.7931,
+              50.7217
+            ],
+            [
+              -1.8129,
+              50.7217
+            ],
+            [
+              -1.8129,
+              50.7251
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "7bc74c82-4d31-4d8c-bba9-288c70d2316a"
+      ],
+      "maxLatitude": 50.7251,
+      "etrUpdate": true
+    },
+    {
       "latitude": 57.23806481550517,
       "type": "PSI",
       "reference": "218179",
@@ -550,7 +617,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/218179",
       "maxLongitude": -5.8367,
       "minLatitude": 57.1545,
-      "name": "IV42 & IV49 Areas",
+      "name": "IV49 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "IV42 8QA",

@@ -511,16 +511,17 @@
       "etrUpdate": true
     },
     {
-      "latitude": 51.469792688079984,
+      "latitude": 51.47021087598689,
       "type": "LV",
       "reference": "MF5217",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-07-27T16:15:00.000+0000",
       "affectedCustomerCount": 6,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "251db65a-6e2c-4b92-a7b9-175c7b10a7cc",
       "minLongitude": -0.3609,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.35564648485093936,
+      "longitude": -0.35532909046717814,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -533,7 +534,7 @@
       "name": "TW3 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "TW3 1QU",
+        "TW3 1RB",
         "TW3 1RH"
       ],
       "location": {
@@ -791,6 +792,66 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.9717,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.97363491065788,
+      "type": "LV",
+      "reference": "MF5361",
+      "etaUpdate": true,
+      "affectedCustomerCount": 20,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "f90c5147-4baa-400c-a97e-74931fcfd8bf",
+      "minLongitude": -1.5997,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.5912826967210965,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-07-27T17:16:00.000+0000",
+      "estimatedRestoration": "2023-07-27T20:15:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MF5361'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MF5361",
+      "maxLongitude": -1.5841,
+      "minLatitude": 50.971,
+      "name": "SO51 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SO51 6DA",
+        "SO51 6DB",
+        "SO51 6GS",
+        "SO51 6GW",
+        "SO51 6GX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.5997,
+              50.9777
+            ],
+            [
+              -1.5841,
+              50.9777
+            ],
+            [
+              -1.5841,
+              50.971
+            ],
+            [
+              -1.5997,
+              50.971
+            ],
+            [
+              -1.5997,
+              50.9777
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.9777,
       "etrUpdate": true
     }
   ]

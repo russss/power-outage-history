@@ -723,16 +723,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 51.32746407877663,
+      "latitude": 51.327275695609096,
       "type": "HV",
       "reference": "MF7817",
       "etaUpdate": true,
-      "affectedCustomerCount": 243,
+      "affectedCustomerCount": 226,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "268c32f9-a34c-4cc1-a739-2066049724be",
       "minLongitude": -0.9959,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.959215236562463,
+      "longitude": -0.9562341824568847,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -745,7 +745,6 @@
       "name": "RG27 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "RG27 0AP",
         "RG27 0JL",
         "RG27 0JY",
         "RG27 0LA",
@@ -753,7 +752,6 @@
         "RG27 0LE",
         "RG27 0LF",
         "RG27 0LG",
-        "RG27 0LP",
         "RG27 8JJ",
         "RG27 8JY",
         "RG27 8JZ",
@@ -948,7 +946,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MF7886",
       "maxLongitude": -0.5907,
       "minLatitude": 51.119,
-      "name": "GU8 Area",
+      "name": "GU5 & GU7 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "GU5 8AD",
@@ -1292,6 +1290,69 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 58.3118,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 55.34498595036533,
+      "type": "HV",
+      "reference": "MF7911",
+      "etaUpdate": true,
+      "affectedCustomerCount": 97,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "5e322f38-a769-4bb6-9765-9042427f3584",
+      "minLongitude": -5.8058,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.678010430976091,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-07-29T09:19:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MF7911'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MF7911",
+      "maxLongitude": -5.5824,
+      "minLatitude": 55.2887,
+      "name": "PA28 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PA28",
+        "PA28 6PH",
+        "PA28 6PJ",
+        "PA28 6PW",
+        "PA28 6RL",
+        "PA28 6RN",
+        "PA28 6RQ",
+        "PA28 6RU",
+        "PA28 6RW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -5.8058,
+              55.4301
+            ],
+            [
+              -5.5824,
+              55.4301
+            ],
+            [
+              -5.5824,
+              55.2887
+            ],
+            [
+              -5.8058,
+              55.2887
+            ],
+            [
+              -5.8058,
+              55.4301
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 55.4301,
       "etrUpdate": true
     }
   ]

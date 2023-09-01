@@ -200,7 +200,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK0925",
       "maxLongitude": -1.9465,
       "minLatitude": 50.7372,
-      "name": "BH15 & BH12 Areas",
+      "name": "BH12 & BH15 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "BH12 4QN",
@@ -353,6 +353,65 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.9624,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.8998895781018,
+      "type": "LV",
+      "reference": "MK0950",
+      "etaUpdate": true,
+      "affectedCustomerCount": 19,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "58ae40df-e676-486c-af56-689478fda852",
+      "minLongitude": -1.1466,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.1445649929860449,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-09-01T07:07:00.000+0000",
+      "estimatedRestoration": "2023-09-01T11:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK0950'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK0950",
+      "maxLongitude": -1.1427,
+      "minLatitude": 51.8981,
+      "name": "OX26 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "OX26 6GA",
+        "OX26 6GB",
+        "OX26 6QS",
+        "OX26 6QT"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.1466,
+              51.9016
+            ],
+            [
+              -1.1427,
+              51.9016
+            ],
+            [
+              -1.1427,
+              51.8981
+            ],
+            [
+              -1.1466,
+              51.8981
+            ],
+            [
+              -1.1466,
+              51.9016
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.9016,
       "etrUpdate": true
     }
   ]

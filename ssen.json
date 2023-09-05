@@ -16,7 +16,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-09-04T18:34:00.000+0000",
-      "estimatedRestoration": "2023-09-05T05:00:00.000+0000",
+      "estimatedRestoration": "2023-09-05T06:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK3760'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK3760",
       "maxLongitude": -1.2864,
@@ -158,7 +158,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-09-04T20:23:00.000+0000",
-      "estimatedRestoration": "2023-09-05T07:00:00.000+0000",
+      "estimatedRestoration": "2023-09-05T08:15:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK3873'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK3873",
       "maxLongitude": -0.9498,
@@ -208,14 +208,15 @@
     {
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-09-05T00:22:00.000+0000",
+      "loggedAt": "2023-09-05T00:58:00.000+0000",
       "latitude": 50.99390235327196,
-      "estimatedRestoration": "2023-09-05T04:30:00.000+0000",
+      "estimatedRestoration": "2023-09-05T13:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK3953'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK3953",
       "reference": "MK3953",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-09-05T03:30:00.000+0000",
       "affectedCustomerCount": 2,
       "name": "SO51 Area",
       "otherUpdate": true,
@@ -298,6 +299,69 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.6364,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.78022064804924,
+      "type": "LV",
+      "reference": "MK3985",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-09-05T03:20:00.000+0000",
+      "affectedCustomerCount": 22,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "8a10f553-3aa9-4780-adc4-ee8e8ad90270",
+      "minLongitude": -1.1434,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.1332223020896133,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-09-05T02:15:00.000+0000",
+      "estimatedRestoration": "2023-09-05T07:45:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK3985'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK3985",
+      "maxLongitude": -1.1278,
+      "minLatitude": 50.7731,
+      "name": "PO12 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PO12 2AR",
+        "PO12 2AT",
+        "PO12 2BT",
+        "PO12 2BU",
+        "PO12 2UL",
+        "PO12 2UN",
+        "PO12 2UW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.1434,
+              50.7822
+            ],
+            [
+              -1.1278,
+              50.7822
+            ],
+            [
+              -1.1278,
+              50.7731
+            ],
+            [
+              -1.1434,
+              50.7731
+            ],
+            [
+              -1.1434,
+              50.7822
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.7822,
       "etrUpdate": true
     }
   ]

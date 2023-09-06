@@ -73,8 +73,8 @@
       "date": "2023-09-06T07:29:39",
       "region": "Whaley Bridge, High Peak",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
       "consumersOff": 35,
       "estimatedTimeOfRestoration": "2023-09-06T13:29:00",
       "estimatedTimeOfRestorationMajority": "2023-09-06T13:29:00",
@@ -115,7 +115,7 @@
       "region": "Gawsworth, Cheshire East",
       "faultType": "Current Fault",
       "faultStatus": "Team on their way",
-      "previousFaultStatus": "Preparing to send team",
+      "previousFaultStatus": "Team on their way",
       "consumersOff": 102,
       "estimatedTimeOfRestoration": "2023-09-06T10:27:00",
       "estimatedTimeOfRestorationMajority": "2023-09-06T10:27:00",
@@ -211,6 +211,47 @@
       "AffectedPostcodes": " BB9 5QS, BB9 5QL, BB9 5QP, BB12 9PA, BB12 9DS, BB12 9NS, BB12 9NZ, BB12 9DP, BB12 9DU, BB12 0RZ, BB12 9NR, BB12 9NY, BB9 5QJ, BB9 5QR, BB12 9AJ, BB12 9DX, BB9 5QW",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "HVFL"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cuts, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124181827",
+      "multipleFaultNumbers": null,
+      "date": "2023-09-05T08:13:19",
+      "region": "Tyldesley, Wigan",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Access required to complete",
+      "consumersOff": 36,
+      "estimatedTimeOfRestoration": "2023-09-06T16:30:00",
+      "estimatedTimeOfRestorationMajority": "2023-09-06T16:30:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.514383,
+        "lng": -2.442776
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " M29 8PZ, M29 8WQ, M29 8NQ, M29 8PH, M29 8NG",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "U/GM"
     }
   ],
   "Markers": null,
@@ -220,6 +261,6 @@
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 4,
+  "TotalResults": 5,
   "ShowPolygons": false
 }

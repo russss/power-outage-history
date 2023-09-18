@@ -1175,41 +1175,61 @@
       "etrUpdate": true
     },
     {
+      "latitude": 51.56776565101473,
+      "type": "LV",
+      "reference": "MM7696",
+      "etaUpdate": true,
+      "affectedCustomerCount": 13,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "fb08daee-3da6-4500-815e-1a6d0fa32bf7",
+      "minLongitude": -1.8515,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.848332710114182,
+      "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-09-18T00:40:00.000+0000",
-      "latitude": 51.70009730919739,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MM7651'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MM7651",
-      "reference": "MM7651",
-      "etaUpdate": true,
-      "name": "GL7 Area",
+      "loggedAt": "2023-09-18T05:46:00.000+0000",
+      "estimatedRestoration": "2023-09-18T09:25:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MM7696'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MM7696",
+      "maxLongitude": -1.847,
+      "minLatitude": 51.566,
+      "name": "SN5 Area",
       "otherUpdate": true,
-      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "GL7 5HE",
-        "GL7 5HL",
-        "GL7 5JN",
-        "GL7 5JP",
-        "GL7 5JW",
-        "GL7 5LE",
-        "GL7 5LL",
-        "GL7 5LP"
+        "SN5 5TR",
+        "SN5 5TS"
       ],
       "location": {
         "coordinates": [
-          -1.8274893206311058,
-          51.70009730919739
+          [
+            [
+              -1.8515,
+              51.5695
+            ],
+            [
+              -1.847,
+              51.5695
+            ],
+            [
+              -1.847,
+              51.566
+            ],
+            [
+              -1.8515,
+              51.566
+            ],
+            [
+              -1.8515,
+              51.5695
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
-      "UUID": "7307caf6-b9a1-4668-b04b-312cc3710e06",
       "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "etrUpdate": true,
-      "longitude": -1.8274893206311058,
-      "resolved": false
+      "maxLatitude": 51.5695,
+      "etrUpdate": true
     },
     {
       "latitude": 57.254184501600655,

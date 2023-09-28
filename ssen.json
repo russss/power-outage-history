@@ -440,63 +440,6 @@
       "etrUpdate": true
     },
     {
-      "latitude": 57.38473818075821,
-      "type": "LV",
-      "reference": "MP1292",
-      "etaUpdate": true,
-      "affectedCustomerCount": 5,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "8b4284cf-9d60-4535-b9b8-9f8316887729",
-      "minLongitude": -4.1912,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.181193049769119,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-09-28T18:03:00.000+0000",
-      "estimatedRestoration": "2023-09-28T21:05:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MP1292'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MP1292",
-      "maxLongitude": -4.1598,
-      "minLatitude": 57.3734,
-      "name": "IV1 & IV2 Areas",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "IV1 2XA",
-        "IV2 6XA"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -4.1912,
-              57.389
-            ],
-            [
-              -4.1598,
-              57.389
-            ],
-            [
-              -4.1598,
-              57.3734
-            ],
-            [
-              -4.1912,
-              57.3734
-            ],
-            [
-              -4.1912,
-              57.389
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.389,
-      "etrUpdate": true
-    },
-    {
       "latitude": 56.52023429224099,
       "type": "HV",
       "reference": "MP1304",
@@ -553,6 +496,63 @@
       "estimatedArrivalOnSiteTime": "2023-09-28T18:45:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.5307,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 56.790321417092535,
+      "type": "HV",
+      "reference": "MP1334",
+      "etaUpdate": true,
+      "affectedCustomerCount": 24,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "6415051a-3440-408f-a9d8-8b49a65abdaf",
+      "minLongitude": -3.8859,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.8253674352384177,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-09-28T19:20:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MP1334'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MP1334",
+      "maxLongitude": -3.6607,
+      "minLatitude": 56.7696,
+      "name": "PH18 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PH18 5TT",
+        "PH18 5TU",
+        "PH18 5TY"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.8859,
+              56.9113
+            ],
+            [
+              -3.6607,
+              56.9113
+            ],
+            [
+              -3.6607,
+              56.7696
+            ],
+            [
+              -3.8859,
+              56.7696
+            ],
+            [
+              -3.8859,
+              56.9113
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 56.9113,
       "etrUpdate": true
     }
   ]

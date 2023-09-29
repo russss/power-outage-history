@@ -277,7 +277,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MP1470",
       "maxLongitude": -0.5696,
       "minLatitude": 51.6081,
-      "name": "HP8 & SL9 Areas",
+      "name": "SL9 & HP8 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "HP8 4DX",
@@ -685,7 +685,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-09-29T04:26:00.000+0000",
-      "estimatedRestoration": "2023-09-29T09:10:00.000+0000",
+      "estimatedRestoration": "2023-09-29T09:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MP1564'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MP1564",
       "maxLongitude": -1.4786,
@@ -734,6 +734,70 @@
         "13548708-29d5-4e2b-8772-686755bef448"
       ],
       "maxLatitude": 51.2079,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.39961399405122,
+      "type": "LV",
+      "reference": "MP1590",
+      "etaUpdate": true,
+      "affectedCustomerCount": 25,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "7821176e-f593-40c7-913a-7eb9f952414e",
+      "minLongitude": -1.0619,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.0578450055686295,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-09-29T06:07:00.000+0000",
+      "estimatedRestoration": "2023-09-29T11:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MP1590'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MP1590",
+      "maxLongitude": -1.0534,
+      "minLatitude": 51.3977,
+      "name": "RG7 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "RG7 3BP",
+        "RG7 3BT",
+        "RG7 3LW",
+        "RG7 3LZ",
+        "RG7 3NF",
+        "RG7 3NG",
+        "RG7 3NH",
+        "RG7 3NN",
+        "RG7 3NW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.0619,
+              51.4019
+            ],
+            [
+              -1.0534,
+              51.4019
+            ],
+            [
+              -1.0534,
+              51.3977
+            ],
+            [
+              -1.0619,
+              51.3977
+            ],
+            [
+              -1.0619,
+              51.4019
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.4019,
       "etrUpdate": true
     },
     {

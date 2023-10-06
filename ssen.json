@@ -127,6 +127,7 @@
       "type": "LV",
       "reference": "MP9394",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-10-06T06:15:00.000+0000",
       "affectedCustomerCount": 26,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "21e9fd0e-f19b-41a1-a0e9-3e03a4975d23",
@@ -315,7 +316,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-10-06T07:04:00.000+0000",
-      "estimatedRestoration": "2023-10-06T10:05:00.000+0000",
+      "estimatedRestoration": "2023-10-06T11:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MP9444'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MP9444",
       "maxLongitude": -0.8192,
@@ -361,6 +362,64 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.3421,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.33845718333038,
+      "type": "LV",
+      "reference": "MP9447",
+      "etaUpdate": true,
+      "affectedCustomerCount": 9,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "6077adfb-388e-481e-bf31-96980f9b32da",
+      "minLongitude": -0.8252,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.8229427674594917,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-10-06T07:06:00.000+0000",
+      "estimatedRestoration": "2023-10-06T12:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MP9447'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MP9447",
+      "maxLongitude": -0.8196,
+      "minLatitude": 51.3362,
+      "name": "GU46 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "GU46 6XA",
+        "GU46 6XB",
+        "GU46 6XD"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.8252,
+              51.3411
+            ],
+            [
+              -0.8196,
+              51.3411
+            ],
+            [
+              -0.8196,
+              51.3362
+            ],
+            [
+              -0.8252,
+              51.3362
+            ],
+            [
+              -0.8252,
+              51.3411
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.3411,
       "etrUpdate": true
     },
     {

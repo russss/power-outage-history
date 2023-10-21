@@ -778,6 +778,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2023-10-21T19:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.836,
       "etrUpdate": true
@@ -857,7 +858,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MR7077",
       "maxLongitude": -2.1343,
       "minLatitude": 57.0415,
-      "name": "AB14 & AB12 Areas",
+      "name": "AB12 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "AB12 4RT",
@@ -1015,6 +1016,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2023-10-21T20:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 57.1224,
       "etrUpdate": true
@@ -1461,7 +1463,8 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-10-21T17:21:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MS0611'",
+      "estimatedRestoration": "2023-10-21T22:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MS0611'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MS0611",
       "maxLongitude": -1.1841,
       "minLatitude": 60.2785,
@@ -1560,96 +1563,6 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 57.6864,
       "etrUpdate": true
-    },
-    {
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-10-21T12:55:00.000+0000",
-      "latitude": 57.26003207556916,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MS0656'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MS0656",
-      "reference": "MS0656",
-      "maxLongitude": -2.0487,
-      "etaUpdate": true,
-      "minLatitude": 57.2024,
-      "name": "AB21 & AB23 Areas",
-      "otherUpdate": true,
-      "networkId": "com.sse.ssepd.shepd",
-      "affectedAreas": [
-        "AB21",
-        "AB21 0AA",
-        "AB21 0AB",
-        "AB21 0AD",
-        "AB21 0AE",
-        "AB21 0AG",
-        "AB21 0AH",
-        "AB21 0AJ",
-        "AB21 0AL",
-        "AB21 0AN",
-        "AB21 0AP",
-        "AB21 0AQ",
-        "AB21 0AR",
-        "AB21 0AS",
-        "AB21 0AT",
-        "AB21 0AU",
-        "AB21 0AX",
-        "AB21 0AZ",
-        "AB21 0DB",
-        "AB21 0PW",
-        "AB21 0SJ",
-        "AB21 0UE",
-        "AB21 0UF",
-        "AB23 8PU",
-        "AB23 8UN",
-        "AB23 8UP",
-        "AB23 8UU",
-        "AB23 8UX",
-        "AB23 8XA",
-        "AB23 8XB",
-        "AB23 8XD",
-        "AB23 8XE",
-        "AB23 8XG",
-        "AB23 8XH",
-        "AB23 8XQ",
-        "AB41 7XA",
-        "AB41 7XB"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.2843,
-              57.3378
-            ],
-            [
-              -2.0487,
-              57.3378
-            ],
-            [
-              -2.0487,
-              57.2024
-            ],
-            [
-              -2.2843,
-              57.2024
-            ],
-            [
-              -2.2843,
-              57.3378
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "UUID": "f3f80a6b-c193-4fc5-9edd-bddd306ceee3",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -2.2843,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "maxLatitude": 57.3378,
-      "etrUpdate": true,
-      "longitude": -2.1476001841075036,
-      "resolved": false
     }
   ]
 }

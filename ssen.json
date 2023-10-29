@@ -568,7 +568,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-10-29T20:30:00.000+0000",
-      "estimatedRestoration": "2023-10-30T04:00:00.000+0000",
+      "estimatedRestoration": "2023-10-30T16:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MT0040'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT0040",
       "maxLongitude": -1.7686,
@@ -801,6 +801,66 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.4354,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.7496151132477,
+      "type": "LV",
+      "reference": "MT0135",
+      "etaUpdate": true,
+      "affectedCustomerCount": 44,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "6c6d5ce4-38db-49b2-acb0-d2921fb38c00",
+      "minLongitude": -1.8957,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.892830596552954,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-10-29T23:20:00.000+0000",
+      "estimatedRestoration": "2023-10-30T02:20:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MT0135'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT0135",
+      "maxLongitude": -1.891,
+      "minLatitude": 50.7455,
+      "name": "BH10 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "BH10 4EL",
+        "BH10 4EN",
+        "BH10 4EP",
+        "BH10 4ER",
+        "BH10 4HS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.8957,
+              50.7519
+            ],
+            [
+              -1.891,
+              50.7519
+            ],
+            [
+              -1.891,
+              50.7455
+            ],
+            [
+              -1.8957,
+              50.7455
+            ],
+            [
+              -1.8957,
+              50.7519
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.7519,
       "etrUpdate": true
     }
   ]

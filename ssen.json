@@ -515,7 +515,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-11-02T00:50:00.000+0000",
-      "estimatedRestoration": "2023-11-02T16:00:00.000+0000",
+      "estimatedRestoration": "2023-11-02T18:00:00.000+0000",
       "message": "We’re very sorry for the power cut today. Storm Ciaran is bringing strong winds and heavy rain to the south coast and that is causing damage to our network and an increase in power cuts. We will be dispatching engineers as soon as it’s safe to do so. In the meantime, our control centre is working hard to remotely try and get power back on for as many customers as possible. You can keep track of the latest updates here on Power Track and we’ll also text you with updates if you’ve chosen to receive these. If you have any questions, our team is on hand 24 hours a day to help, so feel free to send us a message below or call us on 105.",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT5961",
       "maxLongitude": -1.6941,
@@ -1814,7 +1814,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT6254",
       "maxLongitude": -0.7773,
       "minLatitude": 51.0625,
-      "name": "GU10 & GU30 Areas",
+      "name": "GU35 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "GU10 2HJ",
@@ -2094,7 +2094,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT7079",
       "maxLongitude": -1.0846,
       "minLatitude": 50.8103,
-      "name": "PO2 Area",
+      "name": "PO1 & PO2 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "PO1 2AS",
@@ -2664,20 +2664,28 @@
       "etrUpdate": true
     },
     {
+      "customIncludeDefault": false,
+      "latitude": 50.96444601860298,
+      "type": "HV",
+      "reference": "MT7174",
+      "etaUpdate": true,
+      "affectedCustomerCount": 312,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "eeef7a39-eb9e-4d7d-bd06-e50101c5ba80",
+      "minLongitude": -2.3645,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.328364172264928,
+      "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-11-02T15:10:00.000+0000",
-      "latitude": 50.96444601860298,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MT7170'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT7170",
-      "reference": "MT7170",
+      "loggedAt": "2023-11-02T15:16:00.000+0000",
+      "estimatedRestoration": "2023-11-03T03:00:00.000+0000",
+      "message": "We’re very sorry for the power cut today. Storm Ciaran is bringing strong winds and heavy rain to the south coast and that is causing damage to our network and an increase in power cuts. We will be dispatching engineers as soon as it’s safe to do so. In the meantime, our control centre is working hard to remotely try and get power back on for as many customers as possible. You can keep track of the latest updates here on Power Track and we’ll also text you with updates if you’ve chosen to receive these. If you have any questions, our team is on hand 24 hours a day to help, so feel free to send us a message below or call us on 105.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT7174",
       "maxLongitude": -2.312,
-      "etaUpdate": true,
       "minLatitude": 50.8714,
       "name": "DT10 Area",
       "otherUpdate": true,
-      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "DT10 1FQ",
         "DT10 1JN",
@@ -2736,14 +2744,177 @@
         ],
         "type": "Polygon"
       },
-      "UUID": "fe44b2b7-3e33-4066-8dc2-248740e57425",
       "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -2.3645,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 50.9786,
-      "etrUpdate": true,
-      "longitude": -2.328364172264928,
-      "resolved": false
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 50.798326060362,
+      "type": "HV",
+      "reference": "MT7190",
+      "etaUpdate": true,
+      "affectedCustomerCount": 1896,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "df15dcbe-f0d8-41e1-84d1-f0369828d033",
+      "minLongitude": -1.7841,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.6885176306843659,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-11-02T15:19:00.000+0000",
+      "message": "We’re very sorry for the power cut today. Storm Ciaran is bringing strong winds and heavy rain to the south coast and that is causing damage to our network and an increase in power cuts. We will be dispatching engineers as soon as it’s safe to do so. In the meantime, our control centre is working hard to remotely try and get power back on for as many customers as possible. You can keep track of the latest updates here on Power Track and we’ll also text you with updates if you’ve chosen to receive these. If you have any questions, our team is on hand 24 hours a day to help, so feel free to send us a message below or call us on 105.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT7190",
+      "maxLongitude": -0.6666,
+      "minLatitude": 50.7314,
+      "name": "PO22 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "BH23 1JF",
+        "PO21 2BU",
+        "PO21 2BW",
+        "PO21 2DG",
+        "PO21 2DN",
+        "PO21 2DU",
+        "PO21 2HX",
+        "PO21 2NU",
+        "PO21 5AA",
+        "PO21 5AF",
+        "PO21 5AS",
+        "PO21 5JL",
+        "PO21 5JN",
+        "PO21 5NJ",
+        "PO22 9BA",
+        "PO22 9BS",
+        "PO22 9BY",
+        "PO22 9BZ",
+        "PO22 9DA",
+        "PO22 9DB",
+        "PO22 9DD",
+        "PO22 9DE",
+        "PO22 9DF",
+        "PO22 9DG",
+        "PO22 9DH",
+        "PO22 9DJ",
+        "PO22 9DL",
+        "PO22 9DN",
+        "PO22 9DQ",
+        "PO22 9DS",
+        "PO22 9DY",
+        "PO22 9EA",
+        "PO22 9EB",
+        "PO22 9ED",
+        "PO22 9EE",
+        "PO22 9EF",
+        "PO22 9EG",
+        "PO22 9EH",
+        "PO22 9EJ",
+        "PO22 9EL",
+        "PO22 9EN",
+        "PO22 9EP",
+        "PO22 9EQ",
+        "PO22 9ER",
+        "PO22 9ES",
+        "PO22 9ET",
+        "PO22 9EU",
+        "PO22 9EW",
+        "PO22 9EX",
+        "PO22 9FA",
+        "PO22 9FD",
+        "PO22 9FE",
+        "PO22 9HB",
+        "PO22 9HD",
+        "PO22 9HL",
+        "PO22 9HP",
+        "PO22 9HR",
+        "PO22 9HS",
+        "PO22 9HT",
+        "PO22 9HU",
+        "PO22 9HX",
+        "PO22 9HY",
+        "PO22 9HZ",
+        "PO22 9JE",
+        "PO22 9JF",
+        "PO22 9JG",
+        "PO22 9JH",
+        "PO22 9JJ",
+        "PO22 9JL",
+        "PO22 9JN",
+        "PO22 9JP",
+        "PO22 9JQ",
+        "PO22 9JR",
+        "PO22 9JS",
+        "PO22 9JT",
+        "PO22 9JW",
+        "PO22 9LA",
+        "PO22 9LB",
+        "PO22 9LD",
+        "PO22 9LE",
+        "PO22 9LF",
+        "PO22 9LR",
+        "PO22 9LY",
+        "PO22 9QG",
+        "PO22 9QL",
+        "PO22 9QN",
+        "PO22 9QP",
+        "PO22 9QQ",
+        "PO22 9QR",
+        "PO22 9QS",
+        "PO22 9QT",
+        "PO22 9QU",
+        "PO22 9QW",
+        "PO22 9QY",
+        "PO22 9RB",
+        "PO22 9RD",
+        "PO22 9RE",
+        "PO22 9RJ",
+        "PO22 9RL",
+        "PO22 9RS",
+        "PO22 9RU",
+        "PO22 9RW",
+        "PO22 9RX",
+        "PO22 9RY",
+        "PO22 9SH",
+        "PO22 9SL",
+        "PO22 9SN",
+        "PO22 9SP",
+        "PO22 9SW",
+        "PO22 9TD",
+        "PO22 9TP",
+        "PO22 9TR",
+        "PO22 9UL"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.7841,
+              50.8176
+            ],
+            [
+              -0.6666,
+              50.8176
+            ],
+            [
+              -0.6666,
+              50.7314
+            ],
+            [
+              -1.7841,
+              50.7314
+            ],
+            [
+              -1.7841,
+              50.8176
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.8176,
+      "etrUpdate": true
     },
     {
       "latitude": 58.966869649094434,
@@ -3161,68 +3332,6 @@
       "etrUpdate": true
     },
     {
-      "latitude": 56.754284620460034,
-      "type": "LV",
-      "reference": "MT6560",
-      "etaUpdate": true,
-      "affectedCustomerCount": 6,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "445c5a14-1152-44b7-b9c1-1d99c04b72a7",
-      "minLongitude": -3.8802,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.8134281682196614,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-11-02T09:47:00.000+0000",
-      "estimatedRestoration": "2023-11-02T15:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MT6560'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT6560",
-      "maxLongitude": -3.6963,
-      "minLatitude": 56.7161,
-      "name": "PH16 & PH18 Areas",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "PH16 5RA",
-        "PH18 5TH",
-        "PH18 5TL"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -3.8802,
-              56.7792
-            ],
-            [
-              -3.6963,
-              56.7792
-            ],
-            [
-              -3.6963,
-              56.7161
-            ],
-            [
-              -3.8802,
-              56.7161
-            ],
-            [
-              -3.8802,
-              56.7792
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2023-11-02T11:00:00.000+0000",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "evChargersAffected": [
-        "997d5808-01fb-4009-b6d6-15b2cd69c130"
-      ],
-      "maxLatitude": 56.7792,
-      "etrUpdate": true
-    },
-    {
       "latitude": 56.58643275026314,
       "type": "HV",
       "reference": "MT7089",
@@ -3301,6 +3410,66 @@
       "estimatedArrivalOnSiteTime": "2023-11-02T15:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.6076,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 57.449341198625504,
+      "type": "LV",
+      "reference": "MT7179",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-11-02T15:15:00.000+0000",
+      "affectedCustomerCount": 7,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "993baada-22eb-4ae4-a13c-af5a0e081276",
+      "minLongitude": -2.8038,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.7932226602594996,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-11-02T15:14:00.000+0000",
+      "estimatedRestoration": "2023-11-02T18:15:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MT7179'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT7179",
+      "maxLongitude": -2.7846,
+      "minLatitude": 57.4482,
+      "name": "AB54 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB54 4UL",
+        "AB54 8DU",
+        "AB54 8DW",
+        "AB54 8DY"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.8038,
+              57.4532
+            ],
+            [
+              -2.7846,
+              57.4532
+            ],
+            [
+              -2.7846,
+              57.4482
+            ],
+            [
+              -2.8038,
+              57.4482
+            ],
+            [
+              -2.8038,
+              57.4532
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.4532,
       "etrUpdate": true
     }
   ]

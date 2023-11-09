@@ -558,12 +558,12 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-11-09T17:20:00.000+0000",
-      "estimatedRestoration": "2023-11-09T22:30:00.000+0000",
+      "estimatedRestoration": "2023-11-10T05:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MU7322'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MU7322",
       "maxLongitude": -1.0976,
       "minLatitude": 50.7993,
-      "name": "PO15 Area",
+      "name": "PO1 & PO15 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "PO1 3AN",
@@ -839,7 +839,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MU7484",
       "maxLongitude": -1.2969,
       "minLatitude": 50.898,
-      "name": "SO23 & SO19 Areas",
+      "name": "SO19 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "SO19 0AL",
@@ -940,6 +940,125 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.3264,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.04380884159562,
+      "type": "HV",
+      "reference": "MU7608",
+      "etaUpdate": true,
+      "affectedCustomerCount": 7,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "dd11965c-cb1e-4bb5-8da6-3571629ca127",
+      "minLongitude": -2.2484,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.232071143911717,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-11-09T19:43:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MU7608'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MU7608",
+      "maxLongitude": -2.2172,
+      "minLatitude": 51.0339,
+      "name": "SP7 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SP7 9HJ",
+        "SP7 9HY"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.2484,
+              51.0516
+            ],
+            [
+              -2.2172,
+              51.0516
+            ],
+            [
+              -2.2172,
+              51.0339
+            ],
+            [
+              -2.2484,
+              51.0339
+            ],
+            [
+              -2.2484,
+              51.0516
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.0516,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.84200674539414,
+      "type": "LV",
+      "reference": "MU7606",
+      "etaUpdate": true,
+      "affectedCustomerCount": 34,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "157a5211-5dae-42a7-b098-c7a6e49ce0f1",
+      "minLongitude": -1.1416,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.1376743280462949,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-11-09T19:42:00.000+0000",
+      "estimatedRestoration": "2023-11-09T22:45:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MU7606'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MU7606",
+      "maxLongitude": -1.1326,
+      "minLatitude": 50.8398,
+      "name": "PO16 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PO16 9AR",
+        "PO16 9ED",
+        "PO16 9EE",
+        "PO16 9EF",
+        "PO16 9EG",
+        "PO16 9EJ",
+        "PO16 9EQ",
+        "PO16 9HU"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.1416,
+              50.8441
+            ],
+            [
+              -1.1326,
+              50.8441
+            ],
+            [
+              -1.1326,
+              50.8398
+            ],
+            [
+              -1.1416,
+              50.8398
+            ],
+            [
+              -1.1416,
+              50.8441
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.8441,
       "etrUpdate": true
     },
     {

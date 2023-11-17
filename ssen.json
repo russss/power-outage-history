@@ -21,7 +21,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MV5794",
       "maxLongitude": -0.8081,
       "minLatitude": 51.4022,
-      "name": "RG41 Area",
+      "name": "RG40 & RG41 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "RG40 2JU",
@@ -368,6 +368,62 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "etrUpdate": true,
       "longitude": -1.6578586333292216,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-11-16T13:55:00.000+0000",
+      "latitude": 50.72353732856354,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MV6461'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MV6461",
+      "reference": "MV6461",
+      "maxLongitude": -1.18,
+      "etaUpdate": true,
+      "minLatitude": 50.7224,
+      "name": "PO33 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "PO33 3QH",
+        "PO33 3QX",
+        "PO33 3QY"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.1837,
+              50.7245
+            ],
+            [
+              -1.18,
+              50.7245
+            ],
+            [
+              -1.18,
+              50.7224
+            ],
+            [
+              -1.1837,
+              50.7224
+            ],
+            [
+              -1.1837,
+              50.7245
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "276b27be-4d50-4d75-95a1-7c254c6cf66b",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -1.1837,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 50.7245,
+      "etrUpdate": true,
+      "longitude": -1.181543657363079,
       "resolved": false
     }
   ]

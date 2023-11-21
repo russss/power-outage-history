@@ -20,7 +20,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/220909",
       "maxLongitude": -1.5962,
       "minLatitude": 51.0012,
-      "name": "SO51 & SP5 Areas",
+      "name": "SP5 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "SO51 6FQ",
@@ -420,6 +420,65 @@
       "etrUpdate": true
     },
     {
+      "latitude": 50.71130160736064,
+      "type": "LV",
+      "reference": "MW1107",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-11-20T21:45:00.000+0000",
+      "affectedCustomerCount": 6,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "4e9a1719-f0b1-476e-8081-f7ab2f0bbff2",
+      "minLongitude": -2.4565,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.4532519102835986,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-11-20T20:43:00.000+0000",
+      "estimatedRestoration": "2023-11-21T06:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MW1107'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MW1107",
+      "maxLongitude": -2.4512,
+      "minLatitude": 50.71,
+      "name": "DT1 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DT1 2JB",
+        "DT1 2JG",
+        "DT1 2JP"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.4565,
+              50.7124
+            ],
+            [
+              -2.4512,
+              50.7124
+            ],
+            [
+              -2.4512,
+              50.71
+            ],
+            [
+              -2.4565,
+              50.71
+            ],
+            [
+              -2.4565,
+              50.7124
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.7124,
+      "etrUpdate": true
+    },
+    {
       "latitude": 57.69808403424479,
       "type": "LV",
       "reference": "MW1061",
@@ -501,7 +560,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MW1026",
       "maxLongitude": -4.1376,
       "minLatitude": 57.4847,
-      "name": "IV2 & IV3 Areas",
+      "name": "IV3 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "IV2 7HY",
@@ -782,6 +841,63 @@
         "1bb00ead-f5e2-4141-bad5-43edb0c484e5"
       ],
       "maxLatitude": 57.5446,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 57.51336606512087,
+      "type": "HV",
+      "reference": "MW1182",
+      "etaUpdate": true,
+      "affectedCustomerCount": 9,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "10fb8ef1-e11f-4b87-a802-90328808f50c",
+      "minLongitude": -2.3617,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.323284009579764,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-11-21T02:42:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MW1182'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MW1182",
+      "maxLongitude": -2.2975,
+      "minLatitude": 57.4993,
+      "name": "AB53 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB53 8HY",
+        "AB53 8JH",
+        "AB53 8JJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.3617,
+              57.5303
+            ],
+            [
+              -2.2975,
+              57.5303
+            ],
+            [
+              -2.2975,
+              57.4993
+            ],
+            [
+              -2.3617,
+              57.4993
+            ],
+            [
+              -2.3617,
+              57.5303
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.5303,
       "etrUpdate": true
     }
   ]

@@ -142,7 +142,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/221640",
       "maxLongitude": -1.1751,
       "minLatitude": 50.8348,
-      "name": "PO13 & PO16 Areas",
+      "name": "PO16 & PO13 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "PO13 0FN",
@@ -353,7 +353,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MX2890",
       "maxLongitude": 0.0297,
       "minLatitude": 51.4876,
-      "name": "W4 Area",
+      "name": "E16 & W4 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "E16 3NB",
@@ -1206,7 +1206,7 @@
       "type": "HV",
       "reference": "MX3425",
       "etaUpdate": true,
-      "affectedCustomerCount": 333,
+      "affectedCustomerCount": 65,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "a9df08e9-01c7-4987-8a42-6f2c1f6600ca",
       "minLongitude": -1.015,
@@ -1524,7 +1524,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/220763",
       "maxLongitude": -1.2471,
       "minLatitude": 59.8487,
-      "name": "ZE2 & ZE3 Areas",
+      "name": "ZE3 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "ZE2 9JE",
@@ -1852,63 +1852,6 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.616,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 57.47628991335367,
-      "type": "LV",
-      "reference": "MX3470",
-      "etaUpdate": true,
-      "affectedCustomerCount": 7,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "f11b7ce7-937f-4fae-83e4-6e9104bb1b81",
-      "minLongitude": -4.4273,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.415785646707719,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-11-29T15:08:00.000+0000",
-      "estimatedRestoration": "2023-11-29T18:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MX3470'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MX3470",
-      "maxLongitude": -4.4105,
-      "minLatitude": 57.4747,
-      "name": "IV5 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "IV5 7NB",
-        "IV5 7NZ"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -4.4273,
-              57.4825
-            ],
-            [
-              -4.4105,
-              57.4825
-            ],
-            [
-              -4.4105,
-              57.4747
-            ],
-            [
-              -4.4273,
-              57.4747
-            ],
-            [
-              -4.4273,
-              57.4825
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.4825,
       "etrUpdate": true
     }
   ]

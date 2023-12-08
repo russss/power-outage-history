@@ -317,7 +317,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MY5094",
       "maxLongitude": -2.0195,
       "minLatitude": 50.616,
-      "name": "DT2 & BH20 Areas",
+      "name": "BH20 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "BH20",
@@ -772,75 +772,6 @@
       "etrUpdate": true
     },
     {
-      "latitude": 57.66277067097759,
-      "type": "HV",
-      "reference": "MY4772",
-      "etaUpdate": true,
-      "affectedCustomerCount": 46,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "502d0fe0-c8a4-4515-b19f-adc9643a5660",
-      "minLongitude": -2.9842,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.9293495703361314,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-12-07T18:34:00.000+0000",
-      "estimatedRestoration": "2023-12-08T04:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on their way to site to get the power back on as quickly as they can. please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MY4772'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MY4772",
-      "maxLongitude": -2.802,
-      "minLatitude": 57.648,
-      "name": "AB56 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "AB56 4AD",
-        "AB56 4AT",
-        "AB56 4AU",
-        "AB56 4AX",
-        "AB56 4AY",
-        "AB56 4BA",
-        "AB56 4DX",
-        "AB56 5AE",
-        "AB56 5AQ",
-        "AB56 5AS",
-        "AB56 5BB",
-        "AB56 5JJ",
-        "AB56 5XS"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.9842,
-              57.6833
-            ],
-            [
-              -2.802,
-              57.6833
-            ],
-            [
-              -2.802,
-              57.648
-            ],
-            [
-              -2.9842,
-              57.648
-            ],
-            [
-              -2.9842,
-              57.6833
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2023-12-07T19:30:00.000+0000",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.6833,
-      "etrUpdate": true
-    },
-    {
       "latitude": 57.1920736878541,
       "type": "HV",
       "reference": "MY4936",
@@ -962,6 +893,88 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.6482,
       "etrUpdate": true
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-12-08T04:30:00.000+0000",
+      "latitude": 57.19961428495675,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MY5312'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MY5312",
+      "reference": "MY5312",
+      "maxLongitude": -2.1841,
+      "etaUpdate": true,
+      "minLatitude": 57.1698,
+      "name": "AB21 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "AB15 8RN",
+        "AB15 8RP",
+        "AB21 0DA",
+        "AB21 0DP",
+        "AB21 0EQ",
+        "AB21 0ER",
+        "AB21 0EY",
+        "AB21 0HA",
+        "AB21 0HB",
+        "AB21 0HD",
+        "AB21 0HE",
+        "AB21 0HH",
+        "AB21 0HJ",
+        "AB21 0HT",
+        "AB21 0TT",
+        "AB21 0TU",
+        "AB21 0TZ",
+        "AB21 9SX",
+        "AB21 9TB",
+        "AB21 9TD",
+        "AB21 9TE",
+        "AB21 9TJ",
+        "AB21 9TL",
+        "AB21 9TN",
+        "AB21 9TQ",
+        "AB21 9TS",
+        "AB21 9TT",
+        "AB21 9TX",
+        "AB21 9YA"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.2837,
+              57.2334
+            ],
+            [
+              -2.1841,
+              57.2334
+            ],
+            [
+              -2.1841,
+              57.1698
+            ],
+            [
+              -2.2837,
+              57.1698
+            ],
+            [
+              -2.2837,
+              57.2334
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "895c5e0e-205a-4966-861a-0c9405229274",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -2.2837,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 57.2334,
+      "etrUpdate": true,
+      "longitude": -2.2351881318944526,
+      "resolved": false
     }
   ]
 }

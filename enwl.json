@@ -73,8 +73,8 @@
       "date": "2023-12-22T12:38:05",
       "region": "Aighton, Bailey And Chaigley, Ribble Valley",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
       "consumersOff": 4,
       "estimatedTimeOfRestoration": "2023-12-22T18:38:00",
       "estimatedTimeOfRestorationMajority": "2023-12-22T18:38:00",
@@ -198,7 +198,7 @@
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
       "previousFaultStatus": "We're on site",
-      "consumersOff": 306,
+      "consumersOff": 201,
       "estimatedTimeOfRestoration": "2023-12-22T14:54:00",
       "estimatedTimeOfRestorationMajority": "2023-12-22T14:54:00",
       "information": "",
@@ -293,6 +293,47 @@
       "AffectedPostcodes": " PR4 1YA, PR4 1XE, PR4 1BD, PR4 1BH, PR3 3WG, PR4 1ZA, PR4 1XS, PR4 6UR, PR4 1TN",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "U/GM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "The power cut in your area has been caused by an unexpected incident with the overhead cable that provides electricity to your property.",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124194536",
+      "multipleFaultNumbers": null,
+      "date": "2023-12-22T09:34:43",
+      "region": "Scott, West Lancashire",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
+      "consumersOff": 450,
+      "estimatedTimeOfRestoration": "2023-12-22T13:34:00",
+      "estimatedTimeOfRestorationMajority": "2023-12-22T13:34:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.588562,
+        "lng": -2.918204
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " L39 3AD, L40 8HE, L40 8HQ, L40 8HA, L40 8HF, L40 8HD, L40 8JL, L39 8JL, L39 8RL, L39 8RB, L40 8HB, L40 1UD, L39 8RE, L39 7LA, L39 7JX, L40 8JD, L40 8HR, L40 8HL, L39 8RH, L40 8HJ, L40 8HN, L40 8HS, L39 7JZ, L39 8AA, L39 7JY, L39 7HR, L39 8RJ, L40 8JQ, L39 8RT, L39 2DF, L40 8HW, L40 8LG, L40 9RH, L40 8HP, L40 8JG, L40 9RT, L40 8HG, L40 8HH, L40 8HZ, L40 8JF, L40 8JE, L40 8HY, L40 8HU",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "O/HM"
     },
     {
       "FaultLabel": "Live power cut",
@@ -423,6 +464,6 @@
     "CurrentFault",
     "ResolvedFault"
   ],
-  "TotalResults": 9,
+  "TotalResults": 10,
   "ShowPolygons": false
 }

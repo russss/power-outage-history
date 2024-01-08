@@ -16,7 +16,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-01-08T06:30:00.000+0000",
-      "estimatedRestoration": "2024-01-08T18:30:00.000+0000",
+      "estimatedRestoration": "2024-01-08T23:59:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NC6192'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NC6192",
       "maxLongitude": -0.9719,
@@ -431,6 +431,7 @@
       "type": "LV",
       "reference": "NC6926",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2024-01-08T16:30:00.000+0000",
       "affectedCustomerCount": 3,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "0b7a24a0-6a75-45fe-9e91-48804da09fc7",
@@ -608,6 +609,7 @@
       "type": "LV",
       "reference": "NC7033",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2024-01-08T17:30:00.000+0000",
       "affectedCustomerCount": 11,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "b9cb8d40-c4ea-44a0-bbd8-d6f6168d6316",
@@ -1118,6 +1120,78 @@
       "resolved": false
     },
     {
+      "latitude": 51.40233272064042,
+      "type": "LV",
+      "reference": "NC7243",
+      "etaUpdate": true,
+      "affectedCustomerCount": 34,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "c62d937e-0832-43f5-a67d-8fcf66f85780",
+      "minLongitude": -1.3358,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.327176689490197,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-01-08T18:34:00.000+0000",
+      "estimatedRestoration": "2024-01-08T22:20:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NC7243'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NC7243",
+      "maxLongitude": -1.3246,
+      "minLatitude": 51.4013,
+      "name": "RG14 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "RG14 1AP",
+        "RG14 1BD",
+        "RG14 1BE",
+        "RG14 1BN",
+        "RG14 1BP",
+        "RG14 1BS",
+        "RG14 1BT",
+        "RG14 1BU",
+        "RG14 1BW",
+        "RG14 1BX",
+        "RG14 1HT",
+        "RG14 1JZ",
+        "RG14 1RS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.3358,
+              51.4049
+            ],
+            [
+              -1.3246,
+              51.4049
+            ],
+            [
+              -1.3246,
+              51.4013
+            ],
+            [
+              -1.3358,
+              51.4013
+            ],
+            [
+              -1.3358,
+              51.4049
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2024-01-08T20:00:00.000+0000",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "c4eb7c96-dba9-44c8-a4dd-32fc8d3e8e0b"
+      ],
+      "maxLatitude": 51.4049,
+      "etrUpdate": true
+    },
+    {
       "latitude": 57.357402312676776,
       "type": "HV",
       "reference": "NC7023",
@@ -1260,8 +1334,9 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2024-01-08T19:09:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NC7263'",
+      "loggedAt": "2024-01-08T19:10:00.000+0000",
+      "estimatedRestoration": "2024-01-08T23:59:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NC7263'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NC7263",
       "maxLongitude": -2.503,
       "minLatitude": 57.3169,

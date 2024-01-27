@@ -46,14 +46,57 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cuts, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125102427",
+      "multipleFaultNumbers": null,
+      "date": "2024-01-27T20:21:51",
+      "region": "Sutton, Cheshire East",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 41,
+      "estimatedTimeOfRestoration": "2024-01-27T23:21:00",
+      "estimatedTimeOfRestorationMajority": "2024-01-27T23:21:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.212225,
+        "lng": -2.0777
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " SK11 0QE, SK11 0QH, SK11 0QQ, SK11 0LY, SK11 0LU, SK11 0NL, SK11 0NJ, SK11 0NA, SK11 0QJ, SK11 0QL, SK11 0NZ, SK11 0NG, SK11 0LX, SK11 0QF, SK11 0NE, SK11 0QG, SK11 0NH, SK11 0MA, SK11 0HR, SK11 0JA, SK11 0NN, SK11 0JQ, SK11 0JD, SK11 0JF, SK11 0JE, SK11 0PX, SK11 0HZ, SK11 0JB, SK11 6QN, SK11 0JN, SK11 0HX, SK11 0BD, SK11 0BH, SK11 0BQ, SK11 0BL, SK11 0BJ, SK11 0BA, SK11 0RF, SK11 0BB, SK11 0BG, SK17 0SU",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 1,
   "ShowPolygons": false
 }

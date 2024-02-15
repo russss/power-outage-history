@@ -68,13 +68,54 @@
           "Url": "/about-us/contact-us/report-a-power-cut-105/"
         }
       ],
+      "faultNumber": "INC 125104679",
+      "multipleFaultNumbers": null,
+      "date": "2024-02-15T08:25:17",
+      "region": "Gorton & Abbey Hey, Manchester",
+      "faultType": "Current Fault",
+      "faultStatus": "Preparing to send team",
+      "previousFaultStatus": "Preparing to send team",
+      "consumersOff": 52,
+      "estimatedTimeOfRestoration": "2024-02-15T14:25:00",
+      "estimatedTimeOfRestorationMajority": "2024-02-15T14:25:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.457485,
+        "lng": -2.168723
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " M18 7HR, M18 7HE, M18 7HA, M18 7EX, M18 7ED, M18 7FX, M18 7DY, M18 7EU",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "U/GM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cuts, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
       "faultNumber": "INC 125104665",
       "multipleFaultNumbers": null,
       "date": "2024-02-15T08:15:11",
       "region": "Ulverston, South Lakeland",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": null,
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
       "consumersOff": 11,
       "estimatedTimeOfRestoration": "2024-02-15T14:10:00",
       "estimatedTimeOfRestorationMajority": "2024-02-15T14:10:00",
@@ -114,8 +155,8 @@
       "date": "2024-02-15T08:07:20",
       "region": "Ulverston, South Lakeland",
       "faultType": "Current Fault",
-      "faultStatus": "Team on their way",
-      "previousFaultStatus": "Preparing to send team",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
       "consumersOff": 46,
       "estimatedTimeOfRestoration": "2024-02-15T14:04:00",
       "estimatedTimeOfRestorationMajority": "2024-02-15T14:04:00",
@@ -196,7 +237,7 @@
       "date": "2024-02-15T07:34:43",
       "region": "Gorton & Abbey Hey, Manchester",
       "faultType": "Current Fault",
-      "faultStatus": "Team on their way",
+      "faultStatus": "We're on site",
       "previousFaultStatus": "Team on their way",
       "consumersOff": 55,
       "estimatedTimeOfRestoration": "2024-02-15T13:34:00",
@@ -423,8 +464,9 @@
     "CurrentFault",
     "ResolvedFault",
     "TodaysPlannedWorks",
-    "FuturePlannedWorks"
+    "FuturePlannedWorks",
+    "CancelledPlannedWork"
   ],
-  "TotalResults": 9,
+  "TotalResults": 10,
   "ShowPolygons": false
 }

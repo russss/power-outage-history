@@ -74,7 +74,7 @@
       "region": "Ewood, Blackburn With Darwen",
       "faultType": "Current Fault",
       "faultStatus": "Access required to complete",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "Access required to complete",
       "consumersOff": 4,
       "estimatedTimeOfRestoration": "2024-02-19T19:00:00",
       "estimatedTimeOfRestorationMajority": "2024-02-19T19:00:00",
@@ -115,7 +115,7 @@
       "region": "St. Ambrose, South Ribble",
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "We're on site",
       "consumersOff": 8,
       "estimatedTimeOfRestoration": "2024-03-03T14:00:00",
       "estimatedTimeOfRestorationMajority": "2024-03-03T14:00:00",
@@ -156,7 +156,7 @@
       "region": "Botcherby & Harraby North, Carlisle",
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "We're on site",
       "consumersOff": 622,
       "estimatedTimeOfRestoration": "2024-03-03T12:29:00",
       "estimatedTimeOfRestorationMajority": "2024-03-03T12:29:00",
@@ -170,6 +170,47 @@
       "AffectedPostcodes": " CA1 2TE, CA1 2TR, CA1 2UE, CA1 2TH, CA1 2TG, CA1 2UQ, CA1 2TX, CA1 2SB, CA1 2TU, CA1 2SH, CA1 2TS, CA1 2SF, CA1 2TP, CA1 2TA, CA1 2UF, CA1 2ST, CA1 2UD, CA1 2UA, CA1 2TJ, CA1 2UG, CA1 2TW, CA1 2SP, CA1 2UT, CA1 2RU, CA1 2UR, CA1 2TT, CA1 2UH, CA1 2SN, CA1 2SL, CA1 2FT, CA1 2SD, CA1 2SW, CA1 2RZ, CA1 2SU, CA1 2RP, CA1 2SG, CA1 2UB, CA1 2UU, CA1 2SJ, CA1 2SE, CA1 2RW, CA3 9ND",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "HVFL"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cuts, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124217528",
+      "multipleFaultNumbers": null,
+      "date": "2024-03-03T11:06:55",
+      "region": "Caton-With-Littledale, Lancaster",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "Preparing to send team",
+      "consumersOff": 44,
+      "estimatedTimeOfRestoration": "2024-03-03T12:00:00",
+      "estimatedTimeOfRestorationMajority": "2024-03-03T12:00:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 54.076195,
+        "lng": -2.715023
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " LA2 9RG, LA2 9QT, LA2 9QL, LA2 9QN, LA2 9HZ, LA2 9RH, LA2 9NW, LA2 9QW",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "U/GM"
     }
   ],
   "Markers": null,
@@ -179,6 +220,6 @@
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 3,
+  "TotalResults": 4,
   "ShowPolygons": false
 }

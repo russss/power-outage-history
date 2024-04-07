@@ -196,7 +196,7 @@
       "date": "2024-04-07T07:05:07",
       "region": "Chorley East, Chorley",
       "faultType": "Current Fault",
-      "faultStatus": "Team on their way",
+      "faultStatus": "We're on site",
       "previousFaultStatus": "Team on their way",
       "consumersOff": 65,
       "estimatedTimeOfRestoration": "2024-04-07T13:05:00",
@@ -237,8 +237,8 @@
       "date": "2024-04-07T08:11:59",
       "region": "Redvales, Bury",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
       "consumersOff": 488,
       "estimatedTimeOfRestoration": "2024-04-07T14:11:00",
       "estimatedTimeOfRestorationMajority": "2024-04-07T14:11:00",
@@ -278,8 +278,8 @@
       "date": "2024-04-07T08:12:15",
       "region": "Bury East, Bury",
       "faultType": "Current Fault",
-      "faultStatus": "Preparing to send team",
-      "previousFaultStatus": "Preparing to send team",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
       "consumersOff": 79,
       "estimatedTimeOfRestoration": "2024-04-07T14:12:00",
       "estimatedTimeOfRestorationMajority": "2024-04-07T14:12:00",
@@ -293,6 +293,47 @@
       "AffectedPostcodes": " BL9 0RU, BL9 0RX, BL9 0RY, BL9 0SA, BL9 0RW, BL9 0RE, BL9 0RN, BL9 0BL, BL9 0RT",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "U/GM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cuts, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125115892",
+      "multipleFaultNumbers": null,
+      "date": "2024-04-07T08:13:28",
+      "region": "Wigglesworth, Craven",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
+      "consumersOff": 37,
+      "estimatedTimeOfRestoration": "2024-04-07T11:13:00",
+      "estimatedTimeOfRestorationMajority": "2024-04-07T11:13:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 54.042812,
+        "lng": -2.325682
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " BD23 4SQ, BD23 4SS, BD24 0JU, BD23 4SD, BD23 4RJ, BD23 4SU, BD23 4ST, BD23 4SA, BD24 0JS, BD23 4TA, LA2 8AJ, BD23 4SF, LA2 8AL, BD24 0LP, BD24 0DX, BD23 4SE, BD23 4RW, BD24 0JT, BD24 0LR, BD23 4SX, LA2 8AP, BD23 4SB, BD24 0LJ, BD24 0JX, BD24 0OX",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
     }
   ],
   "Markers": null,
@@ -302,6 +343,6 @@
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 6,
+  "TotalResults": 7,
   "ShowPolygons": false
 }

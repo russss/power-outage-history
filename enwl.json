@@ -19,10 +19,10 @@
   "ViewOnMapUrl": "/power-cuts/power-cuts-power-cuts-live-power-cut-information-fault-list/fault-list/",
   "NoFaultMessage": "<p>&nbsp;</p>\n<p>We display information with four or more properties off supply.&nbsp; At the moment we're unable to find any power cuts in the area.&nbsp;</p>\n<p>If you have no supply it could be you are the first to tell us about it.&nbsp; Help us get your power back on by calling 105 or 0800 195 4141.</p>",
   "NoCancelledPowercuts": "<p>There are currently no cancelled power cuts in our region. If your power hasn't gone off as planned or you have a questions about a planned power cut please use our contact form <a href=\"/link/4613add537cb4feca23ae9c2bd613a3b.aspx\">here</a> or you may find the answer on our planned power cut page <a href=\"/link/89b7d6f05c2e42bf8479643deee5426d.aspx\">here</a>.&nbsp;</p>",
-  "OutsideAreaMessage": "<p>Sorry, it looks like your property is not on our network. Please contact your network operator for more information. To find your&nbsp;operator visit <a href=\"http://www.powercut105.com/findoperator\">www.powercut105.com/findoperator</a>&nbsp;or call 105.</p>",
+  "OutsideAreaMessage": "<p>Sorry, it looks like your property is not on our network. Please contact your network operator for more information. To find your&nbsp;operator visit <a href=\"http://www.powercut105.com/findoperator\">www.powercut105.com/findoperator</a> or call 105.</p>",
   "OutsideAreaImage": "/globalassets/enwl_single-blue-block.jpg",
   "OutsideAreaImageLink": "/power-cuts/",
-  "NoActiveFaultsMessage": "<p>&nbsp;</p>\n<p>There are no reported power cuts right now. If you have a power cut you can report it by calling <a title=\"Call 105\" href=\"tel:%20105\">105</a>&nbsp;</p>\n<p>We're available 24 hours a day, seven days a week.</p>\n<p>&nbsp;</p>",
+  "NoActiveFaultsMessage": "<p>&nbsp;</p>\n<p>There are no reported power cuts right now. If you have a power cut you can report it by calling <a title=\"Call 105\" href=\"tel:%20105\">105</a> or <a href=\"/link/18f1bff0189c4fd0b72e21fd47eb29bb.aspx\">report a power cut online.</a></p>\n<p>We're available 24 hours a day, seven days a week.</p>\n<p>&nbsp;</p>",
   "NoOutageSummaryTitle": "There have been no reports of a power cut in",
   "NoOutageSummaryDescription": "If you are experiencing issues with your power, let us know so we can investigate the problem.",
   "OutageSummaryTitle": "We are sorry you are experiencing a power cut in",
@@ -74,7 +74,7 @@
       "region": "Hadfield South, High Peak",
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "We're on site",
       "consumersOff": 49,
       "estimatedTimeOfRestoration": "2024-07-01T14:29:00",
       "estimatedTimeOfRestorationMajority": "2024-07-01T14:29:00",
@@ -115,7 +115,7 @@
       "region": "Bamber Bridge East, South Ribble",
       "faultType": "Current Fault",
       "faultStatus": "Preparing to send team",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "Preparing to send team",
       "consumersOff": 5,
       "estimatedTimeOfRestoration": "2024-07-01T13:42:00",
       "estimatedTimeOfRestorationMajority": "2024-07-01T13:42:00",
@@ -129,6 +129,47 @@
       "AffectedPostcodes": " PR5 8AR, PR5 8AS, PR5 8NA",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "U/GM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cuts, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 124245270",
+      "multipleFaultNumbers": null,
+      "date": "2024-07-01T07:57:21",
+      "region": "Bramhall South And Woodford, Stockport",
+      "faultType": "Current Fault",
+      "faultStatus": "Team on their way",
+      "previousFaultStatus": "Team on their way",
+      "consumersOff": 34,
+      "estimatedTimeOfRestoration": "2024-07-01T13:57:00",
+      "estimatedTimeOfRestorationMajority": "2024-07-01T13:57:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.363061,
+        "lng": -2.186153
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " SK8 7JR, SK8 7LA, SK8 7LB, SK8 7JX",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "U/GM"
     }
   ],
   "Markers": null,
@@ -138,7 +179,7 @@
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 2,
+  "TotalResults": 3,
   "ShowPolygons": false,
   "Regions": [
     {

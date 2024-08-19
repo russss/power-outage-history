@@ -74,7 +74,7 @@
       "region": "Shaw And Crompton, Oldham",
       "faultType": "Current Fault",
       "faultStatus": "Preparing to send team",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "Preparing to send team",
       "consumersOff": 98,
       "estimatedTimeOfRestoration": "2024-08-19T16:00:00",
       "estimatedTimeOfRestorationMajority": "2024-08-19T16:00:00",
@@ -115,7 +115,7 @@
       "region": "Carnforth, Lancaster",
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "We're on site",
       "consumersOff": 27,
       "estimatedTimeOfRestoration": "2024-08-19T15:00:00",
       "estimatedTimeOfRestorationMajority": "2024-08-19T15:00:00",
@@ -156,7 +156,7 @@
       "region": "Ribby-With-Wrea, Fylde",
       "faultType": "Current Fault",
       "faultStatus": "We're on site",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "We're on site",
       "consumersOff": 69,
       "estimatedTimeOfRestoration": "2024-08-19T21:30:00",
       "estimatedTimeOfRestorationMajority": "2024-08-19T21:30:00",
@@ -173,8 +173,13 @@
     }
   ],
   "Markers": null,
-  "AvailableItemTypes": [],
-  "TotalResults": 0,
+  "AvailableItemTypes": [
+    "CurrentFault",
+    "ResolvedFault",
+    "TodaysPlannedWorks",
+    "FuturePlannedWorks"
+  ],
+  "TotalResults": 3,
   "ShowPolygons": false,
   "Regions": [
     {

@@ -1,79 +1,6 @@
 {
   "Faults": [
     {
-      "latitude": 51.56812448143722,
-      "primaryNrn": 3123,
-      "type": "HV",
-      "reference": "PR3097",
-      "etaUpdate": true,
-      "lvFeederNrn": 0,
-      "affectedCustomerCount": 75,
-      "networkId": "com.sse.ssepd.sepd",
-      "suppressed": false,
-      "UUID": "765694c5-5315-4624-b8bd-59566296e445",
-      "minLongitude": -2.28451136217147,
-      "txNrn": 260,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.2535702459434557,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2024-10-18T14:18:00.000+0000",
-      "estimatedRestoration": "2024-10-19T02:00:00.000+0000",
-      "priorityCustomerCount": 1,
-      "message": "We're aware of a power cut in the area shown, affecting 75 homes. This unplanned fault is affecting a large area, and it's likely several streets in your area are affected by the same power cut.<br/><br/>Our engineers are in your local area and working hard to get your power restored as soon as possible. At this stage, based on initial investigations, we're aiming to restore your power by 03:00 19/10/2024. If this changes, we will update this message.<br/><br/>We have had reports of a overhead power line coming down. When this happens, the power will automatically turn off to keep everyone safe. Our engineers know exactly where the problem is and are working hard to make the situation safe, repair the wire and get your power back on. These type of faults often require extensive work and specialist teams which is why the restoration time seems so far away. If we can restore power sooner, we promise we will do so.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PR3097'",
-      "maxLongitude": -2.217792047940617,
-      "minLatitude": 51.5406676360049,
-      "name": "SN14 & GL9 Areas",
-      "jobSubTypeCode": "08",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "GL9 1DD",
-        "GL9 1DN",
-        "GL9 1DW",
-        "SN14 6PP",
-        "SN14 6PR",
-        "SN14 6PS",
-        "SN14 6PT",
-        "SN14 6PW",
-        "SN16 0QB"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.28451136217147,
-              51.583167496128176
-            ],
-            [
-              -2.217792047940617,
-              51.583167496128176
-            ],
-            [
-              -2.217792047940617,
-              51.5406676360049
-            ],
-            [
-              -2.28451136217147,
-              51.5406676360049
-            ],
-            [
-              -2.28451136217147,
-              51.583167496128176
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-10-19T00:57:14.079+0000",
-      "maxLatitude": 51.583167496128176,
-      "etrUpdate": true,
-      "hvFeederNrn": 2
-    },
-    {
       "latitude": 50.997252109847764,
       "primaryNrn": 6408,
       "type": "LV",
@@ -455,7 +382,7 @@
       "loggedAt": "2024-10-18T20:06:00.000+0000",
       "estimatedRestoration": "2024-10-19T08:00:00.000+0000",
       "priorityCustomerCount": 11,
-      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>Due to a busier than usual day, all of our engineers are currently working on other faults. We have made the local teams aware of your power cut and they are working hard to find resources to attend and get your power back on. At this stage, we're aiming to have your power restored by 09:00 19/10/2024.<br/><br/>We have had reports of damage to our network. When this happens, the power will automatically turn off to keep everyone safe. Our engineers know exactly where the problem is and are working hard to make the situation safe, repair the wire and get your power back on. These type of faults often require extensive work and specialist teams, such as tree cutters, which is why the restoration time seems so far away. If we can restore power sooner, we promise we will do so.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PR3391'",
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 04:30 19/10/2024. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 09:00 19/10/2024.<br/><br/>We have had reports of damage to our network. When this happens, the power will automatically turn off to keep everyone safe. Our engineers know exactly where the problem is and are working hard to make the situation safe, repair the wire and get your power back on. These type of faults often require extensive work and specialist teams, such as tree cutters, which is why the restoration time seems so far away. If we can restore power sooner, we promise we will do so.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PR3391'",
       "maxLongitude": -1.436894271298095,
       "minLatitude": 51.589513734933064,
       "name": "OX12 Area",
@@ -499,9 +426,10 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "OR",
+      "estimatedArrivalOnSiteTime": "2024-10-19T03:30:00.000+0000",
+      "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-10-18T23:10:14.126+0000",
+      "updated": "2024-10-19T02:27:14.797+0000",
       "maxLatitude": 51.592880840530356,
       "etrUpdate": true,
       "hvFeederNrn": 6

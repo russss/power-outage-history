@@ -330,7 +330,7 @@
       "loggedAt": "2024-10-19T21:26:00.000+0000",
       "estimatedRestoration": "2024-10-20T04:00:00.000+0000",
       "priorityCustomerCount": 27,
-      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have notified an engineer of your power cut and are working with them to provide a more accurate update. Once we have this information, we will update this message. You can register for updates on this outage on this page too. At this stage, we're aiming to have your power restored by 05:00 20/10/2024.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PR4264'",
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 23:30 19/10/2024. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 05:00 20/10/2024.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PR4264'",
       "maxLongitude": -1.383610135163574,
       "minLatitude": 50.91238978210076,
       "name": "SO15 Area",
@@ -373,10 +373,78 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "P",
+      "estimatedArrivalOnSiteTime": "2024-10-19T22:30:00.000+0000",
+      "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-10-19T21:40:39.756+0000",
+      "updated": "2024-10-19T21:44:40.001+0000",
       "maxLatitude": 50.93030442375827,
+      "etrUpdate": true,
+      "hvFeederNrn": 5
+    },
+    {
+      "latitude": 50.80319810615627,
+      "primaryNrn": 7322,
+      "type": "LV",
+      "reference": "PR4275",
+      "etaUpdate": true,
+      "lvFeederNrn": 1,
+      "affectedCustomerCount": 19,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "3a9eba39-4639-4cac-934d-f3d4a5204746",
+      "minLongitude": -1.987983288822394,
+      "txNrn": 200,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.9857180183087495,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-10-19T21:44:00.000+0000",
+      "priorityCustomerCount": 29,
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PR4275'",
+      "maxLongitude": -1.982733161839854,
+      "minLatitude": 50.80134158321878,
+      "name": "BH21 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "criticalCustomerCount": 4,
+      "affectedAreas": [
+        "BH21 1AT",
+        "BH21 1PL",
+        "BH21 1PU",
+        "BH21 1PW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.987983288822394,
+              50.80645587318722
+            ],
+            [
+              -1.982733161839854,
+              50.80645587318722
+            ],
+            [
+              -1.982733161839854,
+              50.80134158321878
+            ],
+            [
+              -1.987983288822394,
+              50.80134158321878
+            ],
+            [
+              -1.987983288822394,
+              50.80645587318722
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "R",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2024-10-19T21:45:39.941+0000",
+      "maxLatitude": 50.80645587318722,
       "etrUpdate": true,
       "hvFeederNrn": 5
     }

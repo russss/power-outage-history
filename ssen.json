@@ -1592,6 +1592,7 @@
       "lvFeederNrn": 2,
       "affectedCustomerCount": 32,
       "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
       "UUID": "7f0c396f-6887-4c33-bac7-df01acf5389e",
       "minLongitude": -1.9583830985538,
       "txNrn": 220,
@@ -1643,12 +1644,88 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2024-10-24T09:30:00.000+0000",
       "jobStatusCode": "R",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-10-24T08:27:46.709+0000",
+      "updated": "2024-10-24T08:38:47.011+0000",
       "maxLatitude": 50.6216699779444,
       "etrUpdate": true,
       "hvFeederNrn": 1
+    },
+    {
+      "latitude": 51.62166541384995,
+      "primaryNrn": 4009,
+      "type": "LV",
+      "reference": "PR9347",
+      "etaUpdate": true,
+      "lvFeederNrn": 1,
+      "affectedCustomerCount": 35,
+      "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
+      "UUID": "f4a58d23-1181-427d-b403-c83743557510",
+      "minLongitude": -0.726168123066998,
+      "txNrn": 80,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.7213769441743253,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-10-24T08:25:00.000+0000",
+      "estimatedRestoration": "2024-10-24T13:00:00.000+0000",
+      "priorityCustomerCount": 20,
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 09:00 24/10/2024. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 14:00 24/10/2024.<br/><br/>You may have noticed your power going on and off. This is nothing to worry about but is being caused by a fault on our network. The typical cause for this issue is that something is touching our overhead network - it is usually a tree branch. Our teams are locating the source of the problem as we speak and once we resolve the issue, your power will return to normal. In the meantime, we'd suggest turning off any sensitive appliances like computers and TVs.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PR9347'",
+      "maxLongitude": -0.717533114727284,
+      "minLatitude": 51.618187602233995,
+      "name": "HP11 & HP13 Areas",
+      "jobSubTypeCode": "11",
+      "otherUpdate": true,
+      "criticalCustomerCount": 1,
+      "affectedAreas": [
+        "HP11 1EJ",
+        "HP11 1EL",
+        "HP11 1FY",
+        "HP11 1LP",
+        "HP13 7EJ",
+        "HP13 7NS",
+        "HP13 7NT",
+        "HP13 7NU",
+        "HP13 7NX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.726168123066998,
+              51.624223655462956
+            ],
+            [
+              -0.717533114727284,
+              51.624223655462956
+            ],
+            [
+              -0.717533114727284,
+              51.618187602233995
+            ],
+            [
+              -0.726168123066998,
+              51.618187602233995
+            ],
+            [
+              -0.726168123066998,
+              51.624223655462956
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2024-10-24T08:00:00.000+0000",
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2024-10-24T08:35:47.003+0000",
+      "maxLatitude": 51.624223655462956,
+      "etrUpdate": true,
+      "hvFeederNrn": 8
     },
     {
       "latitude": 57.47816315937732,
@@ -2879,6 +2956,70 @@
       "maxLatitude": 56.656956582098665,
       "etrUpdate": true,
       "hvFeederNrn": 1
+    },
+    {
+      "latitude": 58.981519606696025,
+      "primaryNrn": 677,
+      "type": "PSI",
+      "reference": "230683",
+      "etaUpdate": true,
+      "lvFeederNrn": 1,
+      "affectedCustomerCount": 9,
+      "networkId": "com.sse.ssepd.shepd",
+      "suppressed": false,
+      "UUID": "a6306ca3-a506-4998-87a3-47ccf4deb220",
+      "minLongitude": -2.990589084223815,
+      "txNrn": 120,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.976146878979387,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-10-24T08:30:00.000+0000",
+      "estimatedRestoration": "2024-10-24T15:30:00.000+0000",
+      "priorityCustomerCount": 2,
+      "message": "Planned outage: We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on <a href=\"tel:105\">105</a> or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter <a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '230683'. You will have received a letter from us confirming your power will be interrupted, with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.<br/><br/>",
+      "maxLongitude": -2.96935408528836,
+      "minLatitude": 58.97930312705115,
+      "name": "KW15 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "KW15 1RR",
+        "KW15 1RS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.990589084223815,
+              58.98366858907591
+            ],
+            [
+              -2.96935408528836,
+              58.98366858907591
+            ],
+            [
+              -2.96935408528836,
+              58.97930312705115
+            ],
+            [
+              -2.990589084223815,
+              58.97930312705115
+            ],
+            [
+              -2.990589084223815,
+              58.98366858907591
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2024-10-24T08:31:46.761+0000",
+      "maxLatitude": 58.98366858907591,
+      "etrUpdate": true,
+      "hvFeederNrn": 53
     }
   ]
 }

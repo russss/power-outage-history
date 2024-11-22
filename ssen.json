@@ -2153,8 +2153,9 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-11-22T12:29:00.000+0000",
+      "estimatedRestoration": "2024-11-22T14:00:00.000+0000",
       "priorityCustomerCount": 1,
-      "message": "We're aware of a power cut in the area shown, affecting 15 homes. This unplanned fault is affecting a large area, and it's likely several streets in your area are affected by the same power cut.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our overhead network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PV1406'",
+      "message": "We're aware of a power cut in the area shown, affecting 15 homes. This unplanned fault is affecting a large area, and it's likely several streets in your area are affected by the same power cut.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 12:30 22/11/2024. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 14:00 22/11/2024.<br/><br/>The cause of this power cut is a fault on our overhead network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PV1406'",
       "maxLongitude": -1.68893700194266,
       "minLatitude": 50.76788414110864,
       "name": "BH23 Area",
@@ -2192,9 +2193,10 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "R",
+      "estimatedArrivalOnSiteTime": "2024-11-22T12:30:00.000+0000",
+      "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-22T12:32:04.462+0000",
+      "updated": "2024-11-22T12:36:04.483+0000",
       "maxLatitude": 50.78958504200283,
       "etrUpdate": true,
       "hvFeederNrn": 6
@@ -3319,73 +3321,6 @@
       "maxLatitude": 60.31744210287037,
       "etrUpdate": true,
       "hvFeederNrn": 13
-    },
-    {
-      "latitude": 57.6081357921315,
-      "primaryNrn": 406,
-      "type": "HV",
-      "reference": "PV1345",
-      "etaUpdate": true,
-      "lvFeederNrn": 0,
-      "affectedCustomerCount": 9,
-      "networkId": "com.sse.ssepd.shepd",
-      "suppressed": false,
-      "UUID": "15178586-d4d4-46e1-82a7-4d11bf02ba34",
-      "minLongitude": -2.454129777002494,
-      "txNrn": 565,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.4414587906800973,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2024-11-22T07:02:00.000+0000",
-      "estimatedRestoration": "2024-11-22T15:00:00.000+0000",
-      "message": "We're aware of a power cut in the area shown, affecting 9 homes. This unplanned fault is affecting a large area, and it's likely several streets in your area are affected by the same power cut.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 12:00 22/11/2024. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 15:00 22/11/2024.<br/><br/>The cause of this power cut is a fault on our overhead network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PV1345'",
-      "maxLongitude": -2.428962403460825,
-      "minLatitude": 57.59879953487627,
-      "name": "AB45 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "AB45 3NN",
-        "AB45 3PP",
-        "AB45 3PQ"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.454129777002494,
-              57.61652675704881
-            ],
-            [
-              -2.428962403460825,
-              57.61652675704881
-            ],
-            [
-              -2.428962403460825,
-              57.59879953487627
-            ],
-            [
-              -2.454129777002494,
-              57.59879953487627
-            ],
-            [
-              -2.454129777002494,
-              57.61652675704881
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2024-11-22T12:00:00.000+0000",
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-22T12:04:04.875+0000",
-      "maxLatitude": 57.61652675704881,
-      "etrUpdate": true,
-      "hvFeederNrn": 4
     }
   ]
 }

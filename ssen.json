@@ -1255,6 +1255,7 @@
       "type": "LV",
       "reference": "PV2528",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2024-11-23T13:00:00.000+0000",
       "lvFeederNrn": 2,
       "affectedCustomerCount": 4,
       "networkId": "com.sse.ssepd.sepd",
@@ -1312,7 +1313,7 @@
       "estimatedArrivalOnSiteTime": "2024-11-23T12:45:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T12:19:24.609+0000",
+      "updated": "2024-11-23T13:23:27.243+0000",
       "maxLatitude": 50.868907137105445,
       "etrUpdate": true,
       "hvFeederNrn": 4
@@ -1855,76 +1856,6 @@
     },
     {
       "customIncludeDefault": false,
-      "latitude": 51.712292198209965,
-      "primaryNrn": 4007,
-      "type": "LV",
-      "reference": "PV2893",
-      "etaUpdate": true,
-      "lvFeederNrn": 1,
-      "affectedCustomerCount": 26,
-      "networkId": "com.sse.ssepd.sepd",
-      "suppressed": false,
-      "UUID": "01994849-98f6-44c1-b382-e6558c4c8332",
-      "minLongitude": -1.022980070461373,
-      "txNrn": 590,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.0097543985869775,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2024-11-23T13:00:00.000+0000",
-      "priorityCustomerCount": 20,
-      "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
-      "maxLongitude": -1.001683192776823,
-      "minLatitude": 51.70898454621905,
-      "name": "OX9 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "criticalCustomerCount": 2,
-      "affectedAreas": [
-        "OX9 7AB",
-        "OX9 7AR",
-        "OX9 7AS",
-        "OX9 7AT",
-        "OX9 7AU"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -1.022980070461373,
-              51.72090007176801
-            ],
-            [
-              -1.001683192776823,
-              51.72090007176801
-            ],
-            [
-              -1.001683192776823,
-              51.70898454621905
-            ],
-            [
-              -1.022980070461373,
-              51.70898454621905
-            ],
-            [
-              -1.022980070461373,
-              51.72090007176801
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "jobStatusCode": "R",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T13:05:28.653+0000",
-      "maxLatitude": 51.72090007176801,
-      "etrUpdate": true,
-      "hvFeederNrn": 3
-    },
-    {
-      "customIncludeDefault": false,
       "latitude": 51.0054660126512,
       "primaryNrn": 6704,
       "type": "LV",
@@ -1992,37 +1923,39 @@
       "hvFeederNrn": 1
     },
     {
-      "latitude": 50.75068717137092,
+      "customIncludeDefault": false,
+      "latitude": 50.75099283649171,
       "primaryNrn": 7304,
       "type": "LV",
       "reference": "PV2277",
       "etaUpdate": true,
       "engineerOnSiteTime": "2024-11-23T09:40:00.000+0000",
-      "lvFeederNrn": 4,
+      "lvFeederNrn": 5,
       "affectedCustomerCount": 17,
       "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
       "UUID": "ef47af46-2248-4ec3-8161-35066d6a95c4",
       "minLongitude": -1.943097905704178,
-      "txNrn": 40,
+      "txNrn": 200,
       "networkType": "underground",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.9396465130025566,
+      "longitude": -1.9387639101469767,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-11-23T09:11:00.000+0000",
-      "priorityCustomerCount": 20,
-      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>Engineers are aware of the fault but are busy on another fault. Once they have restored power on the other fault, or if another team become available in the meantime, they will be sent straight to your area to get the power back on. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PV2277'",
-      "maxLongitude": -1.93639616979617,
-      "minLatitude": 50.74910833999991,
+      "priorityCustomerCount": 32,
+      "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
+      "maxLongitude": -1.93412442320151,
+      "minLatitude": 50.7496378139658,
       "name": "BH12 Area",
       "jobSubTypeCode": "01",
       "otherUpdate": true,
-      "criticalCustomerCount": 2,
+      "criticalCustomerCount": 11,
       "affectedAreas": [
-        "BH12 4NB",
+        "BH12 4LN",
         "BH12 4PR",
-        "BH12 4PX"
+        "BH12 4PT"
       ],
       "location": {
         "coordinates": [
@@ -2032,16 +1965,16 @@
               50.75297466685544
             ],
             [
-              -1.93639616979617,
+              -1.93412442320151,
               50.75297466685544
             ],
             [
-              -1.93639616979617,
-              50.74910833999991
+              -1.93412442320151,
+              50.7496378139658
             ],
             [
               -1.943097905704178,
-              50.74910833999991
+              50.7496378139658
             ],
             [
               -1.943097905704178,
@@ -2053,12 +1986,13 @@
       },
       "jobStatusCode": "A",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T13:08:25.960+0000",
+      "updated": "2024-11-23T13:11:25.651+0000",
       "maxLatitude": 50.75297466685544,
       "etrUpdate": true,
       "hvFeederNrn": 2
     },
     {
+      "customIncludeDefault": false,
       "latitude": 50.75975322677653,
       "primaryNrn": 7324,
       "type": "LV",
@@ -2067,6 +2001,7 @@
       "lvFeederNrn": 1,
       "affectedCustomerCount": 6,
       "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
       "UUID": "d5a52d05-fd9d-40f5-88c4-dc9d1ca432c4",
       "minLongitude": -2.006295190996987,
       "txNrn": 120,
@@ -2078,7 +2013,7 @@
       "srtUpdate": true,
       "loggedAt": "2024-11-23T12:44:00.000+0000",
       "priorityCustomerCount": 2,
-      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PV2852'",
+      "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
       "maxLongitude": -1.998079649580068,
       "minLatitude": 50.75850382193296,
       "name": "BH18 Area",
@@ -2117,10 +2052,76 @@
       },
       "jobStatusCode": "R",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T13:08:25.960+0000",
+      "updated": "2024-11-23T13:09:25.719+0000",
       "maxLatitude": 50.76090502604935,
       "etrUpdate": true,
       "hvFeederNrn": 3
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 50.81031655728354,
+      "primaryNrn": 7325,
+      "type": "LV",
+      "reference": "PV2554",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2024-11-23T12:15:00.000+0000",
+      "lvFeederNrn": 6,
+      "affectedCustomerCount": 2,
+      "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
+      "UUID": "0bdfd896-7d4b-4250-b08a-17402b27cf96",
+      "minLongitude": -1.913779712478064,
+      "txNrn": 80,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.9130817698422766,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-11-23T13:25:00.000+0000",
+      "estimatedRestoration": "2024-11-23T17:00:00.000+0000",
+      "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
+      "maxLongitude": -1.91173982184839,
+      "minLatitude": 50.80921153118011,
+      "name": "BH21 Area",
+      "jobSubTypeCode": "07",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "BH21 7PY"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.913779712478064,
+              50.81124742087153
+            ],
+            [
+              -1.91173982184839,
+              50.81124742087153
+            ],
+            [
+              -1.91173982184839,
+              50.80921153118011
+            ],
+            [
+              -1.913779712478064,
+              50.80921153118011
+            ],
+            [
+              -1.913779712478064,
+              50.81124742087153
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2024-11-23T13:24:26.140+0000",
+      "maxLatitude": 50.81124742087153,
+      "etrUpdate": true,
+      "hvFeederNrn": 5
     },
     {
       "customIncludeDefault": false,
@@ -2209,7 +2210,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-11-23T09:00:00.000+0000",
-      "estimatedRestoration": "2024-11-23T21:00:00.000+0000",
+      "estimatedRestoration": "2024-11-23T19:00:00.000+0000",
       "priorityCustomerCount": 1,
       "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
       "maxLongitude": -5.121514820097891,
@@ -2251,7 +2252,7 @@
       "estimatedArrivalOnSiteTime": "2024-11-23T10:00:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T12:05:25.535+0000",
+      "updated": "2024-11-23T13:15:26.558+0000",
       "maxLatitude": 55.90649109223672,
       "etrUpdate": true,
       "hvFeederNrn": 6
@@ -2503,7 +2504,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-11-23T10:29:00.000+0000",
-      "estimatedRestoration": "2024-11-23T13:30:00.000+0000",
+      "estimatedRestoration": "2024-11-23T21:00:00.000+0000",
       "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
       "maxLongitude": -5.007864953208062,
       "minLatitude": 55.92231195937228,
@@ -2564,7 +2565,7 @@
       "estimatedArrivalOnSiteTime": "2024-11-23T12:00:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T10:35:22.839+0000",
+      "updated": "2024-11-23T13:14:26.348+0000",
       "maxLatitude": 56.359887236581294,
       "etrUpdate": true,
       "hvFeederNrn": 1
@@ -2869,12 +2870,12 @@
       "reference": "PV2636",
       "etaUpdate": true,
       "lvFeederNrn": 0,
-      "affectedCustomerCount": 26,
+      "affectedCustomerCount": 22,
       "networkId": "com.sse.ssepd.shepd",
       "suppressed": false,
       "UUID": "90d3bb56-8ef3-4dba-b9ec-c8b4f679cf3d",
       "minLongitude": -4.456845082633861,
-      "txNrn": 105,
+      "txNrn": 110,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -4.387111529851263,
@@ -2924,7 +2925,7 @@
       "estimatedArrivalOnSiteTime": "2024-11-23T12:00:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T12:11:24.841+0000",
+      "updated": "2024-11-23T13:11:25.679+0000",
       "maxLatitude": 57.293305520162725,
       "etrUpdate": true,
       "hvFeederNrn": 13
@@ -2950,7 +2951,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-11-23T08:23:00.000+0000",
-      "estimatedRestoration": "2024-11-23T15:00:00.000+0000",
+      "estimatedRestoration": "2024-11-23T21:00:00.000+0000",
       "priorityCustomerCount": 1,
       "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
       "maxLongitude": -4.64416781083658,
@@ -2991,27 +2992,27 @@
       "estimatedArrivalOnSiteTime": "2024-11-23T10:00:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T12:48:27.668+0000",
+      "updated": "2024-11-23T13:19:26.693+0000",
       "maxLatitude": 57.17025925273296,
       "etrUpdate": true,
       "hvFeederNrn": 301
     },
     {
       "customIncludeDefault": false,
-      "latitude": 57.118005273356765,
+      "latitude": 57.13655302873685,
       "primaryNrn": 716,
       "type": "HV",
       "reference": "PV2525",
       "etaUpdate": true,
       "lvFeederNrn": 0,
-      "affectedCustomerCount": 162,
+      "affectedCustomerCount": 72,
       "networkId": "com.sse.ssepd.shepd",
       "suppressed": false,
       "UUID": "af0eb9c1-eddc-4f73-97d4-c21b9fc532a3",
-      "minLongitude": -5.492918593097547,
+      "minLongitude": -4.902274883392974,
       "txNrn": 294,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -5.039715941158279,
+      "longitude": -4.670714004413071,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -3019,8 +3020,8 @@
       "estimatedRestoration": "2024-11-23T15:00:00.000+0000",
       "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
       "maxLongitude": -4.221563977764599,
-      "minLatitude": 57.0347999644806,
-      "name": "PH35 & IV2 Areas",
+      "minLatitude": 57.03967053900619,
+      "name": "IV2 & PH35 Areas",
       "jobSubTypeCode": "01",
       "otherUpdate": true,
       "affectedAreas": [
@@ -3031,21 +3032,18 @@
         "PH32 4BZ",
         "PH32 4DS",
         "PH35 4AA",
-        "PH35 4HD",
         "PH35 4HG",
         "PH35 4HJ",
         "PH35 4HL",
         "PH35 4HN",
         "PH35 4HP",
-        "PH35 4HR",
-        "PH35 4HS",
         "PH35 4HW"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -5.492918593097547,
+              -4.902274883392974,
               57.49481600498423
             ],
             [
@@ -3054,14 +3052,14 @@
             ],
             [
               -4.221563977764599,
-              57.0347999644806
+              57.03967053900619
             ],
             [
-              -5.492918593097547,
-              57.0347999644806
+              -4.902274883392974,
+              57.03967053900619
             ],
             [
-              -5.492918593097547,
+              -4.902274883392974,
               57.49481600498423
             ]
           ]
@@ -3071,7 +3069,7 @@
       "estimatedArrivalOnSiteTime": "2024-11-23T12:00:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T12:52:28.010+0000",
+      "updated": "2024-11-23T13:17:26.067+0000",
       "maxLatitude": 57.49481600498423,
       "etrUpdate": true,
       "hvFeederNrn": 301
@@ -3308,7 +3306,7 @@
       "srtUpdate": true,
       "loggedAt": "2024-11-23T11:50:00.000+0000",
       "estimatedRestoration": "2024-11-23T21:00:00.000+0000",
-      "priorityCustomerCount": 18,
+      "priorityCustomerCount": 19,
       "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
       "maxLongitude": -3.025904143508631,
       "minLatitude": 56.459025209729376,
@@ -3352,77 +3350,10 @@
       "estimatedArrivalOnSiteTime": "2024-11-23T13:00:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T12:22:25.446+0000",
+      "updated": "2024-11-23T13:15:26.558+0000",
       "maxLatitude": 56.46220566074034,
       "etrUpdate": true,
       "hvFeederNrn": 1
-    },
-    {
-      "customIncludeDefault": false,
-      "latitude": 56.36706245193382,
-      "primaryNrn": 208,
-      "type": "LV",
-      "reference": "PV2700",
-      "etaUpdate": true,
-      "lvFeederNrn": 3,
-      "affectedCustomerCount": 2,
-      "networkId": "com.sse.ssepd.shepd",
-      "suppressed": false,
-      "UUID": "13a8fe4c-d968-464d-a5a4-9413816ee03d",
-      "minLongitude": -3.982598485119158,
-      "txNrn": 280,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.9640284745471464,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2024-11-23T11:38:00.000+0000",
-      "estimatedRestoration": "2024-11-23T21:00:00.000+0000",
-      "priorityCustomerCount": 2,
-      "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
-      "maxLongitude": -3.932501419013614,
-      "minLatitude": 56.36048664730299,
-      "name": "PH6 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "PH6 2HF",
-        "PH6 2JB"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -3.982598485119158,
-              56.37145765788259
-            ],
-            [
-              -3.932501419013614,
-              56.37145765788259
-            ],
-            [
-              -3.932501419013614,
-              56.36048664730299
-            ],
-            [
-              -3.982598485119158,
-              56.36048664730299
-            ],
-            [
-              -3.982598485119158,
-              56.37145765788259
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T12:29:24.833+0000",
-      "maxLatitude": 56.37145765788259,
-      "etrUpdate": true,
-      "hvFeederNrn": 7
     },
     {
       "customIncludeDefault": false,
@@ -3567,73 +3498,6 @@
       "maxLatitude": 57.65144679445991,
       "etrUpdate": true,
       "hvFeederNrn": 7
-    },
-    {
-      "customIncludeDefault": false,
-      "latitude": 56.41735366924623,
-      "primaryNrn": 303,
-      "type": "HV",
-      "reference": "PV2837",
-      "etaUpdate": true,
-      "lvFeederNrn": 0,
-      "affectedCustomerCount": 12,
-      "networkId": "com.sse.ssepd.shepd",
-      "suppressed": false,
-      "UUID": "ecb0c4a7-b3a8-450d-80e5-791550a5dcd2",
-      "minLongitude": -5.231372976583227,
-      "txNrn": 20,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -5.191748931094356,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2024-11-23T12:00:00.000+0000",
-      "priorityCustomerCount": 2,
-      "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
-      "maxLongitude": -5.148570021570963,
-      "minLatitude": 56.39859735350472,
-      "name": "PA35 Area",
-      "jobSubTypeCode": "08",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "PA35 1HR",
-        "PA35 1HT"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -5.231372976583227,
-              56.42729970209101
-            ],
-            [
-              -5.148570021570963,
-              56.42729970209101
-            ],
-            [
-              -5.148570021570963,
-              56.39859735350472
-            ],
-            [
-              -5.231372976583227,
-              56.39859735350472
-            ],
-            [
-              -5.231372976583227,
-              56.42729970209101
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2024-11-23T12:30:00.000+0000",
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-11-23T12:41:25.162+0000",
-      "maxLatitude": 56.42729970209101,
-      "etrUpdate": true,
-      "hvFeederNrn": 306
     },
     {
       "customIncludeDefault": false,
@@ -3815,13 +3679,13 @@
       "latitude": 56.48447097814791,
       "primaryNrn": 208,
       "type": "LV",
-      "reference": "PV2909",
+      "reference": "PV2932",
       "etaUpdate": true,
       "lvFeederNrn": 3,
       "affectedCustomerCount": 3,
       "networkId": "com.sse.ssepd.shepd",
       "suppressed": false,
-      "UUID": "5e1639ec-dc3a-473a-be29-7f6125e1cfbf",
+      "UUID": "c735c5d7-135e-4f40-82ee-1d597624ded8",
       "minLongitude": -3.907567254700366,
       "txNrn": 120,
       "networkType": "overhead",
@@ -3831,6 +3695,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-11-23T13:03:00.000+0000",
+      "estimatedRestoration": "2024-11-23T21:00:00.000+0000",
       "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Bert is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a>",
       "maxLongitude": -3.574829139845635,
       "minLatitude": 56.35680488920872,
@@ -3869,12 +3734,12 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "R",
+      "jobStatusCode": "A",
       "region": "com.opengrid.geo.world.europe.gb",
       "evChargersAffected": [
         "571b6864-0ff9-4a98-8d7d-e6f7fe6930c0"
       ],
-      "updated": "2024-11-23T13:05:28.685+0000",
+      "updated": "2024-11-23T13:14:26.348+0000",
       "maxLatitude": 56.56110078812989,
       "etrUpdate": true,
       "hvFeederNrn": 7

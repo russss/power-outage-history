@@ -135,7 +135,7 @@
       "Type": "CurrentFault",
       "Icon": "icon-warning",
       "ShowViewOnMapCTA": false,
-      "UnderReview": false,
+      "UnderReview": true,
       "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cuts, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
       "UpdateInfo": null,
       "CTAs": [
@@ -168,8 +168,49 @@
       },
       "outageLocations": null,
       "AffectedPostcodes": " OL10 4SN, OL10 4SL, OL10 4SE, OL10 4SF, OL10 4SY, OL10 4PZ, OL10 4QP",
-      "UnderReviewStatusTimeCheck": false,
+      "UnderReviewStatusTimeCheck": true,
       "WebTMSFaultType": "U/GM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cuts, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125211123",
+      "multipleFaultNumbers": null,
+      "date": "2024-11-26T09:52:15",
+      "region": "Spotland & Falinge, Rochdale",
+      "faultType": "Current Fault",
+      "faultStatus": "Preparing to send team",
+      "previousFaultStatus": null,
+      "consumersOff": 65,
+      "estimatedTimeOfRestoration": "2024-11-26T12:52:00",
+      "estimatedTimeOfRestorationMajority": "2024-11-26T12:52:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.61187,
+        "lng": -2.184001
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " OL11 4DG, OL11 4DH, OL11 4EA, OL11 5EX, OL11 4DQ, OL11 4DZ, OL11 5LB, OL11 4QL, OL11 4QW, OL11 4QE, OL11 5EU, OL11 5HL, OL11 4BX, OL11 5JZ, OL11 4DN, OL11 4DA, OL11 4DU, OL11 5JX, OL11 4BT, OL11 4DD, OL11 5JY, OL11 5EY, OL11 4DW, OL11 4QJ, OL11 4DJ, OL11 4QH, OL11 4DP, OL11 4EQ, OL11 4QN, OL11 5LW, OL11 4EB, OL11 4DF, OL11 4BS, OL11 4ED, OL11 4EJ, OL11 4DX, OL11 5JU, OL11 4DS, OL11 5LD, OL11 5JS, OL11 4DE, OL11 4DL, OL11 4DT, OL11 4BY, OL11 5HJ, OL12 6XD, OL11 4BZ, OL11 4BU, OL11 4NS, OL11 5NJ, OL11 4QD, OL11 4DR, OL11 4DB",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
     },
     {
       "FaultLabel": "Live power cut",
@@ -360,9 +401,9 @@
       "date": "2024-11-26T09:10:18",
       "region": "Ewood, Blackburn With Darwen",
       "faultType": "Current Fault",
-      "faultStatus": "Team on their way",
-      "previousFaultStatus": "Team on their way",
-      "consumersOff": 10,
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 30,
       "estimatedTimeOfRestoration": "2024-11-26T15:10:00",
       "estimatedTimeOfRestorationMajority": "2024-11-26T15:10:00",
       "information": "",
@@ -443,7 +484,7 @@
       "region": "Central Rochdale, Rochdale",
       "faultType": "Current Fault",
       "faultStatus": "Team on their way",
-      "previousFaultStatus": "Preparing to send team",
+      "previousFaultStatus": "Team on their way",
       "consumersOff": 96,
       "estimatedTimeOfRestoration": "2024-11-26T15:32:00",
       "estimatedTimeOfRestorationMajority": "2024-11-26T15:32:00",
@@ -566,7 +607,7 @@
       "region": "Marple North, Stockport",
       "faultType": "Current Fault",
       "faultStatus": "Preparing to send team",
-      "previousFaultStatus": null,
+      "previousFaultStatus": "Preparing to send team",
       "consumersOff": 25,
       "estimatedTimeOfRestoration": "2024-11-26T12:34:00",
       "estimatedTimeOfRestorationMajority": "2024-11-26T12:34:00",
@@ -621,6 +662,47 @@
       "AffectedPostcodes": " OL11 3BU, OL11 3BZ",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "U/GM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cuts, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125211111",
+      "multipleFaultNumbers": null,
+      "date": "2024-11-26T09:39:12",
+      "region": "Clayton-Le-Moors, Hyndburn",
+      "faultType": "Current Fault",
+      "faultStatus": "Preparing to send team",
+      "previousFaultStatus": "Preparing to send team",
+      "consumersOff": 383,
+      "estimatedTimeOfRestoration": "2024-11-26T12:39:00",
+      "estimatedTimeOfRestorationMajority": "2024-11-26T12:39:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.778448,
+        "lng": -2.38586
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " BB5 5TH, BB5 5RP, BB5 5QA, BB5 5QG, BB5 5QF, BB5 5TL, BB5 5QS, BB5 5RS, BB5 5QH, BB5 5TQ, BB5 5QZ, BB5 5QD, BB5 5QE, BB5 5PD, BB5 5QQ, BB5 5TJ, BB5 5RR, BB5 5QJ, BB5 5QB, BB5 5PY, BB5 5RU, BB5 5PZ, BB5 5RT, BB5 5PE",
+      "UnderReviewStatusTimeCheck": false,
+      "WebTMSFaultType": "HVFL"
     },
     {
       "FaultLabel": "Live power cut",
@@ -876,7 +958,7 @@
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 20,
+  "TotalResults": 22,
   "ShowPolygons": false,
   "Regions": [
     {

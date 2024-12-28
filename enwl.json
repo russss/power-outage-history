@@ -46,14 +46,57 @@
   "OverviewDescription": "Important information on the power cut in your area, <b>please read</b>:",
   "TrackPowerCutLabel": "Get Updates",
   "TrackPowerCutLink": null,
-  "ResultType": "NoOutageFound",
-  "Items": [],
+  "ResultType": null,
+  "Items": [
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": true,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cuts, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 1241055487",
+      "multipleFaultNumbers": null,
+      "date": "2024-12-23T03:51:37",
+      "region": "Miles Platting & Newton Heath, Manchester",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
+      "consumersOff": 45,
+      "estimatedTimeOfRestoration": "2024-12-27T16:30:00",
+      "estimatedTimeOfRestorationMajority": "2024-12-27T16:30:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.500160,
+        "lng": -2.175037
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " M40 2JE, M40 1HU, M40 1JB, M40 1HP, M40 1HQ, M40 1NT, M40 1JD, M40 1WT, M40 1WR, M40 1NU, M40 1QU, M40 1WU, M40 1AN, M40 1NX, M40 1HZ, M40 1NZ, M40 1JA, M40 1NA, M40 1WX, M40 1NQ, M40 1WS, M40 1NS, M40 1HG, M40 1HT, M40 1HW, M40 1PZ",
+      "UnderReviewStatusTimeCheck": true,
+      "WebTMSFaultType": "U/GM"
+    }
+  ],
   "Markers": null,
   "AvailableItemTypes": [
+    "CurrentFault",
     "ResolvedFault",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 0,
+  "TotalResults": 1,
   "ShowPolygons": false,
   "Regions": [
     {

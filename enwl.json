@@ -53,7 +53,7 @@
       "Type": "CurrentFault",
       "Icon": "icon-warning",
       "ShowViewOnMapCTA": false,
-      "UnderReview": false,
+      "UnderReview": true,
       "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cuts, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
       "UpdateInfo": null,
       "CTAs": [
@@ -86,7 +86,7 @@
       },
       "outageLocations": null,
       "AffectedPostcodes": " BL7 8AQ, BL7 9YW, BL7 8BR, BL1 7BX, BL7 9YT, BL7 8AF, BL7 9UB, BL1 7PT, BL7 8AS, BL7 9UF, BL7 8AJ, BL7 8BQ, BL7 9UH, BL6 6PW, BL7 8AL, BL7 9QR, BL7 8BH, BL7 9RZ, BL7 8AT, BL7 9RP, BL1 7BU, BL7 9QP, BL7 9QS, BL6 6PR, BL7 8AU, BL6 6PX, BL7 9QL, BL7 8BS, BL7 9QZ, BL1 7PB, BL7 8AN, BL6 6PU, BL7 8AP, BL7 9YX, BL6 6SL, BL7 8AW, BL7 9YU, BL1 7NZ, BL7 8AB, BL7 8AE, BL7 9UE, BL7 9QW, BL7 8AD, BL7 8AX, BL6 6QB, BL1 7PH, BL7 9UJ, BL7 8AH, BL7 9QU, BL7 8AY, BL7 8AA, BL1 7BY, BL1 7PS, BL7 8AR, BL6 6PY, BL1 7PE, BL1 7NY, BL1 7PJ, BL7 8BE, BL7 8BB, BL7 8BG, BL7 8BN, BL7 9QT, BL1 7PD, BL7 8AZ, FY8 1PW, BL1 7NX, BL1 7PA, BL7 0EZ, BL6 6QA, BL7 8BT, BL7 8BD, BL7 8BJ, BL7 9QY, BL7 8BA, BL1 7PU, BL1 7PR, BL1 7BT, BL7 8BA, BL1 7PP, BL7 8BW, BL7 9TS",
-      "UnderReviewStatusTimeCheck": false,
+      "UnderReviewStatusTimeCheck": true,
       "WebTMSFaultType": "HVFL"
     },
     {
@@ -155,8 +155,8 @@
       "date": "2025-01-14T07:43:59",
       "region": "Fleetwood, Wyre",
       "faultType": "Current Fault",
-      "faultStatus": "Team on their way",
-      "previousFaultStatus": "Team on their way",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
       "consumersOff": 52,
       "estimatedTimeOfRestoration": "2025-01-14T13:43:00",
       "estimatedTimeOfRestorationMajority": "2025-01-14T13:43:00",
@@ -217,7 +217,7 @@
       "Type": "CurrentFault",
       "Icon": "icon-warning",
       "ShowViewOnMapCTA": false,
-      "UnderReview": false,
+      "UnderReview": true,
       "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cuts, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
       "UpdateInfo": null,
       "CTAs": [
@@ -250,6 +250,47 @@
       },
       "outageLocations": null,
       "AffectedPostcodes": " OL13 9HJ, OL13 9HH, OL13 9EB, OL13 9DZ, OL13 9EA, OL13 9DU, OL13 9DS, OL13 9DR",
+      "UnderReviewStatusTimeCheck": true,
+      "WebTMSFaultType": "U/GM"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": false,
+      "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident with the underground cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please note that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With underground power cuts, we may need to dig to repair the cable and this can sometime extend the length of time you are without power. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 1241064453",
+      "multipleFaultNumbers": null,
+      "date": "2025-01-14T09:33:53",
+      "region": "Farlam, Carlisle",
+      "faultType": "Current Fault",
+      "faultStatus": "Preparing to send team",
+      "previousFaultStatus": "Preparing to send team",
+      "consumersOff": 8,
+      "estimatedTimeOfRestoration": "2025-01-14T15:33:00",
+      "estimatedTimeOfRestorationMajority": "2025-01-14T15:33:00",
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 54.928515,
+        "lng": -2.673760
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " CA8 1JR, CA8 1JX, CA8 1JY",
       "UnderReviewStatusTimeCheck": false,
       "WebTMSFaultType": "U/GM"
     },
@@ -319,8 +360,8 @@
       "date": "2025-01-14T00:49:06",
       "region": "Kirkland, Wyre",
       "faultType": "Current Fault",
-      "faultStatus": "Team on their way",
-      "previousFaultStatus": "Team on their way",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
       "consumersOff": 15,
       "estimatedTimeOfRestoration": "2025-01-14T12:48:00",
       "estimatedTimeOfRestorationMajority": "2025-01-14T12:48:00",
@@ -384,7 +425,7 @@
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 8,
+  "TotalResults": 9,
   "ShowPolygons": false,
   "Regions": [
     {

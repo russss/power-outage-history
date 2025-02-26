@@ -155,8 +155,8 @@
       "date": "2025-02-26T18:28:31",
       "region": "Knowsley, West Lancashire",
       "faultType": "Current Fault",
-      "faultStatus": "Team on their way",
-      "previousFaultStatus": "Team on their way",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": "We're on site",
       "consumersOff": 88,
       "estimatedTimeOfRestoration": "2025-02-27T00:27:00",
       "estimatedTimeOfRestorationMajority": "2025-02-27T00:27:00",
@@ -299,7 +299,7 @@
       "Type": "CurrentFault",
       "Icon": "icon-warning",
       "ShowViewOnMapCTA": false,
-      "UnderReview": false,
+      "UnderReview": true,
       "AdditionalFaultInfo": "This power cut has been caused by an unexpected incident on the high voltage cable that provides electricity to your home or business. We didn't know before your electricity went off that this was going to happen but now we know, rest assured we will get your power back on safely and as quickly as possible.<br/><br/>Please be aware that all our timescales are estimated based on previous experience and may change if new information becomes available while our engineers are fixing the issue.  With high voltage power cuts, we're often able to get many of the homes involved back on before our estimated time of restoration. Click the link to find out <a class=\"c-fault-back__link ng-binding\" href=\"/power-cuts/why-do-we-experience-power-cuts/\">why power cuts happen</a>",
       "UpdateInfo": null,
       "CTAs": [
@@ -332,8 +332,49 @@
       },
       "outageLocations": null,
       "AffectedPostcodes": " WA14 4UD, WA14 4DT, WA14 4DG, WA14 4AY, WA14 4BY, WA14 2AT, WA14 4BS, WA14 4AF, WA14 2BG, WA14 1RT, WA14 2BJ, WA14 4UE, WA14 4UG, WA14 4BU, WA14 4BP, WA14 4AJ, WA14 2HD, WA14 2BB, WA14 2BN, WA14 4UB, WA14 4UA, WA14 4AH, WA14 4BH, WA14 4BT, WA14 4AX, WA14 2BE, WA14 1RY, WA14 4DU, WA14 4AD, WA14 4BW, WA14 2AS, WA14 4BZ, WA14 4BA, WA14 2BD, WA14 4AP, WA14 4BL, WA14 4DZ, WA14 4AN, WA14 4TU, WA14 4AU, WA14 4AQ, WA14 2BX, WA14 4QG, WA14 4DR, WA14 4AL, WA14 4DS, WA14 4AG, WA14 1RS, WA14 2BH, WA14 2YB, WA14 4HX, WA14 4AZ, WA14 2BY, WA14 2BQ, WA14 4AR, WA14 4DX, WA14 4UF, WA14 4BN, WA14 5EJ, WA14 2BZ, WA14 4BJ, WA14 4AB, WA14 4AT, WA14 1HT, WA14 2AR, WA14 2AN, WA14 5EQ, WA14 4HY, WA14 2BS, WA14 4AS, WA14 4TT, WA14 5FA, WA14 4NZ, WA14 5BY, WA14 4BX, WA12 2AT, WA14 4QU, WA14 5BT, WA14 4NA, WA14 2BL, WA14 5DE, WA14 2BW, WA14 5DJ, WA14 3AT, WA14 5GY, WA14 2BP, WA14 5DP, WA14 4QZ, SK9 7HB",
-      "UnderReviewStatusTimeCheck": false,
+      "UnderReviewStatusTimeCheck": true,
       "WebTMSFaultType": "HVFL"
+    },
+    {
+      "FaultLabel": "Live power cut",
+      "Type": "CurrentFault",
+      "Icon": "icon-warning",
+      "ShowViewOnMapCTA": false,
+      "UnderReview": true,
+      "AdditionalFaultInfo": "The power cut in your area has been caused by an unexpected incident with the overhead cable that provides electricity to your property.",
+      "UpdateInfo": null,
+      "CTAs": [
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "What to do in a power cut",
+          "Url": "/power-cuts/helpful-tips/tips-to-help-you-during-a-power-cut/"
+        },
+        {
+          "Icon": "icon-arrow-right",
+          "Text": "I'm involved in this power cut",
+          "Url": "/about-us/contact-us/report-a-power-cut-105/"
+        }
+      ],
+      "faultNumber": "INC 125220918",
+      "multipleFaultNumbers": null,
+      "date": "2025-02-26T14:57:29",
+      "region": "Bickerstaffe, West Lancashire",
+      "faultType": "Current Fault",
+      "faultStatus": "We're on site",
+      "previousFaultStatus": null,
+      "consumersOff": 19,
+      "estimatedTimeOfRestoration": null,
+      "estimatedTimeOfRestorationMajority": null,
+      "information": "",
+      "actualTimeOfRestoration": null,
+      "outageCentrePoint": {
+        "lat": 53.537223,
+        "lng": -2.853080
+      },
+      "outageLocations": null,
+      "AffectedPostcodes": " L39 9EF, L39 0EG",
+      "UnderReviewStatusTimeCheck": true,
+      "WebTMSFaultType": "O/HM"
     }
   ],
   "Markers": null,
@@ -343,7 +384,7 @@
     "TodaysPlannedWorks",
     "FuturePlannedWorks"
   ],
-  "TotalResults": 7,
+  "TotalResults": 8,
   "ShowPolygons": false,
   "Regions": [
     {

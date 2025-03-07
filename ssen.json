@@ -1,72 +1,6 @@
 {
   "Faults": [
     {
-      "latitude": 51.21994673907339,
-      "primaryNrn": 3715,
-      "type": "PSI",
-      "reference": "234834",
-      "etaUpdate": true,
-      "lvFeederNrn": 2,
-      "affectedCustomerCount": 35,
-      "networkId": "com.sse.ssepd.sepd",
-      "suppressed": false,
-      "UUID": "f17eeef9-5bf6-48d7-8bd5-86c97dec654b",
-      "minLongitude": -1.621378538877552,
-      "txNrn": 100,
-      "networkType": "underground",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.6003952596583626,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2025-03-07T08:30:00.000+0000",
-      "estimatedRestoration": "2025-03-07T16:30:00.000+0000",
-      "priorityCustomerCount": 4,
-      "message": "Planned outage: We're sorry for the loss of power. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on <a href=\"tel:105\">105</a> or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter <a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '234834'. You will have received a letter from us confirming your power will be interrupted, with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.<br/><br/>",
-      "maxLongitude": -1.589412376761489,
-      "minLatitude": 51.21441322930289,
-      "name": "SP11 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "SP11 8NU",
-        "SP11 8NX",
-        "SP11 8PG",
-        "SP11 8PH"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -1.621378538877552,
-              51.22624008329517
-            ],
-            [
-              -1.589412376761489,
-              51.22624008329517
-            ],
-            [
-              -1.589412376761489,
-              51.21441322930289
-            ],
-            [
-              -1.621378538877552,
-              51.21441322930289
-            ],
-            [
-              -1.621378538877552,
-              51.22624008329517
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-03-07T08:31:17.863+0000",
-      "maxLatitude": 51.22624008329517,
-      "etrUpdate": true,
-      "hvFeederNrn": 2
-    },
-    {
       "latitude": 50.86681142124908,
       "primaryNrn": 6100,
       "type": "LV",
@@ -283,6 +217,7 @@
       "lvFeederNrn": 3,
       "affectedCustomerCount": 14,
       "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
       "UUID": "f477b501-59a9-4d98-9398-9ad8fa0e3673",
       "minLongitude": -1.143174542287277,
       "txNrn": 80,
@@ -342,7 +277,82 @@
       },
       "jobStatusCode": "R",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-03-07T16:28:18.363+0000",
+      "updated": "2025-03-07T16:29:17.801+0000",
+      "maxLatitude": 51.524324824864564,
+      "etrUpdate": true,
+      "hvFeederNrn": 4
+    },
+    {
+      "latitude": 51.522723440460105,
+      "primaryNrn": 4020,
+      "type": "LV",
+      "reference": "QN3706",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2025-03-05T15:00:00.000+0000",
+      "lvFeederNrn": 3,
+      "affectedCustomerCount": 14,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "7e10913b-3e2e-4903-92f8-95829b5e2225",
+      "minLongitude": -1.143174542287277,
+      "txNrn": 80,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.1371574233873107,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-03-05T15:57:00.000+0000",
+      "estimatedRestoration": "2025-03-08T03:00:00.000+0000",
+      "priorityCustomerCount": 3,
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>",
+      "maxLongitude": -1.134203686024812,
+      "minLatitude": 51.521727542787275,
+      "name": "RG8 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "RG8 9AB",
+        "RG8 9AD",
+        "RG8 9AG",
+        "RG8 9AQ",
+        "RG8 9AR",
+        "RG8 9AT",
+        "RG8 9AX",
+        "RG8 9AY",
+        "RG8 9AZ",
+        "RG8 9BA",
+        "RG8 9BB"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.143174542287277,
+              51.524324824864564
+            ],
+            [
+              -1.134203686024812,
+              51.524324824864564
+            ],
+            [
+              -1.134203686024812,
+              51.521727542787275
+            ],
+            [
+              -1.143174542287277,
+              51.521727542787275
+            ],
+            [
+              -1.143174542287277,
+              51.524324824864564
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "IN",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2025-03-07T16:35:18.086+0000",
       "maxLatitude": 51.524324824864564,
       "etrUpdate": true,
       "hvFeederNrn": 4

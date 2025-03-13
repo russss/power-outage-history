@@ -1573,7 +1573,7 @@
       "name": "RG12 Area",
       "jobSubTypeCode": "01",
       "otherUpdate": true,
-      "criticalCustomerCount": 2,
+      "criticalCustomerCount": 1,
       "affectedAreas": [
         "RG12 7BY",
         "RG12 7DE"
@@ -1608,7 +1608,7 @@
       "estimatedArrivalOnSiteTime": "2025-03-13T10:00:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-03-13T09:19:21.917+0000",
+      "updated": "2025-03-13T09:24:22.089+0000",
       "maxLatitude": 51.39356489408758,
       "etrUpdate": true,
       "hvFeederNrn": 7
@@ -2702,6 +2702,71 @@
       "maxLatitude": 55.59725016354339,
       "etrUpdate": true,
       "hvFeederNrn": 1
+    },
+    {
+      "latitude": 57.062399104773114,
+      "primaryNrn": 639,
+      "type": "PSI",
+      "reference": "235929",
+      "etaUpdate": true,
+      "lvFeederNrn": 1,
+      "affectedCustomerCount": 27,
+      "networkId": "com.sse.ssepd.shepd",
+      "suppressed": false,
+      "UUID": "b89076e5-b632-481a-8f34-b500d4a59120",
+      "minLongitude": -5.972468339903988,
+      "txNrn": 440,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.9002706124389075,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-03-13T09:30:00.000+0000",
+      "estimatedRestoration": "2025-03-13T15:30:00.000+0000",
+      "priorityCustomerCount": 5,
+      "message": "Planned outage: We're sorry for the loss of power. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on <a href=\"tel:105\">105</a> or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter <a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '235929'. You will have received a letter from us confirming your power will be interrupted, with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.<br/><br/>",
+      "maxLongitude": -5.88598675908772,
+      "minLatitude": 57.05026806479213,
+      "name": "IV45 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "IV45 8RL",
+        "IV45 8RS",
+        "IV45 8RU"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -5.972468339903988,
+              57.08604863452433
+            ],
+            [
+              -5.88598675908772,
+              57.08604863452433
+            ],
+            [
+              -5.88598675908772,
+              57.05026806479213
+            ],
+            [
+              -5.972468339903988,
+              57.05026806479213
+            ],
+            [
+              -5.972468339903988,
+              57.08604863452433
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2025-03-13T09:31:22.093+0000",
+      "maxLatitude": 57.08604863452433,
+      "etrUpdate": true,
+      "hvFeederNrn": 13
     }
   ]
 }

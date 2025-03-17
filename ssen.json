@@ -86,9 +86,10 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2025-03-17T06:16:00.000+0000",
-      "priorityCustomerCount": 71,
-      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QP5921'",
+      "loggedAt": "2025-03-17T06:26:00.000+0000",
+      "estimatedRestoration": "2025-03-17T11:00:00.000+0000",
+      "priorityCustomerCount": 72,
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>Due to a busier than usual day, all of our engineers are currently working on other faults. We have made the local teams aware of your power cut and they are working hard to find resources to attend and get your power back on. At this stage, we're aiming to have your power restored by 11:00 17/03/2025.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QP5921'",
       "maxLongitude": -0.954780853739368,
       "minLatitude": 50.78170859374451,
       "name": "PO11 Area",
@@ -132,10 +133,89 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "R",
+      "jobStatusCode": "OR",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-03-17T06:18:21.668+0000",
+      "updated": "2025-03-17T06:35:19.089+0000",
       "maxLatitude": 50.78584438111683,
+      "etrUpdate": true,
+      "hvFeederNrn": 5
+    },
+    {
+      "latitude": 51.65016494906949,
+      "primaryNrn": 4011,
+      "type": "LV",
+      "reference": "QP5900",
+      "etaUpdate": true,
+      "lvFeederNrn": 3,
+      "affectedCustomerCount": 24,
+      "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
+      "UUID": "be66e618-d40e-48d8-8371-b69f3d39b76f",
+      "minLongitude": -1.165043338780045,
+      "txNrn": 5,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.1319624879774186,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-03-17T02:12:00.000+0000",
+      "priorityCustomerCount": 6,
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 07:00 17/03/2025. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QP5900'",
+      "maxLongitude": -1.076663873603623,
+      "minLatitude": 51.60012801632827,
+      "name": "OX10 & OX44 Areas",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "OX10 0BL",
+        "OX10 0BP",
+        "OX10 7AP",
+        "OX10 7AR",
+        "OX10 7AS",
+        "OX10 7AT",
+        "OX10 7AU",
+        "OX10 7AX",
+        "OX10 7AY",
+        "OX10 7BA",
+        "OX10 7BB",
+        "OX10 7BE",
+        "OX10 7BH",
+        "OX10 7JT",
+        "OX44 7TD"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.165043338780045,
+              51.67178070473907
+            ],
+            [
+              -1.076663873603623,
+              51.67178070473907
+            ],
+            [
+              -1.076663873603623,
+              51.60012801632827
+            ],
+            [
+              -1.165043338780045,
+              51.60012801632827
+            ],
+            [
+              -1.165043338780045,
+              51.67178070473907
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2025-03-17T07:00:00.000+0000",
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2025-03-17T06:37:19.727+0000",
+      "maxLatitude": 51.67178070473907,
       "etrUpdate": true,
       "hvFeederNrn": 5
     },

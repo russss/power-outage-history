@@ -700,6 +700,7 @@
       "lvFeederNrn": 2,
       "affectedCustomerCount": 3,
       "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
       "UUID": "b3d3a82f-5210-4900-884e-13117c088562",
       "minLongitude": -1.94871861303783,
       "txNrn": 320,
@@ -756,6 +757,76 @@
       "maxLatitude": 50.7462586169739,
       "etrUpdate": true,
       "hvFeederNrn": 2
+    },
+    {
+      "latitude": 51.104531661874624,
+      "primaryNrn": 6112,
+      "type": "LV",
+      "reference": "QM0219",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2025-06-05T22:30:00.000+0000",
+      "lvFeederNrn": 3,
+      "affectedCustomerCount": 25,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "21642610-d95f-4b93-bb8c-b4eeb88df7ac",
+      "minLongitude": -1.30470282567805,
+      "txNrn": 30,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.3013541857757143,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-02-21T21:59:00.000+0000",
+      "priorityCustomerCount": 13,
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>Our engineers are in your local area and working hard to get your power restored as soon as possible. At this stage, based on initial investigations, we're aiming to restore your power by . If this changes, we will update this message.<br/><br/>",
+      "maxLongitude": -1.293497793945142,
+      "minLatitude": 51.09772846847468,
+      "name": "SO23 Area",
+      "jobSubTypeCode": "40",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SO23 7FL",
+        "SO23 7FN",
+        "SO23 7LT",
+        "SO23 7NL",
+        "SO23 7NU",
+        "SO23 7NY",
+        "SO23 7PD"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.30470282567805,
+              51.107860101410495
+            ],
+            [
+              -1.293497793945142,
+              51.107860101410495
+            ],
+            [
+              -1.293497793945142,
+              51.09772846847468
+            ],
+            [
+              -1.30470282567805,
+              51.09772846847468
+            ],
+            [
+              -1.30470282567805,
+              51.107860101410495
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2025-06-05T23:10:19.373+0000",
+      "maxLatitude": 51.107860101410495,
+      "etrUpdate": true,
+      "hvFeederNrn": 5
     },
     {
       "latitude": 57.59576491999891,

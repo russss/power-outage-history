@@ -153,6 +153,7 @@
       "lvFeederNrn": 1,
       "affectedCustomerCount": 6,
       "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
       "UUID": "51215a95-0dcb-4b50-acbf-641eaae72981",
       "minLongitude": -1.988730650850018,
       "txNrn": 610,
@@ -163,8 +164,9 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2025-06-05T04:30:00.000+0000",
+      "estimatedRestoration": "2025-06-05T10:00:00.000+0000",
       "priorityCustomerCount": 6,
-      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have notified an engineer of your power cut and are working with them to provide a more accurate update. Once we have this information, we will update this message. You can register for updates on this outage on this page too. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QZ4371'",
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have notified an engineer of your power cut and are working with them to provide a more accurate update. Once we have this information, we will update this message. You can register for updates on this outage on this page too. At this stage, we're aiming to have your power restored by 10:00 05/06/2025.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QZ4371'",
       "maxLongitude": -1.981058557219675,
       "minLatitude": 50.73053931188092,
       "name": "BH15 Area",
@@ -290,6 +292,83 @@
       "maxLatitude": 57.67434542100339,
       "etrUpdate": true,
       "hvFeederNrn": 1
+    },
+    {
+      "latitude": 56.58721313439231,
+      "primaryNrn": 258,
+      "type": "PSI",
+      "reference": "239560",
+      "etaUpdate": true,
+      "lvFeederNrn": 3,
+      "affectedCustomerCount": 181,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "88700450-1d71-42d9-ae29-2a40c215c4fe",
+      "minLongitude": -3.17133794643557,
+      "txNrn": 310,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.162372405997126,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-06-05T05:00:00.000+0000",
+      "estimatedRestoration": "2025-06-05T18:00:00.000+0000",
+      "priorityCustomerCount": 14,
+      "message": "Planned outage: We're sorry for the loss of power. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on <a href=\"tel:105\">105</a> or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter <a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '239560'. You will have received a letter from us confirming your power will be interrupted, with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.<br/><br/>",
+      "maxLongitude": -3.153823791126814,
+      "minLatitude": 56.58312336198929,
+      "name": "PH12 Area",
+      "otherUpdate": true,
+      "criticalCustomerCount": 1,
+      "affectedAreas": [
+        "PH12 8QN",
+        "PH12 8RN",
+        "PH12 8RP",
+        "PH12 8RS",
+        "PH12 8RT",
+        "PH12 8RU",
+        "PH12 8RW",
+        "PH12 8RX",
+        "PH12 8RY",
+        "PH12 8RZ",
+        "PH12 8SA",
+        "PH12 8SB",
+        "PH12 8SD",
+        "PH12 8SY",
+        "PH12 8UX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.17133794643557,
+              56.59400135305855
+            ],
+            [
+              -3.153823791126814,
+              56.59400135305855
+            ],
+            [
+              -3.153823791126814,
+              56.58312336198929
+            ],
+            [
+              -3.17133794643557,
+              56.58312336198929
+            ],
+            [
+              -3.17133794643557,
+              56.59400135305855
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2025-06-05T05:00:20.718+0000",
+      "maxLatitude": 56.59400135305855,
+      "etrUpdate": true,
+      "hvFeederNrn": 5
     }
   ]
 }

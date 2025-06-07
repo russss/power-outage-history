@@ -199,6 +199,7 @@
       "lvFeederNrn": 2,
       "affectedCustomerCount": 12,
       "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
       "UUID": "78658f73-516d-4b0e-9aff-c4468772ee37",
       "minLongitude": -1.16950167943796,
       "txNrn": 120,
@@ -209,8 +210,9 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2025-06-07T02:22:00.000+0000",
+      "estimatedRestoration": "2025-06-07T07:30:00.000+0000",
       "priorityCustomerCount": 14,
-      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QZ8071'",
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 03:15 07/06/2025. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 07:30 07/06/2025.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QZ8071'",
       "maxLongitude": -1.162294258461834,
       "minLatitude": 50.641554069424494,
       "name": "PO36 Area",
@@ -248,7 +250,8 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "R",
+      "estimatedArrivalOnSiteTime": "2025-06-07T03:15:00.000+0000",
+      "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "updated": "2025-06-07T02:27:20.051+0000",
       "maxLatitude": 50.647231552275585,
@@ -277,7 +280,7 @@
       "loggedAt": "2025-06-07T01:38:00.000+0000",
       "estimatedRestoration": "2025-06-07T05:00:00.000+0000",
       "priorityCustomerCount": 2,
-      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 02:40 07/06/2025. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 05:00 07/06/2025.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QZ8050'",
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 02:40 07/06/2025. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QZ8050'",
       "maxLongitude": -2.992876319245073,
       "minLatitude": 56.45693138018187,
       "name": "DD2 Area",
@@ -322,73 +325,48 @@
       "hvFeederNrn": 7
     },
     {
-      "latitude": 57.16589920657522,
-      "primaryNrn": 814,
+      "latitude": 57.16884862980731,
+      "primaryNrn": 956,
       "type": "HV",
       "reference": "QZ8057",
       "etaUpdate": true,
       "lvFeederNrn": 0,
-      "affectedCustomerCount": 861,
+      "affectedCustomerCount": 339,
       "networkId": "com.sse.ssepd.shepd",
       "suppressed": false,
       "UUID": "888d0256-7f60-4ac2-ba5c-ae0d3d32c3e3",
       "minLongitude": -2.103609641998708,
-      "txNrn": 20,
+      "txNrn": 5,
       "networkType": "underground",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.1048115448314446,
+      "longitude": -2.0973421024476995,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2025-06-07T01:46:00.000+0000",
       "estimatedRestoration": "2025-06-07T05:00:00.000+0000",
-      "priorityCustomerCount": 78,
-      "message": "We're aware of a power cut in the area shown, affecting 861 homes. This unplanned fault is affecting the local area, and it's likely several streets in the area are affected by the same power cut.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 02:30 07/06/2025. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 05:00 07/06/2025.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QZ8057'",
+      "priorityCustomerCount": 5,
+      "message": "We're aware of a power cut in the area shown, affecting 339 homes. This unplanned fault is affecting the local area, and it's likely several streets in the area are affected by the same power cut.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 02:30 07/06/2025. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 05:00 07/06/2025.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QZ8057'",
       "maxLongitude": -2.085440056347764,
-      "minLatitude": 57.1664171409713,
+      "minLatitude": 57.16652723266663,
       "name": "AB24 Area",
       "jobSubTypeCode": "01",
       "otherUpdate": true,
       "affectedAreas": [
-        "AB24",
         "AB24 1RP",
         "AB24 1RQ",
-        "AB24 1SA",
-        "AB24 1SB",
-        "AB24 1SD",
-        "AB24 1SE",
-        "AB24 1SJ",
-        "AB24 1SL",
-        "AB24 1SN",
-        "AB24 1TG",
         "AB24 1TQ",
         "AB24 1TR",
-        "AB24 1TZ",
-        "AB24 1UA",
         "AB24 1UH",
         "AB24 1UJ",
-        "AB24 1UL",
-        "AB24 1UN",
-        "AB24 1UP",
-        "AB24 1UQ",
-        "AB24 1UR",
-        "AB24 1US",
-        "AB24 1UT",
         "AB24 1UU",
-        "AB24 1UX",
-        "AB24 1UY",
-        "AB24 1WB",
-        "AB24 1WD",
         "AB24 1WE",
         "AB24 1WF",
         "AB24 1WG",
         "AB24 1WH",
-        "AB24 1XA",
-        "AB24 1XB",
         "AB24 1XE",
         "AB24 1XH",
-        "AB24 1XJ",
-        "AB24 3SE"
+        "AB24 1XJ"
       ],
       "location": {
         "coordinates": [
@@ -403,11 +381,11 @@
             ],
             [
               -2.085440056347764,
-              57.1664171409713
+              57.16652723266663
             ],
             [
               -2.103609641998708,
-              57.1664171409713
+              57.16652723266663
             ],
             [
               -2.103609641998708,
@@ -423,7 +401,220 @@
       "updated": "2025-06-07T01:46:22.013+0000",
       "maxLatitude": 57.173559309702604,
       "etrUpdate": true,
-      "hvFeederNrn": 6
+      "hvFeederNrn": 7
+    },
+    {
+      "latitude": 56.49533606554293,
+      "primaryNrn": 14,
+      "type": "HV",
+      "reference": "QZ8080",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "affectedCustomerCount": 184,
+      "networkId": "com.sse.ssepd.shepd",
+      "suppressed": false,
+      "UUID": "d95eabd0-f8ab-4696-85fe-235738a8b790",
+      "minLongitude": -3.000343601343993,
+      "txNrn": 20,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.994849636792938,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-06-07T02:54:00.000+0000",
+      "estimatedRestoration": "2025-06-07T06:00:00.000+0000",
+      "priorityCustomerCount": 16,
+      "message": "We're aware of a power cut in the area shown, affecting 184 homes. This unplanned fault is affecting the local area, and it's likely several streets in the area are affected by the same power cut.<br/><br/>Engineers are aware of the fault but are busy on another fault. Once they have restored power on the other fault, or if another team become available in the meantime, they will be sent straight to your area to get the power back on. At this stage, we're aiming to have your power restored by 06:00 07/06/2025.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QZ8080'",
+      "maxLongitude": -2.983931335397427,
+      "minLatitude": 56.49249456581263,
+      "name": "DD3 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DD3 0LF",
+        "DD3 0LG",
+        "DD3 0LH",
+        "DD3 0LQ",
+        "DD3 0NZ",
+        "DD3 0SA",
+        "DD3 9DX",
+        "DD3 9TA",
+        "DD3 9TB",
+        "DD3 9TD",
+        "DD3 9TE",
+        "DD3 9TF",
+        "DD3 9TG",
+        "DD3 9TH",
+        "DD3 9TQ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.000343601343993,
+              56.501127612463215
+            ],
+            [
+              -2.983931335397427,
+              56.501127612463215
+            ],
+            [
+              -2.983931335397427,
+              56.49249456581263
+            ],
+            [
+              -3.000343601343993,
+              56.49249456581263
+            ],
+            [
+              -3.000343601343993,
+              56.501127612463215
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2025-06-07T03:00:00.000+0000",
+      "jobStatusCode": "A",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2025-06-07T02:52:20.433+0000",
+      "maxLatitude": 56.501127612463215,
+      "etrUpdate": true,
+      "hvFeederNrn": 1
+    },
+    {
+      "latitude": 56.49360751025897,
+      "primaryNrn": 14,
+      "type": "LV",
+      "reference": "QZ8083",
+      "etaUpdate": true,
+      "lvFeederNrn": 4,
+      "affectedCustomerCount": 18,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "b0077ec2-951c-48bd-9fd4-a0a8f415e55a",
+      "minLongitude": -3.003973838543317,
+      "txNrn": 10,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.000212776875357,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-06-07T02:56:00.000+0000",
+      "priorityCustomerCount": 12,
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QZ8083'",
+      "maxLongitude": -2.997401143235357,
+      "minLatitude": 56.49242353499636,
+      "name": "DD3 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DD3 9DH",
+        "DD3 9DJ",
+        "DD3 9DP",
+        "DD3 9DW",
+        "DD3 9GZ",
+        "DD3 9HA",
+        "DD3 9HB"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.003973838543317,
+              56.49452337576263
+            ],
+            [
+              -2.997401143235357,
+              56.49452337576263
+            ],
+            [
+              -2.997401143235357,
+              56.49242353499636
+            ],
+            [
+              -3.003973838543317,
+              56.49242353499636
+            ],
+            [
+              -3.003973838543317,
+              56.49452337576263
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "R",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2025-06-07T02:57:20.170+0000",
+      "maxLatitude": 56.49452337576263,
+      "etrUpdate": true,
+      "hvFeederNrn": 1
+    },
+    {
+      "latitude": 56.49397292965385,
+      "primaryNrn": 14,
+      "type": "LV",
+      "reference": "QZ8086",
+      "etaUpdate": true,
+      "lvFeederNrn": 3,
+      "affectedCustomerCount": 3,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "07456add-9c36-4861-8e3b-db2bcffe1657",
+      "minLongitude": -3.002545424688754,
+      "txNrn": 10,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.000280038520339,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-06-07T02:56:00.000+0000",
+      "priorityCustomerCount": 4,
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QZ8086'",
+      "maxLongitude": -2.998203249792164,
+      "minLatitude": 56.49320591118708,
+      "name": "DD3 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DD3 9DH",
+        "DD3 9HA"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.002545424688754,
+              56.49452337576263
+            ],
+            [
+              -2.998203249792164,
+              56.49452337576263
+            ],
+            [
+              -2.998203249792164,
+              56.49320591118708
+            ],
+            [
+              -3.002545424688754,
+              56.49320591118708
+            ],
+            [
+              -3.002545424688754,
+              56.49452337576263
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "R",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2025-06-07T02:57:20.170+0000",
+      "maxLatitude": 56.49452337576263,
+      "etrUpdate": true,
+      "hvFeederNrn": 1
     }
   ]
 }

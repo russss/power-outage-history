@@ -784,6 +784,7 @@
       "lvFeederNrn": 3,
       "affectedCustomerCount": 16,
       "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
       "UUID": "470662cf-4a0f-4aef-804a-3a04b5341e13",
       "minLongitude": -1.000850346020382,
       "txNrn": 460,
@@ -841,6 +842,76 @@
       "maxLatitude": 50.92786249796515,
       "etrUpdate": true,
       "hvFeederNrn": 8
+    },
+    {
+      "latitude": 50.71953001188705,
+      "primaryNrn": 5809,
+      "type": "LV",
+      "reference": "RA0213",
+      "etaUpdate": true,
+      "lvFeederNrn": 2,
+      "affectedCustomerCount": 23,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "dfb94978-2e2f-4076-b492-ed7584c6def9",
+      "minLongitude": -1.111175678254971,
+      "txNrn": 240,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.1096229674921259,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-06-08T04:48:00.000+0000",
+      "priorityCustomerCount": 11,
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'RA0213'",
+      "maxLongitude": -1.106903550273402,
+      "minLatitude": 50.714828480038214,
+      "name": "PO34 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PO34 5BD",
+        "PO34 5BL",
+        "PO34 5EJ",
+        "PO34 5EL",
+        "PO34 5ER",
+        "PO34 5ES",
+        "PO34 5ET",
+        "PO34 5EU"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.111175678254971,
+              50.72084948264372
+            ],
+            [
+              -1.106903550273402,
+              50.72084948264372
+            ],
+            [
+              -1.106903550273402,
+              50.714828480038214
+            ],
+            [
+              -1.111175678254971,
+              50.714828480038214
+            ],
+            [
+              -1.111175678254971,
+              50.72084948264372
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "R",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2025-06-08T04:49:21.384+0000",
+      "maxLatitude": 50.72084948264372,
+      "etrUpdate": true,
+      "hvFeederNrn": 1
     }
   ]
 }

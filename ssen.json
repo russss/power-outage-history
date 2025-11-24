@@ -34,13 +34,6 @@
         "GU26 6EB",
         "GU26 6HG",
         "GU26 6LF",
-        "GU26 6HD",
-        "GU26 6HJ",
-        "GU26 6HL",
-        "GU26 6HQ",
-        "GU26 6HW",
-        "GU26 6LD",
-        "GU26 6LG",
         "GU26 6HE",
         "GU26 6HF",
         "GU26 6HN",
@@ -49,7 +42,14 @@
         "GU26 6TZ",
         "GU26 6GA",
         "GU26 6LE",
-        "GU26 6QW"
+        "GU26 6QW",
+        "GU26 6HD",
+        "GU26 6HJ",
+        "GU26 6HL",
+        "GU26 6HQ",
+        "GU26 6HW",
+        "GU26 6LD",
+        "GU26 6LG"
       ],
       "location": {
         "coordinates": [
@@ -80,7 +80,7 @@
       },
       "jobStatusCode": "P",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-11-24T07:06:03.566+0000",
+      "updated": "2025-11-24T07:41:03.750+0000",
       "maxLatitude": 51.12421964734137,
       "etrUpdate": true,
       "hvFeederNrn": 3
@@ -116,8 +116,8 @@
       "criticalCustomerCount": 1,
       "affectedAreas": [
         "PO15 7EZ",
-        "PO15 7EX",
-        "PO15 7EY"
+        "PO15 7EY",
+        "PO15 7EX"
       ],
       "location": {
         "coordinates": [
@@ -149,10 +149,76 @@
       "estimatedArrivalOnSiteTime": "2025-11-24T05:45:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-11-24T07:06:03.566+0000",
+      "updated": "2025-11-24T07:40:03.723+0000",
       "maxLatitude": 50.88542209486692,
       "etrUpdate": true,
       "hvFeederNrn": 4
+    },
+    {
+      "districtCode": "53",
+      "latitude": 51.53933232452618,
+      "primaryNrn": 1901,
+      "type": "LV",
+      "reference": "SB8191",
+      "etaUpdate": true,
+      "lvFeederNrn": 1,
+      "affectedCustomerCount": 14,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "c412d025-1e78-4657-bbe0-8352fa19b749",
+      "minLongitude": -0.73009609209416,
+      "txNrn": 125,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.7283219983924542,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-11-24T07:34:00.000+0000",
+      "priorityCustomerCount": 17,
+      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>We'll be sending our engineers to the area as soon as possible. When they're on their way, we'll let you know what time they'll be arriving. At this stage, we're aiming to have your power back on by.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SB8191'",
+      "maxLongitude": -0.724435481636198,
+      "minLatitude": 51.53861826901115,
+      "name": "SL6 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "criticalCustomerCount": 2,
+      "affectedAreas": [
+        "SL6 7UH",
+        "SL6 7UJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.73009609209416,
+              51.540333176289785
+            ],
+            [
+              -0.724435481636198,
+              51.540333176289785
+            ],
+            [
+              -0.724435481636198,
+              51.53861826901115
+            ],
+            [
+              -0.73009609209416,
+              51.53861826901115
+            ],
+            [
+              -0.73009609209416,
+              51.540333176289785
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "R",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2025-11-24T07:41:03.750+0000",
+      "maxLatitude": 51.540333176289785,
+      "etrUpdate": true,
+      "hvFeederNrn": 17
     }
   ]
 }

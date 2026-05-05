@@ -1,6 +1,76 @@
 {
   "Faults": [
     {
+      "districtCode": "33",
+      "latitude": 50.90378075532881,
+      "primaryNrn": 5515,
+      "type": "LV",
+      "reference": "TC0757",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2026-05-05T07:30:00.000+0000",
+      "lvFeederNrn": 1,
+      "affectedCustomerCount": 15,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "30cd8246-be5f-4806-94bb-b342813ea456",
+      "minLongitude": -1.018979555431124,
+      "txNrn": 30,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.01553633245022,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2026-05-05T22:00:00.000+0000",
+      "estimatedRestoration": "2026-05-06T05:00:00.000+0000",
+      "priorityCustomerCount": 16,
+      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>Engineers have arrived in the area. They are working hard to fix the problem and will get your power back on as quickly as possible. At this stage, we're aiming to have your power back on by 06:00 06/05/2026. If this changes, we'll let you know.<br/><br/>The power cut has been caused by a fault on our underground network. Issues like this do happen, and our engineers are very experienced at fixing them. Often, power can be restored quickly with a simple reset or by replacing a fuse at a nearby substation. If the problem is more complicated, repairs may take a little longer but our teams will keep working until everything is safely back up and running. Well keep you updated along the way.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'TC0757'",
+      "maxLongitude": -1.012488229246878,
+      "minLatitude": 50.9021302033471,
+      "name": "PO8 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PO8 8HH",
+        "PO8 8HJ",
+        "PO8 9TA",
+        "PO8 9TB",
+        "PO8 9TD"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.018979555431124,
+              50.90561829060668
+            ],
+            [
+              -1.012488229246878,
+              50.90561829060668
+            ],
+            [
+              -1.012488229246878,
+              50.9021302033471
+            ],
+            [
+              -1.018979555431124,
+              50.9021302033471
+            ],
+            [
+              -1.018979555431124,
+              50.90561829060668
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2026-05-05T23:51:30.681+0000",
+      "maxLatitude": 50.90561829060668,
+      "etrUpdate": true,
+      "hvFeederNrn": 10
+    },
+    {
       "districtCode": "53",
       "latitude": 51.48448456448766,
       "primaryNrn": 1910,
@@ -20,9 +90,9 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2026-05-05T11:11:00.000+0000",
-      "estimatedRestoration": "2026-05-05T22:59:00.000+0000",
+      "estimatedRestoration": "2026-05-06T02:00:00.000+0000",
       "priorityCustomerCount": 61,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting 503 properties in the area shown on the map. We are working with our engineers to fix the problem as quickly as possible, and will keep you updated here on Power Track.<br/><br/>Engineers have arrived in the area. They are working hard to fix the problem and will get your power back on as quickly as possible. At this stage, we're aiming to have your power back on by 23:59 05/05/2026. If this changes, we'll let you know.<br/><br/>We have had to isolate your power due to a safety concern on our network. Where possible, we will always try to keep the power on, however, there are situations like this where we need to isolate the power to keep people safe. There is no concern for safety at your property, however, there is an isolated issue elsewhere our teams need to make safe before they can turn your power back on.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'TC1678'",
+      "message": "We're sorry about the power cut in the area. The power cut is affecting 503 properties in the area shown on the map. We are working with our engineers to fix the problem as quickly as possible, and will keep you updated here on Power Track.<br/><br/>Engineers have arrived in the area. They are working hard to fix the problem and will get your power back on as quickly as possible. At this stage, we're aiming to have your power back on by 03:00 06/05/2026. If this changes, we'll let you know.<br/><br/>We have had to isolate your power due to a safety concern on our network. Where possible, we will always try to keep the power on, however, there are situations like this where we need to isolate the power to keep people safe. There is no concern for safety at your property, however, there is an isolated issue elsewhere our teams need to make safe before they can turn your power back on.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'TC1678'",
       "maxLongitude": -0.555113640957336,
       "minLatitude": 51.46572859403751,
       "name": "SL3 & SL4 Areas",
@@ -101,7 +171,7 @@
       },
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-05-05T15:01:31.878+0000",
+      "updated": "2026-05-05T23:36:30.653+0000",
       "maxLatitude": 51.49948191270661,
       "etrUpdate": true,
       "hvFeederNrn": 6
@@ -331,9 +401,9 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2026-05-05T19:40:00.000+0000",
-      "estimatedRestoration": "2026-05-06T01:00:00.000+0000",
+      "estimatedRestoration": "2026-05-06T03:00:00.000+0000",
       "priorityCustomerCount": 1,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting 21 properties in the area shown on the map. We are working with our engineers to fix the problem as quickly as possible, and will keep you updated here on Power Track.<br/><br/>Engineers are on the way and will arrive in the area at 21:30 05/05/2026. When they get there, they'll work hard to fix the problem as quickly as possible. We'll keep you updated with any new information. At this stage, we're aiming to have your power back on by 02:00 06/05/2026.<br/><br/>The power cut has been caused by a fault on our overhead network. Issues like this do happen, and our engineers are very experienced at fixing them. Often, power can be restored quickly with a simple reset or by replacing a fuse at a nearby substation. If the problem is more complicated, repairs may take a little longer but our teams will keep working until everything is safely back up and running. Well keep you updated along the way.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'TC2292'",
+      "message": "We're sorry about the power cut in the area. The power cut is affecting 21 properties in the area shown on the map. We are working with our engineers to fix the problem as quickly as possible, and will keep you updated here on Power Track.<br/><br/>Engineers are on the way and will arrive in the area at 21:30 05/05/2026. When they get there, they'll work hard to fix the problem as quickly as possible. We'll keep you updated with any new information. At this stage, we're aiming to have your power back on by 04:00 06/05/2026.<br/><br/>The power cut has been caused by a fault on our overhead network. Issues like this do happen, and our engineers are very experienced at fixing them. Often, power can be restored quickly with a simple reset or by replacing a fuse at a nearby substation. If the problem is more complicated, repairs may take a little longer but our teams will keep working until everything is safely back up and running. Well keep you updated along the way.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'TC2292'",
       "maxLongitude": -4.416375042133253,
       "minLatitude": 57.573945367699636,
       "name": "IV15 Area",
@@ -376,7 +446,7 @@
       "evChargersAffected": [
         "a155a0a9-bdad-44f5-9527-d2d08e12f421"
       ],
-      "updated": "2026-05-05T21:40:31.148+0000",
+      "updated": "2026-05-05T23:45:30.955+0000",
       "maxLatitude": 57.59009904301903,
       "etrUpdate": true,
       "hvFeederNrn": 20

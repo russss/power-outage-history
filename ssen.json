@@ -105,7 +105,7 @@
       "srtUpdate": true,
       "loggedAt": "2026-09-10T23:11:00.000+0000",
       "estimatedRestoration": "2026-09-11T22:59:00.000+0000",
-      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>Engineers have arrived in the area. They are working hard to fix the problem and will get your power back on as quickly as possible. At this stage, we're aiming to have your power back on by 23:59 11/09/2026. If this changes, we'll let you know.<br/><br/>",
+      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>It's busier than usual just now, but we'll be sending our engineers to the area as soon as possible. When they're on their way, we'll let you know what time they'll be arriving. At this stage, we're aiming to have your power back on by23:59 11/09/2026.<br/><br/>",
       "maxLongitude": -0.526444710685439,
       "minLatitude": 51.50760638247961,
       "name": "SL0 & SL3 Areas",
@@ -144,9 +144,9 @@
         "type": "Polygon"
       },
       "estimatedArrivalOnSiteTime": "2026-09-10T23:30:00.000+0000",
-      "jobStatusCode": "I",
+      "jobStatusCode": "OR",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-09-11T11:32:04.380+0000",
+      "updated": "2026-09-11T13:23:06.198+0000",
       "maxLatitude": 51.512514032992016,
       "etrUpdate": true,
       "hvFeederNrn": 12
@@ -852,76 +852,6 @@
       "hvFeederNrn": 4
     },
     {
-      "districtCode": "51",
-      "latitude": 51.1885299879514,
-      "primaryNrn": 6707,
-      "type": "LV",
-      "reference": "TY8764",
-      "etaUpdate": true,
-      "engineerOnSiteTime": "2026-09-11T08:30:00.000+0000",
-      "lvFeederNrn": 1,
-      "affectedCustomerCount": 5,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "898f75d2-43d1-4fe8-84e1-b97b78cb8695",
-      "minLongitude": -1.906874871969385,
-      "txNrn": 165,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.9017330570748554,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2026-09-11T08:30:00.000+0000",
-      "estimatedRestoration": "2026-09-11T17:00:00.000+0000",
-      "priorityCustomerCount": 3,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>Engineers have arrived in the area. They are working hard to fix the problem and will get your power back on as quickly as possible. At this stage, we're aiming to have your power back on by 18:00 11/09/2026. If this changes, we'll let you know.<br/><br/>The power cut has been caused by a fault on our overhead network. Issues like this do happen, and our engineers are very experienced at fixing them. Often, power can be restored quickly with a simple reset or by replacing a fuse at a nearby substation. If the problem is more complicated, repairs may take a little longer but our teams will keep working until everything is safely back up and running. Well keep you updated along the way.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'TY8764'",
-      "maxLongitude": -1.878390229119333,
-      "minLatitude": 51.17533736653815,
-      "name": "SP3 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "SP3 4EN",
-        "SP3 4EQ",
-        "SP3 4ER",
-        "SP3 4ES",
-        "SP3 4HG"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -1.906874871969385,
-              51.193309491553
-            ],
-            [
-              -1.878390229119333,
-              51.193309491553
-            ],
-            [
-              -1.878390229119333,
-              51.17533736653815
-            ],
-            [
-              -1.906874871969385,
-              51.17533736653815
-            ],
-            [
-              -1.906874871969385,
-              51.193309491553
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-09-11T13:12:05.972+0000",
-      "maxLatitude": 51.193309491553,
-      "etrUpdate": true,
-      "hvFeederNrn": 4
-    },
-    {
       "districtCode": "33",
       "latitude": 50.78840612122277,
       "primaryNrn": 5505,
@@ -988,79 +918,6 @@
       "maxLatitude": 50.789110794211155,
       "etrUpdate": true,
       "hvFeederNrn": 4
-    },
-    {
-      "districtCode": "49",
-      "latitude": 51.448149785016895,
-      "primaryNrn": 4307,
-      "type": "LV",
-      "reference": "TX7198",
-      "etaUpdate": true,
-      "engineerOnSiteTime": "2026-09-11T07:30:00.000+0000",
-      "lvFeederNrn": 3,
-      "affectedCustomerCount": 53,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "2cda538b-40c5-4c7b-a17e-fd8ff0b0207c",
-      "minLongitude": -0.970928046475836,
-      "txNrn": 40,
-      "networkType": "underground",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.9692389083701978,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2026-09-11T12:00:00.000+0000",
-      "estimatedRestoration": "2026-09-11T14:00:00.000+0000",
-      "priorityCustomerCount": 23,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>Engineers have arrived in the area. They are working hard to fix the problem and will get your power back on as quickly as possible. At this stage, we're aiming to have your power back on by 15:00 11/09/2026. If this changes, we'll let you know.<br/><br/>",
-      "maxLongitude": -0.966683708130368,
-      "minLatitude": 51.446635571357,
-      "name": "RG1 Area",
-      "jobSubTypeCode": "NR",
-      "otherUpdate": true,
-      "criticalCustomerCount": 1,
-      "affectedAreas": [
-        "RG1 2NU",
-        "RG1 2PJ",
-        "RG1 2PN",
-        "RG1 2PP",
-        "RG1 2PR",
-        "RG1 2QX",
-        "RG1 2RD"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -0.970928046475836,
-              51.44991827083941
-            ],
-            [
-              -0.966683708130368,
-              51.44991827083941
-            ],
-            [
-              -0.966683708130368,
-              51.446635571357
-            ],
-            [
-              -0.970928046475836,
-              51.446635571357
-            ],
-            [
-              -0.970928046475836,
-              51.44991827083941
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-09-11T11:28:04.178+0000",
-      "maxLatitude": 51.44991827083941,
-      "etrUpdate": true,
-      "hvFeederNrn": 1
     },
     {
       "districtCode": "45",
@@ -1362,155 +1219,6 @@
       "hvFeederNrn": 2
     },
     {
-      "districtCode": "44",
-      "latitude": 51.11074973403203,
-      "primaryNrn": 1606,
-      "type": "LV",
-      "reference": "TY8668",
-      "etaUpdate": true,
-      "engineerOnSiteTime": "2026-09-11T03:55:00.000+0000",
-      "lvFeederNrn": 2,
-      "affectedCustomerCount": 38,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "e8b9df71-a17c-4385-9ac0-92ef3e13d505",
-      "minLongitude": -0.856461287423088,
-      "txNrn": 180,
-      "networkType": "underground",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.8545407107890474,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2026-09-11T12:00:00.000+0000",
-      "estimatedRestoration": "2026-09-11T15:00:00.000+0000",
-      "priorityCustomerCount": 24,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>Engineers have arrived in the area. They are working hard to fix the problem and will get your power back on as quickly as possible. At this stage, we're aiming to have your power back on by 16:00 11/09/2026. If this changes, we'll let you know.<br/><br/>The power cut has been caused by a fault on our underground network. Issues like this do happen, and our engineers are very experienced at fixing them. Often, power can be restored quickly with a simple reset or by replacing a fuse at a nearby substation. If the problem is more complicated, repairs may take a little longer but our teams will keep working until everything is safely back up and running. Well keep you updated along the way.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'TY8668'",
-      "maxLongitude": -0.85041387487936,
-      "minLatitude": 51.10915189579991,
-      "name": "GU35 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "criticalCustomerCount": 2,
-      "affectedAreas": [
-        "GU35 0AR",
-        "GU35 0AS",
-        "GU35 0DH",
-        "GU35 0DL",
-        "GU35 0DQ",
-        "GU35 0TH"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -0.856461287423088,
-              51.11252581895234
-            ],
-            [
-              -0.85041387487936,
-              51.11252581895234
-            ],
-            [
-              -0.85041387487936,
-              51.10915189579991
-            ],
-            [
-              -0.856461287423088,
-              51.10915189579991
-            ],
-            [
-              -0.856461287423088,
-              51.11252581895234
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-09-11T12:28:06.660+0000",
-      "maxLatitude": 51.11252581895234,
-      "etrUpdate": true,
-      "hvFeederNrn": 3
-    },
-    {
-      "districtCode": "36",
-      "latitude": 51.529185579686754,
-      "primaryNrn": 2517,
-      "type": "LV",
-      "reference": "TY9318",
-      "etaUpdate": true,
-      "lvFeederNrn": 4,
-      "affectedCustomerCount": 62,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "9c33d3f8-6ff9-49c5-bf37-7c74063d4f81",
-      "minLongitude": -0.445010744907953,
-      "txNrn": 40,
-      "networkType": "underground",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.4425678435960085,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2026-09-11T12:18:00.000+0000",
-      "estimatedRestoration": "2026-09-11T17:30:00.000+0000",
-      "priorityCustomerCount": 60,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>Engineers are on the way and will arrive in the area at 14:00 11/09/2026. When they get there, they'll work hard to fix the problem as quickly as possible. We'll keep you updated with any new information. At this stage, we're aiming to have your power back on by 18:30 11/09/2026.<br/><br/>The power cut has been caused by a fault on our underground network. Issues like this do happen, and our engineers are very experienced at fixing them. Often, power can be restored quickly with a simple reset or by replacing a fuse at a nearby substation. If the problem is more complicated, repairs may take a little longer but our teams will keep working until everything is safely back up and running. Well keep you updated along the way.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'TY9318'",
-      "maxLongitude": -0.440589900292089,
-      "minLatitude": 51.527637024557166,
-      "name": "UB10 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "criticalCustomerCount": 7,
-      "affectedAreas": [
-        "UB10 0LZ",
-        "UB10 0NA",
-        "UB10 0NB",
-        "UB10 0ND",
-        "UB10 0NE",
-        "UB10 0NG",
-        "UB10 0SL",
-        "UB10 0SN",
-        "UB10 0SS",
-        "UB10 0SW",
-        "UB10 0TG"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -0.445010744907953,
-              51.53148085621228
-            ],
-            [
-              -0.440589900292089,
-              51.53148085621228
-            ],
-            [
-              -0.440589900292089,
-              51.527637024557166
-            ],
-            [
-              -0.445010744907953,
-              51.527637024557166
-            ],
-            [
-              -0.445010744907953,
-              51.53148085621228
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2026-09-11T13:00:00.000+0000",
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-09-11T12:47:06.037+0000",
-      "maxLatitude": 51.53148085621228,
-      "etrUpdate": true,
-      "hvFeederNrn": 13
-    },
-    {
       "districtCode": "33",
       "latitude": 50.854129431570094,
       "primaryNrn": 5509,
@@ -1670,7 +1378,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2026-09-11T13:04:00.000+0000",
+      "loggedAt": "2026-09-11T10:58:00.000+0000",
       "estimatedRestoration": "2026-09-11T17:00:00.000+0000",
       "priorityCustomerCount": 3,
       "message": "We're sorry about the power cut in the area. The power cut is affecting 16 properties in the area shown on the map. We are working with our engineers to fix the problem as quickly as possible, and will keep you updated here on Power Track.<br/><br/>Engineers have arrived in the area. They are working hard to fix the problem and will get your power back on as quickly as possible. At this stage, we're aiming to have your power back on by 18:00 11/09/2026. If this changes, we'll let you know.<br/><br/>The power cut has been caused by a fault on our overhead network. Issues like this do happen, and our engineers are very experienced at fixing them. Often, power can be restored quickly with a simple reset or by replacing a fuse at a nearby substation. If the problem is more complicated, repairs may take a little longer but our teams will keep working until everything is safely back up and running. Well keep you updated along the way.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'TY9397'",
@@ -1716,7 +1424,7 @@
       },
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-09-11T13:13:06.035+0000",
+      "updated": "2026-09-11T13:18:06.203+0000",
       "maxLatitude": 51.194898644043526,
       "etrUpdate": true,
       "hvFeederNrn": 4

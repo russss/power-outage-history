@@ -1,6 +1,77 @@
 {
   "Faults": [
     {
+      "districtCode": "32",
+      "latitude": 51.39643116619979,
+      "primaryNrn": 2200,
+      "type": "LV",
+      "reference": "UB0078",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2026-10-01T23:45:00.000+0000",
+      "lvFeederNrn": 3,
+      "affectedCustomerCount": 8,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "bd0c3dfa-7a29-435a-93f4-c098df98dbda",
+      "minLongitude": -0.657152392072061,
+      "txNrn": 125,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.6532746580348746,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2026-10-02T00:00:00.000+0000",
+      "estimatedRestoration": "2026-10-02T12:00:00.000+0000",
+      "priorityCustomerCount": 8,
+      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>It's busier than usual just now, but we'll be sending our engineers to the area as soon as possible. When they're on their way, we'll let you know what time they'll be arriving. At this stage, we're aiming to have your power back on by13:00 02/10/2026.<br/><br/>You may have noticed your power going on and off. This is nothing to worry about but is being caused by a fault on our network. The typical cause for this issue is that something is touching our overhead network - it is usually a tree branch. Our teams are locating the source of the problem as we speak and once we resolve the issue, your power will return to normal. In the meantime, we'd suggest turning off any sensitive appliances like computers and TVs.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'UB0078'",
+      "maxLongitude": -0.648511116355171,
+      "minLatitude": 51.39432582812036,
+      "name": "SL5 Area",
+      "jobSubTypeCode": "12",
+      "otherUpdate": true,
+      "criticalCustomerCount": 1,
+      "affectedAreas": [
+        "SL5 9PQ",
+        "SL5 9RB",
+        "SL5 9WA",
+        "SL5 9WB"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.657152392072061,
+              51.39756116534986
+            ],
+            [
+              -0.648511116355171,
+              51.39756116534986
+            ],
+            [
+              -0.648511116355171,
+              51.39432582812036
+            ],
+            [
+              -0.657152392072061,
+              51.39432582812036
+            ],
+            [
+              -0.657152392072061,
+              51.39756116534986
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2026-10-02T00:45:00.000+0000",
+      "jobStatusCode": "OR",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2026-10-02T04:25:21.531+0000",
+      "maxLatitude": 51.39756116534986,
+      "etrUpdate": true,
+      "hvFeederNrn": 2
+    },
+    {
       "districtCode": "55",
       "latitude": 51.55335735846249,
       "primaryNrn": 3417,
@@ -22,7 +93,7 @@
       "loggedAt": "2026-10-02T02:33:00.000+0000",
       "estimatedRestoration": "2026-10-02T07:30:00.000+0000",
       "priorityCustomerCount": 54,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>We're finding the closest engineer available. They'll be making their way to the area as soon as possible. When they're on their way, we'll let you know what time they'll be arriving. At this stage, we're aiming to have your power back on by08:30 02/10/2026.<br/><br/>The power cut has been caused by a fault on our underground network. Issues like this do happen, and our engineers are very experienced at fixing them. Often, power can be restored quickly with a simple reset or by replacing a fuse at a nearby substation. If the problem is more complicated, repairs may take a little longer but our teams will keep working until everything is safely back up and running. Well keep you updated along the way.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'UB0117'",
+      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>It's busier than usual just now, but we'll be sending our engineers to the area as soon as possible. When they're on their way, we'll let you know what time they'll be arriving. At this stage, we're aiming to have your power back on by08:30 02/10/2026.<br/><br/>The power cut has been caused by a fault on our underground network. Issues like this do happen, and our engineers are very experienced at fixing them. Often, power can be restored quickly with a simple reset or by replacing a fuse at a nearby substation. If the problem is more complicated, repairs may take a little longer but our teams will keep working until everything is safely back up and running. Well keep you updated along the way.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'UB0117'",
       "maxLongitude": -1.827408468320106,
       "minLatitude": 51.552357253010115,
       "name": "SN5 Area",
@@ -65,9 +136,9 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "P",
+      "jobStatusCode": "OR",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-10-02T03:16:23.273+0000",
+      "updated": "2026-10-02T04:20:22.538+0000",
       "maxLatitude": 51.55419121471391,
       "etrUpdate": true,
       "hvFeederNrn": 2

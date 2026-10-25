@@ -7773,20 +7773,20 @@
     {
       "customIncludeDefault": false,
       "districtCode": "31",
-      "latitude": 50.754120055926435,
+      "latitude": 50.75350685721616,
       "primaryNrn": 7014,
       "type": "HV",
       "reference": "UF1149",
       "etaUpdate": true,
       "lvFeederNrn": 0,
-      "affectedCustomerCount": 445,
+      "affectedCustomerCount": 340,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "da0a92b8-b090-41be-8cac-3a7577671241",
       "minLongitude": -1.620918489344487,
       "txNrn": 190,
       "networkType": "underground",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.6114520576120313,
+      "longitude": -1.6113605689480093,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -7803,10 +7803,6 @@
         "SO41 0AW",
         "SO41 0FB",
         "SO41 0FD",
-        "SO41 0FG",
-        "SO41 0FH",
-        "SO41 0FT",
-        "SO41 0FY",
         "SO41 0GZ",
         "SO41 0HA",
         "SO41 0HB",
@@ -7830,11 +7826,11 @@
           [
             [
               -1.620918489344487,
-              50.76205028291511
+              50.75896586975099
             ],
             [
               -1.597250587848629,
-              50.76205028291511
+              50.75896586975099
             ],
             [
               -1.597250587848629,
@@ -7846,7 +7842,7 @@
             ],
             [
               -1.620918489344487,
-              50.76205028291511
+              50.75896586975099
             ]
           ]
         ],
@@ -7854,8 +7850,8 @@
       },
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-10-25T03:33:11.147+0000",
-      "maxLatitude": 50.76205028291511,
+      "updated": "2026-10-25T04:13:33.274+0000",
+      "maxLatitude": 50.75896586975099,
       "etrUpdate": true,
       "hvFeederNrn": 1
     },
@@ -10591,26 +10587,113 @@
     {
       "customIncludeDefault": false,
       "districtCode": "57",
-      "latitude": 55.908169063348424,
-      "primaryNrn": 366,
+      "latitude": 56.488542545071915,
+      "primaryNrn": 315,
       "type": "HV",
-      "reference": "UF1259",
+      "reference": "UF1277",
       "etaUpdate": true,
       "lvFeederNrn": 0,
-      "affectedCustomerCount": 467,
+      "affectedCustomerCount": 385,
       "networkId": "com.sse.ssepd.shepd",
-      "UUID": "fdf2dbef-c69d-439b-918b-d81d1b8581df",
-      "minLongitude": -5.349669704892422,
-      "txNrn": 45,
-      "networkType": "underground",
+      "UUID": "830981db-e47b-4b5e-a83f-7c89f34a0025",
+      "minLongitude": -6.319519945927282,
+      "txNrn": 113,
+      "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -5.250865220952165,
+      "longitude": -6.143886043970559,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2026-10-25T03:56:00.000+0000",
+      "estimatedRestoration": "2026-10-25T20:00:00.000+0000",
+      "message": "<p>Storm Boelo is causing disruption to electricity supplies across our network. Our teams are working around the clock to restore power as safely and quickly as possible. If your power is off and your postcode is listed as part of this fault, please be assured that we’re aware and our teams are assessing the damage and carrying out repairs. </p><p><br></p><p>Severe weather may make it difficult to access some areas safely, so estimated restoration times may change, or repairs may take longer than expected. Please stay safe and keep well away from fallen or damaged power lines and electrical equipment. Don’t try to move trees or debris that may be touching power lines. </p><p><br></p><p>If you need extra help during a power cut, please get in touch. We’re here to support you. We’ll keep Power Track updated as our teams make progress and you can register for live updates below to receive a text if anything changes. Thank you for your patience and understanding while we work to get your power back on.</p>",
+      "maxLongitude": -4.806318145190113,
+      "minLatitude": 56.045779268123475,
+      "name": "PA72 & PA73 Areas",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PA71 6HR",
+        "PA72 6JB",
+        "PA72 6JD",
+        "PA72 6JE",
+        "PA72 6JF",
+        "PA72 6JG",
+        "PA72 6JH",
+        "PA72 6JJ",
+        "PA72 6JL",
+        "PA72 6JN",
+        "PA72 6JP",
+        "PA72 6JU",
+        "PA72 6JW",
+        "PA72 6JX",
+        "PA72 6JY",
+        "PA72 6JZ",
+        "PA72 6LA",
+        "PA72 6LB",
+        "PA73 6LT",
+        "PA73 6LU",
+        "PA73 6LX",
+        "PA73 6LY",
+        "PA73 6LZ",
+        "PA74 6NH"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -6.319519945927282,
+              56.56057889732563
+            ],
+            [
+              -4.806318145190113,
+              56.56057889732563
+            ],
+            [
+              -4.806318145190113,
+              56.045779268123475
+            ],
+            [
+              -6.319519945927282,
+              56.045779268123475
+            ],
+            [
+              -6.319519945927282,
+              56.56057889732563
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "OR",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2026-10-25T03:59:15.442+0000",
+      "maxLatitude": 56.56057889732563,
+      "etrUpdate": true,
+      "hvFeederNrn": 1
+    },
+    {
+      "customIncludeDefault": false,
+      "districtCode": "57",
+      "latitude": 55.88301936045314,
+      "primaryNrn": 366,
+      "type": "HV",
+      "reference": "UF1278",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "affectedCustomerCount": 168,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "511d07e3-2678-4561-958d-1216564e5213",
+      "minLongitude": -5.309683955526017,
+      "txNrn": 245,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.229679353923937,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2026-10-25T03:45:00.000+0000",
       "estimatedRestoration": "2026-10-25T20:00:00.000+0000",
-      "priorityCustomerCount": 8,
       "message": "<p>Storm Boelo is causing disruption to electricity supplies across our network. Our teams are working around the clock to restore power as safely and quickly as possible. If your power is off and your postcode is listed as part of this fault, please be assured that we’re aware and our teams are assessing the damage and carrying out repairs. </p><p><br></p><p>Severe weather may make it difficult to access some areas safely, so estimated restoration times may change, or repairs may take longer than expected. Please stay safe and keep well away from fallen or damaged power lines and electrical equipment. Don’t try to move trees or debris that may be touching power lines. </p><p><br></p><p>If you need extra help during a power cut, please get in touch. We’re here to support you. We’ll keep Power Track updated as our teams make progress and you can register for live updates below to receive a text if anything changes. Thank you for your patience and understanding while we work to get your power back on.</p>",
       "maxLongitude": -4.941676295077793,
       "minLatitude": 55.82555600256966,
@@ -10618,12 +10701,437 @@
       "jobSubTypeCode": "01",
       "otherUpdate": true,
       "affectedAreas": [
+        "PA21 2AH",
+        "PA21 2AJ",
+        "PA21 2BB",
+        "PA21 2BD",
+        "PA21 2BE",
+        "PA21 2BJ",
+        "PA21 2DS",
+        "PA21 2DU",
+        "PA21 2DX",
+        "PA21 2DY",
+        "PA21 2EA",
+        "PA21 2EB",
+        "PA21 2ED",
+        "PA21 2EE",
+        "PA21 2EG",
+        "PA21 2EH",
+        "PA21 2EJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -5.309683955526017,
+              56.26547386979603
+            ],
+            [
+              -4.941676295077793,
+              56.26547386979603
+            ],
+            [
+              -4.941676295077793,
+              55.82555600256966
+            ],
+            [
+              -5.309683955526017,
+              55.82555600256966
+            ],
+            [
+              -5.309683955526017,
+              56.26547386979603
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "OR",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2026-10-25T03:58:16.829+0000",
+      "maxLatitude": 56.26547386979603,
+      "etrUpdate": true,
+      "hvFeederNrn": 2
+    },
+    {
+      "customIncludeDefault": false,
+      "districtCode": "57",
+      "latitude": 56.4640881534034,
+      "primaryNrn": 307,
+      "type": "HV",
+      "reference": "UF1281",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "affectedCustomerCount": 952,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "ebf336d3-bdbb-45ac-9ce1-50f2699c1229",
+      "minLongitude": -5.493901250821668,
+      "txNrn": 155,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.379383516418383,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2026-10-25T03:52:00.000+0000",
+      "estimatedRestoration": "2026-10-25T20:00:00.000+0000",
+      "message": "<p>Storm Boelo is causing disruption to electricity supplies across our network. Our teams are working around the clock to restore power as safely and quickly as possible. If your power is off and your postcode is listed as part of this fault, please be assured that we’re aware and our teams are assessing the damage and carrying out repairs. </p><p><br></p><p>Severe weather may make it difficult to access some areas safely, so estimated restoration times may change, or repairs may take longer than expected. Please stay safe and keep well away from fallen or damaged power lines and electrical equipment. Don’t try to move trees or debris that may be touching power lines. </p><p><br></p><p>If you need extra help during a power cut, please get in touch. We’re here to support you. We’ll keep Power Track updated as our teams make progress and you can register for live updates below to receive a text if anything changes. Thank you for your patience and understanding while we work to get your power back on.</p>",
+      "maxLongitude": -5.396990481257031,
+      "minLatitude": 56.38139814856471,
+      "name": "PA34 & PA37 Areas",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PA34 4AD",
+        "PA34 4DD",
+        "PA34 4PU",
+        "PA34 4QA",
+        "PA34 4QB",
+        "PA34 4RX",
+        "PA34 4SD",
+        "PA34 5AQ",
+        "PA34 5AU",
+        "PA34 5DU",
+        "PA34 5JL",
+        "PA34 5JN",
+        "PA34 5JU",
+        "PA34 5TB",
+        "PA34 5TG",
+        "PA34 5TN",
+        "PA34 5TQ",
+        "PA34 5TT",
+        "PA34 5TU",
+        "PA34 5TX",
+        "PA34 5TY",
+        "PA37",
+        "PA37 1AA",
+        "PA37 1AJ",
+        "PA37 1AL",
+        "PA37 1AN",
+        "PA37 1AP",
+        "PA37 1AQ",
+        "PA37 1AR",
+        "PA37 1AS",
+        "PA37 1AT",
+        "PA37 1AU",
+        "PA37 1NU",
+        "PA37 1PP",
+        "PA37 1PU",
+        "PA37 1PX",
+        "PA37 1PZ",
+        "PA37 1QA",
+        "PA37 1QB",
+        "PA37 1QD",
+        "PA37 1QE",
+        "PA37 1QF",
+        "PA37 1QG",
+        "PA37 1QH",
+        "PA37 1QJ",
+        "PA37 1QL",
+        "PA37 1QQ",
+        "PA37 1SS",
+        "PA37 1SZ",
+        "PA37 1TP"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -5.493901250821668,
+              56.462124853676215
+            ],
+            [
+              -5.396990481257031,
+              56.462124853676215
+            ],
+            [
+              -5.396990481257031,
+              56.38139814856471
+            ],
+            [
+              -5.493901250821668,
+              56.38139814856471
+            ],
+            [
+              -5.493901250821668,
+              56.462124853676215
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "OR",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2026-10-25T04:01:19.808+0000",
+      "maxLatitude": 56.462124853676215,
+      "etrUpdate": true,
+      "hvFeederNrn": 1
+    },
+    {
+      "customIncludeDefault": false,
+      "districtCode": "41",
+      "latitude": 56.32981618445472,
+      "primaryNrn": 732,
+      "type": "HV",
+      "reference": "UF1294",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "affectedCustomerCount": 16,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "1b36935c-4cee-4d1b-96ea-fb92bb628d16",
+      "minLongitude": -5.883765045724607,
+      "txNrn": 55,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.596303413811999,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2026-10-25T04:06:00.000+0000",
+      "message": "<p>Storm Boelo is causing disruption to electricity supplies across our network. Our teams are working around the clock to restore power as safely and quickly as possible. If your power is off and your postcode is listed as part of this fault, please be assured that we’re aware and our teams are assessing the damage and carrying out repairs. </p><p><br></p><p>Severe weather may make it difficult to access some areas safely, so estimated restoration times may change, or repairs may take longer than expected. Please stay safe and keep well away from fallen or damaged power lines and electrical equipment. Don’t try to move trees or debris that may be touching power lines. </p><p><br></p><p>If you need extra help during a power cut, please get in touch. We’re here to support you. We’ll keep Power Track updated as our teams make progress and you can register for live updates below to receive a text if anything changes. Thank you for your patience and understanding while we work to get your power back on.</p>",
+      "maxLongitude": -5.714847133450587,
+      "minLatitude": 56.567087336156305,
+      "name": "PA34 & PA80 Areas",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PA34",
+        "PA34 5XF",
+        "PA80 5XB",
+        "PA80 5XE",
+        "PA80 5XF"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -5.883765045724607,
+              56.65926481578863
+            ],
+            [
+              -5.714847133450587,
+              56.65926481578863
+            ],
+            [
+              -5.714847133450587,
+              56.567087336156305
+            ],
+            [
+              -5.883765045724607,
+              56.567087336156305
+            ],
+            [
+              -5.883765045724607,
+              56.65926481578863
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "OR",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2026-10-25T04:09:16.374+0000",
+      "maxLatitude": 56.65926481578863,
+      "etrUpdate": true,
+      "hvFeederNrn": 11
+    },
+    {
+      "customIncludeDefault": false,
+      "districtCode": "52",
+      "latitude": 57.86510815585994,
+      "primaryNrn": 658,
+      "type": "HV",
+      "reference": "UF1307",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "affectedCustomerCount": 1551,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "470d2b46-8127-436b-8997-bf3fa5143cc7",
+      "minLongitude": -7.294950439034878,
+      "txNrn": 71,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -6.93560686979488,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2026-10-25T04:09:00.000+0000",
+      "message": "<p>Storm Boelo is causing disruption to electricity supplies across our network. Our teams are working around the clock to restore power as safely and quickly as possible. If your power is off and your postcode is listed as part of this fault, please be assured that we’re aware and our teams are assessing the damage and carrying out repairs. </p><p><br></p><p>Severe weather may make it difficult to access some areas safely, so estimated restoration times may change, or repairs may take longer than expected. Please stay safe and keep well away from fallen or damaged power lines and electrical equipment. Don’t try to move trees or debris that may be touching power lines. </p><p><br></p><p>If you need extra help during a power cut, please get in touch. We’re here to support you. We’ll keep Power Track updated as our teams make progress and you can register for live updates below to receive a text if anything changes. Thank you for your patience and understanding while we work to get your power back on.</p>",
+      "maxLongitude": -6.640769479282763,
+      "minLatitude": 57.68989193777887,
+      "name": "HS3 & HS4 Areas",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "HS3 3AE",
+        "HS3 3AF",
+        "HS3 3AH",
+        "HS3 3AJ",
+        "HS3 3AL",
+        "HS3 3AN",
+        "HS3 3AP",
+        "HS3 3AR",
+        "HS3 3AS",
+        "HS3 3AT",
+        "HS3 3AU",
+        "HS3 3AW",
+        "HS3 3AX",
+        "HS3 3AY",
+        "HS3 3AZ",
+        "HS3 3BA",
+        "HS3 3BD",
+        "HS3 3BG",
+        "HS3 3BH",
+        "HS3 3BJ",
+        "HS3 3BL",
+        "HS3 3BP",
+        "HS3 3BQ",
+        "HS3 3BS",
+        "HS3 3BW",
+        "HS3 3DA",
+        "HS3 3DB",
+        "HS3 3DD",
+        "HS3 3DE",
+        "HS3 3DF",
+        "HS3 3DG",
+        "HS3 3DH",
+        "HS3 3DJ",
+        "HS3 3DL",
+        "HS3 3DN",
+        "HS3 3DP",
+        "HS3 3DR",
+        "HS3 3DS",
+        "HS3 3DW",
+        "HS3 3DX",
+        "HS3 3DY",
+        "HS3 3DZ",
+        "HS3 3EB",
+        "HS3 3EH",
+        "HS3 3EJ",
+        "HS3 3EL",
+        "HS3 3EX",
+        "HS3 3EY",
+        "HS3 3EZ",
+        "HS3 3HA",
+        "HS3 3HB",
+        "HS3 3HG",
+        "HS3 3HJ",
+        "HS3 3HL",
+        "HS3 3HN",
+        "HS3 3HP",
+        "HS3 3HQ",
+        "HS3 3HR",
+        "HS3 3HT",
+        "HS3 3HX",
+        "HS3 3JA",
+        "HS3 3JD",
+        "HS3 3JE",
+        "HS3 3JF",
+        "HS3 3JG",
+        "HS3 3JH",
+        "HS3 3JQ",
+        "HS4 3XU",
+        "HS4 3XX",
+        "HS4 3XY",
+        "HS4 3XZ",
+        "HS4 3YA",
+        "HS4 3YB",
+        "HS4 3YD",
+        "HS4 3YF",
+        "HS4 3YG",
+        "HS4 3YH",
+        "HS5 3JW",
+        "HS5 3NR",
+        "HS5 3TL",
+        "HS5 3TN",
+        "HS5 3TS",
+        "HS5 3TT",
+        "HS5 3TU",
+        "HS5 3TW",
+        "HS5 3TX",
+        "HS5 3TY",
+        "HS5 3UA",
+        "HS5 3UB",
+        "HS5 3UD",
+        "HS5 3UE"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -7.294950439034878,
+              58.0554868291298
+            ],
+            [
+              -6.640769479282763,
+              58.0554868291298
+            ],
+            [
+              -6.640769479282763,
+              57.68989193777887
+            ],
+            [
+              -7.294950439034878,
+              57.68989193777887
+            ],
+            [
+              -7.294950439034878,
+              58.0554868291298
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "R",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "f3e5ef8c-4d71-4f32-95de-917eb8ba3d26",
+        "a4226c69-c130-456f-8abe-e82ea6cb935b",
+        "09cdc5fa-6303-482b-aa46-80f7fcde16f6",
+        "0a8677a9-b543-4951-9b9e-17842f57307c"
+      ],
+      "updated": "2026-10-25T04:11:19.413+0000",
+      "maxLatitude": 58.0554868291298,
+      "etrUpdate": true,
+      "hvFeederNrn": 11
+    },
+    {
+      "customIncludeDefault": false,
+      "districtCode": "57",
+      "latitude": 55.917781690670566,
+      "primaryNrn": 366,
+      "type": "HV",
+      "reference": "UF1317",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "affectedCustomerCount": 820,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "faa28158-d285-4356-890a-a2b131000c9a",
+      "minLongitude": -5.349669704892422,
+      "txNrn": 45,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.216888557989619,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2026-10-25T04:11:00.000+0000",
+      "priorityCustomerCount": 8,
+      "message": "<p>Storm Boelo is causing disruption to electricity supplies across our network. Our teams are working around the clock to restore power as safely and quickly as possible. If your power is off and your postcode is listed as part of this fault, please be assured that we’re aware and our teams are assessing the damage and carrying out repairs. </p><p><br></p><p>Severe weather may make it difficult to access some areas safely, so estimated restoration times may change, or repairs may take longer than expected. Please stay safe and keep well away from fallen or damaged power lines and electrical equipment. Don’t try to move trees or debris that may be touching power lines. </p><p><br></p><p>If you need extra help during a power cut, please get in touch. We’re here to support you. We’ll keep Power Track updated as our teams make progress and you can register for live updates below to receive a text if anything changes. Thank you for your patience and understanding while we work to get your power back on.</p>",
+      "maxLongitude": -4.941676295077793,
+      "minLatitude": 55.82555600256966,
+      "name": "PA21 & PA22 Areas",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
         "PA21 2AA",
         "PA21 2AB",
         "PA21 2AD",
+        "PA21 2AE",
+        "PA21 2AF",
         "PA21 2AG",
         "PA21 2AH",
         "PA21 2AJ",
+        "PA21 2AQ",
         "PA21 2BA",
         "PA21 2BB",
         "PA21 2BD",
@@ -10633,6 +11141,7 @@
         "PA21 2BH",
         "PA21 2BJ",
         "PA21 2BQ",
+        "PA21 2BY",
         "PA21 2BZ",
         "PA21 2DH",
         "PA21 2DR",
@@ -10647,7 +11156,15 @@
         "PA21 2EE",
         "PA21 2EG",
         "PA21 2EH",
-        "PA21 2EJ"
+        "PA21 2EJ",
+        "PA22 3AH",
+        "PA22 3AP",
+        "PA22 3AR",
+        "PA22 3AS",
+        "PA22 3AT",
+        "PA22 3AU",
+        "PA22 3AX",
+        "PA23 8RG"
       ],
       "location": {
         "coordinates": [
@@ -10676,10 +11193,77 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "OR",
+      "jobStatusCode": "R",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-10-25T03:49:16.972+0000",
+      "updated": "2026-10-25T04:13:33.324+0000",
       "maxLatitude": 56.26547386979603,
+      "etrUpdate": true,
+      "hvFeederNrn": 3
+    },
+    {
+      "customIncludeDefault": false,
+      "districtCode": "57",
+      "latitude": 56.47207009375109,
+      "primaryNrn": 306,
+      "type": "LV",
+      "reference": "UF1251",
+      "etaUpdate": true,
+      "lvFeederNrn": 3,
+      "affectedCustomerCount": 9,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "1ad45927-ff63-49a5-b31f-f7eb51fde6e2",
+      "minLongitude": -5.39728983518963,
+      "txNrn": 230,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.366134163246871,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2026-10-25T03:32:00.000+0000",
+      "priorityCustomerCount": 10,
+      "message": "<p>Storm Boelo is causing disruption to electricity supplies across our network. Our teams are working around the clock to restore power as safely and quickly as possible. If your power is off and your postcode is listed as part of this fault, please be assured that we’re aware and our teams are assessing the damage and carrying out repairs. </p><p><br></p><p>Severe weather may make it difficult to access some areas safely, so estimated restoration times may change, or repairs may take longer than expected. Please stay safe and keep well away from fallen or damaged power lines and electrical equipment. Don’t try to move trees or debris that may be touching power lines. </p><p><br></p><p>If you need extra help during a power cut, please get in touch. We’re here to support you. We’ll keep Power Track updated as our teams make progress and you can register for live updates below to receive a text if anything changes. Thank you for your patience and understanding while we work to get your power back on.</p>",
+      "maxLongitude": -5.343407605912393,
+      "minLatitude": 56.45774244252196,
+      "name": "PA37 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PA37 1AF",
+        "PA37 1RD",
+        "PA37 1RX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -5.39728983518963,
+              56.495285438660495
+            ],
+            [
+              -5.343407605912393,
+              56.495285438660495
+            ],
+            [
+              -5.343407605912393,
+              56.45774244252196
+            ],
+            [
+              -5.39728983518963,
+              56.45774244252196
+            ],
+            [
+              -5.39728983518963,
+              56.495285438660495
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "P",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2026-10-25T04:15:40.402+0000",
+      "maxLatitude": 56.495285438660495,
       "etrUpdate": true,
       "hvFeederNrn": 3
     }
